@@ -1,0 +1,835 @@
+{
+ "tvgoatY": {
+  "top": "He had ONE job: name the NBA GOAT",
+  "hl": {
+   "ONE": "#FF2A2A"
+  },
+  "cta": "*who is YOUR NBA GOAT?*",
+  "music": [
+   "m_luna_n",
+   0
+  ],
+  "ctaAt": [
+   "s1",
+   "greatest"
+  ],
+  "src": "goat_input_g.mp4",
+  "tints": [
+   [
+    [
+     "hook",
+     "tension"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "goat?"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "dellavedova"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "matthew"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "oh"
+   ],
+   [
+    "hook",
+    "tension"
+   ],
+   [
+    "s1",
+    "nba"
+   ],
+   [
+    "s1",
+    "goat?"
+   ],
+   [
+    "s1",
+    "goat?",
+    1
+   ],
+   [
+    "s1",
+    "greatest"
+   ],
+   [
+    "s2",
+    "gotta"
+   ],
+   [
+    "s2",
+    "dellavedova"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s2",
+    "dellavedova"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "extras": [
+   {
+    "at": [
+     "s1",
+     "goat?",
+     1
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.5
+   },
+   {
+    "at": [
+     "s1",
+     "player"
+    ],
+    "kind": "png",
+    "file": "e_think.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s2",
+     "dellavedova"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s2",
+     "dellavedova"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "dellavedova"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "tension"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   }
+  ]
+ },
+ "tvredeemY": {
+  "top": "A $20,000 card turned into $500\u2026 here's why",
+  "hl": {
+   "$20,000": "#58EE28",
+   "$500\u2026": "#FF2A2A"
+  },
+  "cta": "*would you still buy one?*",
+  "music": [
+   "m_brega_n",
+   11
+  ],
+  "ctaAt": [
+   "s3",
+   "oh"
+  ],
+  "src": "u3_redemptions_g.mp4",
+  "hardcut": true,
+  "tints": [
+   [
+    [
+     "hook",
+     "expensive"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "$20,000"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "$500"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "time"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s3",
+     "dislike"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "$20,000"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "expensive"
+   ],
+   [
+    "hook",
+    "ever"
+   ],
+   [
+    "s1",
+    "$20,000"
+   ],
+   [
+    "s1",
+    "now"
+   ],
+   [
+    "s1",
+    "$500"
+   ],
+   [
+    "s2",
+    "redeem"
+   ],
+   [
+    "s2",
+    "sign"
+   ],
+   [
+    "s2",
+    "time"
+   ],
+   [
+    "s3",
+    "dislike"
+   ],
+   [
+    "s3",
+    "really"
+   ],
+   [
+    "s4",
+    "ripped"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "expensive"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s3"
+   ],
+   [
+    "s4"
+   ]
+  ],
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "cutSfx": "s_camflash.mp3",
+  "extras": [
+   {
+    "at": [
+     "s1",
+     "$20,000"
+    ],
+    "kind": "ov",
+    "file": "cashfall.mp4",
+    "dur": 52
+   },
+   {
+    "at": [
+     "s1",
+     "$20,000"
+    ],
+    "kind": "sfx",
+    "file": "s_money.mp3",
+    "v": 0.4
+   },
+   {
+    "at": [
+     "s1",
+     "$500"
+    ],
+    "kind": "png",
+    "file": "e_sob.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "$500"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "sign"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.5
+   },
+   {
+    "at": [
+     "s3",
+     "really"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s3",
+     "really"
+    ],
+    "kind": "sfx",
+    "file": "s_awk.mp3",
+    "v": 0.45
+   }
+  ]
+ },
+ "tvfansY": {
+  "top": "When the NFL star finds your fan account",
+  "hl": {
+   "fan": "#FF2A2A"
+  },
+  "cta": "*would you follow them?*",
+  "music": [
+   "m_xcool_n",
+   21
+  ],
+  "ctaAt": [
+   "s2",
+   "then"
+  ],
+  "src": "t3_traveling_trevors_g.mp4",
+  "tints": [
+   [
+    [
+     "hook",
+     "these"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "weird"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "funny"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "funny"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "these"
+   ],
+   [
+    "s1",
+    "weird"
+   ],
+   [
+    "s1",
+    "giggling"
+   ],
+   [
+    "s1",
+    "first"
+   ],
+   [
+    "s2",
+    "second"
+   ],
+   [
+    "s2",
+    "playing"
+   ],
+   [
+    "s2",
+    "funny"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s1",
+    "weird"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "wack"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "giggling"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "think"
+    ],
+    "kind": "png",
+    "file": "e_think.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s2",
+     "funny"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s2",
+     "funny"
+    ],
+    "kind": "sfx",
+    "file": "s_correct.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "funny"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   }
+  ]
+ },
+ "tvticketY": {
+  "top": "The most awkward gift you can give an NFL QB",
+  "hl": {
+   "awkward": "#FF2A2A"
+  },
+  "cta": "*would you keep it or sell it?*",
+  "music": [
+   "m_sybau_n",
+   48.5
+  ],
+  "ctaAt": [
+   "s2",
+   "mvp"
+  ],
+  "src": "t4_natty_ticket_g.mp4",
+  "tints": [
+   [
+    [
+     "hook",
+     "weird"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "signed"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "championship"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "sweet"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "signed"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "weird"
+   ],
+   [
+    "hook",
+    "gifting"
+   ],
+   [
+    "s1",
+    "gift"
+   ],
+   [
+    "s2",
+    "signed"
+   ],
+   [
+    "s2",
+    "national"
+   ],
+   [
+    "s2",
+    "mvp"
+   ],
+   [
+    "s2",
+    "signature"
+   ],
+   [
+    "s2",
+    "sweet"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s2",
+    "signed"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "gifting"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "gift"
+    ],
+    "kind": "sfx",
+    "file": "s_ding.mp3",
+    "v": 0.4
+   },
+   {
+    "at": [
+     "s2",
+     "signed"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s2",
+     "clemson"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "sweet"
+    ],
+    "kind": "png",
+    "file": "e_heart.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   }
+  ]
+ },
+ "tvcellyY": {
+  "top": "Every card collector needs this TD celly",
+  "hl": {
+   "TD": "#58EE28"
+  },
+  "cta": "*would you hit this in the end zone?*",
+  "music": [
+   "m_flyday_n",
+   14
+  ],
+  "ctaAt": [
+   "s1",
+   "collectors"
+  ],
+  "src": "u2_psa10_celly_g.mp4",
+  "tints": [
+   [
+    [
+     "hook",
+     "point"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "stadium"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "best"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "like"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "best"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "point"
+   ],
+   [
+    "hook",
+    "easy"
+   ],
+   [
+    "s1",
+    "dance"
+   ],
+   [
+    "s1",
+    "stadium"
+   ],
+   [
+    "s1",
+    "psa"
+   ],
+   [
+    "s1",
+    "best"
+   ],
+   [
+    "s2",
+    "like"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s1",
+    "psa"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "extras": [
+   {
+    "at": [
+     "s1",
+     "dance"
+    ],
+    "kind": "sfx",
+    "file": "s_awk.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "dance"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "best"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s1",
+     "best"
+    ],
+    "kind": "sfx",
+    "file": "s_correct.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "like"
+    ],
+    "kind": "png",
+    "file": "e_heart.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   }
+  ]
+ }
+}
