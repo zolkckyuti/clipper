@@ -4,7 +4,7 @@ Brief rules: @HardScope + #r3born, never FaZe, no politics, Ep2 footage only, >=
 no invented context. Words: faster-whisper large-v3 on the 1080p proxy (scratchpad tx/r3ep2.json).
 Each edit renders from a graded excerpt public/g_<id>.mp4 = r3ep2.mp4[W0, W1] (grade = CapCut 4K filter, source only).
 Usage: python3 planH.py <tx.json>"""
-import json, sys
+import json, re, sys
 T = json.load(open(sys.argv[1]))
 W = [w for s in T for w in s['w']]
 FIX = {'fuck': 'f***', 'fucking': 'f***ing', 'shit': 'sh*t', 'shit,': 'sh*t,', 'shit.': 'sh*t.'}
@@ -41,7 +41,8 @@ for eid, ((w0, w1), plan) in EDITS.items():
         n = round((b - a) * 30); words = []
         for (ws, we, t) in W:
             if a - 0.05 <= ws < b - 0.05:
-                t = FIX.get(t.lower(), t).strip(',.')
+                t = re.sub(r"(?i)\b(f)uck", lambda m: m.group(1) + '***', t)
+                t = re.sub(r"(?i)\b(s)hit", lambda m: m.group(1) + 'h*t', t).strip(',.')
                 if not t:
                     continue
                 f0 = max(0, round((ws - a) * 30)); f1 = min(n, max(f0 + 4, round((we - a) * 30) + 3))

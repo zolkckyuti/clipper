@@ -30,3 +30,17 @@ Still unused after this batch: 84–112 (glasses / "I'm not losing"), 189–197,
 ## Feedback log
 - Burned-in episode subtitles show in the pole + intro sections: blur band y 940–1080 (boxblur 40:4) baked into those excerpts.
 - (waiting for user feedback)
+
+## Batch H2: 5 more fresh moments (2026-11-18, `planH2.py` → `src/h2.cfg.json`)
+User: "make 5 more" → again only seconds no earlier edit (incl. batch H) used. All excerpts get the subtitle blur band.
+Censoring is now a regex on any word containing f-ck / sh-t; whisper's "Neon" → N3on.
+
+| id | episode s | length | hook (top) | song |
+|---|---|---|---|---|
+| r3hSlower | 84.5–106.9 | 18.8 s | "I'm not losing"… 12 seconds later | Sybau |
+| r3hDie | 138–191 (3 cuts) | 17.9 s | "You cannot beat me"… then Pilates got him | Subway Surfers |
+| r3hShake | 359.6–397.5 | 19.6 s | She nailed the headstand… then it was HIS turn | Let Me Know (slowed) |
+| r3hUpside | 619.6–635.3 | 15.6 s | N3on hanging UPSIDE DOWN for the first time | NCTS - NEXT! |
+| r3hCircus | 487.8–548 (3 cuts) | 21.3 s | They put N3on in a CIRCUS sport | TKANDZ - Now Or Never |
+
+Episode is now nearly fully mined: left unused ≈ 47–51, 117–132 (reformer V/"doesn't feel right"), 222–230, 340–349, 516–528, 556–566, 574–584, 769–786.

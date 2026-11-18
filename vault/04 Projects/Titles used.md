@@ -169,3 +169,8 @@
 - "This won't be too tough"… then she did THIS (top) / "This Won't Be Too Tough"… Famous Last Words 😭 (title)
 - Everyone else struggled… then it was HIS turn (top) / "Why Is Everyone Struggling?"… Then It Was N3on's Turn 💀 (title)
 - She made it look EASY… now it's N3on's turn (top) / She Made Aerial Silks Look EASY… Now It's N3on's Turn 😬 (title)
+- "I'm not losing"… 12 seconds later (top) / "I'm Not Losing"… 12 Seconds Later 💀 (title)
+- "You cannot beat me"… then Pilates got him (top) / "You Cannot Beat Me"… Then Pilates Happened 😭 (title)
+- She nailed the headstand… then it was HIS turn (top) / She Nailed It… Then N3on Tried the Headstand 💀 (title)
+- N3on hanging UPSIDE DOWN for the first time (top) / N3on's First Time Upside Down in Aerial Silks 😳 (title)
+- They put N3on in a CIRCUS sport (top) / They Put N3on in a Circus Sport 🎪 (title)

@@ -1,0 +1,748 @@
+{
+ "r3hSlower": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "\"I'm not losing\"\u2026 12 seconds later",
+  "hl": {
+   "losing\"\u2026": "#58EE28"
+  },
+  "ctaAt": [
+   "s2",
+   "reach"
+  ],
+  "music": [
+   "m_sybau_n",
+   48.5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "slower"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "losing"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "pegs"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "losing"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "slower"
+   ],
+   [
+    "s1",
+    "glasses"
+   ],
+   [
+    "s1",
+    "great"
+   ],
+   [
+    "s1",
+    "easy"
+   ],
+   [
+    "s1",
+    "losing"
+   ],
+   [
+    "s2",
+    "reach"
+   ],
+   [
+    "s2",
+    "pegs"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "slower"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "please"
+    ],
+    "kind": "png",
+    "file": "e_sob.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "slower"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "glasses"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "losing"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s1",
+     "losing"
+    ],
+    "kind": "sfx",
+    "file": "s_ding.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_r3hSlower.mp4"
+ },
+ "r3hDie": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "\"You cannot beat me\"\u2026 then Pilates got him",
+  "hl": {
+   "Pilates": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s2",
+   "five"
+  ],
+  "music": [
+   "m_subway_n",
+   7.5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "die"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "beat"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "fart"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "million"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "die"
+   ],
+   [
+    "hook",
+    "over"
+   ],
+   [
+    "s1",
+    "killing"
+   ],
+   [
+    "s1",
+    "million"
+   ],
+   [
+    "s1",
+    "slower"
+   ],
+   [
+    "s1",
+    "beat"
+   ],
+   [
+    "s2",
+    "fart"
+   ],
+   [
+    "s3",
+    "smile"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s2",
+    "fart"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s3"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "die"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "beat"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.4
+   },
+   {
+    "at": [
+     "s2",
+     "fart"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.5
+   },
+   {
+    "at": [
+     "s2",
+     "fart"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s3",
+     "smile"
+    ],
+    "kind": "sfx",
+    "file": "s_awk.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_r3hDie.mp4"
+ },
+ "r3hShake": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "She nailed the headstand\u2026 then it was HIS turn",
+  "hl": {
+   "HIS": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s2",
+   "ready"
+  ],
+  "music": [
+   "m_letmeknow_n",
+   1.5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "shaking"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "hell"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "glad"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "hell"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "shaking"
+   ],
+   [
+    "hook",
+    "shaking",
+    1
+   ],
+   [
+    "hook",
+    "leg"
+   ],
+   [
+    "s1",
+    "headstand"
+   ],
+   [
+    "s2",
+    "falling"
+   ],
+   [
+    "s2",
+    "hell"
+   ],
+   [
+    "s2",
+    "ready"
+   ],
+   [
+    "s2",
+    "glad"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "shaking"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "shaking"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "shaking",
+     1
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "falling"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.4
+   },
+   {
+    "at": [
+     "s2",
+     "hell"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s2",
+     "hell"
+    ],
+    "kind": "sfx",
+    "file": "s_correct.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_r3hShake.mp4"
+ },
+ "r3hUpside": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "N3on hanging UPSIDE DOWN for the first time",
+  "hl": {
+   "UPSIDE": "#FF2A2A",
+   "DOWN": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s1",
+   "reach"
+  ],
+  "music": [
+   "m_next_n",
+   7
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "keep"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "god"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "knees",
+     1
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "there"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "keep"
+   ],
+   [
+    "hook",
+    "oh"
+   ],
+   [
+    "s1",
+    "tuck"
+   ],
+   [
+    "s1",
+    "god"
+   ],
+   [
+    "s1",
+    "f***"
+   ],
+   [
+    "s1",
+    "hooked"
+   ],
+   [
+    "s1",
+    "knees",
+    1
+   ],
+   [
+    "s1",
+    "center"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s1",
+    "f***"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s1",
+    "okay"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "s1",
+     "f***"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.5
+   },
+   {
+    "at": [
+     "s1",
+     "f***"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "oh"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "hook",
+     "oh"
+    ],
+    "kind": "png",
+    "file": "e_sob.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   }
+  ],
+  "src": "g_r3hUpside.mp4"
+ },
+ "r3hCircus": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "They put N3on in a CIRCUS sport",
+  "hl": {
+   "CIRCUS": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s3",
+   "sink"
+  ],
+  "music": [
+   "m_nowornever_n",
+   13
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "burns"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "spinning"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "acrobatics"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "acrobatics"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "hold"
+   ],
+   [
+    "hook",
+    "nice"
+   ],
+   [
+    "hook",
+    "burns"
+   ],
+   [
+    "s1",
+    "fabric"
+   ],
+   [
+    "s1",
+    "ceiling"
+   ],
+   [
+    "s1",
+    "spinning"
+   ],
+   [
+    "s2",
+    "professional"
+   ],
+   [
+    "s2",
+    "acrobatics"
+   ],
+   [
+    "s3",
+    "knees"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "burns"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s3"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "burns"
+    ],
+    "kind": "png",
+    "file": "e_sob.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "burns"
+    ],
+    "kind": "sfx",
+    "file": "s_awk.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "spinning"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "acrobatics"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s2",
+     "acrobatics"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_r3hCircus.mp4"
+ }
+}
