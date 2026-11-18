@@ -1,0 +1,452 @@
+[
+{
+"text": "What",
+"startMs": 0,
+"endMs": 120,
+"p": 0.87
+},
+{
+"text": "if",
+"startMs": 120,
+"endMs": 280,
+"p": 0.99
+},
+{
+"text": "gravity",
+"startMs": 280,
+"endMs": 620,
+"p": 0.89
+},
+{
+"text": "turned",
+"startMs": 620,
+"endMs": 880,
+"p": 0.99
+},
+{
+"text": "off",
+"startMs": 880,
+"endMs": 1060,
+"p": 1.0
+},
+{
+"text": "for",
+"startMs": 1060,
+"endMs": 1280,
+"p": 0.99
+},
+{
+"text": "10",
+"startMs": 1280,
+"endMs": 1540,
+"p": 0.75
+},
+{
+"text": "seconds",
+"startMs": 1540,
+"endMs": 1880,
+"p": 0.99
+},
+{
+"text": "every",
+"startMs": 1880,
+"endMs": 2140,
+"p": 0.88
+},
+{
+"text": "day",
+"startMs": 2140,
+"endMs": 2360,
+"p": 1.0
+},
+{
+"text": "at",
+"startMs": 2360,
+"endMs": 2500,
+"p": 1.0
+},
+{
+"text": "noon?",
+"startMs": 2500,
+"endMs": 2740,
+"p": 1.0
+},
+{
+"text": "In",
+"startMs": 3320,
+"endMs": 3420,
+"p": 0.99
+},
+{
+"text": "this",
+"startMs": 3420,
+"endMs": 3580,
+"p": 1.0
+},
+{
+"text": "town,",
+"startMs": 3580,
+"endMs": 3900,
+"p": 1.0
+},
+{
+"text": "every",
+"startMs": 4040,
+"endMs": 4300,
+"p": 1.0
+},
+{
+"text": "bench",
+"startMs": 4300,
+"endMs": 4520,
+"p": 1.0
+},
+{
+"text": "has",
+"startMs": 4520,
+"endMs": 4700,
+"p": 1.0
+},
+{
+"text": "a",
+"startMs": 4700,
+"endMs": 4840,
+"p": 1.0
+},
+{
+"text": "seat",
+"startMs": 4840,
+"endMs": 5040,
+"p": 1.0
+},
+{
+"text": "belt.",
+"startMs": 5040,
+"endMs": 5300,
+"p": 0.54
+},
+{
+"text": "Every",
+"startMs": 5660,
+"endMs": 5880,
+"p": 0.99
+},
+{
+"text": "car",
+"startMs": 5880,
+"endMs": 6200,
+"p": 1.0
+},
+{
+"text": "is",
+"startMs": 6200,
+"endMs": 6420,
+"p": 0.98
+},
+{
+"text": "chained",
+"startMs": 6420,
+"endMs": 6680,
+"p": 1.0
+},
+{
+"text": "to",
+"startMs": 6680,
+"endMs": 6880,
+"p": 1.0
+},
+{
+"text": "the",
+"startMs": 6880,
+"endMs": 6980,
+"p": 1.0
+},
+{
+"text": "road.",
+"startMs": 6980,
+"endMs": 7320,
+"p": 1.0
+},
+{
+"text": "But",
+"startMs": 7760,
+"endMs": 7880,
+"p": 0.99
+},
+{
+"text": "today,",
+"startMs": 7880,
+"endMs": 8200,
+"p": 0.98
+},
+{
+"text": "Leo",
+"startMs": 8340,
+"endMs": 8460,
+"p": 0.99
+},
+{
+"text": "forgot",
+"startMs": 8460,
+"endMs": 8840,
+"p": 0.99
+},
+{
+"text": "what",
+"startMs": 8840,
+"endMs": 9040,
+"p": 1.0
+},
+{
+"text": "time",
+"startMs": 9040,
+"endMs": 9240,
+"p": 1.0
+},
+{
+"text": "it",
+"startMs": 9240,
+"endMs": 9380,
+"p": 1.0
+},
+{
+"text": "was.",
+"startMs": 9380,
+"endMs": 9660,
+"p": 1.0
+},
+{
+"text": "Three,",
+"startMs": 9980,
+"endMs": 10100,
+"p": 0.49
+},
+{
+"text": "two,",
+"startMs": 10120,
+"endMs": 10420,
+"p": 1.0
+},
+{
+"text": "one.",
+"startMs": 10440,
+"endMs": 10720,
+"p": 1.0
+},
+{
+"text": "Leo",
+"startMs": 10920,
+"endMs": 11100,
+"p": 0.99
+},
+{
+"text": "floated",
+"startMs": 11100,
+"endMs": 11480,
+"p": 0.99
+},
+{
+"text": "past",
+"startMs": 11480,
+"endMs": 11800,
+"p": 0.98
+},
+{
+"text": "the",
+"startMs": 11800,
+"endMs": 12000,
+"p": 1.0
+},
+{
+"text": "school,",
+"startMs": 12000,
+"endMs": 12280,
+"p": 0.99
+},
+{
+"text": "past",
+"startMs": 12480,
+"endMs": 12600,
+"p": 0.98
+},
+{
+"text": "the",
+"startMs": 12600,
+"endMs": 12800,
+"p": 1.0
+},
+{
+"text": "trees,",
+"startMs": 12800,
+"endMs": 13140,
+"p": 1.0
+},
+{
+"text": "past",
+"startMs": 13360,
+"endMs": 13560,
+"p": 0.99
+},
+{
+"text": "the",
+"startMs": 13560,
+"endMs": 13760,
+"p": 1.0
+},
+{
+"text": "clouds.",
+"startMs": 13760,
+"endMs": 14120,
+"p": 1.0
+},
+{
+"text": "Ten",
+"startMs": 14700,
+"endMs": 14840,
+"p": 0.29
+},
+{
+"text": "seconds",
+"startMs": 14840,
+"endMs": 15200,
+"p": 1.0
+},
+{
+"text": "later,",
+"startMs": 15200,
+"endMs": 15560,
+"p": 1.0
+},
+{
+"text": "gravity",
+"startMs": 15720,
+"endMs": 15960,
+"p": 1.0
+},
+{
+"text": "came",
+"startMs": 15960,
+"endMs": 16280,
+"p": 1.0
+},
+{
+"text": "back",
+"startMs": 16280,
+"endMs": 16620,
+"p": 1.0
+},
+{
+"text": "and",
+"startMs": 16620,
+"endMs": 16840,
+"p": 0.67
+},
+{
+"text": "Leo",
+"startMs": 16840,
+"endMs": 17040,
+"p": 1.0
+},
+{
+"text": "landed",
+"startMs": 17040,
+"endMs": 17420,
+"p": 1.0
+},
+{
+"text": "right",
+"startMs": 17420,
+"endMs": 17780,
+"p": 1.0
+},
+{
+"text": "on",
+"startMs": 17780,
+"endMs": 17980,
+"p": 1.0
+},
+{
+"text": "the",
+"startMs": 17980,
+"endMs": 18100,
+"p": 1.0
+},
+{
+"text": "roof",
+"startMs": 18100,
+"endMs": 18260,
+"p": 1.0
+},
+{
+"text": "of",
+"startMs": 18260,
+"endMs": 18440,
+"p": 1.0
+},
+{
+"text": "the",
+"startMs": 18440,
+"endMs": 18540,
+"p": 1.0
+},
+{
+"text": "bakery.",
+"startMs": 18540,
+"endMs": 18900,
+"p": 0.99
+},
+{
+"text": "Now",
+"startMs": 19520,
+"endMs": 19720,
+"p": 1.0
+},
+{
+"text": "every",
+"startMs": 19720,
+"endMs": 20140,
+"p": 0.13
+},
+{
+"text": "day",
+"startMs": 20140,
+"endMs": 20340,
+"p": 1.0
+},
+{
+"text": "at",
+"startMs": 20340,
+"endMs": 20520,
+"p": 0.99
+},
+{
+"text": "noon,",
+"startMs": 20520,
+"endMs": 20800,
+"p": 1.0
+},
+{
+"text": "he",
+"startMs": 20920,
+"endMs": 21020,
+"p": 1.0
+},
+{
+"text": "delivers",
+"startMs": 21020,
+"endMs": 21300,
+"p": 1.0
+},
+{
+"text": "the",
+"startMs": 21300,
+"endMs": 21540,
+"p": 1.0
+},
+{
+"text": "bread.",
+"startMs": 21540,
+"endMs": 21780,
+"p": 1.0
+}
+]

@@ -1,4 +1,7 @@
 import {Composition} from 'remotion';
+import {LieShort, LIE_MS} from './blocky/LieShort';
+import {GravityShort, GRAVITY_MS} from './blocky/GravityShort';
+import {RainShort, RAIN_MS} from './blocky/RainShort';
 import {CARD_OUT_MS, CardPull} from './CardPull';
 import {SRC as POD_SRC} from './activePod';
 import {FPS, OUT_MS, ShortEdit} from './ShortEdit';
@@ -27,6 +30,9 @@ import {GOAT31_MS, JorhoGoat31, GOAT30_MS, JorhoGoat30, GOAT28_MS, JorhoGoat28, 
 
 export const RemotionRoot = () => (
   <>
+  <Composition id="BlockyRain" component={RainShort} durationInFrames={Math.ceil(RAIN_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
+  <Composition id="BlockyGravity" component={GravityShort} durationInFrames={Math.ceil(GRAVITY_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
+  <Composition id="BlockyLie" component={LieShort} durationInFrames={Math.ceil(LIE_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
   <Composition
     id="ShortEdit"
     component={ShortEdit}

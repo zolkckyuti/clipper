@@ -32,3 +32,8 @@ viral-short/out/
 viral-short/node_modules
 viral-short/public/res/
 viral-short/public/*.mp4
+
+# blocky story shorts: narration, music and sfx copies (regenerate with tts.py / copy from viral-short res)
+public/blocky/
+out/
+.work/

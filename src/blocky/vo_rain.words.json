@@ -1,0 +1,422 @@
+[
+{
+"text": "In",
+"startMs": 0,
+"endMs": 120,
+"p": 0.71
+},
+{
+"text": "this",
+"startMs": 120,
+"endMs": 280,
+"p": 0.99
+},
+{
+"text": "town,",
+"startMs": 280,
+"endMs": 580,
+"p": 1.0
+},
+{
+"text": "when",
+"startMs": 660,
+"endMs": 780,
+"p": 0.99
+},
+{
+"text": "you're",
+"startMs": 780,
+"endMs": 960,
+"p": 0.96
+},
+{
+"text": "sad,",
+"startMs": 960,
+"endMs": 1220,
+"p": 1.0
+},
+{
+"text": "it",
+"startMs": 1400,
+"endMs": 1440,
+"p": 1.0
+},
+{
+"text": "only",
+"startMs": 1440,
+"endMs": 1680,
+"p": 0.99
+},
+{
+"text": "rains",
+"startMs": 1680,
+"endMs": 2120,
+"p": 0.99
+},
+{
+"text": "on",
+"startMs": 2120,
+"endMs": 2380,
+"p": 1.0
+},
+{
+"text": "you.",
+"startMs": 2380,
+"endMs": 2640,
+"p": 1.0
+},
+{
+"text": "Mia",
+"startMs": 3140,
+"endMs": 3140,
+"p": 0.99
+},
+{
+"text": "moved",
+"startMs": 3140,
+"endMs": 3400,
+"p": 1.0
+},
+{
+"text": "here",
+"startMs": 3400,
+"endMs": 3680,
+"p": 0.99
+},
+{
+"text": "last",
+"startMs": 3680,
+"endMs": 3980,
+"p": 1.0
+},
+{
+"text": "week.",
+"startMs": 3980,
+"endMs": 4300,
+"p": 1.0
+},
+{
+"text": "She",
+"startMs": 4640,
+"endMs": 4740,
+"p": 1.0
+},
+{
+"text": "didn't",
+"startMs": 4740,
+"endMs": 4960,
+"p": 1.0
+},
+{
+"text": "know",
+"startMs": 4960,
+"endMs": 5120,
+"p": 1.0
+},
+{
+"text": "anyone,",
+"startMs": 5120,
+"endMs": 5520,
+"p": 1.0
+},
+{
+"text": "so",
+"startMs": 5660,
+"endMs": 5840,
+"p": 1.0
+},
+{
+"text": "every",
+"startMs": 5840,
+"endMs": 6140,
+"p": 0.84
+},
+{
+"text": "day,",
+"startMs": 6140,
+"endMs": 6380,
+"p": 1.0
+},
+{
+"text": "a",
+"startMs": 6440,
+"endMs": 6620,
+"p": 1.0
+},
+{
+"text": "tiny",
+"startMs": 6620,
+"endMs": 6960,
+"p": 1.0
+},
+{
+"text": "cloud",
+"startMs": 6960,
+"endMs": 7420,
+"p": 1.0
+},
+{
+"text": "followed",
+"startMs": 7420,
+"endMs": 7900,
+"p": 1.0
+},
+{
+"text": "her",
+"startMs": 7900,
+"endMs": 8080,
+"p": 1.0
+},
+{
+"text": "to",
+"startMs": 8080,
+"endMs": 8220,
+"p": 1.0
+},
+{
+"text": "school.",
+"startMs": 8220,
+"endMs": 8580,
+"p": 1.0
+},
+{
+"text": "Kids",
+"startMs": 9200,
+"endMs": 9340,
+"p": 1.0
+},
+{
+"text": "walked",
+"startMs": 9340,
+"endMs": 9660,
+"p": 1.0
+},
+{
+"text": "around",
+"startMs": 9660,
+"endMs": 9940,
+"p": 1.0
+},
+{
+"text": "her",
+"startMs": 9940,
+"endMs": 10160,
+"p": 1.0
+},
+{
+"text": "so",
+"startMs": 10160,
+"endMs": 10300,
+"p": 0.94
+},
+{
+"text": "they",
+"startMs": 10300,
+"endMs": 10440,
+"p": 0.97
+},
+{
+"text": "wouldn't",
+"startMs": 10440,
+"endMs": 10720,
+"p": 1.0
+},
+{
+"text": "get",
+"startMs": 10720,
+"endMs": 10820,
+"p": 1.0
+},
+{
+"text": "wet,",
+"startMs": 10820,
+"endMs": 11180,
+"p": 1.0
+},
+{
+"text": "until",
+"startMs": 11460,
+"endMs": 11740,
+"p": 0.99
+},
+{
+"text": "one",
+"startMs": 11740,
+"endMs": 12000,
+"p": 1.0
+},
+{
+"text": "boy",
+"startMs": 12000,
+"endMs": 12240,
+"p": 1.0
+},
+{
+"text": "stepped",
+"startMs": 12240,
+"endMs": 12540,
+"p": 1.0
+},
+{
+"text": "right",
+"startMs": 12540,
+"endMs": 12880,
+"p": 1.0
+},
+{
+"text": "under",
+"startMs": 12880,
+"endMs": 13100,
+"p": 0.99
+},
+{
+"text": "her",
+"startMs": 13100,
+"endMs": 13260,
+"p": 0.98
+},
+{
+"text": "cloud",
+"startMs": 13260,
+"endMs": 13660,
+"p": 1.0
+},
+{
+"text": "and",
+"startMs": 13660,
+"endMs": 13880,
+"p": 0.97
+},
+{
+"text": "held",
+"startMs": 13880,
+"endMs": 14080,
+"p": 1.0
+},
+{
+"text": "out",
+"startMs": 14080,
+"endMs": 14300,
+"p": 1.0
+},
+{
+"text": "his",
+"startMs": 14300,
+"endMs": 14440,
+"p": 1.0
+},
+{
+"text": "umbrella.",
+"startMs": 14440,
+"endMs": 14800,
+"p": 1.0
+},
+{
+"text": "Want",
+"startMs": 15300,
+"endMs": 15440,
+"p": 0.55
+},
+{
+"text": "to",
+"startMs": 15440,
+"endMs": 15580,
+"p": 1.0
+},
+{
+"text": "sit",
+"startMs": 15580,
+"endMs": 15740,
+"p": 1.0
+},
+{
+"text": "with",
+"startMs": 15740,
+"endMs": 15920,
+"p": 1.0
+},
+{
+"text": "us?",
+"startMs": 15920,
+"endMs": 16160,
+"p": 1.0
+},
+{
+"text": "The",
+"startMs": 16420,
+"endMs": 16560,
+"p": 0.98
+},
+{
+"text": "rain",
+"startMs": 16560,
+"endMs": 16820,
+"p": 0.99
+},
+{
+"text": "stopped,",
+"startMs": 16820,
+"endMs": 17260,
+"p": 1.0
+},
+{
+"text": "and",
+"startMs": 17800,
+"endMs": 17940,
+"p": 1.0
+},
+{
+"text": "for",
+"startMs": 17940,
+"endMs": 18080,
+"p": 0.98
+},
+{
+"text": "the",
+"startMs": 18080,
+"endMs": 18180,
+"p": 1.0
+},
+{
+"text": "first",
+"startMs": 18180,
+"endMs": 18400,
+"p": 1.0
+},
+{
+"text": "time,",
+"startMs": 18400,
+"endMs": 18800,
+"p": 1.0
+},
+{
+"text": "the",
+"startMs": 18840,
+"endMs": 18960,
+"p": 1.0
+},
+{
+"text": "sun",
+"startMs": 18960,
+"endMs": 19160,
+"p": 0.75
+},
+{
+"text": "followed",
+"startMs": 19160,
+"endMs": 19620,
+"p": 1.0
+},
+{
+"text": "Mia",
+"startMs": 19620,
+"endMs": 19860,
+"p": 1.0
+},
+{
+"text": "home.",
+"startMs": 19860,
+"endMs": 20200,
+"p": 0.99
+}
+]
