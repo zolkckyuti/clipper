@@ -174,3 +174,8 @@
 - She nailed the headstand… then it was HIS turn (top) / She Nailed It… Then N3on Tried the Headstand 💀 (title)
 - N3on hanging UPSIDE DOWN for the first time (top) / N3on's First Time Upside Down in Aerial Silks 😳 (title)
 - They put N3on in a CIRCUS sport (top) / They Put N3on in a Circus Sport 🎪 (title)
+
+## Blocky story tests (2026-11-18)
+- In This Town, Every Lie Makes Your Head Bigger 🤥 (blocky lie)
+- What If Gravity Turned Off Every Day at Noon? 🪂 (blocky gravity)
+- In This Town, It Only Rains on You When You're Sad 🌧️ (blocky rain)
