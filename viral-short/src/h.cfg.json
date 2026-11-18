@@ -1,0 +1,721 @@
+{
+ "r3hOpen": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "3 \"women's workouts\" vs N3on\u2026 who breaks first?",
+  "hl": {
+   "N3on\u2026": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s3",
+   "three"
+  ],
+  "music": [
+   "m_impostor_n",
+   7
+  ],
+  "tints": [
+   [
+    [
+     "s1",
+     "joke"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "sarah"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s3",
+     "three"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "sarah"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "pants"
+   ],
+   [
+    "s1",
+    "insane"
+   ],
+   [
+    "s1",
+    "joke"
+   ],
+   [
+    "s1",
+    "really"
+   ],
+   [
+    "s2",
+    "sarah"
+   ],
+   [
+    "s3",
+    "calories"
+   ],
+   [
+    "s3",
+    "three"
+   ],
+   [
+    "s3",
+    "lead"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s1",
+    "joke"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s3"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "huh"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.5
+   },
+   {
+    "at": [
+     "hook",
+     "huh"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "joke"
+    ],
+    "kind": "sfx",
+    "file": "s_ding.mp3",
+    "v": 0.4
+   },
+   {
+    "at": [
+     "s3",
+     "calories"
+    ],
+    "kind": "png",
+    "file": "e_think.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s3",
+     "lead"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_r3hOpen.mp4"
+ },
+ "r3hPrison": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "Pilates was invented WHERE?!",
+  "hl": {
+   "WHERE?!": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s2",
+   "meet"
+  ],
+  "music": [
+   "m_getout_n",
+   5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "straight"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "pilates"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "prison"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "pilates"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "straight"
+   ],
+   [
+    "s1",
+    "challenge"
+   ],
+   [
+    "s1",
+    "kidding"
+   ],
+   [
+    "s1",
+    "pilates"
+   ],
+   [
+    "s2",
+    "men"
+   ],
+   [
+    "s2",
+    "invented"
+   ],
+   [
+    "s2",
+    "prison"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s2",
+    "prison"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "straight"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "kidding"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "prison"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "prison"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   }
+  ],
+  "src": "g_r3hPrison.mp4"
+ },
+ "r3hTough": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "\"This won't be too tough\"\u2026 then she did THIS",
+  "hl": {
+   "THIS": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s2",
+   "interested"
+  ],
+  "music": [
+   "m_wtf_n",
+   0
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "oh"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "flexible"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "tough"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "flexible"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "oh"
+   ],
+   [
+    "s1",
+    "fun"
+   ],
+   [
+    "s1",
+    "flexible"
+   ],
+   [
+    "s1",
+    "strength"
+   ],
+   [
+    "s2",
+    "everything"
+   ],
+   [
+    "s2",
+    "intrigued"
+   ],
+   [
+    "s2",
+    "tough"
+   ],
+   [
+    "s2",
+    "show"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "oh"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "oh"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "hook",
+     "oh"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s1",
+     "fun"
+    ],
+    "kind": "png",
+    "file": "e_heart.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s2",
+     "tough"
+    ],
+    "kind": "sfx",
+    "file": "s_awk.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "tough"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   }
+  ],
+  "src": "g_r3hTough.mp4"
+ },
+ "r3hTurn": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "Everyone else struggled\u2026 then it was HIS turn",
+  "hl": {
+   "HIS": "#FF2A2A"
+  },
+  "ctaAt": [
+   "s2",
+   "yes"
+  ],
+  "music": [
+   "m_luna_n",
+   0
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "turn"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "nice"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s2",
+     "yes"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s1",
+    "nice"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "turn"
+   ],
+   [
+    "hook",
+    "oh"
+   ],
+   [
+    "s1",
+    "baby"
+   ],
+   [
+    "s1",
+    "struggling"
+   ],
+   [
+    "s2",
+    "what"
+   ],
+   [
+    "s2",
+    "yes"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "oh"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "oh"
+    ],
+    "kind": "png",
+    "file": "e_sob.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "oh"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "struggling"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "yes"
+    ],
+    "kind": "ov",
+    "file": "greenflash2.mp4",
+    "dur": 34
+   },
+   {
+    "at": [
+     "s2",
+     "yes"
+    ],
+    "kind": "sfx",
+    "file": "s_correct.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_r3hTurn.mp4"
+ },
+ "r3hSilks": {
+  "cta": "*full episode on @HardScope*",
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "She made it look EASY\u2026 now it's N3on's turn",
+  "hl": {
+   "EASY\u2026": "#58EE28"
+  },
+  "ctaAt": [
+   "s2",
+   "backpack"
+  ],
+  "music": [
+   "m_flyday_n",
+   14
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "straddle"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "really"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "tuck"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "hook",
+    "inversion"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "legs"
+   ],
+   [
+    "hook",
+    "straddle"
+   ],
+   [
+    "hook",
+    "inversion"
+   ],
+   [
+    "s1",
+    "really"
+   ],
+   [
+    "s2",
+    "knot"
+   ],
+   [
+    "s2",
+    "backpack"
+   ],
+   [
+    "s2",
+    "tuck"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "inversion"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "inversion"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s1",
+     "really"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s1",
+     "really"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s2",
+     "backpack"
+    ],
+    "kind": "png",
+    "file": "e_think.png",
+    "x": 870,
+    "y": 1290,
+    "size": 200
+   }
+  ],
+  "src": "g_r3hSilks.mp4"
+ }
+}

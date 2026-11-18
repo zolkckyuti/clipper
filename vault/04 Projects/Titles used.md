@@ -162,3 +162,10 @@
 - When the NFL star finds your fan account (top) / Trevor Lawrence Rates His Wildest Superfans 💀 (title)
 - The most awkward gift you can give an NFL QB (top) / Gifting Trevor Lawrence… Trevor Lawrence 😂 (title)
 - Every card collector needs this TD celly (top) / The PSA 10 Touchdown Celly Is Here 🔥 (title)
+
+## Batch H, HardScope R3born Ep2 fresh moments (2026-11-18)
+- 3 "women's workouts" vs N3on… who breaks first? (top) / N3on vs 3 "Women's Workouts"… Who Breaks First? 😳 (title)
+- Pilates was invented WHERE?! (top) / Pilates Was Invented WHERE?! 💀 (title)
+- "This won't be too tough"… then she did THIS (top) / "This Won't Be Too Tough"… Famous Last Words 😭 (title)
+- Everyone else struggled… then it was HIS turn (top) / "Why Is Everyone Struggling?"… Then It Was N3on's Turn 💀 (title)
+- She made it look EASY… now it's N3on's turn (top) / She Made Aerial Silks Look EASY… Now It's N3on's Turn 😬 (title)
