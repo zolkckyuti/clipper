@@ -28,4 +28,5 @@ Back to [[START HERE]] · style: [[VverPaldo style]] · earlier R3 edits: plan6�
 Still unused after this batch: 84–112 (glasses / "I'm not losing"), 189–197, 296–301, 484–506 (silks intro), 574–584, 780–786.
 
 ## Feedback log
+- Burned-in episode subtitles show in the pole + intro sections: blur band y 940–1080 (boxblur 40:4) baked into those excerpts.
 - (waiting for user feedback)
