@@ -182,3 +182,4 @@
 
 ## Cartoon ASMR (2026-11-19)
 - 60 Seconds of Cartoon ASMR Tingles 🎧 (asmr #1: jelly, sand, keys, pop-it, soap, slime, honey, candy, drops)
+- 12 Triggers to Give You Tingles in 60 Seconds 🤍 (asmr #2: POV Mochi, binaural)
