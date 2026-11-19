@@ -35,3 +35,8 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
 - Test clip: user asked which caption field gets the phrase + hashtags → YouTube: title + 3 hashtags (<100 chars), phrase + hashtags in the description; TikTok/IG one box. User uploads the 4K versions.
 - 2026-11-19 "make 5 more" → "just give me the best 5": gas, swim, plane, scooter, dance (`kreek/clips/*.json`, `kreek/make_clip.py`, swears auto-muted + starred).
   Rejected: "lady" (he knocks a woman NPC down: promo risk), "dog" (too dark / unclear), 16:16 camera bit, 17:27 'run over a disabled person' joke, 3:47 shower.
+- 2026-11-19 user: **"apply some vverpaldo editing style… flashing lights and phonk in the background so viewers won't swipe off"** → `vv` block per clip config:
+  CapCut grade (contrast 1.1, sat 1.25, unsharp), 5 % black flicker every 3 frames, punch-in zoom 1.13 on key words (gameplay half only, zoompan),
+  red/green tint hits (0.27 s) + white blow-out + shock/rizz SFX, camera-flash SFX + 2-frame white flash on cuts, pop on punches,
+  phonk from BGSONGS (aura, funk abnormal, alquimia, empire, sentamento, brevis; loudnorm −20, drop offset) at 0.7, **sidechain-ducked under the stream audio**
+  (≈ −23 dB in gaps, voice stays on top). Dance clip: music OFF during "there's no music because of the copyright" (the joke). Outputs `kreek_<name>_vv_{1080p60,4k60}.mp4`.

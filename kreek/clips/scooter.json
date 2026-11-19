@@ -1,3 +1,73 @@
-{"name": "scooter", "top": "He committed grand theft MOBILITY SCOOTER in GTA 6",
- "seg": [["hook", 89.9, 95.3], ["s1", 32.15, 38.25], ["s2", 41.55, 44.7], ["s3", 52.25, 55.1], ["s4", 103.0, 104.25], ["s5", 108.15, 112.45], ["s6", 116.35, 118.7]],
- "hl": ["GRANNY", "SCOOTER", "MOBILITY", "THEFT", "STOLEN", "ACCELERATE", "GREATEST", "PEAKED"]}
+{
+ "name": "scooter",
+ "top": "He committed grand theft MOBILITY SCOOTER in GTA 6",
+ "seg": [
+  [
+   "hook",
+   89.9,
+   95.3
+  ],
+  [
+   "s1",
+   32.15,
+   38.25
+  ],
+  [
+   "s2",
+   41.55,
+   44.7
+  ],
+  [
+   "s3",
+   52.25,
+   55.1
+  ],
+  [
+   "s4",
+   103.0,
+   104.25
+  ],
+  [
+   "s5",
+   108.15,
+   112.45
+  ],
+  [
+   "s6",
+   116.35,
+   118.7
+  ]
+ ],
+ "hl": [
+  "GRANNY",
+  "SCOOTER",
+  "MOBILITY",
+  "THEFT",
+  "STOLEN",
+  "ACCELERATE",
+  "GREATEST",
+  "PEAKED"
+ ],
+ "vv": {
+  "music": [
+   "sentamento",
+   33.5
+  ],
+  "red": [
+   "GRANNY"
+  ],
+  "green": [
+   "THEFT",
+   "GREATEST",
+   "PEAKED"
+  ],
+  "punch": [
+   "GRANNY",
+   "MOBILITY",
+   "STOLEN",
+   "ACCELERATE",
+   "PEAKED"
+  ],
+  "music_vol": 0.7
+ }
+}

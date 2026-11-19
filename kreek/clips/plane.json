@@ -1,3 +1,59 @@
-{"name": "plane", "top": "He was flying fine... until a bird showed up",
- "seg": [["hook", 52.4, 57.4], ["s1", 37.0, 44.45], ["s2", 45.35, 51.3], ["s3", 67.3, 72.0]],
- "fix": {"nico": "Niko"}, "hl": ["BIRD", "CRASHED", "LAND", "SHOOT", "NIKO", "BELLIC"]}
+{
+ "name": "plane",
+ "top": "He was flying fine... until a bird showed up",
+ "seg": [
+  [
+   "hook",
+   52.4,
+   57.4
+  ],
+  [
+   "s1",
+   37.0,
+   44.45
+  ],
+  [
+   "s2",
+   45.35,
+   51.3
+  ],
+  [
+   "s3",
+   67.3,
+   72.0
+  ]
+ ],
+ "fix": {
+  "nico": "Niko"
+ },
+ "hl": [
+  "BIRD",
+  "CRASHED",
+  "LAND",
+  "SHOOT",
+  "NIKO",
+  "BELLIC"
+ ],
+ "vv": {
+  "music": [
+   "empire",
+   19.5
+  ],
+  "red": [
+   "BIRD",
+   "CRASHED"
+  ],
+  "green": [
+   "NIKO",
+   "LAND"
+  ],
+  "punch": [
+   "BIRD",
+   "SHOOT",
+   "CRASHED",
+   "LAND",
+   "NIKO"
+  ],
+  "music_vol": 0.7
+ }
+}

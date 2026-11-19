@@ -1,3 +1,63 @@
-{"name": "gas", "top": "\"No way I'm running out of gas\"...",
- "seg": [["hook", 73.25, 77.75], ["s1", 30.25, 31.5], ["s2", 42.35, 49.1], ["s3", 54.0, 57.5], ["s4", 61.35, 65.1]],
- "hl": ["GAS", "FUEL", "GIVEAWAY", "NO", "WAY", "STATION", "FREAKING", "DOOR"]}
+{
+ "name": "gas",
+ "top": "\"No way I'm running out of gas\"...",
+ "seg": [
+  [
+   "hook",
+   73.25,
+   77.75
+  ],
+  [
+   "s1",
+   30.25,
+   31.5
+  ],
+  [
+   "s2",
+   42.35,
+   49.1
+  ],
+  [
+   "s3",
+   54.0,
+   57.5
+  ],
+  [
+   "s4",
+   61.35,
+   65.1
+  ]
+ ],
+ "hl": [
+  "GAS",
+  "FUEL",
+  "GIVEAWAY",
+  "NO",
+  "WAY",
+  "STATION",
+  "FREAKING",
+  "DOOR"
+ ],
+ "vv": {
+  "music": [
+   "funkabn",
+   7.5
+  ],
+  "red": [
+   "FREAKING",
+   "FUEL"
+  ],
+  "green": [
+   "GIVEAWAY",
+   "STATION"
+  ],
+  "punch": [
+   "GAS",
+   "WAY",
+   "FREAKING",
+   "DOOR",
+   "GIVEAWAY"
+  ],
+  "music_vol": 0.7
+ }
+}

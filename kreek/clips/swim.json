@@ -1,3 +1,63 @@
-{"name": "swim", "top": "No boat? So he swam through alligator water...",
- "seg": [["hook", 67.1, 71.0], ["s1", 25.55, 29.45], ["s2", 43.75, 50.3], ["s3", 56.5, 63.6], ["s4", 72.1, 76.3]],
- "hl": ["EAT", "ALLIGATOR", "BOAT", "SWIM", "RIGHT", "THERE", "WATER"]}
+{
+ "name": "swim",
+ "top": "No boat? So he swam through alligator water...",
+ "seg": [
+  [
+   "hook",
+   67.1,
+   71.0
+  ],
+  [
+   "s1",
+   25.55,
+   29.45
+  ],
+  [
+   "s2",
+   43.75,
+   50.3
+  ],
+  [
+   "s3",
+   56.5,
+   63.6
+  ],
+  [
+   "s4",
+   72.1,
+   76.3
+  ]
+ ],
+ "hl": [
+  "EAT",
+  "ALLIGATOR",
+  "BOAT",
+  "SWIM",
+  "RIGHT",
+  "THERE",
+  "WATER"
+ ],
+ "vv": {
+  "music": [
+   "alquimia",
+   25
+  ],
+  "red": [
+   "EAT",
+   "ALLIGATOR",
+   "THERE"
+  ],
+  "green": [
+   "SWIM",
+   "SCREW"
+  ],
+  "punch": [
+   "EAT",
+   "ALLIGATOR",
+   "RIGHT",
+   "SCREW",
+   "SWIM"
+  ],
+  "music_vol": 0.7
+ }
+}
