@@ -32,4 +32,6 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
 - Avoid: 13:34 (Mandy comments), 7:43:51 (NSFW scene, "there goes my stream").
 
 ## Feedback log
-- (waiting for the user's verdict on the test clip)
+- Test clip: user asked which caption field gets the phrase + hashtags → YouTube: title + 3 hashtags (<100 chars), phrase + hashtags in the description; TikTok/IG one box. User uploads the 4K versions.
+- 2026-11-19 "make 5 more" → "just give me the best 5": gas, swim, plane, scooter, dance (`kreek/clips/*.json`, `kreek/make_clip.py`, swears auto-muted + starred).
+  Rejected: "lady" (he knocks a woman NPC down: promo risk), "dog" (too dark / unclear), 16:16 camera bit, 17:27 'run over a disabled person' joke, 3:47 shower.

@@ -186,3 +186,8 @@
 
 ## KreekCraft GTA 6 (2026-11-19)
 - He bet a FREE copy of GTA 6 that a crocodile can't get him... (top) / KreekCraft Bet a Free GTA 6 Copy on This Crocodile 🐊 (title)
+- "No way I'm running out of gas"... (top) / KreekCraft Said There's No Way He Runs Out of Gas ⛽ (title)
+- No boat? So he swam through alligator water... (top) / KreekCraft Swam Through Alligator Water in GTA 6 🐊 (title)
+- He was flying fine... until a bird showed up (top) / KreekCraft Hit a Bird Flying a Plane in GTA 6 ✈️ (title)
+- He committed grand theft MOBILITY SCOOTER in GTA 6 (top) / KreekCraft Stole a Granny's Mobility Scooter in GTA 6 🛵 (title)
+- GTA 6 dance date... but the music got muted for copyright (top) / KreekCraft's GTA 6 Dance Date Had No Music 💃 (title)
