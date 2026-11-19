@@ -179,3 +179,6 @@
 - In This Town, Every Lie Makes Your Head Bigger 🤥 (blocky lie)
 - What If Gravity Turned Off Every Day at Noon? 🪂 (blocky gravity)
 - In This Town, It Only Rains on You When You're Sad 🌧️ (blocky rain)
+
+## Cartoon ASMR (2026-11-19)
+- 60 Seconds of Cartoon ASMR Tingles 🎧 (asmr #1: jelly, sand, keys, pop-it, soap, slime, honey, candy, drops)
