@@ -1,0 +1,54 @@
+{
+ "top": "Saint Nic said his sister\nmade the nice list",
+ "seg": [
+  [
+   "hook",
+   36.6,
+   38.6
+  ],
+  [
+   "s1",
+   19.0,
+   24.0
+  ],
+  [
+   "s2",
+   24.6,
+   30.1
+  ],
+  [
+   "s3",
+   31.3,
+   36.6
+  ]
+ ],
+ "hl": [
+  "CUTE",
+  "SAINT",
+  "NIC",
+  "KITSCH",
+  "GIFTING",
+  "OFFICER"
+ ],
+ "green": [
+  "CUTE",
+  "GIFTING"
+ ],
+ "punch": [
+  "CUTE",
+  "HO",
+  "WEARING",
+  "SAINT",
+  "GIFTING",
+  "SHOW"
+ ],
+ "blow": [
+  "CUTE"
+ ],
+ "music": [
+  "/home/user/revwhoprick1-ship-it/me-editing/viral-short/public/res/m_sybau_n.mp3",
+  48.5
+ ],
+ "name": "sister",
+ "cap_y": 1060
+}

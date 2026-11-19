@@ -206,3 +206,10 @@
 - They felt his aura from 100 MILES away (top) / They Felt His Aura From 100 Miles Away 😳 (title)
 - The most aura at the show went to... the SOUND GUY (top) / The Most Aura at the Show Went to… the Sound Guy 🎧 (title)
 - They asked a bodybuilder for ONE dance move... (top) / They Asked a Bodybuilder for ONE Dance Move 💀 (title)
+
+## Kitsch x Saint Nic (2026-11-19)
+- Santa charged his family the "Saint Nic tax" (tax)
+- Who is Saint Nic's last gift for? (mystery)
+- Mom got the BIGGEST Kitsch drop this year (mom)
+- Saint Nic said his sister made the nice list (sister)
+- Saint Nic is coming to town (town)

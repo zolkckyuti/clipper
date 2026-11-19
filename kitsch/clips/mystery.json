@@ -1,0 +1,63 @@
+{
+ "top": "Who is Saint Nic's\nlast gift for?",
+ "seg": [
+  [
+   "hook",
+   54.2,
+   57.7
+  ],
+  [
+   "s1",
+   1.4,
+   8.3
+  ],
+  [
+   "s2",
+   19.0,
+   23.0
+  ],
+  [
+   "s3",
+   36.8,
+   38.5
+  ],
+  [
+   "s4",
+   41.4,
+   43.0
+  ],
+  [
+   "s5",
+   57.7,
+   59.2
+  ]
+ ],
+ "hl": [
+  "WHO",
+  "FOR",
+  "NO",
+  "WOMEN",
+  "EVERYTHING",
+  "NAMES"
+ ],
+ "green": [
+  "EVERYTHING",
+  "CUTE"
+ ],
+ "punch": [
+  "WHO",
+  "NO",
+  "NAMES",
+  "EVERYTHING",
+  "SAINT",
+  "CUTE"
+ ],
+ "blow": [
+  "NO"
+ ],
+ "music": [
+  "/home/user/revwhoprick1-ship-it/me-editing/viral-short/public/res/m_letmeknow_n.mp3",
+  1.5
+ ],
+ "name": "mystery"
+}

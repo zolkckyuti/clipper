@@ -1,0 +1,51 @@
+{
+ "top": "Santa charged his family\nthe \"Saint Nic tax\"",
+ "seg": [
+  [
+   "hook",
+   49.4,
+   53.3
+  ],
+  [
+   "s1",
+   19.0,
+   23.9
+  ],
+  [
+   "s2",
+   33.6,
+   38.6
+  ],
+  [
+   "s3",
+   43.6,
+   48.4
+  ]
+ ],
+ "hl": [
+  "TAX",
+  "SAINT",
+  "NIC",
+  "CUTE",
+  "ALL"
+ ],
+ "green": [
+  "CUTE",
+  "THIS?"
+ ],
+ "punch": [
+  "TAX",
+  "HO",
+  "WEARING",
+  "CUTE",
+  "ALL"
+ ],
+ "blow": [
+  "TAX"
+ ],
+ "music": [
+  "/home/user/revwhoprick1-ship-it/me-editing/viral-short/public/res/m_xcool_n.mp3",
+  21
+ ],
+ "name": "tax"
+}

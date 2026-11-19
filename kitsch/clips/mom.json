@@ -1,0 +1,58 @@
+{
+ "top": "Mom got the BIGGEST\nKitsch drop this year",
+ "seg": [
+  [
+   "hook",
+   46.0,
+   48.5
+  ],
+  [
+   "s1",
+   8.3,
+   11.3
+  ],
+  [
+   "s2",
+   0.0,
+   1.5
+  ],
+  [
+   "s2b",
+   15.0,
+   17.6
+  ],
+  [
+   "s3",
+   39.2,
+   46.0
+  ]
+ ],
+ "hl": [
+  "ALL",
+  "THIS",
+  "MOTHER",
+  "OUTSIDE",
+  "OUT"
+ ],
+ "green": [
+  "THIS?",
+  "OUT"
+ ],
+ "punch": [
+  "ALL",
+  "THIS",
+  "OUT",
+  "MOTHER",
+  "OUTSIDE",
+  "NICHOLAS"
+ ],
+ "blow": [
+  "ALL"
+ ],
+ "music": [
+  "/home/user/revwhoprick1-ship-it/me-editing/viral-short/public/res/m_brega_n.mp3",
+  11
+ ],
+ "name": "mom",
+ "music_vol": 0.5
+}

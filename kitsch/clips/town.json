@@ -1,0 +1,61 @@
+{
+ "top": "Saint Nic is coming to town",
+ "seg": [
+  [
+   "hook",
+   19.0,
+   21.9
+  ],
+  [
+   "s1",
+   21.95,
+   23.9
+  ],
+  [
+   "s2",
+   4.6,
+   8.3
+  ],
+  [
+   "s3",
+   41.4,
+   43.0
+  ],
+  [
+   "s4",
+   46.2,
+   48.4
+  ],
+  [
+   "s5",
+   59.0,
+   63.6
+  ]
+ ],
+ "hl": [
+  "HO",
+  "SAINT",
+  "NIC",
+  "EVERYTHING",
+  "ALL"
+ ],
+ "green": [
+  "EVERYTHING",
+  "THIS?"
+ ],
+ "punch": [
+  "HO",
+  "WEARING",
+  "SAINT",
+  "EVERYTHING",
+  "ALL"
+ ],
+ "blow": [
+  "HO"
+ ],
+ "music": [
+  "/home/user/revwhoprick1-ship-it/me-editing/viral-short/public/res/m_luna_n.mp3",
+  0
+ ],
+ "name": "town"
+}
