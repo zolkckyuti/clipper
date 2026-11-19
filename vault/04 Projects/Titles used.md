@@ -191,3 +191,11 @@
 - He was flying fine... until a bird showed up (top) / KreekCraft Hit a Bird Flying a Plane in GTA 6 ✈️ (title)
 - He committed grand theft MOBILITY SCOOTER in GTA 6 (top) / KreekCraft Stole a Granny's Mobility Scooter in GTA 6 🛵 (title)
 - GTA 6 dance date... but the music got muted for copyright (top) / KreekCraft's GTA 6 Dance Date Had No Music 💃 (title)
+
+## KreekCraft GTA 6 edit v2 (2026-11-19)
+- KreekCraft's Crocodile Bet Backfired in 5 Seconds 🐊 (kreek croc v2)
+- KreekCraft Ran Out of Gas Right After Saying This ⛽ (kreek gas v2)
+- KreekCraft Begged an Alligator Not to Eat Him 😭 (kreek swim v2)
+- A Bird Ruined KreekCraft's GTA 6 Plane Ride ✈️ (kreek plane v2)
+- KreekCraft vs Granny: The Mobility Scooter Heist 🛵 (kreek scooter v2)
+- KreekCraft Danced With Lucia in Total Silence 💃 (kreek dance v2)
