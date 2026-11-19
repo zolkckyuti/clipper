@@ -1,0 +1,3 @@
+{"name": "croc", "top": "He bet a FREE copy of GTA 6 that a crocodile can't get him...",
+ "seg": [["hook", 68.25, 72.35], ["s1", 53.15, 59.15], ["s2", 72.35, 76.25], ["s3", 78.9, 83.45], ["s4", 105.15, 107.1], ["s5", 129.45, 135.8]],
+ "punch": ["hook", "s2"], "fix": {"chance,": "chances,"}, "hl": ["CROCODILE", "EATEN", "KIDDING", "FREE", "GAME", "LEG", "BLEEDING", "CLIP", "RUN"]}
