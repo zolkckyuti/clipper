@@ -13,44 +13,44 @@ import TL from './timeline.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 export const ASMR1_MS = TL.dur * 1000;
-type V3 = [number, number, number];
-const clamp01 = (v: number) => Math.max(0, Math.min(1, v));
-const ease = (t: number) => { const x = clamp01(t); return x * x * (3 - 2 * x); };
-const easeOut = (t: number) => 1 - (1 - clamp01(t)) ** 3;
-const prog = (o: number, a: number, b: number) => clamp01((o - a) / (b - a));
-const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
-const lerp3 = (a: V3, b: V3, t: number): V3 => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
+export type V3 = [number, number, number];
+export const clamp01 = (v: number) => Math.max(0, Math.min(1, v));
+export const ease = (t: number) => { const x = clamp01(t); return x * x * (3 - 2 * x); };
+export const easeOut = (t: number) => 1 - (1 - clamp01(t)) ** 3;
+export const prog = (o: number, a: number, b: number) => clamp01((o - a) / (b - a));
+export const lerp = (a: number, b: number, t: number) => a + (b - a) * t;
+export const lerp3 = (a: V3, b: V3, t: number): V3 => [lerp(a[0], b[0], t), lerp(a[1], b[1], t), lerp(a[2], b[2], t)];
 /** damped jiggle after an event at time e (seconds), for squash & stretch */
-const jig = (s: number, e: number, amp = 0.08, f = 9, d = 3.5) => (s < e ? 0 : amp * Math.sin((s - e) * f * Math.PI * 2 / 3) * Math.exp(-(s - e) * d));
+export const jig = (s: number, e: number, amp = 0.08, f = 9, d = 3.5) => (s < e ? 0 : amp * Math.sin((s - e) * f * Math.PI * 2 / 3) * Math.exp(-(s - e) * d));
 const EV = TL.ev;
 
 // ---------------------------------------------------------------- materials / textures
 const cache = new Map<string, unknown>();
-const memo = <T,>(k: string, f: () => T): T => { if (!cache.has(k)) cache.set(k, f()); return cache.get(k) as T; };
-const glossy = (color: string, o: {rough?: number; clear?: number; trans?: number; sheen?: string} = {}) => memo(`g:${color}:${JSON.stringify(o)}`, () => new THREE.MeshPhysicalMaterial({
+export const memo = <T,>(k: string, f: () => T): T => { if (!cache.has(k)) cache.set(k, f()); return cache.get(k) as T; };
+export const glossy = (color: string, o: {rough?: number; clear?: number; trans?: number; sheen?: string} = {}) => memo(`g:${color}:${JSON.stringify(o)}`, () => new THREE.MeshPhysicalMaterial({
   color, roughness: o.rough ?? 0.22, clearcoat: o.clear ?? 1, clearcoatRoughness: 0.08, metalness: 0, transparent: (o.trans ?? 1) < 1, opacity: o.trans ?? 1,
   sheen: o.sheen ? 0.6 : 0, sheenColor: new THREE.Color(o.sheen ?? '#ffffff')}));
-const matte = (color: string, rough = 0.85) => memo(`m:${color}:${rough}`, () => new THREE.MeshStandardMaterial({color, roughness: rough}));
-const canvas = (key: string, w: number, h: number, draw: (x: CanvasRenderingContext2D) => void, rep?: [number, number]) => memo(`t:${key}`, () => {
+export const matte = (color: string, rough = 0.85) => memo(`m:${color}:${rough}`, () => new THREE.MeshStandardMaterial({color, roughness: rough}));
+export const canvas = (key: string, w: number, h: number, draw: (x: CanvasRenderingContext2D) => void, rep?: [number, number]) => memo(`t:${key}`, () => {
   const c = document.createElement('canvas'); c.width = w; c.height = h; draw(c.getContext('2d')!);
   const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; if (rep) { t.wrapS = t.wrapT = THREE.RepeatWrapping; t.repeat.set(...rep); } return t;
 });
-const grainTex = (seed: string) => canvas(`grain:${seed}`, 256, 256, (x) => {
+export const grainTex = (seed: string) => canvas(`grain:${seed}`, 256, 256, (x) => {
   const img = x.createImageData(256, 256);
   for (let i = 0; i < 256 * 256; i++) { const v = 150 + random(`${seed}${i}`) * 105; img.data[i * 4] = img.data[i * 4 + 1] = img.data[i * 4 + 2] = v; img.data[i * 4 + 3] = 255; }
   x.putImageData(img, 0, 0);
 }, [3, 3]);
-const sandMat = (color: string) => memo(`sand:${color}`, () => new THREE.MeshStandardMaterial({color, roughness: 1, bumpMap: grainTex('s'), bumpScale: 1.4}));
-const woodTex = () => canvas('wood', 512, 512, (x) => {
+export const sandMat = (color: string) => memo(`sand:${color}`, () => new THREE.MeshStandardMaterial({color, roughness: 1, bumpMap: grainTex('s'), bumpScale: 1.4}));
+export const woodTex = () => canvas('wood', 512, 512, (x) => {
   x.fillStyle = '#e9c79a'; x.fillRect(0, 0, 512, 512);
   for (let i = 0; i < 60; i++) { x.strokeStyle = `rgba(150,100,55,${0.08 + random(`w${i}`) * 0.12})`; x.lineWidth = 1 + random(`wl${i}`) * 3; x.beginPath();
     const y = random(`wy${i}`) * 512; x.moveTo(0, y); for (let k = 0; k <= 8; k++) x.lineTo(k * 64, y + Math.sin(k + i) * 6); x.stroke(); }
 });
-const combTex = () => canvas('comb', 256, 256, (x) => {
+export const combTex = () => canvas('comb', 256, 256, (x) => {
   x.fillStyle = '#f0a43a'; x.fillRect(0, 0, 256, 256);
   for (let i = 0; i < 90; i++) { x.fillStyle = `rgba(150,70,10,${0.25 + random(`c${i}`) * 0.3})`; x.beginPath(); x.arc(random(`cx${i}`) * 256, random(`cy${i}`) * 256, 3 + random(`cr${i}`) * 9, 0, Math.PI * 2); x.fill(); }
 }, [2, 2]);
-const faceTex = (blink: boolean, mood: 'happy' | 'wow' | 'dizzy') => canvas(`face:${blink}:${mood}`, 512, 512, (x) => {
+export const faceTex = (blink: boolean, mood: 'happy' | 'wow' | 'dizzy') => canvas(`face:${blink}:${mood}`, 512, 512, (x) => {
   x.clearRect(0, 0, 512, 512); x.fillStyle = '#2b1b3a'; x.strokeStyle = '#2b1b3a'; x.lineCap = 'round';
   const eye = (cx: number) => {
     if (blink) { x.lineWidth = 16; x.beginPath(); x.arc(cx, 220, 30, 0.1 * Math.PI, 0.9 * Math.PI); x.stroke(); return; }
@@ -64,10 +64,10 @@ const faceTex = (blink: boolean, mood: 'happy' | 'wow' | 'dizzy') => canvas(`fac
   if (mood === 'wow') { x.beginPath(); x.ellipse(256, 320, 30, 38, 0, 0, Math.PI * 2); x.fill(); }
   else { x.beginPath(); x.arc(256, 290, 46, 0.15 * Math.PI, 0.85 * Math.PI); x.stroke(); }
 });
-const RAINBOW = ['#ff6b8b', '#ff9f5a', '#ffd95a', '#7ee081', '#5ec8ff', '#a78bfa'];
+export const RAINBOW = ['#ff6b8b', '#ff9f5a', '#ffd95a', '#7ee081', '#5ec8ff', '#a78bfa'];
 
 // ---------------------------------------------------------------- stage
-const Stage = ({top, bottom, o}: {top: string; bottom: string; o?: number}) => {
+export const Stage = ({top, bottom, o}: {top: string; bottom: string; o?: number}) => {
   const {scene} = useThree();
   scene.background = canvas(`bg:${top}:${bottom}`, 8, 512, (x) => { const g = x.createLinearGradient(0, 0, 0, 512); g.addColorStop(0, top); g.addColorStop(1, bottom); x.fillStyle = g; x.fillRect(0, 0, 8, 512); });
   scene.fog = null;
@@ -80,20 +80,20 @@ const Stage = ({top, bottom, o}: {top: string; bottom: string; o?: number}) => {
     <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 0]} receiveShadow><planeGeometry args={[80, 80]} /><meshStandardMaterial color={bottom} roughness={0.9} /></mesh>
   </>;
 };
-const Cam = ({p, l, fov = 32, k = 1.5}: {p: V3; l: V3; fov?: number; k?: number}) => {
+export const Cam = ({p, l, fov = 32, k = 1.5}: {p: V3; l: V3; fov?: number; k?: number}) => {
   const {camera} = useThree(); const c = camera as THREE.PerspectiveCamera;
   c.position.set(l[0] + (p[0] - l[0]) * k, l[1] + (p[1] - l[1]) * k, l[2] + (p[2] - l[2]) * k); c.fov = fov; c.near = 0.1; c.far = 200; c.up.set(0, 1, 0); c.lookAt(...l); c.updateProjectionMatrix(); return null;
 };
-const Board = ({w = 9, d = 6}: {w?: number; d?: number}) => <RoundedBox args={[w, 0.5, d]} radius={0.22} position={[0, 0.25, 0]} receiveShadow castShadow>
+export const Board = ({w = 9, d = 6}: {w?: number; d?: number}) => <RoundedBox args={[w, 0.5, d]} radius={0.22} position={[0, 0.25, 0]} receiveShadow castShadow>
   <meshStandardMaterial map={woodTex()} roughness={0.7} /></RoundedBox>;
 
 // ---------------------------------------------------------------- tools
-const Knife = ({position, rot = 0}: {position: V3; rot?: number}) => <group position={position} rotation={[0, 0, rot]}>
+export const Knife = ({position, rot = 0}: {position: V3; rot?: number}) => <group position={position} rotation={[0, 0, rot]}>
   <mesh position={[0, 1.4, 0]} castShadow><boxGeometry args={[0.07, 2.8, 4.2]} /><meshPhysicalMaterial color="#dfe6ee" roughness={0.18} metalness={0.35} clearcoat={1} /></mesh>
   <RoundedBox args={[0.34, 0.6, 2.4]} radius={0.12} position={[0, 2.95, 2.9]} rotation={[0.15, 0, 0]} castShadow material={glossy('#ff8fb1', {rough: 0.4})} />
 </group>;
 /** cartoon hand pointing down (index finger tip at the group origin) */
-const Hand = ({position, press = 0, rotY = 0, scale = 0.62}: {position: V3; press?: number; rotY?: number; scale?: number}) => {
+export const Hand = ({position, press = 0, rotY = 0, scale = 0.62}: {position: V3; press?: number; rotY?: number; scale?: number}) => {
   const skin = glossy('#ffd3b4', {rough: 0.55, clear: 0.3});
   return <group position={position} rotation={[0, rotY, 0]} scale={scale}>
     <group position={[0, 0, 0]} rotation={[0.35 - 0.1 * press, 0, 0]}>

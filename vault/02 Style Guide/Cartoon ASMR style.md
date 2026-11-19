@@ -27,4 +27,4 @@ User ask (2026-11-19): "tingly cartoony asmr as a niche, **no meme sound effects
 - A flipped (negative-scale) dome renders under the surface: flatten pressed bubbles (scale y ≈ 0.22) instead.
 
 ## Feedback log
-- (waiting for the user's verdict on #1)
+- **#1 verdict (2026-11-19): "not tingly enough" and "kinda bland from the audience's perspective".** User: use ASMR triggers like Jojo ASMR and other top ASMR creators (fast/aggressive layered tapping, scratching, crinkles, brushing, personal attention). → Synthesized sounds alone are too clean; pacing + camera too distant/static.
