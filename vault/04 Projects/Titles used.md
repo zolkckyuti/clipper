@@ -199,3 +199,10 @@
 - A Bird Ruined KreekCraft's GTA 6 Plane Ride ✈️ (kreek plane v2)
 - KreekCraft vs Granny: The Mobility Scooter Heist 🛵 (kreek scooter v2)
 - KreekCraft Danced With Lucia in Total Silence 💃 (kreek dance v2)
+
+## YoungLA Bodybuilders vs Models (2026-11-19)
+- His Skully alibi fell apart in 2 seconds (top) / His Skully Alibi Fell Apart in 2 Seconds 💀 (title)
+- "Gonna run to the bathroom"... he never came back (top) / He Said "Bathroom"… and Never Came Back 🚗 (title)
+- They felt his aura from 100 MILES away (top) / They Felt His Aura From 100 Miles Away 😳 (title)
+- The most aura at the show went to... the SOUND GUY (top) / The Most Aura at the Show Went to… the Sound Guy 🎧 (title)
+- They asked a bodybuilder for ONE dance move... (top) / They Asked a Bodybuilder for ONE Dance Move 💀 (title)
