@@ -40,3 +40,12 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
   red/green tint hits (0.27 s) + white blow-out + shock/rizz SFX, camera-flash SFX + 2-frame white flash on cuts, pop on punches,
   phonk from BGSONGS (aura, funk abnormal, alquimia, empire, sentamento, brevis; loudnorm −20, drop offset) at 0.7, **sidechain-ducked under the stream audio**
   (≈ −23 dB in gaps, voice stays on top). Dance clip: music OFF during "there's no music because of the copyright" (the joke). Outputs `kreek_<name>_vv_{1080p60,4k60}.mp4`.
+- 2026-11-19 user: **all Shorts stuck at 1–10 views ("view jail")**, asked for higher-quality, less "lazy/duplicate" edits.
+  Diagnosis given: 1–10 views = not distributed at all → usually duplicate/reused-content fingerprint (same moments, same facecam-top layout as every other clipper),
+  copyrighted phonk (muted/limited), or account trust. Advice: keep clips public (brief: 30 days; unlisting can void payout), never re-upload the same clip, one niche per account,
+  post 1–3/day fast after streams, first frame = action + hook, check retention graphs, add music in-app on TikTok instead of baking it in.
+  → **Edit v2** (`src/kreek/KreekV2.tsx`, comps `KreekV2-<clip>`, props `src/kreek/v2/<clip>.json` from `kreek/prep_v2.py`, render `.work/render_kv2.sh`):
+  full-height gameplay window (source x≈520–1400, facecam excluded) + facecam PiP (crop 50..370 × 136..402) that bounces on hits and grows into a big
+  **reaction cutaway** on his loudest lines (`react` windows), **freeze-frame + red stamp** on the payoff (`freeze`), context chip ("HOUR 11 OF THE GTA 6 STREAM"),
+  karaoke captions (3 words, active word yellow / red for key words), title visible from frame 0, grade + flicker + tints + punch-ins + cut flashes,
+  phonk at 40 % until the `drop` then full, ducked under voice; whoosh on cutaway in/out. Logo pill bottom-center always.

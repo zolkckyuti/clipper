@@ -55,5 +55,26 @@
    "NIKO"
   ],
   "music_vol": 0.7
+ },
+ "v2": {
+  "react": [
+   [
+    0.1,
+    1.3
+   ],
+   [
+    12.5,
+    13.8
+   ]
+  ],
+  "freeze": [
+   2.95,
+   "HE HIT A BIRD"
+  ],
+  "chip": [
+   5.0,
+   "HOUR 13 OF THE GTA 6 STREAM"
+  ],
+  "drop": 12.45
  }
 }

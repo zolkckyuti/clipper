@@ -69,5 +69,30 @@
    "PEAKED"
   ],
   "music_vol": 0.7
+ },
+ "v2": {
+  "react": [
+   [
+    1.6,
+    3.0
+   ],
+   [
+    5.5,
+    7.2
+   ],
+   [
+    23.4,
+    25.3
+   ]
+  ],
+  "freeze": [
+   19.8,
+   "GREATEST GAME OF ALL TIME"
+  ],
+  "chip": [
+   5.4,
+   "HOUR 7 OF THE GTA 6 STREAM"
+  ],
+  "drop": 17.6
  }
 }

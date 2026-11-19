@@ -63,5 +63,30 @@
    "HEARTS"
   ],
   "music_vol": 0.7
+ },
+ "v2": {
+  "react": [
+   [
+    2.0,
+    3.6
+   ],
+   [
+    5.9,
+    6.9
+   ],
+   [
+    19.1,
+    20.5
+   ]
+  ],
+  "freeze": [
+   13.8,
+   "HE'S GOT MOVES"
+  ],
+  "chip": [
+   6.8,
+   "HOUR 7 OF THE GTA 6 STREAM"
+  ],
+  "drop": 6.8
  }
 }

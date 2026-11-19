@@ -731,5 +731,28 @@
    "LEG"
   ],
   "music_vol": 0.7
- }
+ },
+ "react": [
+  [
+   0.1,
+   1.0
+  ],
+  [
+   2.4,
+   3.5
+  ],
+  [
+   20.6,
+   21.7
+  ]
+ ],
+ "freeze": [
+  25.9,
+  "IT BIT HIS LEG"
+ ],
+ "chip": [
+  4.1,
+  "HOUR 11 OF THE GTA 6 STREAM"
+ ],
+ "drop": 10.1
 }

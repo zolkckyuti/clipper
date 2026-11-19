@@ -541,5 +541,28 @@
    "SWIM"
   ],
   "music_vol": 0.7
- }
+ },
+ "react": [
+  [
+   0.1,
+   1.2
+  ],
+  [
+   12.3,
+   13.1
+  ],
+  [
+   20.4,
+   21.5
+  ]
+ ],
+ "freeze": [
+  9.1,
+  "THAT'S THE ALLIGATOR"
+ ],
+ "chip": [
+  3.9,
+  "HOUR 11 OF THE GTA 6 STREAM"
+ ],
+ "drop": 14.35
 }
