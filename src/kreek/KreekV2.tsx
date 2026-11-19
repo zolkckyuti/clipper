@@ -84,11 +84,6 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
       <AbsoluteFill style={{background: tint}} />
       <AbsoluteFill style={{background: `rgba(0,0,0,${0.55 * react})`}} />
     </div>
-    {/* freeze stamp */}
-    {inFreeze && <div style={{position: 'absolute', top: 560, width: 1080, display: 'flex', justifyContent: 'center',
-      transform: `rotate(-6deg) scale(${interpolate(fzK, [0, 1], [1.7, 1])})`}}>
-      <div style={{background: '#F40305', color: '#fff', fontSize: 92, fontWeight: 800, padding: '10px 34px', borderRadius: 14, border: '7px solid #fff', boxShadow: '0 12px 40px rgba(0,0,0,.6)',
-        maxWidth: 960, textAlign: 'center', lineHeight: 1.05}}>{stamp}</div></div>}
     {/* facecam PiP / reaction cutaway */}
     <div style={{position: 'absolute', left: camX + (1 - react) * 0, top: camY, width: camW, height: camH, borderRadius: 26, overflow: 'hidden', border: `${interpolate(react, [0, 1], [6, 8])}px solid #fff`,
       boxShadow: '0 14px 40px rgba(0,0,0,.65)', transform: `rotate(${camTilt}deg) scale(${1 + 0.08 * bounce})`, transformOrigin: 'center'}}>
@@ -96,6 +91,11 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
         <OffthreadVideo src={src} muted style={{width: '100%', height: '100%', filter: 'contrast(1.06) saturate(1.15)'}} />
       </div>
     </div>
+    {/* freeze stamp */}
+    {inFreeze && <div style={{position: 'absolute', top: 860, left: 0, width: 1080, display: 'flex', justifyContent: 'center',
+      transform: `rotate(-6deg) scale(${interpolate(fzK, [0, 1], [1.7, 1])})`}}>
+      <div style={{background: '#F40305', color: '#fff', fontSize: 92, fontWeight: 800, padding: '10px 34px', borderRadius: 14, border: '7px solid #fff', boxShadow: '0 12px 40px rgba(0,0,0,.6)',
+        maxWidth: 960, textAlign: 'center', lineHeight: 1.05}}>{stamp}</div></div>}
     {/* chip */}
     {chipK > 0 && <div style={{position: 'absolute', right: 34, top: 330 + (1 - chipK) * -20, opacity: chipK, display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(10,10,16,.82)',
       borderRadius: 40, padding: '12px 22px', border: '2px solid rgba(255,255,255,.2)'}}>
