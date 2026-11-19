@@ -5,6 +5,7 @@ import {RainShort, RAIN_MS} from './blocky/RainShort';
 import {AsmrShort, ASMR1_MS} from './asmr/AsmrShort';
 import {AsmrShort2, ASMR2_MS} from './asmr/AsmrShort2';
 import {KreekV2, KREEK_V2} from './kreek/KreekV2';
+import {KitschStory, KITSCH_STORY_S} from './kitsch/KitschStory';
 import {CARD_OUT_MS, CardPull} from './CardPull';
 import {SRC as POD_SRC} from './activePod';
 import {FPS, OUT_MS, ShortEdit} from './ShortEdit';
@@ -33,6 +34,8 @@ import {GOAT31_MS, JorhoGoat31, GOAT30_MS, JorhoGoat30, GOAT28_MS, JorhoGoat28, 
 
 export const RemotionRoot = () => (
   <>
+  <Composition id="KitschStory" component={KitschStory} defaultProps={{music: true}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
+  <Composition id="KitschStoryNoMusic" component={KitschStory} defaultProps={{music: false}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
   {Object.keys(KREEK_V2).map((k) => <Composition key={k} id={`KreekV2-${k}`} component={KreekV2} defaultProps={{clip: k}} durationInFrames={Math.round(KREEK_V2[k].dur * 60)} fps={60} width={1080} height={1920} />)}
   <Composition id="Asmr2" component={AsmrShort2} durationInFrames={Math.round(ASMR2_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
   <Composition id="Asmr1" component={AsmrShort} durationInFrames={Math.round(ASMR1_MS / 1000 * 30)} fps={30} width={1080} height={1920} />

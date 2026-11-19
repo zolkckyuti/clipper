@@ -15,3 +15,10 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (vertical-source version)
   slowed song ducked) + `kitsch/clips/*.json`. 1080p only (user). Final peak fix: extra `volume=-1dB,alimiter=0.75` pass if AAC overshoots.
 
 ## Batch 1 (2026-11-19): tax, mystery, mom, sister, town (5 different structures/hooks/songs)
+
+## v2 — narrated storytime (anti-view-jail rebuild)
+- Why: raw re-cuts of the ad = same fingerprint as every other clipper + the brand's own post → YouTube's unoriginal-content downrank (Oct 2026 Shorts update) and TikTok duplicate filter.
+- What's original: ElevenLabs narrator tells the story in our words (`public/kitsch/narr.wav`), real lines play between at full volume ("🔊 REAL" tag); footage is NOT full 9:16 — tilted white-bordered card (0.73–0.76 scale) on our own animated red gift-wrap + snow background; SIS ✓ / MOM ✓ / ??? gift tracker; product pills (Kitsch holiday sets, Kitsch Curl Cream); stamps NICE LIST ✓ / 10/10 SON / SAINT NIC TAX; karaoke captions (narrator white, real lines yellow).
+- Code: `src/kitsch/KitschStory.tsx` (comps `KitschStory`, `KitschStoryNoMusic`, 30 fps, 36.2 s). Master: loudnorm −14 + alimiter 0.8.
+- Renders: `renders/kitsch_storytime_1080p.mp4` (soft bed), `renders/kitsch_storytime_nomusic_1080p.mp4` (add a trending sound in-app at ~10 %).
+- Title: "Love Island's Nic turned into Santa for his family 🎅"

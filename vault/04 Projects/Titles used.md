@@ -213,3 +213,4 @@
 - Mom got the BIGGEST Kitsch drop this year (mom)
 - Saint Nic said his sister made the nice list (sister)
 - Saint Nic is coming to town (town)
+- Love Island's Nic turned into Santa for his family 🎅 (Kitsch storytime v2)
