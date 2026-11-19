@@ -72,6 +72,7 @@ Edit podcast/streamer clips into viral vertical Shorts in a **meme / brainrot cl
   - [[Batch 3 - Edit3 4 cards + 4 Trevor]]: Edit3 style on black bars + card pulls, titles/descriptions
   - [[Batch Y - VverPaldo 5 Trevor clips]]: NBA GOAT, Redemption, Superfans, Ticket, PSA 10 celly in VverPaldo style (2026-11-18)
   - [[Batch H - HardScope R3born fresh moments]]: 5 never-clipped Ep2 moments in VverPaldo style, Frame.io download recipe (2026-11-18)
+  - [[KreekCraft GTA 6 campaign]]: brief rules, Twitch VOD pipeline (parallel segments), loudness-spike moment finder, crocodile test clip (2026-11-19)
 
 ## Quick start (new session)
 1. Read [[NBA GOAT pick]] (feedback log) and [[Caption style]].

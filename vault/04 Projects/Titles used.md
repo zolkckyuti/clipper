@@ -183,3 +183,6 @@
 ## Cartoon ASMR (2026-11-19)
 - 60 Seconds of Cartoon ASMR Tingles 🎧 (asmr #1: jelly, sand, keys, pop-it, soap, slime, honey, candy, drops)
 - 12 Triggers to Give You Tingles in 60 Seconds 🤍 (asmr #2: POV Mochi, binaural)
+
+## KreekCraft GTA 6 (2026-11-19)
+- He bet a FREE copy of GTA 6 that a crocodile can't get him... (top) / KreekCraft Bet a Free GTA 6 Copy on This Crocodile 🐊 (title)
