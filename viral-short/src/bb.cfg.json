@@ -1,0 +1,658 @@
+{
+ "bbSkully": {
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "His Skully alibi fell apart in 2 seconds",
+  "hl": {
+   "alibi": "#FF2A2A"
+  },
+  "cta": "*would you wear a Skully?*",
+  "ctaAt": [
+   "s1",
+   "love"
+  ],
+  "music": [
+   "bb_aura_n",
+   22
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "deadass"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s0",
+     "strong"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s1",
+     "skully",
+     1
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s0",
+    "professional"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "last"
+   ],
+   [
+    "hook",
+    "two"
+   ],
+   [
+    "hook",
+    "deadass"
+   ],
+   [
+    "hook",
+    "no"
+   ],
+   [
+    "s0",
+    "marlon"
+   ],
+   [
+    "s0",
+    "burberry"
+   ],
+   [
+    "s1",
+    "skully"
+   ],
+   [
+    "s1",
+    "white"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "no"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s0"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "deadass"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "hook",
+     "thought"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s0",
+     "burberry"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_bbSkully.mp4"
+ },
+ "bbBail": {
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "\"Gonna run to the bathroom\"... he never came back",
+  "hl": {
+   "never": "#FF2A2A"
+  },
+  "cta": "*would you have left too?*",
+  "ctaAt": [
+   "s1",
+   "coming"
+  ],
+  "music": [
+   "bb_funkabn_n",
+   7.5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "paid"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s3",
+     "doing"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s4",
+     "good"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s4",
+    "good"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "paid"
+   ],
+   [
+    "hook",
+    "watching"
+   ],
+   [
+    "hook",
+    "love"
+   ],
+   [
+    "s1",
+    "bathroom"
+   ],
+   [
+    "s1",
+    "30"
+   ],
+   [
+    "s3",
+    "doing"
+   ],
+   [
+    "s4",
+    "wait"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s3",
+    "doing"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "s1",
+     "bathroom"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s3",
+     "doing"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "hook",
+     "love"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   }
+  ],
+  "src": "g_bbBail.mp4"
+ },
+ "bbJohnny": {
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "They felt his aura from 100 MILES away",
+  "hl": {
+   "MILES": "#FF2A2A"
+  },
+  "cta": "*who has the most aura?*",
+  "ctaAt": [
+   "s1",
+   "website"
+  ],
+  "music": [
+   "bb_alquimia_n",
+   25
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "pants"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s1",
+     "every"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s3",
+     "miles"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s4",
+     "aura"
+    ],
+    "G"
+   ]
+  ],
+  "rizz": [
+   [
+    "s3",
+    "miles"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "johnny"
+   ],
+   [
+    "hook",
+    "pants"
+   ],
+   [
+    "s1",
+    "face"
+   ],
+   [
+    "s1",
+    "every"
+   ],
+   [
+    "s2",
+    "goosebumps"
+   ],
+   [
+    "s3",
+    "100"
+   ],
+   [
+    "s4",
+    "head"
+   ],
+   [
+    "s4",
+    "aura"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "pants"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s2"
+   ]
+  ],
+  "streaks": [
+   [
+    "s4"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "pants"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.5
+   },
+   {
+    "at": [
+     "hook",
+     "pants"
+    ],
+    "kind": "png",
+    "file": "e_skull.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s4",
+     "aura"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_bbJohnny.mp4"
+ },
+ "bbSound": {
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "The most aura at the show went to... the SOUND GUY",
+  "hl": {
+   "SOUND": "#58EE28",
+   "GUY": "#58EE28"
+  },
+  "cta": "*who would you give it to?*",
+  "ctaAt": [
+   "s1",
+   "aura"
+  ],
+  "music": [
+   "bb_empire_n",
+   19.5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "noise"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s3",
+     "sound"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s4",
+     "speak"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s3",
+    "sound"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "noise"
+   ],
+   [
+    "hook",
+    "himself"
+   ],
+   [
+    "hook",
+    "wow"
+   ],
+   [
+    "s1",
+    "aura"
+   ],
+   [
+    "s2",
+    "most"
+   ],
+   [
+    "s3",
+    "sound"
+   ],
+   [
+    "s4",
+    "speak"
+   ],
+   [
+    "s4",
+    "volumes"
+   ]
+  ],
+  "blowouts": [
+   [
+    "hook",
+    "wow"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s4"
+   ]
+  ],
+  "streaks": [
+   [
+    "s3"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "hook",
+     "wow"
+    ],
+    "kind": "sfx",
+    "file": "s_wow.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s3",
+     "sound"
+    ],
+    "kind": "png",
+    "file": "e_heart.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "s2",
+     "most"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_bbSound.mp4"
+ },
+ "bbDance": {
+  "track": "none",
+  "calls": [],
+  "intro": true,
+  "hardcut": true,
+  "cutSfx": "s_camflash.mp3",
+  "top": "They asked a bodybuilder for ONE dance move...",
+  "hl": {
+   "ONE": "#FF2A2A"
+  },
+  "cta": "*rate the dance 1-10*",
+  "ctaAt": [
+   "s1",
+   "come"
+  ],
+  "music": [
+   "bb_sentamento_n",
+   33.5
+  ],
+  "tints": [
+   [
+    [
+     "hook",
+     "better"
+    ],
+    "R"
+   ],
+   [
+    [
+     "s2",
+     "whoa"
+    ],
+    "G"
+   ],
+   [
+    [
+     "s3",
+     "home"
+    ],
+    "R"
+   ]
+  ],
+  "rizz": [
+   [
+    "s2",
+    "whoa"
+   ]
+  ],
+  "punch": [
+   [
+    "hook",
+    "urs"
+   ],
+   [
+    "hook",
+    "better"
+   ],
+   [
+    "s1",
+    "dance"
+   ],
+   [
+    "s1",
+    "come"
+   ],
+   [
+    "s2",
+    "whoa"
+   ],
+   [
+    "s3",
+    "that"
+   ],
+   [
+    "s3",
+    "home"
+   ]
+  ],
+  "blowouts": [
+   [
+    "s3",
+    "home"
+   ]
+  ],
+  "blackFlash": [
+   [
+    "s1"
+   ]
+  ],
+  "streaks": [
+   [
+    "s2"
+   ]
+  ],
+  "extras": [
+   {
+    "at": [
+     "s3",
+     "home"
+    ],
+    "kind": "sfx",
+    "file": "s_fahhh.mp3",
+    "v": 0.45
+   },
+   {
+    "at": [
+     "s3",
+     "know"
+    ],
+    "kind": "png",
+    "file": "e_laugh.png",
+    "x": 260,
+    "y": 1290,
+    "size": 200
+   },
+   {
+    "at": [
+     "hook",
+     "better"
+    ],
+    "kind": "sfx",
+    "file": "s_huh.mp3",
+    "v": 0.4
+   }
+  ],
+  "src": "g_bbDance.mp4"
+ }
+}
