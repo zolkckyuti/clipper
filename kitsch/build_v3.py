@@ -6,22 +6,48 @@ Three edits with different angle / hook / narration / on-screen text / theme, so
 Sources (public/kitsch/): nic.mp4 = original spot (clean), v1.mp4 = new V7 cut (burned subs in the intro -> crop), v2.mp4 = BTS promo (only 3.3–8.3 s is clean).
 N = narration over b-roll (source ducked), S = the real moment at full volume.
 Usage: python3 kitsch/build_v3.py  -> src/kitsch/v3/<name>.json"""
-import json, os
+import json, os, subprocess
 
 NIC = json.load(open('src/kitsch/src_words.json'))
 V1 = json.load(open('src/kitsch/v1_words.json'))
 SRCW = {'nic': NIC, 'v1': V1, 'v2': []}
 FIX = {'nick': 'Nic', 'nick,': 'Nic,', 'nick.': 'Nic.', 'nick?': 'Nic?', 'st.': 'Saint', 'kish': 'Kitsch', 'kitsch': 'Kitsch', 'kitsch,': 'Kitsch,',
-       'kitsch.': 'Kitsch.', 'jeep': 'Jeep', '4,': 'four,', '3,': 'three,', '2,': 'two,', '1,': 'one,'}
+       'kitsch.': 'Kitsch.', 'jeep': 'Jeep', 'jeep.': 'Jeep.', 'jeep,': 'Jeep,', '4,': 'four,', '3,': 'three,', '2,': 'two,', '1,': 'one,'}
 fix = lambda t: FIX.get(t.lower(), t)
+SRCF = {'nic': 'public/kitsch/nic.mp4', 'v1': 'public/kitsch/v1.mp4', 'v2': 'public/kitsch/v2.mp4'}
+_VAD = {}
+def speech_runs(src):
+    """Silero VAD speech runs (s) of a source file — used to snap real-line cuts to where the talking actually stops."""
+    if src not in _VAD:
+        import numpy as np
+        from faster_whisper.vad import VadOptions, get_speech_timestamps
+        pcm = subprocess.run(['ffmpeg', '-v', 'error', '-i', SRCF[src], '-ac', '1', '-ar', '16000', '-f', 's16le', '-'], capture_output=True).stdout
+        A = np.frombuffer(pcm, np.int16).astype(np.float32) / 32768
+        _VAD[src] = [(r['start'] / 16000, r['end'] / 16000) for r in get_speech_timestamps(A, VadOptions(threshold=0.45, min_silence_duration_ms=280, speech_pad_ms=60))]
+    return _VAD[src]
 
 
-def build(name, narr, segs, title, hl, theme, widget, labels=(), stamps=(), dings=(), pops=(), bubbles=(), zooms=(), sfx=(), out_dir='src/kitsch/v3'):
+def build(name, narr, segs, title, hl, theme, widget, labels=(), stamps=(), dings=(), pops=(), bubbles=(), zooms=(), sfx=(), out_dir='src/kitsch/v3', snap=False):
     NW = json.load(open(f'.work/kitsch/v3/{narr}.words.json'))
     out, caps, o = [], [], 0.0
+    segs = [list(g) + [None] * (7 - len(g)) for g in segs]   # (kind, src, v, n, crop, a, wide)
     for g in segs:
+        g[2] = list(g[2]); g[3] = list(g[3]) if g[3] else None
         kind, src, v = g[0], g[1], g[2]
-        a0 = g[5] if len(g) > 5 and g[5] is not None else v[0]   # J-cut: sound from a0, picture from v
+        a0 = g[5] if g[5] is not None else v[0]   # J-cut: sound from a0, picture from v
+        if snap and kind == 'S' and g[5] is None:   # never cut a real line early: run to the end of the speech (max +2 s); J-cuts are hand-tuned
+            a1 = a0 + v[1] - v[0]
+            r = next(((x, y) for x, y in speech_runs(src) if x < a1 < y), None)
+            if r and 0 < r[1] + 0.15 - a1 <= 2.0:
+                # ...but never run into a line that another segment of this clip plays
+                cap = min([h[2][0] for h in segs if h is not g and h[1] == src and a1 - 0.05 <= h[2][0] < r[1] + 0.15] + [r[1] + 0.15])
+                v[1] = round(v[1] + cap - a1, 2)
+        if snap and kind == 'N':   # narration: let the last word finish + breathe, picture stretches with it
+            n = g[3]; inw = [w for w in NW if n[0] - 0.05 <= w[0] < n[1] - 0.05]
+            if inw:
+                nxt = next((w[0] for w in NW if w[0] > inw[-1][0] + 0.01), inw[-1][1] + 0.5)
+                n1 = round(min(nxt - 0.03, inw[-1][1] + 0.3), 2)
+                if n1 > n[1]: v[1] = round(v[1] + n1 - n[1], 2); n[1] = n1
         d = dict(kind=kind, src=src, v=v, start=round(o, 3))
         if a0 != v[0]: d['a'] = a0
         if kind == 'N':
@@ -30,14 +56,15 @@ def build(name, narr, segs, title, hl, theme, widget, labels=(), stamps=(), ding
         else:
             a1 = a0 + v[1] - v[0]
             caps += [dict(t=fix(w[2]), a=round(o + max(0, w[0] - a0), 3), real=True) for w in SRCW[src] if a0 - 0.05 <= w[0] < a1 - 0.05]
-        if len(g) > 4 and g[4]: d['crop'] = g[4]
+        if g[4]: d['crop'] = g[4]
+        if g[6]: d['wide'] = g[6]
         out.append(d); o += v[1] - v[0]
     S = [x['start'] for x in out]
     # beat helpers: ('s', seg, src_t) = source time inside seg; ('n', seg, narr_t) = narration time inside an N seg
     def T(b):
         if isinstance(b, (int, float)): return b
         k, i, t = b
-        g = segs[i]; base = g[3][0] if k == 'n' else (g[5] if len(g) > 5 and g[5] is not None else g[2][0])
+        g = segs[i]; base = g[3][0] if k == 'n' else (g[5] if g[5] is not None else g[2][0])
         return round(S[i] + t - base, 3)
     cfg = dict(name=name, dur=round(o, 3), narr=f'kitsch/{narr}.wav', title=title, hl=hl, theme=theme, segs=out, caps=caps,
                widget=dict(type=widget[0], head=widget[1], items=[dict(label=l, at=T(b), mark=m) for l, b, m in widget[2]]),

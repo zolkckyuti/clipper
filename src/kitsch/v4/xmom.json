@@ -1,6 +1,6 @@
 {
  "name": "xmom",
- "dur": 16.5,
+ "dur": 18.39,
  "narr": "kitsch/narrD.wav",
  "title": "His mom had NO idea Nic was coming as Santa \ud83d\ude2d",
  "hl": [
@@ -21,22 +21,39 @@
    "src": "nic",
    "v": [
     46.72,
-    48.17
+    48.4
    ],
    "start": 0.0,
    "a": 46.3
   },
   {
    "kind": "N",
-   "src": "nic",
+   "src": "v2",
    "v": [
-    15.0,
-    19.2
+    0.3,
+    2.47
    ],
-   "start": 1.45,
+   "start": 1.68,
    "n": [
     0.0,
-    4.2
+    2.17
+   ],
+   "wide": [
+    10,
+    680
+   ]
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    16.9,
+    19.16
+   ],
+   "start": 3.85,
+   "n": [
+    2.15,
+    4.41
    ]
   },
   {
@@ -44,9 +61,9 @@
    "src": "nic",
    "v": [
     22.0,
-    23.9
+    24.24
    ],
-   "start": 5.65
+   "start": 6.11
   },
   {
    "kind": "S",
@@ -55,28 +72,41 @@
     39.35,
     40.95
    ],
-   "start": 7.55
+   "start": 8.35
   },
   {
    "kind": "S",
    "src": "nic",
    "v": [
     41.45,
-    42.9
+    43.31
    ],
-   "start": 9.15
+   "start": 9.95
   },
   {
    "kind": "N",
-   "src": "nic",
+   "src": "v2",
    "v": [
-    43.4,
-    46.65
+    5.0,
+    6.73
    ],
-   "start": 10.6,
+   "start": 11.81,
    "n": [
     4.4,
-    7.65
+    6.13
+   ]
+  },
+  {
+   "kind": "N",
+   "src": "v2",
+   "v": [
+    6.6,
+    8.35
+   ],
+   "start": 13.54,
+   "n": [
+    6.1,
+    7.85
    ]
   },
   {
@@ -84,9 +114,9 @@
    "src": "v1",
    "v": [
     65.85,
-    68.5
+    68.95
    ],
-   "start": 13.85
+   "start": 15.29
   }
  ],
  "caps": [
@@ -112,212 +142,212 @@
   },
   {
    "t": "Nic",
-   "a": 1.45,
+   "a": 1.68,
    "real": false
   },
   {
    "t": "from",
-   "a": 1.65,
+   "a": 1.88,
    "real": false
   },
   {
    "t": "Love",
-   "a": 1.85,
+   "a": 2.08,
    "real": false
   },
   {
    "t": "Island",
-   "a": 2.13,
+   "a": 2.36,
    "real": false
   },
   {
    "t": "suited",
-   "a": 2.43,
+   "a": 2.66,
    "real": false
   },
   {
    "t": "up",
-   "a": 2.77,
+   "a": 3.0,
    "real": false
   },
   {
    "t": "as",
-   "a": 3.01,
+   "a": 3.24,
    "real": false
   },
   {
    "t": "Santa,",
-   "a": 3.19,
+   "a": 3.42,
    "real": false
   },
   {
    "t": "and",
-   "a": 3.65,
+   "a": 3.9,
    "real": false
   },
   {
    "t": "his",
-   "a": 4.17,
+   "a": 4.42,
    "real": false
   },
   {
    "t": "mom",
-   "a": 4.31,
+   "a": 4.56,
    "real": false
   },
   {
    "t": "had",
-   "a": 4.59,
+   "a": 4.84,
    "real": false
   },
   {
    "t": "no",
-   "a": 4.85,
+   "a": 5.1,
    "real": false
   },
   {
    "t": "idea.",
-   "a": 5.23,
+   "a": 5.48,
    "real": false
   },
   {
    "t": "I'm",
-   "a": 5.67,
+   "a": 6.13,
    "real": true
   },
   {
    "t": "Saint",
-   "a": 5.85,
+   "a": 6.31,
    "real": true
   },
   {
    "t": "Nic.",
-   "a": 6.09,
+   "a": 6.55,
    "real": true
   },
   {
    "t": "Get",
-   "a": 6.91,
+   "a": 7.37,
    "real": true
   },
   {
    "t": "it?",
-   "a": 7.35,
+   "a": 7.81,
    "real": true
   },
   {
    "t": "Mother,",
-   "a": 7.62,
+   "a": 8.42,
    "real": true
   },
   {
    "t": "come",
-   "a": 8.1,
+   "a": 8.9,
    "real": true
   },
   {
    "t": "outside.",
-   "a": 8.58,
+   "a": 9.38,
    "real": true
   },
   {
    "t": "Nicholas,",
-   "a": 9.18,
+   "a": 9.98,
    "real": true
   },
   {
    "t": "what's",
-   "a": 9.74,
+   "a": 10.54,
    "real": true
   },
   {
    "t": "going",
-   "a": 10.08,
+   "a": 10.88,
    "real": true
   },
   {
    "t": "on?",
-   "a": 10.24,
+   "a": 11.04,
    "real": true
   },
   {
    "t": "He",
-   "a": 10.64,
+   "a": 11.85,
    "real": false
   },
   {
    "t": "didn't",
-   "a": 11.04,
+   "a": 12.25,
    "real": false
   },
   {
    "t": "bring",
-   "a": 11.3,
+   "a": 12.51,
    "real": false
   },
   {
    "t": "her",
-   "a": 11.42,
+   "a": 12.63,
    "real": false
   },
   {
    "t": "one",
-   "a": 11.58,
+   "a": 12.79,
    "real": false
   },
   {
    "t": "gift.",
-   "a": 11.84,
+   "a": 13.05,
    "real": false
   },
   {
    "t": "He",
-   "a": 12.36,
+   "a": 13.6,
    "real": false
   },
   {
    "t": "brought",
-   "a": 12.72,
+   "a": 13.96,
    "real": false
   },
   {
    "t": "the",
-   "a": 12.86,
+   "a": 14.1,
    "real": false
   },
   {
    "t": "whole",
-   "a": 13.06,
+   "a": 14.3,
    "real": false
   },
   {
-   "t": "jeep.",
-   "a": 13.26,
+   "t": "Jeep.",
+   "a": 14.5,
    "real": false
   },
   {
    "t": "More",
-   "a": 13.92,
+   "a": 15.36,
    "real": true
   },
   {
    "t": "deliveries",
-   "a": 14.42,
+   "a": 15.86,
    "real": true
   },
   {
    "t": "coming.",
-   "a": 14.92,
+   "a": 16.36,
    "real": true
   },
   {
    "t": "Stay",
-   "a": 15.52,
+   "a": 16.96,
    "real": true
   },
   {
    "t": "nice.",
-   "a": 16.02,
+   "a": 17.46,
    "real": true
   }
  ],
@@ -329,11 +359,11 @@
  "labels": [
   {
    "text": "Kitsch gifts",
-   "at": 9.3
+   "at": 10.1
   },
   {
    "text": "The whole Kitsch Jeep",
-   "at": 12.4
+   "at": 14.04
   }
  ],
  "stamps": [
@@ -346,27 +376,27 @@
  ],
  "dings": [],
  "pops": [
-  9.3
+  10.1
  ],
  "bubbles": [
   {
-   "text": "she had NO idea \ud83d\udc40",
-   "at": 4.31
+   "text": "Saint Nic mode \ud83c\udf85",
+   "at": 2.18
   },
   {
-   "text": "Saint Nic \ud83c\udf85",
-   "at": 5.85
+   "text": "she had NO idea \ud83d\udc40",
+   "at": 4.56
   },
   {
    "text": "the WHOLE Jeep \ud83d\udce6\ud83d\udce6",
-   "at": 13.1
+   "at": 14.34
   }
  ],
  "zooms": [
   0.8,
-  7.65,
-  9.2,
-  13.06
+  8.45,
+  10.0,
+  14.3
  ],
  "sfx": [
   {
@@ -376,12 +406,17 @@
   },
   {
    "f": "sfx_sparkle",
-   "at": 9.3,
+   "at": 1.83,
+   "vol": 0.3
+  },
+  {
+   "f": "sfx_sparkle",
+   "at": 10.1,
    "vol": 0.35
   },
   {
    "f": "sfx_boom",
-   "at": 13.2,
+   "at": 14.44,
    "vol": 0.45
   }
  ]

@@ -12,7 +12,7 @@ import xmystery from './v4/xmystery.json';
 import xtax from './v4/xtax.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
-type Seg = {kind: string; src: string; v: number[]; n?: number[]; crop?: number[]; start: number; a?: number};
+type Seg = {kind: string; src: string; v: number[]; n?: number[]; crop?: number[]; start: number; a?: number; wide?: number[]};
 type Cap = {t: string; a: number; real: boolean};
 type Item = {label: string; at: number; mark: string};
 export type K3 = {name: string; dur: number; narr: string; title: string; hl: string[]; segs: Seg[]; caps: Cap[];
@@ -101,6 +101,9 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
   const enter = spring({frame: Math.round(local * fps), fps, config: {damping: 14, stiffness: 170}});
   const rot = T.tilt * (i % 2 ? 1 : -1) * (seg.kind === 'S' ? 0.4 : 1);
   const cardScale = (seg.kind === 'S' ? 0.75 : 0.72) * (T.scale ?? 1) * (0.94 + 0.06 * enter) * (1 + 0.025 * local / 4);
+  // card box: tall 9:16 card, or a wide card for a landscape crop of the source (seg.wide = [y0, y1])
+  const box = seg.wide ? {w: 990 * (0.94 + 0.06 * enter) * (1 + 0.02 * local / 3), h: 990 * (0.94 + 0.06 * enter) * (1 + 0.02 * local / 3) * (seg.wide[1] - seg.wide[0]) / 1080}
+    : {w: 1080 * cardScale, h: 1920 * cardScale};
   const zk = (P.zooms ?? []).reduce((m, t) => Math.max(m, interpolate(s, [t - 0.02, t + 0.08, t + 0.5, t + 0.65], [0, 1, 1, 0], clamp)), 0);
   const punch = (P.stamps.some((x) => s >= x.at && s < x.at + 0.35) ? 1.05 : 1) * (1 + 0.12 * zk);
   const flash = i > 0 && local < 0.07 ? 0.8 : 0;
@@ -116,11 +119,12 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
     <AbsoluteFill style={{opacity: 0.1, backgroundImage: `repeating-linear-gradient(-45deg, ${T.stripe} 0 20px, transparent 20px 84px)`, backgroundPosition: `${-f * 1.1}px 0`}} />
     <Particles f={f} kind={T.particles} />
     {/* footage card */}
-    <div style={{position: 'absolute', left: 540 - 540 * cardScale, top: T.cardTop - 960 * cardScale, width: 1080 * cardScale, height: 1920 * cardScale,
+    <div style={{position: 'absolute', left: 540 - box.w / 2, top: T.cardTop - box.h / 2, width: box.w, height: box.h,
       transform: `rotate(${rot}deg) scale(${punch})`, borderRadius: 40, overflow: 'hidden', border: '10px solid #fff', boxShadow: '0 30px 80px rgba(0,0,0,.5)', background: '#000'}}>
       {P.segs.map((g, k) => k === i && <Sequence key={k} from={Math.round(g.start * fps)} durationInFrames={Math.round((g.v[1] - g.v[0]) * fps) + 1}>
         <OffthreadVideo src={staticFile(SRC[g.src])} startFrom={Math.round(g.v[0] * fps)} volume={g.a !== undefined ? 0 : g.kind === 'S' ? 1 : 0.22}
-          style={{width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.06) saturate(1.12)', transformOrigin: 'top center',
+          style={g.wide ? {position: 'absolute', left: 0, top: -g.wide[0] * box.w / 1080, width: box.w, height: box.w * 1920 / 1080, filter: 'contrast(1.06) saturate(1.12)'}
+            : {width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.06) saturate(1.12)', transformOrigin: 'top center',
             transform: g.crop ? `scale(${1920 / (g.crop[1] - g.crop[0])}) translateY(${-g.crop[0] / 1920 * 100}%)` : undefined}} /></Sequence>)}
       {seg.kind === 'S' && <div style={{position: 'absolute', top: 22, left: 22, background: 'rgba(0,0,0,.55)', color: '#fff', fontSize: 28, fontWeight: 800, padding: '6px 16px', borderRadius: 20}}>REAL MOMENT</div>}
     </div>

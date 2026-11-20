@@ -1,6 +1,6 @@
 {
  "name": "xmystery",
- "dur": 16.68,
+ "dur": 17.5,
  "narr": "kitsch/narrD.wav",
  "title": "He refuses to say who the last Kitsch gift is for \ud83d\udc40",
  "hl": [
@@ -28,15 +28,15 @@
   },
   {
    "kind": "N",
-   "src": "nic",
+   "src": "v2",
    "v": [
-    0.3,
-    3.23
+    4.5,
+    7.48
    ],
    "start": 3.3,
    "n": [
     14.55,
-    17.48
+    17.51
    ]
   },
   {
@@ -44,18 +44,18 @@
    "src": "nic",
    "v": [
     36.95,
-    38.55
+    38.9
    ],
-   "start": 6.23
+   "start": 6.28
   },
   {
    "kind": "S",
    "src": "nic",
    "v": [
     46.72,
-    48.17
+    48.4
    ],
-   "start": 7.83,
+   "start": 8.23,
    "a": 46.3
   },
   {
@@ -63,12 +63,12 @@
    "src": "nic",
    "v": [
     59.0,
-    61.35
+    61.54
    ],
-   "start": 9.28,
+   "start": 9.91,
    "n": [
     17.5,
-    19.85
+    20.04
    ]
   },
   {
@@ -78,7 +78,7 @@
     60.75,
     65.8
    ],
-   "start": 11.63
+   "start": 12.45
   }
  ],
  "caps": [
@@ -159,137 +159,137 @@
   },
   {
    "t": "Okay,",
-   "a": 6.34,
+   "a": 6.39,
    "real": true
   },
   {
    "t": "fine.",
-   "a": 6.9,
+   "a": 6.95,
    "real": true
   },
   {
    "t": "This",
-   "a": 7.16,
+   "a": 7.21,
    "real": true
   },
   {
    "t": "is",
-   "a": 7.32,
+   "a": 7.37,
    "real": true
   },
   {
    "t": "cute.",
-   "a": 7.44,
+   "a": 7.49,
    "real": true
   },
   {
    "t": "You",
-   "a": 7.87,
+   "a": 8.27,
    "real": true
   },
   {
    "t": "did",
-   "a": 8.35,
+   "a": 8.75,
    "real": true
   },
   {
    "t": "all",
-   "a": 8.63,
+   "a": 9.03,
    "real": true
   },
   {
    "t": "this?",
-   "a": 8.87,
+   "a": 9.27,
    "real": true
   },
   {
    "t": "But",
-   "a": 9.32,
+   "a": 9.95,
    "real": false
   },
   {
    "t": "there's",
-   "a": 9.82,
+   "a": 10.45,
    "real": false
   },
   {
    "t": "one",
-   "a": 10.04,
+   "a": 10.67,
    "real": false
   },
   {
    "t": "gift",
-   "a": 10.26,
+   "a": 10.89,
    "real": false
   },
   {
    "t": "he",
-   "a": 10.58,
+   "a": 11.21,
    "real": false
   },
   {
    "t": "won't",
-   "a": 10.86,
+   "a": 11.49,
    "real": false
   },
   {
    "t": "explain.",
-   "a": 11.28,
+   "a": 11.91,
    "real": false
   },
   {
    "t": "Who's",
-   "a": 11.7,
+   "a": 12.52,
    "real": true
   },
   {
    "t": "Saint",
-   "a": 12.12,
+   "a": 12.94,
    "real": true
   },
   {
    "t": "Nic?",
-   "a": 12.4,
+   "a": 13.22,
    "real": true
   },
   {
    "t": "You're",
-   "a": 12.74,
+   "a": 13.56,
    "real": true
   },
   {
    "t": "Saint",
-   "a": 13.14,
+   "a": 13.96,
    "real": true
   },
   {
    "t": "Nic.",
-   "a": 13.48,
+   "a": 14.3,
    "real": true
   },
   {
    "t": "Mmm,",
-   "a": 13.94,
+   "a": 14.76,
    "real": true
   },
   {
    "t": "you",
-   "a": 14.56,
+   "a": 15.38,
    "real": true
   },
   {
    "t": "look",
-   "a": 14.98,
+   "a": 15.8,
    "real": true
   },
   {
    "t": "good,",
-   "a": 15.1,
+   "a": 15.92,
    "real": true
   },
   {
    "t": "Santa.",
-   "a": 15.4,
+   "a": 16.22,
    "real": true
   }
  ],
@@ -299,17 +299,17 @@
   "items": [
    {
     "label": "SIS",
-    "at": 7.48,
+    "at": 7.53,
     "mark": "ok"
    },
    {
     "label": "MOM",
-    "at": 8.93,
+    "at": 9.33,
     "mark": "ok"
    },
    {
     "label": "???",
-    "at": 10.08,
+    "at": 10.71,
     "mark": "q"
    }
   ]
@@ -318,6 +318,10 @@
   {
    "text": "Kitsch gift bag",
    "at": 0.25
+  },
+  {
+   "text": "A Jeep full of Kitsch",
+   "at": 4.35
   }
  ],
  "stamps": [
@@ -329,25 +333,29 @@
   }
  ],
  "dings": [
-  7.48,
-  8.93
+  7.53,
+  9.33
  ],
  "pops": [],
  "bubbles": [
   {
+   "text": "the whole Jeep \ud83d\udce6",
+   "at": 3.75
+  },
+  {
    "text": "he knows \ud83d\ude0f",
-   "at": 10.28
+   "at": 10.91
   },
   {
    "text": "the confidence \ud83d\ude2d",
-   "at": 13.78
+   "at": 14.6
   }
  ],
  "zooms": [
   2.85,
-  8.63,
-  10.26,
-  15.08
+  9.03,
+  10.89,
+  15.9
  ],
  "sfx": [
   {
@@ -357,12 +365,12 @@
   },
   {
    "f": "sfx_sparkle",
-   "at": 6.38,
+   "at": 6.43,
    "vol": 0.35
   },
   {
    "f": "sfx_fahh",
-   "at": 15.48,
+   "at": 16.3,
    "vol": 0.5
   }
  ]
