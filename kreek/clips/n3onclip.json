@@ -1,0 +1,115 @@
+{
+ "name": "n3onclip",
+ "top": "A GTA 6 NPC told N3on to CLIP THAT \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   57.1,
+   62.13
+  ],
+  [
+   "s1",
+   24.5,
+   35.22
+  ],
+  [
+   "s3",
+   47.5,
+   56.66
+  ],
+  [
+   "s4",
+   160.0,
+   168.47
+  ]
+ ],
+ "hl": [
+  "CLIP",
+  "IRL",
+  "STREAMERS",
+  "CIVILIAN",
+  "SHOCKED",
+  "INSANE"
+ ],
+ "vv": {
+  "music": [
+   "empire",
+   0
+  ],
+  "red": [
+   "CLIP"
+  ],
+  "green": [
+   "STREAMERS"
+  ],
+  "punch": [
+   "CLIP",
+   "SAID",
+   "STREAMERS",
+   "SHOCKED",
+   "INSANE"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   0,
+   0,
+   428,
+   292
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "badge": "N3on",
+  "badge_color": "#53FC18",
+  "badge_tag": "KICK",
+  "pops": [
+   [
+    6.41,
+    "an NPC said this \ud83d\ude2d"
+   ],
+   [
+    11.71,
+    "wait WHAT \ud83d\ude33"
+   ],
+   [
+    16.05,
+    "the NPCs know \ud83d\udc80"
+   ],
+   [
+    26.35,
+    "still shocked \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   20.41,
+   "HE REALLY SAID IT \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.1,
+    4.93
+   ],
+   [
+    9.63,
+    15.65
+   ],
+   [
+    25.01,
+    33.28
+   ]
+  ],
+  "chip": [
+   5.63,
+   "GTA 6 EARLY ACCESS STREAM"
+  ],
+  "drop": 15.75
+ }
+}

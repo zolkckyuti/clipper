@@ -231,3 +231,5 @@
 - His mom had NO idea Nic was coming as Santa 😭 (Kitsch xmom)
 - He gave his sister Kitsch… then charged a SAINT NIC TAX 😭 (Kitsch xtax)
 - He refuses to say who the last Kitsch gift is for 👀 (Kitsch xmystery)
+- A GTA 6 NPC told N3on to CLIP THAT 😭 (n3onclip)
+- Kai Cenat found a GAME inside GTA 6 😭 (kaigame)

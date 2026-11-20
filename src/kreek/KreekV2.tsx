@@ -18,12 +18,14 @@ import easteregg from './v2/easteregg.json';
 import fixher from './v2/fixher.json';
 import joking from './v2/joking.json';
 import mike from './v2/mike.json';
+import n3onclip from './v2/n3onclip.json';
+import kaigame from './v2/kaigame.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; badge?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike} as unknown as Record<string, P>;
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
@@ -132,8 +134,8 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
     </div>}
     {/* official logo overlay: always visible */}
     {P.badge ? <div style={{position: 'absolute', top: 1690, left: 0, width: 1080, display: 'flex', justifyContent: 'center'}}>
-      <div style={{display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(12,10,22,.88)', border: '3px solid #9146FF', borderRadius: 60, padding: '14px 34px', color: '#fff', fontSize: 46, fontWeight: 800}}>
-        <span style={{background: '#9146FF', borderRadius: 12, padding: '2px 12px', fontSize: 34}}>LIVE</span>{P.badge}</div></div>
+      <div style={{display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(12,10,22,.88)', border: `3px solid ${P.badge_color ?? '#9146FF'}`, borderRadius: 60, padding: '14px 34px', color: '#fff', fontSize: 46, fontWeight: 800}}>
+        <span style={{background: P.badge_color ?? '#9146FF', color: P.badge_color ? '#0b0b0b' : '#fff', borderRadius: 12, padding: '2px 12px', fontSize: 34}}>{P.badge_tag ?? 'LIVE'}</span>{P.badge}</div></div>
       : <Img src={staticFile('kreek/kreek_overlay.png')} style={{position: 'absolute', left: 540 - 330, top: 1660, width: 660}} />}
     <AbsoluteFill style={{background: `rgba(0,0,0,${flicker})`}} />
     <AbsoluteFill style={{background: `rgba(255,255,255,${white})`}} />
