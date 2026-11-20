@@ -1,0 +1,593 @@
+{
+ "name": "women",
+ "dur": 26.55,
+ "narr": "kitsch/narrB.wav",
+ "title": "Nic said there are a few women in his life who mean EVERYTHING to him",
+ "hl": [
+  "EVERYTHING"
+ ],
+ "theme": {
+  "bg": "radial-gradient(120% 80% at 50% 25%, #f7b6c8 0%, #e27a9a 50%, #8f2d52 100%)",
+  "stripe": "#ffffff",
+  "accent": "#FFE45C",
+  "capStroke": "#4a0f27",
+  "particles": "hearts",
+  "tilt": 0,
+  "cardTop": 1010,
+  "scale": 1
+ },
+ "segs": [
+  {
+   "kind": "S",
+   "src": "v1",
+   "v": [
+    3.0,
+    8.2
+   ],
+   "start": 0.0,
+   "crop": [
+    0,
+    1240
+   ]
+  },
+  {
+   "kind": "N",
+   "src": "v1",
+   "v": [
+    0.1,
+    2.6
+   ],
+   "start": 5.2,
+   "n": [
+    0.0,
+    2.5
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    19.0,
+    20.15
+   ],
+   "start": 7.7
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    32.0,
+    36.35
+   ],
+   "start": 8.85,
+   "n": [
+    2.7,
+    7.05
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    36.6,
+    38.55
+   ],
+   "start": 13.2
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    42.95,
+    46.3
+   ],
+   "start": 15.15,
+   "n": [
+    7.12,
+    10.47
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    46.3,
+    47.75
+   ],
+   "start": 18.5
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    57.6,
+    60.2
+   ],
+   "start": 19.95,
+   "n": [
+    10.5,
+    13.1
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "v1",
+   "v": [
+    60.75,
+    64.75
+   ],
+   "start": 22.55
+  }
+ ],
+ "caps": [
+  {
+   "t": "I'm",
+   "a": 0.04,
+   "real": true
+  },
+  {
+   "t": "not",
+   "a": 0.46,
+   "real": true
+  },
+  {
+   "t": "gonna",
+   "a": 0.56,
+   "real": true
+  },
+  {
+   "t": "name",
+   "a": 0.68,
+   "real": true
+  },
+  {
+   "t": "names,",
+   "a": 0.94,
+   "real": true
+  },
+  {
+   "t": "but",
+   "a": 1.22,
+   "real": true
+  },
+  {
+   "t": "there",
+   "a": 1.92,
+   "real": true
+  },
+  {
+   "t": "are",
+   "a": 2.5,
+   "real": true
+  },
+  {
+   "t": "a",
+   "a": 2.72,
+   "real": true
+  },
+  {
+   "t": "few",
+   "a": 2.8,
+   "real": true
+  },
+  {
+   "t": "women",
+   "a": 2.98,
+   "real": true
+  },
+  {
+   "t": "in",
+   "a": 3.2,
+   "real": true
+  },
+  {
+   "t": "my",
+   "a": 3.32,
+   "real": true
+  },
+  {
+   "t": "life",
+   "a": 3.44,
+   "real": true
+  },
+  {
+   "t": "who",
+   "a": 3.76,
+   "real": true
+  },
+  {
+   "t": "mean",
+   "a": 4.08,
+   "real": true
+  },
+  {
+   "t": "everything",
+   "a": 4.24,
+   "real": true
+  },
+  {
+   "t": "to",
+   "a": 4.62,
+   "real": true
+  },
+  {
+   "t": "me.",
+   "a": 4.94,
+   "real": true
+  },
+  {
+   "t": "And",
+   "a": 5.12,
+   "real": true
+  },
+  {
+   "t": "So",
+   "a": 5.2,
+   "real": false
+  },
+  {
+   "t": "he",
+   "a": 5.32,
+   "real": false
+  },
+  {
+   "t": "suited",
+   "a": 5.42,
+   "real": false
+  },
+  {
+   "t": "up",
+   "a": 5.76,
+   "real": false
+  },
+  {
+   "t": "as",
+   "a": 5.96,
+   "real": false
+  },
+  {
+   "t": "Saint",
+   "a": 6.12,
+   "real": false
+  },
+  {
+   "t": "Nic",
+   "a": 6.34,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 6.56,
+   "real": false
+  },
+  {
+   "t": "made",
+   "a": 6.86,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 7.1,
+   "real": false
+  },
+  {
+   "t": "rounds.",
+   "a": 7.26,
+   "real": false
+  },
+  {
+   "t": "Ho,",
+   "a": 7.78,
+   "real": true
+  },
+  {
+   "t": "ho,",
+   "a": 8.24,
+   "real": true
+  },
+  {
+   "t": "ho!",
+   "a": 8.52,
+   "real": true
+  },
+  {
+   "t": "First",
+   "a": 8.93,
+   "real": false
+  },
+  {
+   "t": "up,",
+   "a": 9.41,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 9.75,
+   "real": false
+  },
+  {
+   "t": "sister.",
+   "a": 10.05,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 10.81,
+   "real": false
+  },
+  {
+   "t": "holiday",
+   "a": 11.29,
+   "real": false
+  },
+  {
+   "t": "sets,",
+   "a": 11.51,
+   "real": false
+  },
+  {
+   "t": "wrapped",
+   "a": 12.07,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 12.51,
+   "real": false
+  },
+  {
+   "t": "ready.",
+   "a": 12.79,
+   "real": false
+  },
+  {
+   "t": "Okay,",
+   "a": 13.66,
+   "real": true
+  },
+  {
+   "t": "fine.",
+   "a": 14.22,
+   "real": true
+  },
+  {
+   "t": "This",
+   "a": 14.48,
+   "real": true
+  },
+  {
+   "t": "is",
+   "a": 14.64,
+   "real": true
+  },
+  {
+   "t": "cute.",
+   "a": 14.76,
+   "real": true
+  },
+  {
+   "t": "Then",
+   "a": 15.19,
+   "real": false
+  },
+  {
+   "t": "mom,",
+   "a": 15.67,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 16.15,
+   "real": false
+  },
+  {
+   "t": "she",
+   "a": 16.59,
+   "real": false
+  },
+  {
+   "t": "got",
+   "a": 16.83,
+   "real": false
+  },
+  {
+   "t": "a",
+   "a": 16.97,
+   "real": false
+  },
+  {
+   "t": "whole",
+   "a": 17.11,
+   "real": false
+  },
+  {
+   "t": "pile",
+   "a": 17.43,
+   "real": false
+  },
+  {
+   "t": "of",
+   "a": 17.85,
+   "real": false
+  },
+  {
+   "t": "Kitsch.",
+   "a": 18.11,
+   "real": false
+  },
+  {
+   "t": "You",
+   "a": 18.54,
+   "real": true
+  },
+  {
+   "t": "did",
+   "a": 19.02,
+   "real": true
+  },
+  {
+   "t": "all",
+   "a": 19.3,
+   "real": true
+  },
+  {
+   "t": "this?",
+   "a": 19.54,
+   "real": true
+  },
+  {
+   "t": "And",
+   "a": 19.95,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 20.43,
+   "real": false
+  },
+  {
+   "t": "last",
+   "a": 20.51,
+   "real": false
+  },
+  {
+   "t": "gift,",
+   "a": 20.73,
+   "real": false
+  },
+  {
+   "t": "that",
+   "a": 21.15,
+   "real": false
+  },
+  {
+   "t": "one's",
+   "a": 21.67,
+   "real": false
+  },
+  {
+   "t": "staying",
+   "a": 21.95,
+   "real": false
+  },
+  {
+   "t": "a",
+   "a": 22.13,
+   "real": false
+  },
+  {
+   "t": "secret.",
+   "a": 22.29,
+   "real": false
+  },
+  {
+   "t": "Who's",
+   "a": 22.62,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 23.04,
+   "real": true
+  },
+  {
+   "t": "Nic?",
+   "a": 23.32,
+   "real": true
+  },
+  {
+   "t": "You're",
+   "a": 23.66,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 24.06,
+   "real": true
+  },
+  {
+   "t": "Nic.",
+   "a": 24.4,
+   "real": true
+  },
+  {
+   "t": "Mmm,",
+   "a": 24.86,
+   "real": true
+  },
+  {
+   "t": "you",
+   "a": 25.48,
+   "real": true
+  },
+  {
+   "t": "look",
+   "a": 25.9,
+   "real": true
+  },
+  {
+   "t": "good,",
+   "a": 26.02,
+   "real": true
+  },
+  {
+   "t": "Santa.",
+   "a": 26.32,
+   "real": true
+  }
+ ],
+ "widget": {
+  "type": "list",
+  "head": "SAINT NIC'S LIST",
+  "items": [
+   {
+    "label": "SIS",
+    "at": 14.8,
+    "mark": "ok"
+   },
+   {
+    "label": "MOM",
+    "at": 19.6,
+    "mark": "ok"
+   },
+   {
+    "label": "???",
+    "at": 21.15,
+    "mark": "q"
+   }
+  ]
+ },
+ "labels": [
+  {
+   "text": "Kitsch holiday sets",
+   "at": 10.81
+  },
+  {
+   "text": "A whole pile of Kitsch",
+   "at": 17.13
+  }
+ ],
+ "stamps": [
+  {
+   "text": "SHE LOVES IT",
+   "color": "#d6336c",
+   "at": 14.8,
+   "rot": -6
+  },
+  {
+   "text": "BEST SON EVER",
+   "color": "#d4a017",
+   "at": 19.05,
+   "rot": 6
+  }
+ ],
+ "dings": [
+  14.8,
+  19.6
+ ],
+ "pops": [
+  10.81,
+  17.13,
+  21.15
+ ]
+}

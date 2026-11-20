@@ -1,0 +1,579 @@
+{
+ "name": "ranking",
+ "dur": 29.3,
+ "narr": "kitsch/narrC.wav",
+ "title": "Ranking every gift Saint Nic gave out this year",
+ "hl": [
+  "SAINT",
+  "NIC"
+ ],
+ "theme": {
+  "bg": "radial-gradient(120% 80% at 50% 25%, #23306b 0%, #121a45 55%, #070b22 100%)",
+  "stripe": "#d9b44a",
+  "accent": "#FFD84A",
+  "capStroke": "#05081c",
+  "particles": "sparkle",
+  "tilt": -1.2,
+  "cardTop": 1010,
+  "scale": 1
+ },
+ "segs": [
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    0.0,
+    4.8
+   ],
+   "start": 0.0,
+   "n": [
+    0.0,
+    4.8
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    21.95,
+    23.9
+   ],
+   "start": 4.8
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    32.0,
+    35.05
+   ],
+   "start": 6.75,
+   "n": [
+    4.9,
+    7.95
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    36.6,
+    38.55
+   ],
+   "start": 9.8
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    48.7,
+    51.95
+   ],
+   "start": 11.75,
+   "n": [
+    8.2,
+    11.45
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    51.95,
+    53.25
+   ],
+   "start": 15.0
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    41.7,
+    46.32
+   ],
+   "start": 16.3,
+   "n": [
+    11.78,
+    16.4
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    46.32,
+    47.75
+   ],
+   "start": 20.92
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    57.6,
+    61.15
+   ],
+   "start": 22.35,
+   "n": [
+    16.35,
+    19.9
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    54.3,
+    57.7
+   ],
+   "start": 25.9
+  }
+ ],
+ "caps": [
+  {
+   "t": "Nic",
+   "a": 0.0,
+   "real": false
+  },
+  {
+   "t": "from",
+   "a": 0.22,
+   "real": false
+  },
+  {
+   "t": "Love",
+   "a": 0.46,
+   "real": false
+  },
+  {
+   "t": "Island",
+   "a": 0.74,
+   "real": false
+  },
+  {
+   "t": "played",
+   "a": 1.02,
+   "real": false
+  },
+  {
+   "t": "Santa",
+   "a": 1.28,
+   "real": false
+  },
+  {
+   "t": "this",
+   "a": 1.64,
+   "real": false
+  },
+  {
+   "t": "year,",
+   "a": 1.9,
+   "real": false
+  },
+  {
+   "t": "so",
+   "a": 2.3,
+   "real": false
+  },
+  {
+   "t": "let's",
+   "a": 2.76,
+   "real": false
+  },
+  {
+   "t": "rank",
+   "a": 3.28,
+   "real": false
+  },
+  {
+   "t": "every",
+   "a": 3.42,
+   "real": false
+  },
+  {
+   "t": "gift",
+   "a": 3.8,
+   "real": false
+  },
+  {
+   "t": "he",
+   "a": 4.14,
+   "real": false
+  },
+  {
+   "t": "gave",
+   "a": 4.28,
+   "real": false
+  },
+  {
+   "t": "out.",
+   "a": 4.46,
+   "real": false
+  },
+  {
+   "t": "I'm",
+   "a": 4.87,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 5.05,
+   "real": true
+  },
+  {
+   "t": "Nic.",
+   "a": 5.29,
+   "real": true
+  },
+  {
+   "t": "Get",
+   "a": 6.11,
+   "real": true
+  },
+  {
+   "t": "it?",
+   "a": 6.55,
+   "real": true
+  },
+  {
+   "t": "Number",
+   "a": 6.83,
+   "real": false
+  },
+  {
+   "t": "four,",
+   "a": 7.31,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 8.11,
+   "real": false
+  },
+  {
+   "t": "sister's",
+   "a": 8.27,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 8.81,
+   "real": false
+  },
+  {
+   "t": "holiday",
+   "a": 9.23,
+   "real": false
+  },
+  {
+   "t": "sets.",
+   "a": 9.39,
+   "real": false
+  },
+  {
+   "t": "Okay,",
+   "a": 10.26,
+   "real": true
+  },
+  {
+   "t": "fine.",
+   "a": 10.82,
+   "real": true
+  },
+  {
+   "t": "This",
+   "a": 11.08,
+   "real": true
+  },
+  {
+   "t": "is",
+   "a": 11.24,
+   "real": true
+  },
+  {
+   "t": "cute.",
+   "a": 11.36,
+   "real": true
+  },
+  {
+   "t": "Number",
+   "a": 11.83,
+   "real": false
+  },
+  {
+   "t": "three,",
+   "a": 12.35,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 12.89,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 13.21,
+   "real": false
+  },
+  {
+   "t": "curl",
+   "a": 13.59,
+   "real": false
+  },
+  {
+   "t": "cream",
+   "a": 13.81,
+   "real": false
+  },
+  {
+   "t": "he",
+   "a": 14.03,
+   "real": false
+  },
+  {
+   "t": "kept",
+   "a": 14.27,
+   "real": false
+  },
+  {
+   "t": "for",
+   "a": 14.49,
+   "real": false
+  },
+  {
+   "t": "himself.",
+   "a": 14.67,
+   "real": false
+  },
+  {
+   "t": "Saint",
+   "a": 15.19,
+   "real": true
+  },
+  {
+   "t": "Nic",
+   "a": 15.67,
+   "real": true
+  },
+  {
+   "t": "tax.",
+   "a": 15.87,
+   "real": true
+  },
+  {
+   "t": "Number",
+   "a": 16.34,
+   "real": false
+  },
+  {
+   "t": "two,",
+   "a": 16.86,
+   "real": false
+  },
+  {
+   "t": "mom's",
+   "a": 17.32,
+   "real": false
+  },
+  {
+   "t": "gift,",
+   "a": 18.02,
+   "real": false
+  },
+  {
+   "t": "which",
+   "a": 18.44,
+   "real": false
+  },
+  {
+   "t": "was",
+   "a": 18.86,
+   "real": false
+  },
+  {
+   "t": "basically",
+   "a": 19.12,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 19.56,
+   "real": false
+  },
+  {
+   "t": "entire",
+   "a": 19.9,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 20.2,
+   "real": false
+  },
+  {
+   "t": "haul.",
+   "a": 20.72,
+   "real": false
+  },
+  {
+   "t": "And",
+   "a": 20.84,
+   "real": false
+  },
+  {
+   "t": "You",
+   "a": 20.94,
+   "real": true
+  },
+  {
+   "t": "did",
+   "a": 21.42,
+   "real": true
+  },
+  {
+   "t": "all",
+   "a": 21.7,
+   "real": true
+  },
+  {
+   "t": "this?",
+   "a": 21.94,
+   "real": true
+  },
+  {
+   "t": "And",
+   "a": 22.32,
+   "real": false
+  },
+  {
+   "t": "number",
+   "a": 22.92,
+   "real": false
+  },
+  {
+   "t": "one,",
+   "a": 23.16,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 23.62,
+   "real": false
+  },
+  {
+   "t": "gift",
+   "a": 24.04,
+   "real": false
+  },
+  {
+   "t": "he",
+   "a": 24.42,
+   "real": false
+  },
+  {
+   "t": "won't",
+   "a": 24.56,
+   "real": false
+  },
+  {
+   "t": "tell",
+   "a": 24.88,
+   "real": false
+  },
+  {
+   "t": "anyone",
+   "a": 25.04,
+   "real": false
+  },
+  {
+   "t": "about.",
+   "a": 25.46,
+   "real": false
+  },
+  {
+   "t": "Who's",
+   "a": 26.0,
+   "real": true
+  },
+  {
+   "t": "that",
+   "a": 26.4,
+   "real": true
+  },
+  {
+   "t": "one",
+   "a": 26.5,
+   "real": true
+  },
+  {
+   "t": "for?",
+   "a": 26.64,
+   "real": true
+  },
+  {
+   "t": "No.",
+   "a": 28.8,
+   "real": true
+  }
+ ],
+ "widget": {
+  "type": "rank",
+  "head": "GIFT RANKING",
+  "items": [
+   {
+    "label": "#4 SISTER'S SETS",
+    "at": 6.83,
+    "mark": "4"
+   },
+   {
+    "label": "#3 THE CURL CREAM",
+    "at": 11.83,
+    "mark": "3"
+   },
+   {
+    "label": "#2 MOM'S HAUL",
+    "at": 16.34,
+    "mark": "2"
+   },
+   {
+    "label": "#1 ???",
+    "at": 22.92,
+    "mark": "1"
+   }
+  ]
+ },
+ "labels": [
+  {
+   "text": "Kitsch holiday sets",
+   "at": 9.9
+  },
+  {
+   "text": "Kitsch Curl Cream",
+   "at": 13.21
+  }
+ ],
+ "stamps": [
+  {
+   "text": "SAINT NIC TAX",
+   "color": "#c8102e",
+   "at": 15.19,
+   "rot": -7
+  },
+  {
+   "text": "NO COMMENT",
+   "color": "#6b2bd6",
+   "at": 28.8,
+   "rot": 6
+  }
+ ],
+ "dings": [
+  6.83,
+  11.83,
+  16.34,
+  22.92
+ ],
+ "pops": [
+  9.9,
+  13.21
+ ]
+}

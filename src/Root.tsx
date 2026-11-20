@@ -6,6 +6,7 @@ import {AsmrShort, ASMR1_MS} from './asmr/AsmrShort';
 import {AsmrShort2, ASMR2_MS} from './asmr/AsmrShort2';
 import {KreekV2, KREEK_V2} from './kreek/KreekV2';
 import {KitschStory, KITSCH_STORY_S} from './kitsch/KitschStory';
+import {KitschStory3, K3S} from './kitsch/KitschStory3';
 import {CARD_OUT_MS, CardPull} from './CardPull';
 import {SRC as POD_SRC} from './activePod';
 import {FPS, OUT_MS, ShortEdit} from './ShortEdit';
@@ -36,6 +37,8 @@ export const RemotionRoot = () => (
   <>
   <Composition id="KitschStory" component={KitschStory} defaultProps={{music: true}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
   <Composition id="KitschStoryNoMusic" component={KitschStory} defaultProps={{music: false}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
+  {Object.keys(K3S).flatMap((k) => [true, false].map((m) => <Composition key={k + m} id={`Kitsch3-${k}${m ? '' : '-nomusic'}`} component={KitschStory3} defaultProps={{clip: k, music: m}}
+    durationInFrames={Math.round(K3S[k].dur * 30)} fps={30} width={1080} height={1920} />))}
   {Object.keys(KREEK_V2).map((k) => <Composition key={k} id={`KreekV2-${k}`} component={KreekV2} defaultProps={{clip: k}} durationInFrames={Math.round(KREEK_V2[k].dur * 60)} fps={60} width={1080} height={1920} />)}
   <Composition id="Asmr2" component={AsmrShort2} durationInFrames={Math.round(ASMR2_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
   <Composition id="Asmr1" component={AsmrShort} durationInFrames={Math.round(ASMR1_MS / 1000 * 30)} fps={30} width={1080} height={1920} />

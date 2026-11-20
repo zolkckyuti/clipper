@@ -217,3 +217,6 @@
 - Typical Gamer found out GTA 6 whales can EXPLODE... (tgwhale)
 - A kid asked KreekCraft to explain GTA 6 so his MOM would buy it... (kidsgame)
 - KreekCraft said he'd END the stream if there's no Easter egg up here... (easteregg)
+- Nic from Love Island turned his Jeep into a KITSCH delivery truck (Kitsch delivery)
+- Nic said there are a few women in his life who mean EVERYTHING to him (Kitsch women)
+- Ranking every gift Saint Nic gave out this year (Kitsch ranking)

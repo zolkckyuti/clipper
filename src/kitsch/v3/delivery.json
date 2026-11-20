@@ -1,0 +1,665 @@
+{
+ "name": "delivery",
+ "dur": 32.6,
+ "narr": "kitsch/narrA.wav",
+ "title": "Nic from Love Island turned his Jeep into a KITSCH delivery truck",
+ "hl": [
+  "KITSCH"
+ ],
+ "theme": {
+  "bg": "radial-gradient(120% 80% at 50% 30%, #1f7a4a 0%, #0f4a2c 55%, #06261a 100%)",
+  "stripe": "#f3d27a",
+  "accent": "#F7C948",
+  "capStroke": "#04170e",
+  "particles": "snow",
+  "tilt": 1.4,
+  "cardTop": 1062,
+  "scale": 0.955
+ },
+ "segs": [
+  {
+   "kind": "N",
+   "src": "v2",
+   "v": [
+    3.3,
+    8.3
+   ],
+   "start": 0.0,
+   "n": [
+    0.0,
+    5.0
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    19.0,
+    22.75
+   ],
+   "start": 5.0
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    32.0,
+    34.3
+   ],
+   "start": 8.75,
+   "n": [
+    5.15,
+    7.45
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    36.6,
+    38.55
+   ],
+   "start": 11.05
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    15.0,
+    18.95
+   ],
+   "start": 13.0,
+   "n": [
+    7.6,
+    11.55
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    39.35,
+    42.95
+   ],
+   "start": 16.95
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    43.6,
+    45.45
+   ],
+   "start": 20.55,
+   "n": [
+    11.6,
+    13.45
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    46.2,
+    47.75
+   ],
+   "start": 22.4
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    0.5,
+    2.55
+   ],
+   "start": 23.95,
+   "n": [
+    13.45,
+    15.5
+   ]
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    55.3,
+    59.25
+   ],
+   "start": 26.0,
+   "n": [
+    15.55,
+    19.5
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "v1",
+   "v": [
+    65.85,
+    68.5
+   ],
+   "start": 29.95
+  }
+ ],
+ "caps": [
+  {
+   "t": "Nic",
+   "a": 0.0,
+   "real": false
+  },
+  {
+   "t": "from",
+   "a": 0.2,
+   "real": false
+  },
+  {
+   "t": "Love",
+   "a": 0.4,
+   "real": false
+  },
+  {
+   "t": "Island",
+   "a": 0.66,
+   "real": false
+  },
+  {
+   "t": "packed",
+   "a": 0.92,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 1.22,
+   "real": false
+  },
+  {
+   "t": "Jeep",
+   "a": 1.48,
+   "real": false
+  },
+  {
+   "t": "so",
+   "a": 1.84,
+   "real": false
+  },
+  {
+   "t": "full",
+   "a": 2.02,
+   "real": false
+  },
+  {
+   "t": "of",
+   "a": 2.36,
+   "real": false
+  },
+  {
+   "t": "Kitsch,",
+   "a": 2.58,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 2.98,
+   "real": false
+  },
+  {
+   "t": "boxes",
+   "a": 3.16,
+   "real": false
+  },
+  {
+   "t": "were",
+   "a": 3.54,
+   "real": false
+  },
+  {
+   "t": "literally",
+   "a": 3.76,
+   "real": false
+  },
+  {
+   "t": "falling",
+   "a": 4.16,
+   "real": false
+  },
+  {
+   "t": "out.",
+   "a": 4.6,
+   "real": false
+  },
+  {
+   "t": "Ho,",
+   "a": 5.08,
+   "real": true
+  },
+  {
+   "t": "ho,",
+   "a": 5.54,
+   "real": true
+  },
+  {
+   "t": "ho!",
+   "a": 5.82,
+   "real": true
+  },
+  {
+   "t": "What",
+   "a": 6.88,
+   "real": true
+  },
+  {
+   "t": "are",
+   "a": 7.32,
+   "real": true
+  },
+  {
+   "t": "you",
+   "a": 7.44,
+   "real": true
+  },
+  {
+   "t": "wearing?",
+   "a": 7.48,
+   "real": true
+  },
+  {
+   "t": "I'm",
+   "a": 8.02,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 8.2,
+   "real": true
+  },
+  {
+   "t": "Nic.",
+   "a": 8.44,
+   "real": true
+  },
+  {
+   "t": "First",
+   "a": 8.82,
+   "real": false
+  },
+  {
+   "t": "stop",
+   "a": 9.3,
+   "real": false
+  },
+  {
+   "t": "on",
+   "a": 9.48,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 9.64,
+   "real": false
+  },
+  {
+   "t": "route,",
+   "a": 9.74,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 10.1,
+   "real": false
+  },
+  {
+   "t": "sister.",
+   "a": 10.52,
+   "real": false
+  },
+  {
+   "t": "Okay,",
+   "a": 11.51,
+   "real": true
+  },
+  {
+   "t": "fine.",
+   "a": 12.07,
+   "real": true
+  },
+  {
+   "t": "This",
+   "a": 12.33,
+   "real": true
+  },
+  {
+   "t": "is",
+   "a": 12.49,
+   "real": true
+  },
+  {
+   "t": "cute.",
+   "a": 12.61,
+   "real": true
+  },
+  {
+   "t": "Stop",
+   "a": 13.1,
+   "real": false
+  },
+  {
+   "t": "two,",
+   "a": 13.58,
+   "real": false
+  },
+  {
+   "t": "mom.",
+   "a": 14.0,
+   "real": false
+  },
+  {
+   "t": "And",
+   "a": 14.8,
+   "real": false
+  },
+  {
+   "t": "this",
+   "a": 15.28,
+   "real": false
+  },
+  {
+   "t": "is",
+   "a": 15.62,
+   "real": false
+  },
+  {
+   "t": "where",
+   "a": 15.86,
+   "real": false
+  },
+  {
+   "t": "it",
+   "a": 16.1,
+   "real": false
+  },
+  {
+   "t": "got",
+   "a": 16.24,
+   "real": false
+  },
+  {
+   "t": "extra.",
+   "a": 16.34,
+   "real": false
+  },
+  {
+   "t": "Mother,",
+   "a": 17.02,
+   "real": true
+  },
+  {
+   "t": "come",
+   "a": 17.5,
+   "real": true
+  },
+  {
+   "t": "outside.",
+   "a": 17.98,
+   "real": true
+  },
+  {
+   "t": "Nicholas,",
+   "a": 19.08,
+   "real": true
+  },
+  {
+   "t": "what's",
+   "a": 19.64,
+   "real": true
+  },
+  {
+   "t": "going",
+   "a": 19.98,
+   "real": true
+  },
+  {
+   "t": "on?",
+   "a": 20.14,
+   "real": true
+  },
+  {
+   "t": "He",
+   "a": 20.63,
+   "real": false
+  },
+  {
+   "t": "didn't",
+   "a": 21.09,
+   "real": false
+  },
+  {
+   "t": "bring",
+   "a": 21.33,
+   "real": false
+  },
+  {
+   "t": "her",
+   "a": 21.43,
+   "real": false
+  },
+  {
+   "t": "one",
+   "a": 21.61,
+   "real": false
+  },
+  {
+   "t": "gift.",
+   "a": 21.91,
+   "real": false
+  },
+  {
+   "t": "You",
+   "a": 22.54,
+   "real": true
+  },
+  {
+   "t": "did",
+   "a": 23.02,
+   "real": true
+  },
+  {
+   "t": "all",
+   "a": 23.3,
+   "real": true
+  },
+  {
+   "t": "this?",
+   "a": 23.54,
+   "real": true
+  },
+  {
+   "t": "He",
+   "a": 23.98,
+   "real": false
+  },
+  {
+   "t": "brought",
+   "a": 24.36,
+   "real": false
+  },
+  {
+   "t": "her",
+   "a": 24.56,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 24.76,
+   "real": false
+  },
+  {
+   "t": "whole",
+   "a": 24.94,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 25.24,
+   "real": false
+  },
+  {
+   "t": "drop.",
+   "a": 25.74,
+   "real": false
+  },
+  {
+   "t": "But",
+   "a": 26.05,
+   "real": false
+  },
+  {
+   "t": "there's",
+   "a": 26.53,
+   "real": false
+  },
+  {
+   "t": "one",
+   "a": 26.77,
+   "real": false
+  },
+  {
+   "t": "more",
+   "a": 26.95,
+   "real": false
+  },
+  {
+   "t": "stop",
+   "a": 27.17,
+   "real": false
+  },
+  {
+   "t": "on",
+   "a": 27.43,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 27.63,
+   "real": false
+  },
+  {
+   "t": "route,",
+   "a": 27.71,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 28.09,
+   "real": false
+  },
+  {
+   "t": "he's",
+   "a": 28.53,
+   "real": false
+  },
+  {
+   "t": "not",
+   "a": 28.69,
+   "real": false
+  },
+  {
+   "t": "saying",
+   "a": 28.95,
+   "real": false
+  },
+  {
+   "t": "who",
+   "a": 29.27,
+   "real": false
+  },
+  {
+   "t": "it's",
+   "a": 29.49,
+   "real": false
+  },
+  {
+   "t": "for.",
+   "a": 29.67,
+   "real": false
+  },
+  {
+   "t": "More",
+   "a": 30.02,
+   "real": true
+  },
+  {
+   "t": "deliveries",
+   "a": 30.52,
+   "real": true
+  },
+  {
+   "t": "coming.",
+   "a": 31.02,
+   "real": true
+  },
+  {
+   "t": "Stay",
+   "a": 31.62,
+   "real": true
+  },
+  {
+   "t": "nice.",
+   "a": 32.12,
+   "real": true
+  }
+ ],
+ "widget": {
+  "type": "route",
+  "head": "DELIVERY ROUTE",
+  "items": [
+   {
+    "label": "SIS",
+    "at": 12.65,
+    "mark": "ok"
+   },
+   {
+    "label": "MOM",
+    "at": 23.6,
+    "mark": "ok"
+   },
+   {
+    "label": "???",
+    "at": 26.75,
+    "mark": "q"
+   }
+  ]
+ },
+ "labels": [
+  {
+   "text": "Kitsch holiday sets",
+   "at": 11.15
+  },
+  {
+   "text": "The whole Kitsch drop",
+   "at": 24.1
+  }
+ ],
+ "stamps": [
+  {
+   "text": "DELIVERED \u2713",
+   "color": "#1f9d55",
+   "at": 12.65,
+   "rot": -7
+  },
+  {
+   "text": "DELIVERED \u2713",
+   "color": "#1f9d55",
+   "at": 23.05,
+   "rot": 6
+  }
+ ],
+ "dings": [
+  12.65,
+  23.6
+ ],
+ "pops": [
+  11.15,
+  24.1,
+  26.75
+ ]
+}
