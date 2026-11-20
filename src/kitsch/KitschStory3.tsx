@@ -44,7 +44,7 @@ const Stamp = ({text, color, at, s, rot}: {text: string; color: string; at: numb
 const Label = ({text, at, s, color}: {text: string; at: number; s: number; color: string}) => {
   if (s < at || s > at + 2.4) return null;
   const k = spring({frame: Math.round((s - at) * FPS), fps: FPS, config: {damping: 13, stiffness: 180}}), o = interpolate(s, [at + 2.1, at + 2.4], [1, 0], clamp);
-  return <div style={{position: 'absolute', top: 1560, left: 0, width: 1080, display: 'flex', justifyContent: 'center', opacity: o, transform: `translateY(${(1 - k) * 30}px) scale(${0.85 + 0.15 * k})`}}>
+  return <div style={{position: 'absolute', top: 1330, left: 0, width: 1080, display: 'flex', justifyContent: 'center', opacity: o, transform: `translateY(${(1 - k) * 30}px) scale(${0.85 + 0.15 * k})`}}>
     <div style={{display: 'flex', alignItems: 'center', gap: 14, background: '#fff', color, fontSize: 44, fontWeight: 800, padding: '12px 28px', borderRadius: 40,
       boxShadow: '0 10px 30px rgba(0,0,0,.35)'}}><span style={{fontSize: 36}}>▲</span>{text}</div></div>;
 };
@@ -130,7 +130,7 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
     {P.labels.map((l, k) => <Label key={k} text={l.text} at={l.at} s={s} color="#b3122e" />)}
     {P.stamps.map((x, k) => <Stamp key={k} {...x} s={s} />)}
     {/* captions */}
-    {ch && <div style={{position: 'absolute', top: 1772, left: 30, right: 30, textAlign: 'center'}}>
+    {ch && <div style={{position: 'absolute', top: 1120, left: 30, right: 30, textAlign: 'center'}}>
       {ch.map((w, k) => { const on = s >= w.a - 0.04, act = on && (k === ch.length - 1 || s < ch[k + 1].a - 0.04);
         return <span key={k} style={{display: 'inline-block', margin: '0 14px', fontSize: capSize, fontWeight: 800, textTransform: 'uppercase', opacity: on ? 1 : 0.35,
           color: w.real ? (act ? T.accent : '#fff3c4') : (act ? '#fff' : 'rgba(255,255,255,.82)'), WebkitTextStroke: `10px ${T.capStroke}`, paintOrder: 'stroke fill',
