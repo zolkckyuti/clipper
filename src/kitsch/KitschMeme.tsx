@@ -18,11 +18,11 @@ const WORDS: Record<Src, (number | string)[][]> = {nic: NIC as (number | string)
 // hook text: *word* = red highlight
 export const MEME: Record<string, Clip> = {
   mom: {hook: 'He pulled up to his mom\'s house with a *WHOLE* Jeep of Kitsch 😭', music: 40,
-    segs: [{src: 'nic', v: [46.3, 47.75]}, {src: 'nic', v: [39.35, 40.95]}, {src: 'nic', v: [41.45, 42.9]}, {src: 'nic', v: [43.5, 46.0], cy: 960}, {src: 'nic', v: [59.0, 61.0], cy: 760}],
+    segs: [{src: 'nic', v: [46.72, 48.17], a: 46.3}, {src: 'nic', v: [39.35, 40.95]}, {src: 'nic', v: [41.45, 42.9]}, {src: 'nic', v: [43.5, 46.0], cy: 960}, {src: 'nic', v: [59.0, 61.0], cy: 760}],
     pops: [{text: 'the WHOLE Jeep 📦📦📦', seg: 3, t: 43.7}], stamps: [{text: 'SON OF THE YEAR', color: '#d4a017', seg: 0, t: 46.9, rot: -6}],
     punch: [{seg: 0, t: 46.8}, {seg: 1, t: 39.42}, {seg: 3, t: 44.6}]},
   tax: {hook: 'He gave his sister Kitsch… then took a *"Saint Nic tax"* 😭', music: 70,
-    segs: [{src: 'nic', v: [36.55, 38.55]}, {src: 'nic', v: [49.3, 51.95], cy: 1000}, {src: 'nic', v: [51.95, 53.3], cy: 760}, {src: 'nic', v: [59.0, 60.6], cy: 760}],
+    segs: [{src: 'nic', v: [36.95, 38.55]}, {src: 'nic', v: [49.3, 51.95], cy: 1000}, {src: 'nic', v: [51.95, 53.3], cy: 760}, {src: 'nic', v: [59.0, 60.6], cy: 760}],
     pops: [{text: 'wait… 👀', seg: 1, t: 49.5}], stamps: [{text: 'SAINT NIC TAX', color: '#c8102e', seg: 2, t: 52.2, rot: -7}],
     punch: [{seg: 1, t: 50.2}, {seg: 2, t: 52.14}]},
   mystery: {hook: 'He refuses to say who the last Kitsch gift is for 👀', music: 11,
