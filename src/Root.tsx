@@ -45,7 +45,7 @@ export const RemotionRoot = () => (
     durationInFrames={Math.round(memeDur(MEME[k]) * 30)} fps={30} width={1080} height={1920} />))}
   {Object.keys(K3S).flatMap((k) => [true, false].map((m) => <Composition key={k + m} id={`Kitsch3-${k}${m ? '' : '-nomusic'}`} component={KitschStory3} defaultProps={{clip: k, music: m}}
     durationInFrames={Math.round(K3S[k].dur * 30)} fps={30} width={1080} height={1920} />))}
-  {Object.keys(KREEK_V2).map((k) => <Composition key={k} id={`KreekV2-${k}`} component={KreekV2} defaultProps={{clip: k}} durationInFrames={Math.round(KREEK_V2[k].dur * 60)} fps={60} width={1080} height={1920} />)}
+  {Object.keys(KREEK_V2).map((k) => <Composition key={k} id={`KreekV2-${k.replace(/_/g, '-')}`} component={KreekV2} defaultProps={{clip: k}} durationInFrames={Math.round(KREEK_V2[k].dur * 60)} fps={60} width={1080} height={1920} />)}
   <Composition id="Asmr2" component={AsmrShort2} durationInFrames={Math.round(ASMR2_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
   <Composition id="Asmr1" component={AsmrShort} durationInFrames={Math.round(ASMR1_MS / 1000 * 30)} fps={30} width={1080} height={1920} />
   <Composition id="BlockyRain" component={RainShort} durationInFrames={Math.ceil(RAIN_MS / 1000 * 30)} fps={30} width={1080} height={1920} />

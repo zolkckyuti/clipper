@@ -1,0 +1,108 @@
+{
+ "name": "bo_block",
+ "top": "Boeshi refused to let chat see THIS in GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   60.5,
+   67.8
+  ],
+  [
+   "s1",
+   33.49,
+   53.3
+  ],
+  [
+   "s2",
+   77.0,
+   84.3
+  ]
+ ],
+ "hl": [
+  "BLOCKING",
+  "BLOCK",
+  "LOOK",
+  "AWAY",
+  "GOODS"
+ ],
+ "vv": {
+  "music": [
+   "aura",
+   22
+  ],
+  "red": [
+   "AWAY"
+  ],
+  "green": [
+   "BLOCKING"
+  ],
+  "punch": [
+   "BLOCK",
+   "AWAY",
+   "BLOCKING",
+   "SCREEN",
+   "GOODS"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    7.7,
+    "chat wanted to see \ud83d\udc40"
+   ],
+   [
+    16.8,
+    "absolutely not \ud83d\ude45\u200d\u2642\ufe0f"
+   ],
+   [
+    27.61,
+    "human shield mode \ud83d\udee1\ufe0f"
+   ]
+  ],
+  "freeze": [
+   30.11,
+   "NOT ON MY WATCH \ud83d\ude24"
+  ],
+  "react": [
+   [
+    0.1,
+    7.2
+   ],
+   [
+    15.3,
+    26.91
+   ]
+  ],
+  "chip": [
+   9.3,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 27.11,
+  "meme": {
+   "fahh": [
+    0.3
+   ],
+   "ooh": [
+    30.31
+   ]
+  }
+ }
+}

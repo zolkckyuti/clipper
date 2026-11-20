@@ -1,0 +1,108 @@
+{
+ "name": "bo_birds",
+ "top": "Boeshi accidentally took out 4 birds in GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   58.8,
+   63.0
+  ],
+  [
+   "s1",
+   30.6,
+   50.26
+  ],
+  [
+   "s3",
+   74.3,
+   81.68
+  ]
+ ],
+ "hl": [
+  "BIRDS",
+  "FOUR",
+  "GTA",
+  "DRIVING",
+  "REALISTIC"
+ ],
+ "vv": {
+  "music": [
+   "empire",
+   0
+  ],
+  "red": [
+   "DIED"
+  ],
+  "green": [
+   "REALISTIC"
+  ],
+  "punch": [
+   "BIRDS",
+   "FOUR",
+   "DIED",
+   "DRIVING",
+   "REALISTIC"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    4.7,
+    "GTA driving 101 \ud83d\ude97"
+   ],
+   [
+    14.8,
+    "the birds \ud83d\ude2d\ud83d\udc26"
+   ],
+   [
+    24.86,
+    "realism hits different"
+   ]
+  ],
+  "freeze": [
+   1.8,
+   "4 BIRDS DOWN \ud83d\udc26"
+  ],
+  "react": [
+   [
+    0.1,
+    4.1
+   ],
+   [
+    16.2,
+    23.66
+   ]
+  ],
+  "chip": [
+   6.2,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 14.2,
+  "meme": {
+   "fahh": [
+    0.2
+   ],
+   "boom": [
+    14.5
+   ]
+  }
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "name": "bo_plane",
+ "top": "Boeshi vs one plane in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   55.2,
+   63.48
+  ],
+  [
+   "s1",
+   0.7,
+   4.5
+  ],
+  [
+   "s2",
+   19.5,
+   27.6
+  ],
+  [
+   "s3",
+   33.8,
+   42.77
+  ]
+ ],
+ "hl": [
+  "PLANE",
+  "OVER",
+  "BAD",
+  "EXPLODE",
+  "WRONG"
+ ],
+ "vv": {
+  "music": [
+   "aura",
+   40
+  ],
+  "red": [
+   "EXPLODE"
+  ],
+  "green": [
+   "PLANE"
+  ],
+  "punch": [
+   "PLANE",
+   "EXPLODE",
+   "WRONG",
+   "BAD",
+   "OVER"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    8.68,
+    "the mission: get in the plane \u2708\ufe0f"
+   ],
+   [
+    12.38,
+    "he can't \ud83d\ude2d"
+   ],
+   [
+    20.48,
+    "wrong way \ud83d\udd04"
+   ],
+   [
+    26.68,
+    "locked in \ud83d\ude24"
+   ]
+  ],
+  "freeze": [
+   2.0,
+   "THE PLANE'S GONNA EXPLODE \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.1,
+    8.18
+   ],
+   [
+    25.18,
+    28.95
+   ]
+  ],
+  "chip": [
+   10.28,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 12.08,
+  "meme": {
+   "fahh": [
+    0.4
+   ],
+   "boom": [
+    26.68
+   ]
+  }
+ }
+}

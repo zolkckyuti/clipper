@@ -1,0 +1,106 @@
+{
+ "name": "bo_height",
+ "top": "Chat asked Boeshi about his height mid-GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   53.0,
+   64.76
+  ],
+  [
+   "s1",
+   13.0,
+   17.4
+  ],
+  [
+   "s2",
+   65.6,
+   71.28
+  ]
+ ],
+ "hl": [
+  "HEIGHT",
+  "GLITTER",
+  "PROBLEMS",
+  "INSANE"
+ ],
+ "vv": {
+  "music": [
+   "brevis",
+   0
+  ],
+  "red": [
+   "HEIGHT"
+  ],
+  "green": [
+   "GLITTER"
+  ],
+  "punch": [
+   "HEIGHT",
+   "GLITTER",
+   "PROBLEMS",
+   "INSANE"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    12.16,
+    "the ankle monitor \ud83d\udc80"
+   ],
+   [
+    1.5,
+    "chat asked \ud83d\udccf"
+   ],
+   [
+    16.66,
+    "chat is undefeated \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   6.0,
+   "OTHER PROBLEMS \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.1,
+    11.66
+   ],
+   [
+    16.26,
+    21.74
+   ]
+  ],
+  "chip": [
+   12.26,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 16.16,
+  "meme": {
+   "boom": [
+    6.0
+   ],
+   "fahh": [
+    18.76
+   ]
+  }
+ }
+}

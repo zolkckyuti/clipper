@@ -1,0 +1,111 @@
+{
+ "name": "bo_cops",
+ "top": "Boeshi lost the cops and immediately wanted a Lamborghini \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   48.0,
+   59.32
+  ],
+  [
+   "s1",
+   10.7,
+   14.9
+  ],
+  [
+   "s2",
+   29.9,
+   36.98
+  ],
+  [
+   "s3",
+   67.2,
+   76.0
+  ]
+ ],
+ "hl": [
+  "LAMBORGHINI",
+  "DID",
+  "LOST",
+  "GOING"
+ ],
+ "vv": {
+  "music": [
+   "brevis",
+   25
+  ],
+  "red": [
+   "LOST"
+  ],
+  "green": [
+   "LAMBORGHINI"
+  ],
+  "punch": [
+   "DID",
+   "LOST",
+   "LAMBORGHINI",
+   "GOING"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    11.62,
+    "cops on him \ud83d\ude93"
+   ],
+   [
+    16.52,
+    "locked in \ud83d\ude24"
+   ],
+   [
+    23.0,
+    "next target: Lambo \ud83c\udfce\ufe0f"
+   ]
+  ],
+  "freeze": [
+   23.8,
+   "STRAIGHT TO THE LAMBO \ud83c\udfce\ufe0f"
+  ],
+  "react": [
+   [
+    0.1,
+    11.22
+   ],
+   [
+    25.6,
+    31.3
+   ]
+  ],
+  "chip": [
+   12.32,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 0.0,
+  "meme": {
+   "airhorn": [
+    0.4
+   ],
+   "ooh": [
+    24.0
+   ]
+  }
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "name": "bo_pool",
+ "top": "Boeshi swears he did that on purpose \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   51.4,
+   58.6
+  ],
+  [
+   "s1",
+   33.84,
+   43.7
+  ],
+  [
+   "s2",
+   46.35,
+   51.4
+  ],
+  [
+   "s3",
+   58.6,
+   66.0
+  ]
+ ],
+ "hl": [
+  "PURPOSE",
+  "EXACTLY",
+  "STRIPE",
+  "PURPOSELY"
+ ],
+ "vv": {
+  "music": [
+   "sentamento",
+   0
+  ],
+  "red": [
+   "NO"
+  ],
+  "green": [
+   "PURPOSE"
+  ],
+  "punch": [
+   "PURPOSE",
+   "EXACTLY",
+   "STRIPE",
+   "PURPOSELY"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    7.6,
+    "pool shark era \ud83c\udfb1"
+   ],
+   [
+    13.2,
+    "lucky \ud83c\udf40"
+   ],
+   [
+    17.66,
+    "wait\u2026"
+   ],
+   [
+    22.61,
+    "he meant that \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   2.4,
+   "100% ON PURPOSE \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.1,
+    7.1
+   ],
+   [
+    22.21,
+    29.41
+   ]
+  ],
+  "chip": [
+   9.2,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 12.2,
+  "meme": {
+   "fahh": [
+    1.0
+   ],
+   "ooh": [
+    13.7
+   ]
+  }
+ }
+}

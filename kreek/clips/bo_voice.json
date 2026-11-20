@@ -1,0 +1,108 @@
+{
+ "name": "bo_voice",
+ "top": "Someone said Boeshi's voice gives them the creeps \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   60.2,
+   68.12
+  ],
+  [
+   "s1",
+   68.18,
+   80.63
+  ],
+  [
+   "s2",
+   81.39,
+   85.1
+  ]
+ ],
+ "hl": [
+  "VOICE",
+  "CREEPS",
+  "INNOCENT",
+  "CHILD",
+  "NORMAL"
+ ],
+ "vv": {
+  "music": [
+   "empire",
+   20
+  ],
+  "red": [
+   "CREEPS"
+  ],
+  "green": [
+   "INNOCENT"
+  ],
+  "punch": [
+   "VOICE",
+   "CREEPS",
+   "INNOCENT",
+   "CHILD",
+   "GOOD"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    0.3,
+    "chat said WHAT \ud83d\ude33"
+   ],
+   [
+    8.42,
+    "the voice test \ud83c\udf99\ufe0f"
+   ],
+   [
+    20.57,
+    "chat redeemed itself \ud83d\ude4f"
+   ]
+  ],
+  "freeze": [
+   5.0,
+   "INNOCENT LITTLE CHILD \ud83d\ude07"
+  ],
+  "react": [
+   [
+    0.1,
+    7.82
+   ],
+   [
+    8.02,
+    20.27
+   ]
+  ],
+  "chip": [
+   10.92,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 7.92,
+  "meme": {
+   "fahh": [
+    2.0
+   ],
+   "ooh": [
+    15.42
+   ]
+  }
+ }
+}

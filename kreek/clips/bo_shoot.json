@@ -1,0 +1,118 @@
+{
+ "name": "bo_shoot",
+ "top": "Boeshi tried to fight the whole street in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   57.4,
+   63.0
+  ],
+  [
+   "s1",
+   17.6,
+   23.6
+  ],
+  [
+   "s2",
+   29.9,
+   46.9
+  ],
+  [
+   "s4",
+   83.4,
+   89.68
+  ]
+ ],
+ "hl": [
+  "SHOOT",
+  "FIGHT",
+  "OVER",
+  "GUNS",
+  "WORKING"
+ ],
+ "vv": {
+  "music": [
+   "sentamento",
+   20
+  ],
+  "red": [
+   "OVER"
+  ],
+  "green": [
+   "FIGHT"
+  ],
+  "punch": [
+   "SHOOT",
+   "FIGHT",
+   "OVER",
+   "GUNS",
+   "CAR",
+   "STUPID"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    5.9,
+    "the plan: fight everyone \ud83e\udd4a"
+   ],
+   [
+    15.1,
+    "can he shoot? \ud83d\udd2b"
+   ],
+   [
+    25.6,
+    "Plan B: run \ud83d\ude97"
+   ],
+   [
+    29.0,
+    "the controls won \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   1.0,
+   "IT'S OVER \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.1,
+    5.5
+   ],
+   [
+    28.7,
+    34.78
+   ]
+  ],
+  "chip": [
+   7.6,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 11.6,
+  "meme": {
+   "fahh": [
+    0.6
+   ],
+   "boom": [
+    30.6
+   ]
+  }
+ }
+}

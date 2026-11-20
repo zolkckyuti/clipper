@@ -1,0 +1,110 @@
+{
+ "name": "bo_doom",
+ "top": "Boeshi found social media INSIDE GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   53.4,
+   62.26
+  ],
+  [
+   "s1",
+   12.6,
+   29.91
+  ],
+  [
+   "s2",
+   45.0,
+   53.4
+  ]
+ ],
+ "hl": [
+  "DOOMSCROLLING",
+  "FOURTH",
+  "WALL",
+  "RAT",
+  "FOCUS",
+  "SOCIAL"
+ ],
+ "vv": {
+  "music": [
+   "funkabn",
+   30
+  ],
+  "red": [
+   "RAT"
+  ],
+  "green": [
+   "DOOMSCROLLING"
+  ],
+  "punch": [
+   "DOOMSCROLLING",
+   "WALL",
+   "RAT",
+   "FOCUS",
+   "SOCIAL",
+   "MINDS"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    9.26,
+    "he fed the rat to his dog \ud83d\udc00"
+   ],
+   [
+    20.36,
+    "Boeshi at 100% focus \ud83e\udde0"
+   ],
+   [
+    26.57,
+    "social media in GTA?? \ud83d\udcf1"
+   ]
+  ],
+  "freeze": [
+   3.6,
+   "FOURTH WALL: BROKEN \ud83d\udcf1"
+  ],
+  "react": [
+   [
+    0.1,
+    8.76
+   ],
+   [
+    17.86,
+    25.97
+   ]
+  ],
+  "chip": [
+   10.86,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 26.17,
+  "meme": {
+   "airhorn": [
+    9.46
+   ],
+   "ooh": [
+    3.8
+   ]
+  }
+ }
+}

@@ -28,5 +28,6 @@ v2['react'] = [[T(a), T(b)] for a, b in B.get('react', [])]
 v2['chip'] = [T(B['chip'][0]), B['chip'][1]]
 v2['drop'] = T(B['drop'])
 if 'fix' in B: C['fix'] = {**C.get('fix', {}), **B['fix']}
+if 'meme' in B: v2['meme'] = {k: [T(x) for x in v] for k, v in B['meme'].items()}
 json.dump(C, open(cfg_f, 'w'), indent=1)
 print(C['name'], 'dur', round(o, 2), json.dumps(v2, ensure_ascii=False)[:600])

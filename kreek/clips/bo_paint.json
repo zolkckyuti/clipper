@@ -1,0 +1,121 @@
+{
+ "name": "bo_paint",
+ "top": "Boeshi spent his GTA 6 stream watching paint dry \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   58.2,
+   66.0
+  ],
+  [
+   "s1",
+   15.6,
+   21.94
+  ],
+  [
+   "s2",
+   30.8,
+   36.63
+  ],
+  [
+   "s3",
+   51.2,
+   58.2
+  ],
+  [
+   "s4",
+   70.3,
+   74.74
+  ]
+ ],
+ "hl": [
+  "PAINT",
+  "DRY",
+  "BLUE",
+  "GTA"
+ ],
+ "vv": {
+  "music": [
+   "funkabn",
+   0
+  ],
+  "red": [
+   "DRY"
+  ],
+  "green": [
+   "BLUE"
+  ],
+  "punch": [
+   "PAINT",
+   "DRY",
+   "BLUE",
+   "ENTERTAINING",
+   "GTA"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "pops": [
+   [
+    8.2,
+    "chat voted BLUE \ud83d\udd35"
+   ],
+   [
+    14.54,
+    "Boeshi's life update \ud83c\udfa8"
+   ],
+   [
+    21.97,
+    "peak content \ud83d\udc80"
+   ],
+   [
+    27.17,
+    "$70 well spent \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   28.17,
+   "THIS IS GTA 6 \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.1,
+    7.7
+   ],
+   [
+    21.47,
+    26.77
+   ]
+  ],
+  "chip": [
+   9.8,
+   "GTA 6 STREAM \u00b7 TWITCH"
+  ],
+  "drop": 19.97,
+  "meme": {
+   "boom": [
+    0.3
+   ],
+   "fahh": [
+    27.97
+   ]
+  }
+ }
+}
