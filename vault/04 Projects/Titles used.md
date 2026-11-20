@@ -233,3 +233,6 @@
 - He refuses to say who the last Kitsch gift is for 👀 (Kitsch xmystery)
 - A GTA 6 NPC told N3on to CLIP THAT 😭 (n3onclip)
 - Kai Cenat found a GAME inside GTA 6 😭 (kaigame)
+- KreekCraft didn't believe a DOG on a jet ski would pick him up... (jetski)
+- N3on tried to escape 6 STARS in GTA 6... (sixstars)
+- KreekCraft tried to steal a HELICOPTER from the airport in GTA 6... (heli)
