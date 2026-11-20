@@ -49,3 +49,12 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
   **reaction cutaway** on his loudest lines (`react` windows), **freeze-frame + red stamp** on the payoff (`freeze`), context chip ("HOUR 11 OF THE GTA 6 STREAM"),
   karaoke captions (3 words, active word yellow / red for key words), title visible from frame 0, grade + flicker + tints + punch-ins + cut flashes,
   phonk at 40 % until the `drop` then full, ducked under voice; whoosh on cutaway in/out. Logo pill bottom-center always.
+
+## 2026-11-20 — Day 2 batch (2 clips, native 4K60)
+- Source: Twitch VOD **v2933758895** "GTA 6 LIVE (FULL GAME) ALL ENDINGS | DAY 2" (10.6 h). Fetch: `kreek/fetch_audio.sh` (audio) + `kreek/fetch_vid.sh <dir> <a> <b> <out>` (1080p60 window).
+- **Day 2 layout changed:** facecam is a green-screen cutout top-left (no box) → `cam: [20,110,380,360]`, sub counter under it.
+- KreekV2 template now takes per-clip `src_wh`, `cam`, `game` (centre x, y range), `badge` (text pill instead of the Kreek logo — Kreek clips keep the official logo). Captions now clear 0.7 s after the last word.
+- 4K: rendered natively with Remotion `--scale=2` (`kreek/render_gta.sh`), not upscaled after.
+- **kidsgame** (VOD 9:29:50–9:31:00, tower climb): kid in chat asks him to explain GTA 6 so his mom buys it → "learn how to drive… help grandmas… rescue cats… really good game for kids, you learn a lot". Freeze stamp "GTA 6 IS RATED M".
+- **easteregg** (VOD 9:32:00–9:34:20): "if there's not an Easter egg up here I'm ending the stream" → do not fall off → parachute fake-out → "Shut the front door" → nest of real Easter eggs. Hook "Bro… are you serious?" at the nest.
+- Rejected: bird knocks itself out (1:40:32, bird too small to see), pool-bed cutscene (2:05, mostly scripted dialogue), naked old man (4:45, nudity), Karen (1:46, weaker).

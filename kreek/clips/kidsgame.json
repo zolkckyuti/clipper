@@ -1,0 +1,128 @@
+{
+ "name": "kidsgame",
+ "top": "A kid asked KreekCraft to explain GTA 6 so his MOM would buy it...",
+ "seg": [
+  [
+   "hook",
+   58.5,
+   61.6
+  ],
+  [
+   "s1",
+   3.4,
+   5.95
+  ],
+  [
+   "s1b",
+   9.95,
+   12.15
+  ],
+  [
+   "s2",
+   13.3,
+   15.7
+  ],
+  [
+   "s2b",
+   16.9,
+   20.85
+  ],
+  [
+   "s3",
+   21.25,
+   27.95
+  ],
+  [
+   "s4",
+   32.8,
+   37.15
+  ],
+  [
+   "s5",
+   38.6,
+   41.2
+  ],
+  [
+   "s5b",
+   43.2,
+   46.45
+  ],
+  [
+   "s6",
+   61.6,
+   65.75
+  ]
+ ],
+ "hl": [
+  "KIDS",
+  "MOM",
+  "GRANDMAS",
+  "CATS",
+  "PILOT",
+  "LEARN",
+  "LOT",
+  "DRIVE"
+ ],
+ "vv": {
+  "music": [
+   "funkabn",
+   0
+  ],
+  "red": [
+   "KIDS"
+  ],
+  "green": [
+   "CATS",
+   "MOM"
+  ],
+  "punch": [
+   "KIDS",
+   "GRANDMAS",
+   "CATS",
+   "PILOT",
+   "DRIVE",
+   "LOT"
+  ],
+  "music_vol": 0.65
+ },
+ "v2": {
+  "react": [
+   [
+    0.15,
+    3.0
+   ],
+   [
+    22.4,
+    24.2
+   ],
+   [
+    31.3,
+    34.3
+   ]
+  ],
+  "freeze": [
+   34.45,
+   "GTA 6 IS RATED M"
+  ],
+  "chip": [
+   3.2,
+   "A KID IN CHAT ASKED THIS"
+  ],
+  "drop": 7.85,
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ]
+ }
+}

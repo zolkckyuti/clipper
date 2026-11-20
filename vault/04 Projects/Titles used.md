@@ -214,3 +214,6 @@
 - Saint Nic said his sister made the nice list (sister)
 - Saint Nic is coming to town (town)
 - Love Island's Nic turned into Santa for his family 🎅 (Kitsch storytime v2)
+- Typical Gamer found out GTA 6 whales can EXPLODE... (tgwhale)
+- A kid asked KreekCraft to explain GTA 6 so his MOM would buy it... (kidsgame)
+- KreekCraft said he'd END the stream if there's no Easter egg up here... (easteregg)

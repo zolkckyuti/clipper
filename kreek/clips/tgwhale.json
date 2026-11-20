@@ -1,0 +1,102 @@
+{
+ "name": "tgwhale",
+ "top": "Typical Gamer found out GTA 6 whales can EXPLODE...",
+ "seg": [
+  [
+   "hook",
+   16.15,
+   18.2
+  ],
+  [
+   "s1",
+   2.1,
+   8.4
+  ],
+  [
+   "s2",
+   12.95,
+   16.15
+  ],
+  [
+   "s3",
+   18.2,
+   21.0
+  ],
+  [
+   "s4",
+   25.5,
+   28.0
+  ],
+  [
+   "s5",
+   37.6,
+   42.0
+  ]
+ ],
+ "hl": [
+  "EXPLODE",
+  "WHALE",
+  "BROTHER",
+  "BEACHED"
+ ],
+ "vv": {
+  "music": [
+   "empire",
+   0
+  ],
+  "red": [
+   "EXPLODE"
+  ],
+  "green": [
+   "BROTHER"
+  ],
+  "punch": [
+   "WHALE",
+   "EXPLODE",
+   "THAT",
+   "GULL"
+  ],
+  "music_vol": 0.65
+ },
+ "v2": {
+  "react": [
+   [
+    0.8,
+    2.0
+   ],
+   [
+    11.6,
+    14.3
+   ],
+   [
+    17.0,
+    21.0
+   ]
+  ],
+  "freeze": [
+   15.2,
+   "HE LEFT HIS CHAIR"
+  ],
+  "chip": [
+   2.4,
+   "GTA 6 EARLY ACCESS STREAM"
+  ],
+  "drop": 11.55,
+  "src_wh": [
+   2560,
+   1440
+  ],
+  "cam": [
+   24,
+   580,
+   560,
+   350
+  ],
+  "game": [
+   1120,
+   0,
+   1290
+  ],
+  "badge": "TypicalGamer"
+ }
+}

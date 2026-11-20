@@ -12,12 +12,15 @@ import gas from './v2/gas.json';
 import plane from './v2/plane.json';
 import scooter from './v2/scooter.json';
 import swim from './v2/swim.json';
+import tgwhale from './v2/tgwhale.json';
+import kidsgame from './v2/kidsgame.json';
+import easteregg from './v2/easteregg.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance} as unknown as Record<string, P>;
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; badge?: string; srcdir?: string; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
@@ -26,14 +29,16 @@ const firstHits = (P: P, list: string[] = [], n = 1, gap = 0.6) => {
   for (const w of list) P.words.filter((x) => norm(x.t) === w).slice(0, n).forEach((x) => out.push(x.a));
   return out.sort((a, b) => a - b).filter((t, i, arr) => arr.findIndex((u) => Math.abs(u - t) < gap) === i);
 };
-const SRC_W = 1920, SRC_H = 1080;
 // gameplay window: shows source x 520..1400 (facecam lives at x 0..410), full height, scaled to 1320 px tall
-const G = {top: 300, h: 1320, scale: 1320 / SRC_H};
 
 export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const P = KREEK_V2[clip];
+  const [SRC_W, SRC_H] = P.src_wh ?? [1920, 1080];
+  const [CX, CY, CW, CH] = P.cam ?? [50, 136, 320, 266];        // facecam rect in source px
+  const [GCX, GY0, GY1] = P.game ?? [960, 0, SRC_H];            // gameplay: centre x, visible source y range
+  const G = {top: 300, h: 1320, scale: 1320 / (GY1 - GY0)};
   const f = useCurrentFrame(), {fps} = useVideoConfig(), s = f / fps;
-  const src = staticFile(`kreek/v2/${P.name}_src.mp4`);
+  const src = staticFile(`${P.srcdir ?? 'kreek/v2'}/${P.name}_src.mp4`);
   const reds = firstHits(P, P.vv.red), greens = firstHits(P, P.vv.green), punches = firstHits(P, P.vv.punch, 2, 0.5);
   const cutTimes = P.cuts.slice(1).map((c) => c.a);
   // ---- freeze: picture holds 0.75 s at the payoff (audio keeps running)
@@ -52,14 +57,14 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const flicker = f % 3 === 0 ? 0.05 : 0;
   // ---- facecam PiP -> big reaction cutaway
   const bounce = [...reds, ...greens].reduce((m, t) => Math.max(m, interpolate(s, [t, t + 0.08, t + 0.3], [0, 1, 0], clamp)), 0);
-  const camW = interpolate(react, [0, 1], [400, 900]), camH = camW * 266 / 320;
+  const camW = interpolate(react, [0, 1], [400, 900]), camH = camW * CH / CW;
   const camX = interpolate(react, [0, 1], [36, 90]), camY = interpolate(react, [0, 1], [326, 520]);
   const camTilt = interpolate(react, [0, 1], [-2.5, 0]);
   // ---- captions: 3-word chunks, active word highlighted
   const chunks: W[][] = []; let cur: W[] = [];
   P.words.forEach((w, i) => { cur.push(w); if (/[.,!?]$/.test(w.t) || cur.length >= 3 || i === P.words.length - 1) { chunks.push(cur); cur = []; } });
   const ci = chunks.findIndex((c, i) => s >= c[0].a - 0.05 && (i === chunks.length - 1 || s < chunks[i + 1][0].a - 0.05));
-  const chunk = ci >= 0 ? chunks[ci] : null;
+  const chunk = ci >= 0 && s <= chunks[ci][chunks[ci].length - 1].b + 0.7 ? chunks[ci] : null;
   const hl = new Set(P.hl);
   // ---- top title: visible from frame 0
   const topWords = P.top.split(' ');
@@ -76,7 +81,7 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   return <AbsoluteFill style={{background: 'linear-gradient(180deg,#0b0b12 0%,#141022 55%,#0b0b12 100%)', fontFamily: 'Montserrat'}}>
     {/* gameplay */}
     <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, overflow: 'hidden', transform: `translateX(${shake}px)`}}>
-      <div style={{position: 'absolute', left: 540 - 960 * gScale - 0 * gScale, top: G.h / 2 - (SRC_H / 2) * gScale, width: SRC_W * gScale, height: SRC_H * gScale,
+      <div style={{position: 'absolute', left: 540 - GCX * gScale, top: G.h / 2 - ((GY0 + GY1) / 2) * gScale, width: SRC_W * gScale, height: SRC_H * gScale,
         transform: `translateX(${-(960 - 960) * gScale}px)`}}>
         <OffthreadVideo src={src} muted startFrom={0} style={{width: '100%', height: '100%', filter: `contrast(1.1) saturate(1.25)${inFreeze ? ' brightness(1.08)' : ''}`,
           transform: `translateX(${-(960 - 960) * gScale}px)`}} {...({} as object)} />
@@ -87,7 +92,7 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
     {/* facecam PiP / reaction cutaway */}
     <div style={{position: 'absolute', left: camX + (1 - react) * 0, top: camY, width: camW, height: camH, borderRadius: 26, overflow: 'hidden', border: `${interpolate(react, [0, 1], [6, 8])}px solid #fff`,
       boxShadow: '0 14px 40px rgba(0,0,0,.65)', transform: `rotate(${camTilt}deg) scale(${1 + 0.08 * bounce})`, transformOrigin: 'center'}}>
-      <div style={{position: 'absolute', left: -50 * (camW / 320), top: -136 * (camW / 320), width: SRC_W * (camW / 320), height: SRC_H * (camW / 320)}}>
+      <div style={{position: 'absolute', left: -CX * (camW / CW), top: -CY * (camW / CW), width: SRC_W * (camW / CW), height: SRC_H * (camW / CW)}}>
         <OffthreadVideo src={src} muted style={{width: '100%', height: '100%', filter: 'contrast(1.06) saturate(1.15)'}} />
       </div>
     </div>
@@ -116,7 +121,10 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
           textShadow: '0 6px 0 rgba(0,0,0,.5)'}}>{w.t.replace(/[.,!?]$/, '')}</span>; })}
     </div>}
     {/* official logo overlay: always visible */}
-    <Img src={staticFile('kreek/kreek_overlay.png')} style={{position: 'absolute', left: 540 - 330, top: 1660, width: 660}} />
+    {P.badge ? <div style={{position: 'absolute', top: 1690, left: 0, width: 1080, display: 'flex', justifyContent: 'center'}}>
+      <div style={{display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(12,10,22,.88)', border: '3px solid #9146FF', borderRadius: 60, padding: '14px 34px', color: '#fff', fontSize: 46, fontWeight: 800}}>
+        <span style={{background: '#9146FF', borderRadius: 12, padding: '2px 12px', fontSize: 34}}>LIVE</span>{P.badge}</div></div>
+      : <Img src={staticFile('kreek/kreek_overlay.png')} style={{position: 'absolute', left: 540 - 330, top: 1660, width: 660}} />}
     <AbsoluteFill style={{background: `rgba(0,0,0,${flicker})`}} />
     <AbsoluteFill style={{background: `rgba(255,255,255,${white})`}} />
     {/* audio */}

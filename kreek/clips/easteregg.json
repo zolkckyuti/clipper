@@ -1,0 +1,116 @@
+{
+ "name": "easteregg",
+ "top": "KreekCraft said he'd END the stream if there's no Easter egg up here...",
+ "seg": [
+  [
+   "hook",
+   248.7,
+   251.75
+  ],
+  [
+   "s1",
+   133.3,
+   141.45
+  ],
+  [
+   "s2",
+   182.55,
+   186.5
+  ],
+  [
+   "s3",
+   206.85,
+   211.85
+  ],
+  [
+   "s4",
+   225.4,
+   230.2
+  ],
+  [
+   "s5",
+   240.15,
+   245.5
+  ],
+  [
+   "s6",
+   254.3,
+   260.0
+  ]
+ ],
+ "hl": [
+  "EASTER",
+  "EGG",
+  "ENDING",
+  "STREAM",
+  "SERIOUS",
+  "FALL",
+  "PARACHUTE",
+  "DOOR",
+  "TOP"
+ ],
+ "vv": {
+  "music": [
+   "alquimia",
+   0
+  ],
+  "red": [
+   "FALL",
+   "ENDING"
+  ],
+  "green": [
+   "DOOR",
+   "SERIOUS"
+  ],
+  "punch": [
+   "EASTER",
+   "ENDING",
+   "FALL",
+   "TOP",
+   "PARACHUTE",
+   "DOOR",
+   "SERIOUS"
+  ],
+  "music_vol": 0.65
+ },
+ "v2": {
+  "react": [
+   [
+    1.2,
+    3.0
+   ],
+   [
+    4.6,
+    6.8
+   ],
+   [
+    25.0,
+    26.6
+   ]
+  ],
+  "freeze": [
+   31.6,
+   "THERE WERE REAL EASTER EGGS"
+  ],
+  "chip": [
+   3.3,
+   "HOUR 9 OF THE DAY 2 STREAM"
+  ],
+  "drop": 15.15,
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ]
+ }
+}
