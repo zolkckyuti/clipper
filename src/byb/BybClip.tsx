@@ -16,7 +16,7 @@ loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weigh
 type W = {t: string; a: number; b: number};
 type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
   drop: number; pops?: [number, string][]; src_wh?: [number, number];
-  byb: {price: string; rarity: string; price_at: number; face_y: number; card_y: number; hook_y?: number; cap_y?: number; price_y?: number; cards?: number[][]; fahh?: number[]; boom?: number[]};
+  byb: {price: string; rarity: string; price_at: number; face_y: number; card_y: number; hook_y?: number; cap_y?: number; price_y?: number; cards?: number[][]; fahh?: number[]; boom?: number[]; airhorn?: number[]; price_hide?: number[][]};
   vv: {music: [string, number]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
 export const BYB: Record<string, P> = {byb_clark: clark, byb_dart: dart, byb_flagg: flagg, byb_starwars: starwars} as unknown as Record<string, P>;
 const FPS = 60;
@@ -44,9 +44,17 @@ export const BybClip: React.FC<{clip: string; music?: boolean}> = ({clip, music 
   const faceK = win(s, P.react), cardK = win(s, Y.cards ?? []);
   const zoom = push * (1 + 0.1 * punch) * (1 + 0.55 * faceK) * (1 + 0.35 * cardK) * (1 + 0.15 * fzK);
   const oy = cardK > faceK ? Y.card_y : faceK > 0 ? Y.face_y : 0.5;   // zoom origin (fraction of frame height)
-  const shake = reds.some((t) => s >= t && s < t + 0.25) || (s >= fz && s < fz + 0.2) ? 9 * Math.sin(f * 2.3) : 0;
+  // ---- transitions at every cut, rotating: 0 zoom-blur punch, 1 whip pan, 2 flash + shake (so no two cuts look the same)
+  const TR = 0.24;
+  const ti = cutTimes.findIndex((t) => s >= t && s < t + TR);
+  const tk = ti >= 0 ? 1 - (s - cutTimes[ti]) / TR : 0;            // 1 -> 0 over the transition
+  const ttype = ti >= 0 ? ti % 3 : -1;
+  const trZoom = ttype === 0 ? 1 + 0.38 * tk * tk : 1;
+  const trX = ttype === 1 ? (ti % 2 ? -1 : 1) * 760 * tk * tk : 0;
+  const trBlur = ttype === 0 || ttype === 1 ? 16 * tk : 0;
+  const shake = (ttype === 2 ? 14 * tk * Math.sin(f * 2.7) : 0) + (reds.some((t) => s >= t && s < t + 0.25) || (s >= fz && s < fz + 0.2) ? 9 * Math.sin(f * 2.3) : 0);
   const tint = reds.some((t) => s >= t && s < t + 0.27) ? 'rgba(244,3,5,0.25)' : greens.some((t) => s >= t && s < t + 0.27) ? 'rgba(40,220,90,0.25)' : 'transparent';
-  const white = cutTimes.some((t) => s >= t && s < t + 2 / FPS) ? 0.85 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.5 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
+  const white = ttype === 2 && s - cutTimes[ti] < 3 / FPS ? 0.9 : ttype === 0 && s - cutTimes[ti] < 1 / FPS ? 0.5 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.5 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
   const flicker = f % 3 === 0 ? 0.05 : 0;
   // ---- captions (2–3 word chunks, active word yellow / red for key words), cleared 0.7 s after the last word
   const chunks: W[][] = []; let cur: W[] = [];
@@ -56,22 +64,26 @@ export const BybClip: React.FC<{clip: string; music?: boolean}> = ({clip, music 
   const hl = new Set(P.hl);
   // ---- price badge
   const pk = s >= Y.price_at ? spring({frame: f - Math.round(Y.price_at * fps), fps, config: {damping: 11, stiffness: 190}}) : 0;
+  // hide the price while a DIFFERENT card is on screen (never put the tracker value on the wrong card)
+  const priceHidden = (Y.price_hide ?? []).some(([h0, h1]) => s >= h0 && s < h1);
   const pricePulse = 1 + 0.06 * Math.max(0, Math.sin(s * 5)) * (s - Y.price_at < 2 ? 1 : 0.3);
   // ---- music: phonk under the hosts (ducked hard on speech), drop at the reveal
   const voiceAt = (t: number) => P.words.some((w) => t >= w.a - 0.08 && t <= w.b + 0.15);
   const mv = P.vv.music_vol ?? 0.5;
   const musicVol = (fr: number) => { const t = fr / FPS; return (t < P.drop ? 0.45 : 1) * mv * (voiceAt(t) ? 0.32 : 1) * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
-  const sfx: [string, number, number][] = [...cutTimes.map((t): [string, number, number] => ['kreek/music/s_camflash.mp3', t, 0.4]),
+  const sfx: [string, number, number][] = [...cutTimes.map((t, i): [string, number, number] => i % 3 === 2 ? ['kreek/music/s_camflash.mp3', t, 0.4] : ['kreek/music/whoosh.mp3', t - 0.12, 0.38]),
     ...reds.map((t): [string, number, number] => ['kreek/music/shock.mp3', t, 0.32]), ...greens.map((t): [string, number, number] => ['kreek/music/rizz.mp3', t, 0.3]),
     ...punches.map((t): [string, number, number] => ['kreek/music/pop.mp3', t, 0.15]), ['kreek/music/flash.mp3', fz, 0.45],
     ...(P.pops ?? []).map(([t]): [string, number, number] => ['kreek/music/pop.mp3', t, 0.3]),
-    ...(Y.fahh ?? []).map((t): [string, number, number] => ['byb/sfx_fahh.mp3', t, 0.5]), ...(Y.boom ?? []).map((t): [string, number, number] => ['kreek/music/shock.mp3', t, 0.45]),
+    ...(Y.fahh ?? []).map((t): [string, number, number] => ['byb/sfx_fahh.mp3', t, 0.5]), ...(Y.boom ?? []).map((t): [string, number, number] => ['byb/sfx_boom.mp3', t, 0.55]),
+    ...(Y.airhorn ?? []).map((t): [string, number, number] => ['byb/sfx_airhorn.mp3', t, 0.32]),
+    ['byb/sfx_cashing.mp3', Y.price_at + 0.05, 0.4], ['byb/sfx_cashing.mp3', fz + 0.05, 0.45], ['byb/sfx_ooh.mp3', fz + 0.2, 0.35],
     ['kreek/music/whoosh.mp3', Y.price_at - 0.1, 0.3]];
   const vw = 1080, vh = 1080 * SH / SW;
   return <AbsoluteFill style={{background: '#000', fontFamily: 'Montserrat', overflow: 'hidden'}}>
     {/* footage (full 9:16) */}
-    <AbsoluteFill style={{transform: `translateX(${shake}px)`}}>
-      <div style={{position: 'absolute', left: 0, top: (1920 - vh) / 2, width: vw, height: vh, transform: `scale(${zoom})`, transformOrigin: `540px ${oy * vh}px`}}>
+    <AbsoluteFill style={{transform: `translateX(${shake + trX}px)`, filter: trBlur > 0.5 ? `blur(${trBlur.toFixed(1)}px)` : undefined}}>
+      <div style={{position: 'absolute', left: 0, top: (1920 - vh) / 2, width: vw, height: vh, transform: `scale(${zoom * trZoom})`, transformOrigin: `540px ${oy * vh}px`}}>
         <OffthreadVideo src={staticFile(`kreek/v2/${P.name}_src.mp4`)} muted style={{width: '100%', height: '100%', filter: `contrast(1.1) saturate(1.22)${inFreeze ? ' brightness(1.08)' : ''}`}} />
       </div>
       <AbsoluteFill style={{background: tint}} />
@@ -81,7 +93,7 @@ export const BybClip: React.FC<{clip: string; music?: boolean}> = ({clip, music 
       WebkitTextStroke: '12px #000', paintOrder: 'stroke fill', transform: `scale(${spring({frame: f, fps, from: 0.88, to: 1, config: {damping: 12, stiffness: 200}})})`}}>
       {P.top.split(' ').map((w, i) => <span key={i} style={{color: /\$|1\/1|ONLY|ONE/.test(w) || hl.has(norm(w)) ? '#FFE135' : '#fff'}}>{w} </span>)}</div>
     {/* price badge — tracker value, never over the card */}
-    {pk > 0 && <div style={{position: 'absolute', left: 0, width: 1080, top: Y.price_y ?? 1600, display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${(0.4 + 0.6 * pk) * pricePulse})`}}>
+    {pk > 0 && !priceHidden && <div style={{position: 'absolute', left: 0, width: 1080, top: Y.price_y ?? 1600, display: 'flex', flexDirection: 'column', alignItems: 'center', transform: `scale(${(0.4 + 0.6 * pk) * pricePulse})`}}>
       <div style={{background: 'linear-gradient(180deg,#2BE36B,#11A848)', color: '#fff', fontSize: 104, fontWeight: 800, padding: '4px 40px 8px', borderRadius: 28, border: '7px solid #fff',
         WebkitTextStroke: '6px #063d1a', paintOrder: 'stroke fill', boxShadow: '0 16px 50px rgba(0,0,0,.6)'}}>{Y.price}</div>
       <div style={{marginTop: 14, background: '#111', color: '#FFE135', fontSize: 40, fontWeight: 800, padding: '8px 24px', borderRadius: 16, letterSpacing: 1}}>{Y.rarity}</div>

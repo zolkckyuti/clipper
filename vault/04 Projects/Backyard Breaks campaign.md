@@ -1,0 +1,24 @@
+---
+tags: [project, campaign, backyardbreaks, byb]
+date: 2026-11-21
+---
+# Backyard Breaks x ClipHouse
+
+Back to [[START HERE]] · style: [[VverPaldo style]] + [[KreekCraft GTA 6 campaign]] energy
+
+- Tracker (source of truth, footage + values): Google Sheet 1eX0vqF73N9x2gtkRbalnKMHRd3nbd-CEv0Rt4D2glM4 — tabs: 1203111212 historical big pulls (value column!),
+  1029565171 "most important" Trevor Lawrence stream moments (no card values), 133317179 recent moments (980 rows, PSA column), 183567664 published viral references (not footage).
+  Export: `…/export?format=csv&gid=<gid>`. Drive footage: `drive.usercontent.google.com/download?id=<id>&export=download&confirm=t`.
+- Guides: SOP doc 1dG6Moh7TzSKqKfHtB_QL8HngdG_y015Q, brand/niche guide 1iGL3Px-ymZSCK36iE5jKv9W6vpT5bX_i.
+- **Rules:** caption has **@backyardbreaks AND #BackyardBreaks** (3–5 hashtags: `@backyardbreaks #BackyardBreaks #BBPulls #Whatnot`), ≥15 s, 9:16 1080x1920,
+  hosts' real audio, one moment per clip, only tracker footage, **price on screen = tracker value** (ranges ok / "$100K+"), no other streamers/celebs, nothing that makes hosts look bad,
+  account name has BYB/Backyard Breaks, bio `whatnot.com/invite/backyardbuzz`, ≥50 % US, don't reply to comments/delete, screen-recorded analytics proof per clip (form), $2/1K, $250 max.
+- Caption formula: [value/rarity] + [reaction] + "Watch the next break live on Whatnot 👇" + tags. First 3 s = money/rarity/reaction/tension.
+- Template `src/byb/BybClip.tsx` (comps `Byb-<name>`), configs `kreek/clips/byb_*.json` (prep via `kreek/prep_v2.py`, snap via `kreek/snap_segs.py`), render `kreek/render_byb.sh` → `renders/byb_<name>_1080p60.mp4`.
+  Look: hook text + green price badge + rarity pill, captions in the band between host cam and card, zoom into reactions (`react`) and cards (`byb.cards`),
+  **rotating transitions at every cut** (zoom-blur / whip pan / flash+shake, whoosh), phonk ducked under hosts, sfx: FAHH, deep boom, cash-register cha-ching (price + reveal), crowd "ooh", air horn
+  (all ElevenLabs-generated in `public/byb/`, gitignored).
+- **Never put the price on the wrong card:** hosts often hold OTHER cards while describing the chase → `byb.price_hide` windows (Flagg until the pink Papa appears at 48.0 s; Star Wars until the triple auto at 57.5 s).
+- Batch 1 (2026-11-21): **clark** ($234,000 gold vinyl auto 1/1 — host jumps in the trash can), **flagg** ($100,000+ Papa auto 1/1 — "we do that!"),
+  **dart** ($200K–$250K Papa auto 1/1 — "I wasn't leaving without hitting it"; skipped his Superfractor line, different tracker row/value), **starwars** ($12,000+ triple auto super 1/1 — delayed realization).
+  LeBron triple logoman ($2.4M) is a 15-min horizontal multi-cam recording; reveal ~9:00–9:50 needs frame-by-frame check before clipping.

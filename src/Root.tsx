@@ -8,6 +8,7 @@ import {KreekV2, KREEK_V2} from './kreek/KreekV2';
 import {KitschStory, KITSCH_STORY_S} from './kitsch/KitschStory';
 import {KitschStory3, K3S} from './kitsch/KitschStory3';
 import {KitschMeme, MEME, memeDur} from './kitsch/KitschMeme';
+import {BybClip, BYB} from './byb/BybClip';
 import {CARD_OUT_MS, CardPull} from './CardPull';
 import {SRC as POD_SRC} from './activePod';
 import {FPS, OUT_MS, ShortEdit} from './ShortEdit';
@@ -38,6 +39,8 @@ export const RemotionRoot = () => (
   <>
   <Composition id="KitschStory" component={KitschStory} defaultProps={{music: true}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
   <Composition id="KitschStoryNoMusic" component={KitschStory} defaultProps={{music: false}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
+  {Object.keys(BYB).flatMap((k) => [true, false].map((m) => <Composition key={'b' + k + m} id={`Byb-${k.replace('byb_', '')}${m ? '' : '-nomusic'}`} component={BybClip} defaultProps={{clip: k, music: m}}
+    durationInFrames={Math.round(BYB[k].dur * 60)} fps={60} width={1080} height={1920} />))}
   {Object.keys(MEME).flatMap((k) => [true, false].map((m) => <Composition key={'m' + k + m} id={`KitschMeme-${k}${m ? '' : '-nomusic'}`} component={KitschMeme} defaultProps={{clip: k, music: m}}
     durationInFrames={Math.round(memeDur(MEME[k]) * 30)} fps={30} width={1080} height={1920} />))}
   {Object.keys(K3S).flatMap((k) => [true, false].map((m) => <Composition key={k + m} id={`Kitsch3-${k}${m ? '' : '-nomusic'}`} component={KitschStory3} defaultProps={{clip: k, music: m}}
