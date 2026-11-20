@@ -27,7 +27,7 @@ import heli from './v2/heli.json';
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
 export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -61,7 +61,14 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const gScale = G.scale * push * (1 + 0.13 * punch) * (1 + 0.32 * fzK);
   const shake = reds.some((t) => s >= t && s < t + 0.25) || (s >= fz && s < fz + 0.2) ? 10 * Math.sin(f * 2.3) : 0;
   const tint = reds.some((t) => s >= t && s < t + 0.27) ? 'rgba(244,3,5,0.28)' : greens.some((t) => s >= t && s < t + 0.27) ? 'rgba(167,234,4,0.28)' : 'transparent';
-  const white = cutTimes.some((t) => s >= t && s < t + 2 / FPS) ? 0.9 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.55 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
+  // ---- rotating transitions at every cut (opt-in: transitions=true): 0 zoom-blur punch, 1 whip pan, 2 flash + shake
+  const TRD = 0.24, trOn = !!P.transitions;
+  const ti = trOn ? cutTimes.findIndex((t) => s >= t && s < t + TRD) : -1;
+  const tk = ti >= 0 ? 1 - (s - cutTimes[ti]) / TRD : 0, ttype = ti >= 0 ? ti % 3 : -1;
+  const trZoom = ttype === 0 ? 1 + 0.38 * tk * tk : 1, trX = ttype === 1 ? (ti % 2 ? -1 : 1) * 760 * tk * tk : 0;
+  const trBlur = ttype === 0 || ttype === 1 ? 16 * tk : 0, trShake = ttype === 2 ? 14 * tk * Math.sin(f * 2.7) : 0;
+  const white = trOn ? (ttype === 2 && s - cutTimes[ti] < 3 / FPS ? 0.9 : ttype === 0 && s - cutTimes[ti] < 1 / FPS ? 0.5 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.55 : (s >= fz && s < fz + 0.06) ? 0.8 : 0)
+    : cutTimes.some((t) => s >= t && s < t + 2 / FPS) ? 0.9 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.55 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
   const flicker = f % 3 === 0 ? 0.05 : 0;
   // ---- facecam PiP -> big reaction cutaway
   const bounce = [...reds, ...greens].reduce((m, t) => Math.max(m, interpolate(s, [t, t + 0.08, t + 0.3], [0, 1, 0], clamp)), 0);
@@ -83,11 +90,15 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const off = (t: number) => (P.vv.music_off ?? []).some(([a, b]) => t >= a && t < b);
   const mv = P.vv.music_vol ?? 0.7;
   const musicVol = (fr: number) => { const t = fr / FPS; if (off(t)) return 0; return (t < P.drop ? 0.4 : 1) * mv * (voiceAt(t) ? 0.42 : 1) * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
-  const sfx: [string, number, number][] = [...cutTimes.map((t): [string, number, number] => ['s_camflash', t, 0.45]), ...reds.map((t): [string, number, number] => ['shock', t, 0.35]),
+  const sfx: [string, number, number][] = [...cutTimes.map((t, i): [string, number, number] => trOn && i % 3 !== 2 ? ['whoosh', t - 0.12, 0.38] : ['s_camflash', t, 0.45]), ...reds.map((t): [string, number, number] => ['shock', t, 0.35]),
     ...greens.map((t): [string, number, number] => ['rizz', t, 0.32]), ...punches.map((t): [string, number, number] => ['pop', t, 0.16]),
     ...P.react.flatMap(([a, b]): [string, number, number][] => [['whoosh', a - 0.15, 0.3], ['whoosh', b - 0.1, 0.18]]), ['flash', fz, 0.45],
-    ...(P.pops ?? []).map(([t]): [string, number, number] => ['pop', t, 0.32])];
+    ...(P.pops ?? []).map(([t]): [string, number, number] => ['pop', t, 0.32]),
+    ...(P.meme?.fahh ?? []).map((t): [string, number, number] => ['byb/sfx_fahh.mp3', t, 0.5]), ...(P.meme?.airhorn ?? []).map((t): [string, number, number] => ['byb/sfx_airhorn.mp3', t, 0.3]),
+    ...(P.meme?.boom ?? []).map((t): [string, number, number] => ['byb/sfx_boom.mp3', t, 0.5]), ...(P.meme?.ooh ?? []).map((t): [string, number, number] => ['byb/sfx_ooh.mp3', t, 0.32]),
+    ...(P.meme ? [['byb/sfx_boom.mp3', fz, 0.45] as [string, number, number]] : [])];
   return <AbsoluteFill style={{background: 'linear-gradient(180deg,#0b0b12 0%,#141022 55%,#0b0b12 100%)', fontFamily: 'Montserrat'}}>
+    <AbsoluteFill style={{transform: `translateX(${trX + trShake}px) scale(${trZoom})`, filter: trBlur > 0.5 ? `blur(${trBlur.toFixed(1)}px)` : undefined}}>
     {/* gameplay */}
     <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, overflow: 'hidden', transform: `translateX(${shake}px)`}}>
       <div style={{position: 'absolute', left: 540 - GCX * gScale, top: G.h / 2 - ((GY0 + GY1) / 2) * gScale, width: SRC_W * gScale, height: SRC_H * gScale,
@@ -105,6 +116,7 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
         <OffthreadVideo src={src} muted style={{width: '100%', height: '100%', filter: 'contrast(1.06) saturate(1.15)'}} />
       </div>
     </div>
+    </AbsoluteFill>
     {/* freeze stamp */}
     {inFreeze && <div style={{position: 'absolute', top: 860, left: 0, width: 1080, display: 'flex', justifyContent: 'center',
       transform: `rotate(-6deg) scale(${interpolate(fzK, [0, 1], [1.7, 1])})`}}>
@@ -139,12 +151,12 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
     {P.badge ? <div style={{position: 'absolute', top: 1690, left: 0, width: 1080, display: 'flex', justifyContent: 'center'}}>
       <div style={{display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(12,10,22,.88)', border: `3px solid ${P.badge_color ?? '#9146FF'}`, borderRadius: 60, padding: '14px 34px', color: '#fff', fontSize: 46, fontWeight: 800}}>
         <span style={{background: P.badge_color ?? '#9146FF', color: P.badge_color ? '#0b0b0b' : '#fff', borderRadius: 12, padding: '2px 12px', fontSize: 34}}>{P.badge_tag ?? 'LIVE'}</span>{P.badge}</div></div>
-      : <Img src={staticFile('kreek/kreek_overlay.png')} style={{position: 'absolute', left: 540 - 330, top: 1660, width: 660}} />}
+      : <Img src={staticFile(P.overlay ?? 'kreek/kreek_overlay.png')} style={{position: 'absolute', left: 540 - 330, top: 1660, width: 660}} />}
     <AbsoluteFill style={{background: `rgba(0,0,0,${flicker})`}} />
     <AbsoluteFill style={{background: `rgba(255,255,255,${white})`}} />
     {/* audio */}
     <OffthreadVideo src={src} style={{display: 'none'}} volume={1} />
     <Audio src={staticFile(`kreek/music/${P.vv.music[0]}_n.wav`)} startFrom={Math.round(P.vv.music[1] * FPS)} volume={musicVol} loop />
-    {sfx.filter(([, t]) => t >= 0).map(([n, t, v], i) => <Sequence key={i} from={Math.round(t * FPS)}><Audio src={staticFile(`kreek/music/${n}.mp3`)} volume={v} /></Sequence>)}
+    {sfx.filter(([, t]) => t >= 0).map(([n, t, v], i) => <Sequence key={i} from={Math.round(t * FPS)}><Audio src={staticFile(n.includes('/') ? n : `kreek/music/${n}.mp3`)} volume={v} /></Sequence>)}
   </AbsoluteFill>;
 };
