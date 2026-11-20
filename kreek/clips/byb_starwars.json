@@ -1,0 +1,79 @@
+{
+ "name": "byb_starwars",
+ "top": "HE DIDN'T REALIZE IT WAS A 1/1 AT FIRST...",
+ "seg": [
+  [
+   "hook",
+   67.7,
+   74.2
+  ],
+  [
+   "s1",
+   50.7,
+   61.0
+  ],
+  [
+   "s2",
+   62.4,
+   67.7
+  ],
+  [
+   "s3",
+   74.2,
+   87.6
+  ],
+  [
+   "s4",
+   90.0,
+   95.7
+  ]
+ ],
+ "hl": [
+  "ONE",
+  "TRIPLE",
+  "AUTO",
+  "ANAKIN",
+  "PADME",
+  "OVI",
+  "WAY",
+  "MAJOR"
+ ],
+ "vv": {
+  "music": [
+   "brevis",
+   0
+  ],
+  "red": [
+   "WAY"
+  ],
+  "green": [
+   "MAJOR"
+  ],
+  "punch": [
+   "TRIPLE",
+   "AUTO",
+   "ONE",
+   "ANAKIN",
+   "PADME",
+   "MAJOR",
+   "BUYER"
+  ],
+  "music_vol": 0.45
+ },
+ "v2": {
+  "src_wh": [
+   1080,
+   1920
+  ],
+  "byb": {
+   "price": "$12,000+",
+   "rarity": "OBI-WAN · ANAKIN · PADMÉ TRIPLE AUTO 1/1",
+   "price_at": 0.0,
+   "face_y": 0.15,
+   "card_y": 0.73,
+   "hook_y": 560,
+   "cap_y": 760,
+   "price_y": 1620
+  }
+ }
+}

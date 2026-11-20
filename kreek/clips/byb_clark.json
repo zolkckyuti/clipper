@@ -1,0 +1,68 @@
+{
+ "name": "byb_clark",
+ "top": "$234,000 1/1 PULLED LIVE... WATCH HIM 😭",
+ "seg": [
+  [
+   "hook",
+   26.0,
+   31.2
+  ],
+  [
+   "s1",
+   0.0,
+   26.0
+  ],
+  [
+   "s2",
+   31.2,
+   41.3
+  ]
+ ],
+ "hl": [
+  "IMPOSSIBLE",
+  "NO",
+  "WAY",
+  "ONE",
+  "GOLD",
+  "VINYL",
+  "ROOKIE"
+ ],
+ "vv": {
+  "music": [
+   "aura",
+   22
+  ],
+  "red": [
+   "IMPOSSIBLE"
+  ],
+  "green": [
+   "GOLD"
+  ],
+  "punch": [
+   "ONE",
+   "GOLD",
+   "VINYL",
+   "ROOKIE",
+   "POSSIBLE",
+   "IMPOSSIBLE",
+   "YES"
+  ],
+  "music_vol": 0.45
+ },
+ "v2": {
+  "src_wh": [
+   720,
+   1280
+  ],
+  "byb": {
+   "price": "$234,000",
+   "rarity": "CAITLIN CLARK GOLD VINYL AUTO 1/1",
+   "price_at": 0.0,
+   "face_y": 0.17,
+   "card_y": 0.62,
+   "hook_y": 600,
+   "cap_y": 810,
+   "price_y": 1600
+  }
+ }
+}

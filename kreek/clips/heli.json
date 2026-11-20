@@ -1,0 +1,131 @@
+{
+ "name": "heli",
+ "top": "KreekCraft tried to steal a HELICOPTER from the airport in GTA 6...",
+ "seg": [
+  [
+   "hook",
+   117.0,
+   124.18
+  ],
+  [
+   "s1",
+   43.2,
+   54.52
+  ],
+  [
+   "s2",
+   72.1,
+   77.04
+  ],
+  [
+   "s3",
+   94.5,
+   98.55
+  ],
+  [
+   "s4",
+   103.73,
+   111.54
+  ],
+  [
+   "s5",
+   129.3,
+   131.35
+  ],
+  [
+   "s6",
+   140.2,
+   144.15
+  ],
+  [
+   "s7",
+   153.2,
+   155.06
+  ]
+ ],
+ "hl": [
+  "GOT",
+  "HELICOPTER",
+  "STARS",
+  "AIRPORT",
+  "PULL"
+ ],
+ "vv": {
+  "music": [
+   "brevis",
+   0
+  ],
+  "red": [
+   "STARS"
+  ],
+  "green": [
+   "GOT"
+  ],
+  "punch": [
+   "GOT",
+   "HELICOPTER",
+   "FOUR",
+   "AIRPORT",
+   "LOCK"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "pops": [
+   [
+    7.58,
+    "the plan: steal a heli \ud83d\ude81"
+   ],
+   [
+    23.74,
+    "he's picky \ud83d\ude2d"
+   ],
+   [
+    35.4,
+    "4 STARS \ud83d\udea8"
+   ],
+   [
+    37.55,
+    "lock in \ud83d\udd12"
+   ]
+  ],
+  "freeze": [
+   35.3,
+   "4 STARS \ud83d\udea8"
+  ],
+  "react": [
+   [
+    0.1,
+    7.08
+   ],
+   [
+    29.49,
+    35.2
+   ],
+   [
+    37.45,
+    41.2
+   ]
+  ],
+  "chip": [
+   10.18,
+   "HOUR 1 OF THE DAY 2 STREAM"
+  ],
+  "drop": 35.3
+ }
+}

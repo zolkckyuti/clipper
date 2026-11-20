@@ -1,0 +1,124 @@
+{
+ "name": "jetski",
+ "top": "KreekCraft didn't believe a DOG on a jet ski would pick him up...",
+ "seg": [
+  [
+   "hook",
+   109.43,
+   115.12
+  ],
+  [
+   "s1",
+   30.3,
+   40.5
+  ],
+  [
+   "s2",
+   66.2,
+   74.87
+  ],
+  [
+   "s3",
+   82.2,
+   87.38
+  ],
+  [
+   "s4",
+   100.0,
+   104.08
+  ],
+  [
+   "s5",
+   136.7,
+   142.3
+  ]
+ ],
+ "hl": [
+  "DOG",
+  "JET",
+  "SKI",
+  "GREATEST",
+  "REAL",
+  "FAKE",
+  "SELFIE"
+ ],
+ "vv": {
+  "music": [
+   "funkabn",
+   0
+  ],
+  "red": [
+   "CHEEKS"
+  ],
+  "green": [
+   "GREATEST"
+  ],
+  "punch": [
+   "DOG",
+   "JET",
+   "REAL",
+   "SHUT",
+   "GREATEST",
+   "SELFIE"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "pops": [
+   [
+    5.99,
+    "chat had to vote \ud83d\uddf3\ufe0f"
+   ],
+   [
+    23.63,
+    "he made a BET \ud83d\ude2d"
+   ],
+   [
+    24.76,
+    "IT ACTUALLY CAME \ud83d\udc36\ud83d\udea4"
+   ],
+   [
+    34.72,
+    "selfie time \ud83d\udcf8"
+   ]
+  ],
+  "freeze": [
+   24.71,
+   "IT'S REAL \ud83d\udc36"
+  ],
+  "react": [
+   [
+    0.1,
+    5.59
+   ],
+   [
+    25.56,
+    29.64
+   ],
+   [
+    29.84,
+    33.72
+   ]
+  ],
+  "chip": [
+   8.19,
+   "HOUR 4 OF THE DAY 2 STREAM"
+  ],
+  "drop": 24.56
+ }
+}

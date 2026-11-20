@@ -1,0 +1,76 @@
+{
+ "name": "byb_dart",
+ "top": "HE SAID HE WASN'T LEAVING WITHOUT THIS CARD...",
+ "seg": [
+  [
+   "hook",
+   33.0,
+   39.3
+  ],
+  [
+   "s1",
+   7.3,
+   14.4
+  ],
+  [
+   "s1b",
+   19.5,
+   27.1
+  ],
+  [
+   "s2",
+   82.6,
+   94.3
+  ],
+  [
+   "s3",
+   161.2,
+   170.0
+  ]
+ ],
+ "hl": [
+  "PAPA",
+  "ONE-OF-ONE",
+  "PINK",
+  "DART",
+  "LEAVING",
+  "FIND"
+ ],
+ "vv": {
+  "music": [
+   "sentamento",
+   0
+  ],
+  "red": [
+   "WOW"
+  ],
+  "green": [
+   "FIND"
+  ],
+  "punch": [
+   "PAPA",
+   "PINK",
+   "LEAVING",
+   "DART",
+   "FIND",
+   "GO"
+  ],
+  "music_vol": 0.45
+ },
+ "v2": {
+  "src_wh": [
+   1080,
+   1920
+  ],
+  "byb": {
+   "price": "$200K–$250K",
+   "rarity": "JAXON DART PAPA AUTO 1/1",
+   "price_at": 0.0,
+   "face_y": 0.1,
+   "card_y": 0.55,
+   "hook_y": 560,
+   "cap_y": 760,
+   "price_y": 1600
+  }
+ }
+}
