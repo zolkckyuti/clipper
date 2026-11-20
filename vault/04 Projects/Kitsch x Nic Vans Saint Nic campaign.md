@@ -34,3 +34,17 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (vertical-source version)
 - **delivery** (green/gold, delivery-route widget SIS → MOM → ???): "turned his Jeep into a KITSCH delivery truck", ends on "More deliveries coming. Stay nice."
 - **women** (blush pink + hearts, "Saint Nic's list"): hook = his own intro line, ends on the mirror hype "you look good, Santa".
 - **ranking** (midnight + gold, #4 → #1 countdown): sister's sets / Curl Cream "Saint Nic tax" / mom's haul / #1 ??? → "Who's that one for?" "No." (+ NO COMMENT stamp).
+
+## Performance + meme-frame batch (2026-11-20)
+- Our narrated storytime v2 (YT P9g212NrErU on @CLIPFarmClips2026): **10 engaged views, 12.1 % stayed to watch** (88 % swiped in the first 1–2 s).
+  Diagnosis: frame 0 = Nic from behind (no face, no product), small hook text in a busy frame (card + tracker + stripes), footage only ~70 % wide, 31 s with narrator setup.
+- Benchmark: @arenaclipshq 30PJ_HH2oEs "Saint Nic pulled up with a trunk full of Kitsch and took the Curl Cream tax 😂" — **1.2k views in 8 h**.
+  Format (from YT auto-thumbnails): white meme frame, one big emotional hook line ("BRO SPOILED HIS MOM LIKE CRAZY THIS YEAR 😭"), large footage,
+  opens on the trunk stuffed with Kitsch, real audio, small one-word captions in the middle.
+- **Swipe-test rules now:** frame 0 = big hook text + the strongest picture (face or product) + a real line inside 0.5 s; footage ~full width; 7–10 s; cut every 1–2 s;
+  payoff stamp + punch-in; end loops into the start; captions middle-centre.
+- `src/kitsch/KitschMeme.tsx` (comps `KitschMeme-<clip>[-nomusic]`, seg `a` = J-cut audio start), render `kitsch/render_meme.sh` → `renders/kitsch_meme_*_1080p.mp4`.
+  Clips: **mom** (opens on mom "You did all this?" → "Mother, come outside!"), **tax** (sister "Okay fine, this is cute" → Curl Cream into the belt → "Saint Nic tax"),
+  **mystery** (opens on the red Kitsch bag, "Who's that one for?" J-cut → "No." → "Saint Nic, signing off"), **mirror** ("Who's Saint Nic? You're Saint Nic… you look good, Santa" → sister "What are you wearing?"),
+  **sister** (POV: your brother is Nic from Love Island → "I'm Saint Nic. Get it?" → "Okay fine. This is cute.").
+- Nic source cut points: bag shot starts at 55.55 s (before = sister walking). Disk: GTA sources moved to `.work/archive_public/kreek/v2` (move back to `public/kreek/v2` to re-render KreekV2).

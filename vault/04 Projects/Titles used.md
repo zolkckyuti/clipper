@@ -220,3 +220,8 @@
 - Nic from Love Island turned his Jeep into a KITSCH delivery truck (Kitsch delivery)
 - Nic said there are a few women in his life who mean EVERYTHING to him (Kitsch women)
 - Ranking every gift Saint Nic gave out this year (Kitsch ranking)
+- He pulled up to his mom's house with a WHOLE Jeep of Kitsch 😭 (Kitsch meme mom)
+- He gave his sister Kitsch… then took a "Saint Nic tax" 😭 (Kitsch meme tax)
+- He refuses to say who the last Kitsch gift is for 👀 (Kitsch meme mystery)
+- Nic hyping himself up before the Kitsch delivery 😭 (Kitsch meme mirror)
+- POV: your brother is Nic from Love Island 🎅 (Kitsch meme sister)
