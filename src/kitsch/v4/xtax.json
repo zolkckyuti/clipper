@@ -1,0 +1,343 @@
+{
+ "name": "xtax",
+ "dur": 15.45,
+ "narr": "kitsch/narrD.wav",
+ "title": "He gave his sister Kitsch\u2026 then charged a SAINT NIC TAX \ud83d\ude2d",
+ "hl": [
+  "SAINT",
+  "NIC",
+  "TAX"
+ ],
+ "theme": {
+  "bg": "radial-gradient(120% 80% at 50% 30%, #1f7a4a 0%, #0f4a2c 55%, #06261a 100%)",
+  "stripe": "#f3d27a",
+  "accent": "#F7C948",
+  "capStroke": "#04170e",
+  "particles": "snow",
+  "tilt": -1.4,
+  "cardTop": 1000
+ },
+ "segs": [
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    51.95,
+    53.3
+   ],
+   "start": 0.0
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    32.0,
+    36.1
+   ],
+   "start": 1.35,
+   "n": [
+    7.85,
+    11.95
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    20.85,
+    21.9
+   ],
+   "start": 5.45
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    22.0,
+    23.9
+   ],
+   "start": 6.5
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    36.95,
+    38.55
+   ],
+   "start": 8.4
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    48.6,
+    50.8
+   ],
+   "start": 10.0,
+   "n": [
+    12.15,
+    14.35
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    50.8,
+    51.95
+   ],
+   "start": 12.2
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    59.0,
+    61.1
+   ],
+   "start": 13.35
+  }
+ ],
+ "caps": [
+  {
+   "t": "Saint",
+   "a": 0.19,
+   "real": true
+  },
+  {
+   "t": "Nic",
+   "a": 0.67,
+   "real": true
+  },
+  {
+   "t": "tax.",
+   "a": 0.87,
+   "real": true
+  },
+  {
+   "t": "Nic",
+   "a": 1.38,
+   "real": false
+  },
+  {
+   "t": "played",
+   "a": 1.9,
+   "real": false
+  },
+  {
+   "t": "Santa",
+   "a": 2.1,
+   "real": false
+  },
+  {
+   "t": "for",
+   "a": 2.46,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 2.76,
+   "real": false
+  },
+  {
+   "t": "sister,",
+   "a": 2.92,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 3.48,
+   "real": false
+  },
+  {
+   "t": "holiday",
+   "a": 4.1,
+   "real": false
+  },
+  {
+   "t": "sets",
+   "a": 4.32,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 4.68,
+   "real": false
+  },
+  {
+   "t": "everything.",
+   "a": 4.94,
+   "real": false
+  },
+  {
+   "t": "What",
+   "a": 5.48,
+   "real": true
+  },
+  {
+   "t": "are",
+   "a": 5.92,
+   "real": true
+  },
+  {
+   "t": "you",
+   "a": 6.04,
+   "real": true
+  },
+  {
+   "t": "wearing?",
+   "a": 6.08,
+   "real": true
+  },
+  {
+   "t": "I'm",
+   "a": 6.52,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 6.7,
+   "real": true
+  },
+  {
+   "t": "Nic.",
+   "a": 6.94,
+   "real": true
+  },
+  {
+   "t": "Get",
+   "a": 7.76,
+   "real": true
+  },
+  {
+   "t": "it?",
+   "a": 8.2,
+   "real": true
+  },
+  {
+   "t": "Okay,",
+   "a": 8.51,
+   "real": true
+  },
+  {
+   "t": "fine.",
+   "a": 9.07,
+   "real": true
+  },
+  {
+   "t": "This",
+   "a": 9.33,
+   "real": true
+  },
+  {
+   "t": "is",
+   "a": 9.49,
+   "real": true
+  },
+  {
+   "t": "cute.",
+   "a": 9.61,
+   "real": true
+  },
+  {
+   "t": "But",
+   "a": 10.05,
+   "real": false
+  },
+  {
+   "t": "then",
+   "a": 10.53,
+   "real": false
+  },
+  {
+   "t": "he",
+   "a": 10.79,
+   "real": false
+  },
+  {
+   "t": "spotted",
+   "a": 11.05,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 11.47,
+   "real": false
+  },
+  {
+   "t": "curl",
+   "a": 11.63,
+   "real": false
+  },
+  {
+   "t": "cream.",
+   "a": 11.85,
+   "real": false
+  }
+ ],
+ "widget": {
+  "type": "none",
+  "head": "",
+  "items": []
+ },
+ "labels": [
+  {
+   "text": "Kitsch holiday sets",
+   "at": 8.45
+  },
+  {
+   "text": "Kitsch Curl Cream",
+   "at": 11.45
+  }
+ ],
+ "stamps": [
+  {
+   "text": "SAINT NIC TAX",
+   "color": "#c8102e",
+   "at": 0.35,
+   "rot": -7
+  }
+ ],
+ "dings": [],
+ "pops": [
+  11.45
+ ],
+ "bubbles": [
+  {
+   "text": "the fit \ud83d\ude2d",
+   "at": 5.6
+  },
+  {
+   "text": "wait\u2026 \ud83d\udc40",
+   "at": 10.15
+  },
+  {
+   "text": "he really kept it \ud83d\ude2d",
+   "at": 13.55
+  }
+ ],
+ "zooms": [
+  0.25,
+  5.9,
+  11.65,
+  12.4
+ ],
+ "sfx": [
+  {
+   "f": "sfx_fahh",
+   "at": 0.95,
+   "vol": 0.55
+  },
+  {
+   "f": "sfx_sparkle",
+   "at": 8.45,
+   "vol": 0.35
+  },
+  {
+   "f": "sfx_boom",
+   "at": 12.4,
+   "vol": 0.45
+  }
+ ]
+}

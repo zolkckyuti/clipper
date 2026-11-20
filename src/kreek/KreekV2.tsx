@@ -15,12 +15,15 @@ import swim from './v2/swim.json';
 import tgwhale from './v2/tgwhale.json';
 import kidsgame from './v2/kidsgame.json';
 import easteregg from './v2/easteregg.json';
+import fixher from './v2/fixher.json';
+import joking from './v2/joking.json';
+import mike from './v2/mike.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; badge?: string; srcdir?: string; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg} as unknown as Record<string, P>;
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; badge?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
@@ -77,7 +80,8 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const musicVol = (fr: number) => { const t = fr / FPS; if (off(t)) return 0; return (t < P.drop ? 0.4 : 1) * mv * (voiceAt(t) ? 0.42 : 1) * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
   const sfx: [string, number, number][] = [...cutTimes.map((t): [string, number, number] => ['s_camflash', t, 0.45]), ...reds.map((t): [string, number, number] => ['shock', t, 0.35]),
     ...greens.map((t): [string, number, number] => ['rizz', t, 0.32]), ...punches.map((t): [string, number, number] => ['pop', t, 0.16]),
-    ...P.react.flatMap(([a, b]): [string, number, number][] => [['whoosh', a - 0.15, 0.3], ['whoosh', b - 0.1, 0.18]]), ['flash', fz, 0.45]];
+    ...P.react.flatMap(([a, b]): [string, number, number][] => [['whoosh', a - 0.15, 0.3], ['whoosh', b - 0.1, 0.18]]), ['flash', fz, 0.45],
+    ...(P.pops ?? []).map(([t]): [string, number, number] => ['pop', t, 0.32])];
   return <AbsoluteFill style={{background: 'linear-gradient(180deg,#0b0b12 0%,#141022 55%,#0b0b12 100%)', fontFamily: 'Montserrat'}}>
     {/* gameplay */}
     <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, overflow: 'hidden', transform: `translateX(${shake}px)`}}>
@@ -101,6 +105,12 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
       transform: `rotate(-6deg) scale(${interpolate(fzK, [0, 1], [1.7, 1])})`}}>
       <div style={{background: '#F40305', color: '#fff', fontSize: 92, fontWeight: 800, padding: '10px 34px', borderRadius: 14, border: '7px solid #fff', boxShadow: '0 12px 40px rgba(0,0,0,.6)',
         maxWidth: 960, textAlign: 'center', lineHeight: 1.05}}>{stamp}</div></div>}
+    {/* pop-ups: commentary bubbles on the gameplay (right side, clear of the facecam PiP) */}
+    {(P.pops ?? []).map(([t, txt], k) => s >= t && s < t + 1.5 && <div key={`pp${k}`} style={{position: 'absolute', right: 30, top: 600 + (k % 2) * 120, maxWidth: 620,
+      transform: `rotate(${k % 2 ? 3 : -3}deg) scale(${spring({frame: Math.round((s - t) * FPS), fps: FPS, from: 0.3, to: 1, config: {damping: 10, stiffness: 240}})})`,
+      opacity: interpolate(s, [t + 1.3, t + 1.5], [1, 0], clamp)}}>
+      <div style={{background: '#fff', color: '#111', fontSize: 52, fontWeight: 800, padding: '12px 28px', borderRadius: 24, border: '5px solid #111', boxShadow: '0 12px 30px rgba(0,0,0,.55)',
+        lineHeight: 1.1, textAlign: 'center'}}>{txt}</div></div>)}
     {/* chip */}
     {chipK > 0 && <div style={{position: 'absolute', right: 34, top: 330 + (1 - chipK) * -20, opacity: chipK, display: 'flex', alignItems: 'center', gap: 12, background: 'rgba(10,10,16,.82)',
       borderRadius: 40, padding: '12px 22px', border: '2px solid rgba(255,255,255,.2)'}}>

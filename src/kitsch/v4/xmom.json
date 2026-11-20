@@ -1,0 +1,388 @@
+{
+ "name": "xmom",
+ "dur": 16.5,
+ "narr": "kitsch/narrD.wav",
+ "title": "His mom had NO idea Nic was coming as Santa \ud83d\ude2d",
+ "hl": [
+  "NO"
+ ],
+ "theme": {
+  "bg": "radial-gradient(120% 80% at 50% 30%, #c8102e 0%, #7a0a1d 55%, #3a0510 100%)",
+  "stripe": "#ffffff",
+  "accent": "#FFD84A",
+  "capStroke": "#2a0008",
+  "particles": "snow",
+  "tilt": 1.6,
+  "cardTop": 1000
+ },
+ "segs": [
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    46.72,
+    48.17
+   ],
+   "start": 0.0,
+   "a": 46.3
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    15.0,
+    19.2
+   ],
+   "start": 1.45,
+   "n": [
+    0.0,
+    4.2
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    22.0,
+    23.9
+   ],
+   "start": 5.65
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    39.35,
+    40.95
+   ],
+   "start": 7.55
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    41.45,
+    42.9
+   ],
+   "start": 9.15
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    43.4,
+    46.65
+   ],
+   "start": 10.6,
+   "n": [
+    4.4,
+    7.65
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "v1",
+   "v": [
+    65.85,
+    68.5
+   ],
+   "start": 13.85
+  }
+ ],
+ "caps": [
+  {
+   "t": "You",
+   "a": 0.04,
+   "real": true
+  },
+  {
+   "t": "did",
+   "a": 0.52,
+   "real": true
+  },
+  {
+   "t": "all",
+   "a": 0.8,
+   "real": true
+  },
+  {
+   "t": "this?",
+   "a": 1.04,
+   "real": true
+  },
+  {
+   "t": "Nic",
+   "a": 1.45,
+   "real": false
+  },
+  {
+   "t": "from",
+   "a": 1.65,
+   "real": false
+  },
+  {
+   "t": "Love",
+   "a": 1.85,
+   "real": false
+  },
+  {
+   "t": "Island",
+   "a": 2.13,
+   "real": false
+  },
+  {
+   "t": "suited",
+   "a": 2.43,
+   "real": false
+  },
+  {
+   "t": "up",
+   "a": 2.77,
+   "real": false
+  },
+  {
+   "t": "as",
+   "a": 3.01,
+   "real": false
+  },
+  {
+   "t": "Santa,",
+   "a": 3.19,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 3.65,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 4.17,
+   "real": false
+  },
+  {
+   "t": "mom",
+   "a": 4.31,
+   "real": false
+  },
+  {
+   "t": "had",
+   "a": 4.59,
+   "real": false
+  },
+  {
+   "t": "no",
+   "a": 4.85,
+   "real": false
+  },
+  {
+   "t": "idea.",
+   "a": 5.23,
+   "real": false
+  },
+  {
+   "t": "I'm",
+   "a": 5.67,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 5.85,
+   "real": true
+  },
+  {
+   "t": "Nic.",
+   "a": 6.09,
+   "real": true
+  },
+  {
+   "t": "Get",
+   "a": 6.91,
+   "real": true
+  },
+  {
+   "t": "it?",
+   "a": 7.35,
+   "real": true
+  },
+  {
+   "t": "Mother,",
+   "a": 7.62,
+   "real": true
+  },
+  {
+   "t": "come",
+   "a": 8.1,
+   "real": true
+  },
+  {
+   "t": "outside.",
+   "a": 8.58,
+   "real": true
+  },
+  {
+   "t": "Nicholas,",
+   "a": 9.18,
+   "real": true
+  },
+  {
+   "t": "what's",
+   "a": 9.74,
+   "real": true
+  },
+  {
+   "t": "going",
+   "a": 10.08,
+   "real": true
+  },
+  {
+   "t": "on?",
+   "a": 10.24,
+   "real": true
+  },
+  {
+   "t": "He",
+   "a": 10.64,
+   "real": false
+  },
+  {
+   "t": "didn't",
+   "a": 11.04,
+   "real": false
+  },
+  {
+   "t": "bring",
+   "a": 11.3,
+   "real": false
+  },
+  {
+   "t": "her",
+   "a": 11.42,
+   "real": false
+  },
+  {
+   "t": "one",
+   "a": 11.58,
+   "real": false
+  },
+  {
+   "t": "gift.",
+   "a": 11.84,
+   "real": false
+  },
+  {
+   "t": "He",
+   "a": 12.36,
+   "real": false
+  },
+  {
+   "t": "brought",
+   "a": 12.72,
+   "real": false
+  },
+  {
+   "t": "the",
+   "a": 12.86,
+   "real": false
+  },
+  {
+   "t": "whole",
+   "a": 13.06,
+   "real": false
+  },
+  {
+   "t": "jeep.",
+   "a": 13.26,
+   "real": false
+  },
+  {
+   "t": "More",
+   "a": 13.92,
+   "real": true
+  },
+  {
+   "t": "deliveries",
+   "a": 14.42,
+   "real": true
+  },
+  {
+   "t": "coming.",
+   "a": 14.92,
+   "real": true
+  },
+  {
+   "t": "Stay",
+   "a": 15.52,
+   "real": true
+  },
+  {
+   "t": "nice.",
+   "a": 16.02,
+   "real": true
+  }
+ ],
+ "widget": {
+  "type": "none",
+  "head": "",
+  "items": []
+ },
+ "labels": [
+  {
+   "text": "Kitsch gifts",
+   "at": 9.3
+  },
+  {
+   "text": "The whole Kitsch Jeep",
+   "at": 12.4
+  }
+ ],
+ "stamps": [
+  {
+   "text": "SON OF THE YEAR",
+   "color": "#d4a017",
+   "at": 1.15,
+   "rot": -6
+  }
+ ],
+ "dings": [],
+ "pops": [
+  9.3
+ ],
+ "bubbles": [
+  {
+   "text": "she had NO idea \ud83d\udc40",
+   "at": 4.31
+  },
+  {
+   "text": "Saint Nic \ud83c\udf85",
+   "at": 5.85
+  },
+  {
+   "text": "the WHOLE Jeep \ud83d\udce6\ud83d\udce6",
+   "at": 13.1
+  }
+ ],
+ "zooms": [
+  0.8,
+  7.65,
+  9.2,
+  13.06
+ ],
+ "sfx": [
+  {
+   "f": "sfx_fahh",
+   "at": 1.4,
+   "vol": 0.55
+  },
+  {
+   "f": "sfx_sparkle",
+   "at": 9.3,
+   "vol": 0.35
+  },
+  {
+   "f": "sfx_boom",
+   "at": 13.2,
+   "vol": 0.45
+  }
+ ]
+}

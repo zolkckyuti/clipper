@@ -1,0 +1,127 @@
+{
+ "name": "joking",
+ "top": "Chat asked KreekCraft to make Lucia look like his WIFE...",
+ "seg": [
+  [
+   "hook",
+   56.8,
+   59.6
+  ],
+  [
+   "s1",
+   9.9,
+   13.1
+  ],
+  [
+   "s2a",
+   23.4,
+   26.0
+  ],
+  [
+   "s2b",
+   26.3,
+   29.6
+  ],
+  [
+   "s2c",
+   31.6,
+   33.0
+  ],
+  [
+   "s3",
+   38.8,
+   41.2
+  ],
+  [
+   "s4",
+   59.6,
+   62.05
+  ]
+ ],
+ "hl": [
+  "WIFE",
+  "MANDY",
+  "JOKING",
+  "IMPOSSIBLE",
+  "ATTRACTIVE",
+  "LUCIA"
+ ],
+ "vv": {
+  "music": [
+   "sentamento",
+   0
+  ],
+  "red": [
+   "MANDY"
+  ],
+  "green": [
+   "IMPOSSIBLE"
+  ],
+  "punch": [
+   "WIFE",
+   "MANDY",
+   "JOKING",
+   "IMPOSSIBLE",
+   "ANSWER"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "react": [
+   [
+    1.6,
+    2.8
+   ],
+   [
+    8.7,
+    11.8
+   ],
+   [
+    15.8,
+    18.0
+   ]
+  ],
+  "freeze": [
+   0.75,
+   "HE SAID MANDY \ud83d\udc80"
+  ],
+  "chip": [
+   6.2,
+   "HOUR 2 OF THE DAY 2 STREAM"
+  ],
+  "drop": 13.3,
+  "pops": [
+   [
+    3.0,
+    "chat asked \ud83d\udc40"
+   ],
+   [
+    8.9,
+    "his WIFE watches \ud83d\ude2d"
+   ],
+   [
+    13.5,
+    "nice save \ud83d\udc4f"
+   ],
+   [
+    15.9,
+    "bro panicked \ud83d\ude2d"
+   ]
+  ],
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ]
+ }
+}

@@ -7,16 +7,19 @@ import {AbsoluteFill, Audio, OffthreadVideo, Sequence, interpolate, random, spri
 import delivery from './v3/delivery.json';
 import ranking from './v3/ranking.json';
 import women from './v3/women.json';
+import xmom from './v4/xmom.json';
+import xmystery from './v4/xmystery.json';
+import xtax from './v4/xtax.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
-type Seg = {kind: string; src: string; v: number[]; n?: number[]; crop?: number[]; start: number};
+type Seg = {kind: string; src: string; v: number[]; n?: number[]; crop?: number[]; start: number; a?: number};
 type Cap = {t: string; a: number; real: boolean};
 type Item = {label: string; at: number; mark: string};
 export type K3 = {name: string; dur: number; narr: string; title: string; hl: string[]; segs: Seg[]; caps: Cap[];
   theme: {bg: string; stripe: string; accent: string; capStroke: string; particles: string; tilt: number; cardTop: number; scale?: number};
   widget: {type: string; head: string; items: Item[]}; labels: {text: string; at: number}[]; stamps: {text: string; color: string; at: number; rot: number}[];
-  dings: number[]; pops: number[]};
-export const K3S: Record<string, K3> = {delivery, women, ranking} as unknown as Record<string, K3>;
+  dings: number[]; pops: number[]; bubbles?: {text: string; at: number}[]; zooms?: number[]; sfx?: {f: string; at: number; vol: number}[]};
+export const K3S: Record<string, K3> = {delivery, women, ranking, xmom, xtax, xmystery} as unknown as Record<string, K3>;
 const FPS = 30;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const SRC: Record<string, string> = {nic: 'kitsch/nic.mp4', v1: 'kitsch/v1.mp4', v2: 'kitsch/v2.mp4'};
@@ -98,7 +101,8 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
   const enter = spring({frame: Math.round(local * fps), fps, config: {damping: 14, stiffness: 170}});
   const rot = T.tilt * (i % 2 ? 1 : -1) * (seg.kind === 'S' ? 0.4 : 1);
   const cardScale = (seg.kind === 'S' ? 0.75 : 0.72) * (T.scale ?? 1) * (0.94 + 0.06 * enter) * (1 + 0.025 * local / 4);
-  const punch = P.stamps.some((x) => s >= x.at && s < x.at + 0.35) ? 1.05 : 1;
+  const zk = (P.zooms ?? []).reduce((m, t) => Math.max(m, interpolate(s, [t - 0.02, t + 0.08, t + 0.5, t + 0.65], [0, 1, 1, 0], clamp)), 0);
+  const punch = (P.stamps.some((x) => s >= x.at && s < x.at + 0.35) ? 1.05 : 1) * (1 + 0.12 * zk);
   const flash = i > 0 && local < 0.07 ? 0.8 : 0;
   // captions: 1–3 word chunks, cleared 0.7 s after the last word
   const chunks: Cap[][] = []; let cur: Cap[] = [];
@@ -115,7 +119,7 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
     <div style={{position: 'absolute', left: 540 - 540 * cardScale, top: T.cardTop - 960 * cardScale, width: 1080 * cardScale, height: 1920 * cardScale,
       transform: `rotate(${rot}deg) scale(${punch})`, borderRadius: 40, overflow: 'hidden', border: '10px solid #fff', boxShadow: '0 30px 80px rgba(0,0,0,.5)', background: '#000'}}>
       {P.segs.map((g, k) => k === i && <Sequence key={k} from={Math.round(g.start * fps)} durationInFrames={Math.round((g.v[1] - g.v[0]) * fps) + 1}>
-        <OffthreadVideo src={staticFile(SRC[g.src])} startFrom={Math.round(g.v[0] * fps)} volume={g.kind === 'S' ? 1 : 0.22}
+        <OffthreadVideo src={staticFile(SRC[g.src])} startFrom={Math.round(g.v[0] * fps)} volume={g.a !== undefined ? 0 : g.kind === 'S' ? 1 : 0.22}
           style={{width: '100%', height: '100%', objectFit: 'cover', filter: 'contrast(1.06) saturate(1.12)', transformOrigin: 'top center',
             transform: g.crop ? `scale(${1920 / (g.crop[1] - g.crop[0])}) translateY(${-g.crop[0] / 1920 * 100}%)` : undefined}} /></Sequence>)}
       {seg.kind === 'S' && <div style={{position: 'absolute', top: 22, left: 22, background: 'rgba(0,0,0,.55)', color: '#fff', fontSize: 28, fontWeight: 800, padding: '6px 16px', borderRadius: 20}}>REAL MOMENT</div>}
@@ -124,9 +128,13 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
     <div style={{position: 'absolute', top: 34, left: 36, right: 36, textAlign: 'center', fontSize: 56, fontWeight: 800, lineHeight: 1.12, color: '#fff',
       textShadow: '0 5px 18px rgba(0,0,0,.45)', transform: `scale(${spring({frame: f, fps, from: 0.92, to: 1, config: {damping: 12}})})`}}>
       {P.title.split(' ').map((w, k) => <span key={k} style={{color: hl.has(w.replace(/[^A-Za-z]/g, '').toUpperCase()) && w === w.toUpperCase() ? T.accent : '#fff'}}>{w} </span>)}</div>
-    {W.type === 'route' && <Route s={s} items={W.items} head={W.head} accent={T.accent} />}
+    {W.type === 'none' ? null : W.type === 'route' && <Route s={s} items={W.items} head={W.head} accent={T.accent} />}
     {W.type === 'list' && <NiceList s={s} items={W.items} head={W.head} />}
     {W.type === 'rank' && <Rank s={s} items={W.items} head={W.head} accent={T.accent} />}
+    {(P.bubbles ?? []).map((b, k) => s >= b.at && s < b.at + 1.5 && <div key={`b${k}`} style={{position: 'absolute', top: 420 + (k % 2) * 110, left: 0, width: 1080, display: 'flex',
+      justifyContent: k % 2 ? 'flex-end' : 'flex-start', padding: '0 70px', opacity: interpolate(s, [b.at + 1.3, b.at + 1.5], [1, 0], clamp)}}>
+      <div style={{background: '#fff', color: '#111', fontSize: 50, fontWeight: 800, padding: '12px 28px', borderRadius: 26, border: '5px solid #111', boxShadow: '0 12px 30px rgba(0,0,0,.45)',
+        transform: `rotate(${k % 2 ? 4 : -4}deg) scale(${spring({frame: Math.round((s - b.at) * FPS), fps: FPS, from: 0.3, to: 1, config: {damping: 10, stiffness: 240}})})`}}>{b.text}</div></div>)}
     {P.labels.map((l, k) => <Label key={k} text={l.text} at={l.at} s={s} color="#b3122e" />)}
     {P.stamps.map((x, k) => <Stamp key={k} {...x} s={s} />)}
     {/* captions */}
@@ -140,10 +148,14 @@ export const KitschStory3: React.FC<{clip: string; music?: boolean}> = ({clip, m
     {/* audio */}
     {P.segs.map((g, k) => g.kind === 'N' && <Sequence key={`n${k}`} from={Math.round(g.start * fps)} durationInFrames={Math.round((g.n![1] - g.n![0]) * fps) + 3}>
       <Audio src={staticFile(P.narr)} startFrom={Math.round(g.n![0] * fps)} /></Sequence>)}
+    {P.segs.map((g, k) => g.a !== undefined && <Sequence key={`ja${k}`} from={Math.round(g.start * fps)} durationInFrames={Math.round((g.v[1] - g.v[0]) * fps) + 1}>
+      <Audio src={staticFile(SRC[g.src])} startFrom={Math.round(g.a * fps)} volume={g.kind === 'S' ? 1 : 0.22} /></Sequence>)}
     {P.segs.slice(1).map((g, k) => <Sequence key={`w${k}`} from={Math.max(0, Math.round((g.start - 0.12) * fps))}><Audio src={staticFile('kitsch/whoosh.mp3')} volume={0.13} /></Sequence>)}
     {P.dings.map((t, k) => <Sequence key={`d${k}`} from={Math.round(t * fps)}><Audio src={staticFile('kitsch/s_ding.mp3')} volume={0.3} /></Sequence>)}
+    {(P.sfx ?? []).map((x, k) => <Sequence key={`x${k}`} from={Math.max(0, Math.round(x.at * fps))}><Audio src={staticFile(`kitsch/${x.f}.mp3`)} volume={x.vol} /></Sequence>)}
+    {(P.bubbles ?? []).map((b, k) => <Sequence key={`bp${k}`} from={Math.round(b.at * fps)}><Audio src={staticFile('kitsch/pop.mp3')} volume={0.25} /></Sequence>)}
     {P.pops.map((t, k) => <Sequence key={`p${k}`} from={Math.round(t * fps)}><Audio src={staticFile('kitsch/pop.mp3')} volume={0.2} /></Sequence>)}
-    {music && <Audio src={staticFile('kitsch/m_brega_n.mp3')} startFrom={({delivery: 40, women: 70, ranking: 11} as Record<string, number>)[clip] * fps}
+    {music && <Audio src={staticFile('kitsch/m_brega_n.mp3')} startFrom={({delivery: 40, women: 70, ranking: 11, xmom: 25, xtax: 55, xmystery: 85} as Record<string, number>)[clip] * fps}
       volume={(fr) => { const t = fr / fps; let ii = 0; P.segs.forEach((g, k) => { if (t >= g.start) ii = k; }); return (P.segs[ii].kind === 'S' ? 0.05 : 0.1) * Math.min(1, t / 0.4, (P.dur - t) / 0.5); }} />}
   </AbsoluteFill>;
 };

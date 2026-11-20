@@ -48,3 +48,12 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (vertical-source version)
   **mystery** (opens on the red Kitsch bag, "Who's that one for?" J-cut → "No." → "Saint Nic, signing off"), **mirror** ("Who's Saint Nic? You're Saint Nic… you look good, Santa" → sister "What are you wearing?"),
   **sister** (POV: your brother is Nic from Love Island → "I'm Saint Nic. Get it?" → "Okay fine. This is cute.").
 - Nic source cut points: bag shot starts at 55.55 s (before = sister walking). Disk: GTA sources moved to `.work/archive_public/kreek/v2` (move back to `public/kreek/v2` to re-render KreekV2).
+
+## Batch 5 (2026-11-20) — Christmas storytime + hook-first, 15–17 s, 4K
+- User: preferred the unique Christmas-card storytime over the white meme frame, but wanted the HOOK kept, zooms, pop-ups, "fahh"-type sfx, 15–22 s, 4K.
+- KitschStory3 gained `bubbles`, `zooms`, `sfx`, J-cut segments (`a` = audio start) and widget `none`; configs `kitsch/build_v4.py` → `src/kitsch/v4/`; render `kitsch/render_4k.sh` (--scale=2).
+- SFX generated with ElevenLabs eleven_text_to_sound_v3 (1 take each): `public/kitsch/sfx_fahh.mp3`, `sfx_sparkle.mp3`; boom = Kreek `shock.mp3`. Free tier was "busy" a few times (nothing charged) — retry after a minute.
+- Narration D (voice "Alex"): mom / tax / mystery lines.
+- **xmom** (red): hook = mom's face "You did all this?" (J-cut) + FAHH + "SON OF THE YEAR" → … → "More deliveries coming. Stay nice."
+- **xtax** (green): hook = "Saint Nic tax." (Curl Cream in belt) + FAHH → … → "he really kept it 😭".
+- **xmystery** (midnight, list widget): hook = red Kitsch bag "Who's that one for?… No." + boom → … → mirror "you look good, Santa" + FAHH.

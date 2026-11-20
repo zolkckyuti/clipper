@@ -1,0 +1,369 @@
+{
+ "name": "xmystery",
+ "dur": 16.68,
+ "narr": "kitsch/narrD.wav",
+ "title": "He refuses to say who the last Kitsch gift is for \ud83d\udc40",
+ "hl": [
+  "KITSCH"
+ ],
+ "theme": {
+  "bg": "radial-gradient(120% 80% at 50% 25%, #23306b 0%, #121a45 55%, #070b22 100%)",
+  "stripe": "#d9b44a",
+  "accent": "#FFD84A",
+  "capStroke": "#05081c",
+  "particles": "sparkle",
+  "tilt": 1.2,
+  "cardTop": 1000
+ },
+ "segs": [
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    55.65,
+    58.95
+   ],
+   "start": 0.0,
+   "a": 54.35
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    0.3,
+    3.23
+   ],
+   "start": 3.3,
+   "n": [
+    14.55,
+    17.48
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    36.95,
+    38.55
+   ],
+   "start": 6.23
+  },
+  {
+   "kind": "S",
+   "src": "nic",
+   "v": [
+    46.72,
+    48.17
+   ],
+   "start": 7.83,
+   "a": 46.3
+  },
+  {
+   "kind": "N",
+   "src": "nic",
+   "v": [
+    59.0,
+    61.35
+   ],
+   "start": 9.28,
+   "n": [
+    17.5,
+    19.85
+   ]
+  },
+  {
+   "kind": "S",
+   "src": "v1",
+   "v": [
+    60.75,
+    65.8
+   ],
+   "start": 11.63
+  }
+ ],
+ "caps": [
+  {
+   "t": "Who's",
+   "a": 0.05,
+   "real": true
+  },
+  {
+   "t": "that",
+   "a": 0.45,
+   "real": true
+  },
+  {
+   "t": "one",
+   "a": 0.55,
+   "real": true
+  },
+  {
+   "t": "for?",
+   "a": 0.69,
+   "real": true
+  },
+  {
+   "t": "No.",
+   "a": 2.85,
+   "real": true
+  },
+  {
+   "t": "Nic",
+   "a": 3.33,
+   "real": false
+  },
+  {
+   "t": "handed",
+   "a": 3.85,
+   "real": false
+  },
+  {
+   "t": "out",
+   "a": 4.05,
+   "real": false
+  },
+  {
+   "t": "Kitsch",
+   "a": 4.33,
+   "real": false
+  },
+  {
+   "t": "to",
+   "a": 4.67,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 4.81,
+   "real": false
+  },
+  {
+   "t": "sister",
+   "a": 4.97,
+   "real": false
+  },
+  {
+   "t": "and",
+   "a": 5.31,
+   "real": false
+  },
+  {
+   "t": "his",
+   "a": 5.67,
+   "real": false
+  },
+  {
+   "t": "mom.",
+   "a": 5.87,
+   "real": false
+  },
+  {
+   "t": "Okay,",
+   "a": 6.34,
+   "real": true
+  },
+  {
+   "t": "fine.",
+   "a": 6.9,
+   "real": true
+  },
+  {
+   "t": "This",
+   "a": 7.16,
+   "real": true
+  },
+  {
+   "t": "is",
+   "a": 7.32,
+   "real": true
+  },
+  {
+   "t": "cute.",
+   "a": 7.44,
+   "real": true
+  },
+  {
+   "t": "You",
+   "a": 7.87,
+   "real": true
+  },
+  {
+   "t": "did",
+   "a": 8.35,
+   "real": true
+  },
+  {
+   "t": "all",
+   "a": 8.63,
+   "real": true
+  },
+  {
+   "t": "this?",
+   "a": 8.87,
+   "real": true
+  },
+  {
+   "t": "But",
+   "a": 9.32,
+   "real": false
+  },
+  {
+   "t": "there's",
+   "a": 9.82,
+   "real": false
+  },
+  {
+   "t": "one",
+   "a": 10.04,
+   "real": false
+  },
+  {
+   "t": "gift",
+   "a": 10.26,
+   "real": false
+  },
+  {
+   "t": "he",
+   "a": 10.58,
+   "real": false
+  },
+  {
+   "t": "won't",
+   "a": 10.86,
+   "real": false
+  },
+  {
+   "t": "explain.",
+   "a": 11.28,
+   "real": false
+  },
+  {
+   "t": "Who's",
+   "a": 11.7,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 12.12,
+   "real": true
+  },
+  {
+   "t": "Nic?",
+   "a": 12.4,
+   "real": true
+  },
+  {
+   "t": "You're",
+   "a": 12.74,
+   "real": true
+  },
+  {
+   "t": "Saint",
+   "a": 13.14,
+   "real": true
+  },
+  {
+   "t": "Nic.",
+   "a": 13.48,
+   "real": true
+  },
+  {
+   "t": "Mmm,",
+   "a": 13.94,
+   "real": true
+  },
+  {
+   "t": "you",
+   "a": 14.56,
+   "real": true
+  },
+  {
+   "t": "look",
+   "a": 14.98,
+   "real": true
+  },
+  {
+   "t": "good,",
+   "a": 15.1,
+   "real": true
+  },
+  {
+   "t": "Santa.",
+   "a": 15.4,
+   "real": true
+  }
+ ],
+ "widget": {
+  "type": "list",
+  "head": "SAINT NIC'S LIST",
+  "items": [
+   {
+    "label": "SIS",
+    "at": 7.48,
+    "mark": "ok"
+   },
+   {
+    "label": "MOM",
+    "at": 8.93,
+    "mark": "ok"
+   },
+   {
+    "label": "???",
+    "at": 10.08,
+    "mark": "q"
+   }
+  ]
+ },
+ "labels": [
+  {
+   "text": "Kitsch gift bag",
+   "at": 0.25
+  }
+ ],
+ "stamps": [
+  {
+   "text": "NO COMMENT \ud83e\udd10",
+   "color": "#6b2bd6",
+   "at": 2.85,
+   "rot": 6
+  }
+ ],
+ "dings": [
+  7.48,
+  8.93
+ ],
+ "pops": [],
+ "bubbles": [
+  {
+   "text": "he knows \ud83d\ude0f",
+   "at": 10.28
+  },
+  {
+   "text": "the confidence \ud83d\ude2d",
+   "at": 13.78
+  }
+ ],
+ "zooms": [
+  2.85,
+  8.63,
+  10.26,
+  15.08
+ ],
+ "sfx": [
+  {
+   "f": "sfx_boom",
+   "at": 2.85,
+   "vol": 0.5
+  },
+  {
+   "f": "sfx_sparkle",
+   "at": 6.38,
+   "vol": 0.35
+  },
+  {
+   "f": "sfx_fahh",
+   "at": 15.48,
+   "vol": 0.5
+  }
+ ]
+}

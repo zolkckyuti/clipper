@@ -1,0 +1,124 @@
+{
+ "name": "fixher",
+ "top": "KreekCraft found out Mandy is a MURDERER and said this...",
+ "seg": [
+  [
+   "hook",
+   74.7,
+   77.85
+  ],
+  [
+   "s1",
+   61.4,
+   73.4
+  ],
+  [
+   "s2",
+   77.85,
+   81.5
+  ],
+  [
+   "s3",
+   82.2,
+   85.0
+  ]
+ ],
+ "fix": {
+  "bond": "bone",
+  "salt,": "saw,"
+ },
+ "hl": [
+  "MANDY'S",
+  "MURDERER",
+  "FINGER",
+  "ACID",
+  "FIX",
+  "KILLER",
+  "ISN'T",
+  "SAW"
+ ],
+ "vv": {
+  "music": [
+   "brevis",
+   0
+  ],
+  "red": [
+   "MURDERER",
+   "FINGER",
+   "KILLER"
+  ],
+  "green": [
+   "FIX"
+  ],
+  "punch": [
+   "FIX",
+   "MURDERER",
+   "FINGER",
+   "ACID",
+   "ISN'T"
+  ],
+  "music_vol": 0.6
+ },
+ "v2": {
+  "react": [
+   [
+    0.2,
+    3.0
+   ],
+   [
+    15.3,
+    18.6
+   ],
+   [
+    20.1,
+    21.5
+   ]
+  ],
+  "freeze": [
+   19.3,
+   "WHO ISN'T?? \ud83d\udc80"
+  ],
+  "chip": [
+   3.4,
+   "HOUR 2 OF THE DAY 2 STREAM"
+  ],
+  "drop": 15.15,
+  "pops": [
+   [
+    3.7,
+    "Mandy?? \ud83d\ude33"
+   ],
+   [
+    7.15,
+    "\ud83e\ude78 a FINGER"
+   ],
+   [
+    11.95,
+    "\ud83e\ude9a bone saw"
+   ],
+   [
+    12.85,
+    "\ud83e\uddea acid"
+   ],
+   [
+    14.6,
+    "\ud83d\udce6 duct tape"
+   ]
+  ],
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ]
+ }
+}

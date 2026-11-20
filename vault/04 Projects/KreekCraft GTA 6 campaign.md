@@ -58,3 +58,12 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
 - **kidsgame** (VOD 9:29:50–9:31:00, tower climb): kid in chat asks him to explain GTA 6 so his mom buys it → "learn how to drive… help grandmas… rescue cats… really good game for kids, you learn a lot". Freeze stamp "GTA 6 IS RATED M".
 - **easteregg** (VOD 9:32:00–9:34:20): "if there's not an Easter egg up here I'm ending the stream" → do not fall off → parachute fake-out → "Shut the front door" → nest of real Easter eggs. Hook "Bro… are you serious?" at the nest.
 - Rejected: bird knocks itself out (1:40:32, bird too small to see), pool-bed cutscene (2:05, mostly scripted dialogue), naked old man (4:45, nudity), Karen (1:46, weaker).
+
+## 2026-11-20 — Day 2 batch 2 (3 clips, 15–22 s, pop-ups, native 4K60)
+- User: same style as the last Kreek clips + **pop-ups + hook at the start + 15–22 s** + 4K.
+- Day 2 VOD grew to 11.6 h; re-scanned all of it (`.work/gta/kd2b`, 45 candidates, 31 new ones transcribed with small.en → `txc_rest.log`).
+- KreekV2 now takes `pops: [[t, text], …]` (white bubbles right side, alternating tilt, pop sfx).
+- **fixher** (VOD 2:33:20): hook "But, but, but, I can fix her" → Mandy is a murderer (finger / bone saw / acid / duct tape pop-ups) → "she might be a serial killer" → freeze "But who isn't?". (whisper: "bond salt" = "bone saw").
+- **joking** (1:54:00): hook "Now, Mandy th— no, I'm joking!" (freeze "HE SAID MANDY") → chat: make Lucia look like your wife → "I could never make Lucia as attractive as my IRL wife… good answer, right chat?" → "I'm joking" spiral.
+- **mike** (1:34:20): hook "I look like a stripper" (shirtless blazer) → chat picks black jacket + pants → "what's that movie with Channing Tatum?" → freeze "MAGIC MIKE" → "our shoes even match".
+- Rejected from the re-scan: shoe-store / "booty cheeks" (5:27), porn-set cutscene (11:17), blur-or-McDonald's (10:11, ok but weaker), old man (6:17), containers (3:06, weaker).
