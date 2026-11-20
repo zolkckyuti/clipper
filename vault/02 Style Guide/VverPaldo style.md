@@ -45,3 +45,9 @@ The style used for the "Guess the fake millionaire" and Trevor stream edits (Nov
 ## Text hooks
 - Curiosity + specific number or twist, true to the footage: "$20,000 card… now worth $500?!", "They voted him the FAKE… he was REAL".
 - Campaign rules win (e.g. FOMO: "Guess the millionaire LARPER" variants + @fomo; HardScope: @HardScope + #r3born, no FaZe).
+
+## Never cut a line early (user feedback 2026-11-20)
+- "Let him say what he says" — whisper word timings drop the tail of phrases ("or black?" was cut mid-word). Cuts must sit in real pauses:
+  Kreek: `kreek/snap_segs.py` (Silero VAD snap + per-segment large-v3 re-transcription) then `kreek/beats.py` (beats re-anchored to words).
+  Kitsch: `build(..., snap=True)` in `kitsch/build_v3.py` (VAD for real lines, last narration word + 0.3 s; J-cuts and deliberate splits are left alone).
+- Length is secondary: 15–22 s is a target, never a reason to cut someone off.
