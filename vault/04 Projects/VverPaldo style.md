@@ -1,0 +1,1 @@
+- 2026-11-21 user: **captions in the middle-center, slightly below the middle** (≈ y 1040 of 1920) on BYB / Trevor clips — default for future vertical edits too.
