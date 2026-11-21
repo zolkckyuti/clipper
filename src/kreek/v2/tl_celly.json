@@ -1,12 +1,12 @@
 {
  "name": "tl_celly",
- "dur": 31.43,
+ "dur": 31.28,
  "top": "Trevor Lawrence's new TD celly is made for card collectors \ud83d\udd1f",
  "cuts": [
   {
    "id": "s1",
    "a": 0.0,
-   "b": 31.43,
+   "b": 31.28,
    "src": 1.95
   }
  ],
@@ -842,7 +842,7 @@
  "react": [
   [
    28.46,
-   31.41
+   31.26
   ]
  ],
  "chip": [
@@ -960,5 +960,6 @@
    "POINT"
   ],
   "music_vol": 0.5
- }
+ },
+ "music_gain": 0.2917
 }

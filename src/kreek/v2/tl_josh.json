@@ -1,12 +1,12 @@
 {
  "name": "tl_josh",
- "dur": 24.51,
+ "dur": 24.5,
  "top": "Trevor pulled a Josh Allen true gold\u2026 just not THAT Josh Allen \ud83d\udc80",
  "cuts": [
   {
    "id": "s1",
    "a": 0.0,
-   "b": 24.51,
+   "b": 24.5,
    "src": 1.59
   }
  ],
@@ -548,7 +548,7 @@
  "react": [
   [
    21.72,
-   24.49
+   24.48
   ]
  ],
  "chip": [
@@ -654,5 +654,6 @@
    "NAME"
   ],
   "music_vol": 0.5
- }
+ },
+ "music_gain": 0.335
 }
