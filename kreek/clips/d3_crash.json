@@ -1,0 +1,132 @@
+{
+ "name": "d3_crash",
+ "top": "KreekCraft needs to STOP reading chat while driving \ud83d\udc80",
+ "seg": [
+  [
+   "s2",
+   38.8,
+   45.91
+  ],
+  [
+   "s3",
+   48.9,
+   55.7
+  ],
+  [
+   "s4",
+   57.2,
+   66.29
+  ],
+  [
+   "s5",
+   74.8,
+   77.65
+  ],
+  [
+   "s6",
+   79.3,
+   85.14
+  ]
+ ],
+ "hl": [
+  "CHAT",
+  "STOP",
+  "READING",
+  "REPAIR",
+  "CRIMINAL",
+  "GOOD"
+ ],
+ "vv": {
+  "music": [
+   "sentamento",
+   0
+  ],
+  "red": [
+   "CHAT",
+   "CRIMINAL"
+  ],
+  "green": [
+   "GOOD"
+  ],
+  "punch": [
+   "CHAT",
+   "REPAIR",
+   "STOP",
+   "CRIMINAL"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    0.6,
+    "red light \ud83d\udea6"
+   ],
+   [
+    7.83,
+    "repair bill \ud83d\udcb8"
+   ],
+   [
+    17.91,
+    "say it again \ud83d\udde3\ufe0f"
+   ],
+   [
+    23.58,
+    "background check \ud83d\udccb"
+   ],
+   [
+    30.17,
+    "we're good \ud83d\ude24"
+   ]
+  ],
+  "freeze": [
+   3.2,
+   "HE WAS READING CHAT \ud83d\udc80"
+  ],
+  "react": [
+   [
+    4.54,
+    7.06
+   ],
+   [
+    17.29,
+    22.95
+   ]
+  ],
+  "chip": [
+   8.71,
+   "HOUR 7 OF THE DAY 3 STREAM"
+  ],
+  "drop": 0.0,
+  "meme": {
+   "boom": [
+    3.1
+   ],
+   "fahh": [
+    5.64
+   ],
+   "ooh": [
+    23.58
+   ],
+   "airhorn": [
+    30.17
+   ]
+  }
+ }
+}

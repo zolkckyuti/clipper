@@ -1,0 +1,127 @@
+{
+ "name": "d3_ending",
+ "top": "Chat told KreekCraft what ending IShowSpeed got in GTA 6 \ud83d\ude33",
+ "seg": [
+  [
+   "s1",
+   9.9,
+   14.6
+  ],
+  [
+   "s2",
+   33.95,
+   44.5
+  ],
+  [
+   "s3",
+   62.1,
+   72.15
+  ],
+  [
+   "s4",
+   84.3,
+   89.46
+  ]
+ ],
+ "hl": [
+  "BAD",
+  "ENDING",
+  "WORST",
+  "MILLION",
+  "GOOD",
+  "SPEED"
+ ],
+ "vv": {
+  "music": [
+   "alquimia",
+   0
+  ],
+  "red": [
+   "WORST",
+   "BAD"
+  ],
+  "green": [
+   "GOOD"
+  ],
+  "punch": [
+   "BAD",
+   "WORST",
+   "MILLION",
+   "GOOD"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    1.94,
+    "NO SPOILERS \ud83d\ude49"
+   ],
+   [
+    7.88,
+    "the WORST ending?? \ud83d\ude33"
+   ],
+   [
+    16.05,
+    "$2,000,000 \ud83d\udcb0"
+   ],
+   [
+    22.39,
+    "the grind begins \ud83d\ude24"
+   ],
+   [
+    27.18,
+    "locked in \ud83d\udd12"
+   ]
+  ],
+  "freeze": [
+   29.7,
+   "GOOD ENDING ONLY \ud83d\ude24"
+  ],
+  "react": [
+   [
+    1.94,
+    4.65
+   ],
+   [
+    10.94,
+    15.2
+   ]
+  ],
+  "chip": [
+   0.3,
+   "DAY 3 OF THE GTA 6 STREAM"
+  ],
+  "drop": 25.3,
+  "meme": {
+   "ooh": [
+    7.88
+   ],
+   "fahh": [
+    10.94
+   ],
+   "boom": [
+    16.05
+   ],
+   "airhorn": [
+    29.7
+   ]
+  }
+ }
+}

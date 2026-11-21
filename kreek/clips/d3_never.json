@@ -1,0 +1,110 @@
+{
+ "name": "d3_never",
+ "top": "KreekCraft almost gave away a FREE car in GTA 6\u2026 \ud83d\udc80",
+ "seg": [
+  [
+   "s0",
+   7.51,
+   12.0
+  ],
+  [
+   "s1",
+   19.0,
+   37.3
+  ]
+ ],
+ "hl": [
+  "FREE",
+  "CAR",
+  "NEVER",
+  "MIND",
+  "SUB",
+  "GOAL",
+  "GIVEAWAY"
+ ],
+ "vv": {
+  "music": [
+   "funkabn",
+   0
+  ],
+  "red": [
+   "GIVEAWAY"
+  ],
+  "green": [
+   "FREE"
+  ],
+  "punch": [
+   "FREE",
+   "NEVER",
+   "GOAL",
+   "GIVEAWAY"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   10,
+   110,
+   400,
+   465
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    0.2,
+    "657,000 subs \ud83c\udf89"
+   ],
+   [
+    11.27,
+    "FREE CAR?? \ud83d\ude97"
+   ],
+   [
+    14.65,
+    "subs: \ud83d\udcc9\ud83d\udcc9"
+   ],
+   [
+    16.45,
+    "chat \ud83d\udc94"
+   ]
+  ],
+  "freeze": [
+   19.71,
+   "NO GIVEAWAY \ud83d\udc80"
+  ],
+  "react": [
+   [
+    12.07,
+    14.79
+   ],
+   [
+    19.71,
+    22.74
+   ]
+  ],
+  "chip": [
+   5.49,
+   "HOUR 4 OF THE DAY 3 STREAM"
+  ],
+  "drop": 12.07,
+  "meme": {
+   "fahh": [
+    12.21
+   ],
+   "boom": [
+    19.71
+   ],
+   "ooh": [
+    7.57
+   ]
+  }
+ }
+}

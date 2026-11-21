@@ -1,0 +1,132 @@
+{
+ "name": "d3_bank",
+ "top": "KreekCraft accidentally broke into a bank in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "s1",
+   29.7,
+   39.5
+  ],
+  [
+   "s2",
+   65.0,
+   73.17
+  ],
+  [
+   "s3",
+   79.9,
+   84.4
+  ],
+  [
+   "s4",
+   94.7,
+   101.7
+  ],
+  [
+   "s5",
+   121.9,
+   124.8
+  ]
+ ],
+ "hl": [
+  "BANK",
+  "BLEW",
+  "SAVE",
+  "DELETING",
+  "SAVED",
+  "NO"
+ ],
+ "vv": {
+  "music": [
+   "aura",
+   0
+  ],
+  "red": [
+   "DELETING",
+   "BLEW"
+  ],
+  "green": [
+   "SAVED"
+  ],
+  "punch": [
+   "BANK",
+   "BLEW",
+   "DELETING",
+   "SAVED"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    0.4,
+    "uh oh \ud83d\udea8"
+   ],
+   [
+    5.12,
+    "Fleeca Bank \ud83c\udfe6"
+   ],
+   [
+    15.6,
+    "mission failed \ud83d\udc80"
+   ],
+   [
+    21.55,
+    "he's serious \ud83d\ude33"
+   ],
+   [
+    23.67,
+    "loading\u2026 \ud83d\ude4f"
+   ]
+  ],
+  "freeze": [
+   30.81,
+   "IT SAVED \ud83d\ude2d\ud83d\ude4f"
+  ],
+  "react": [
+   [
+    25.77,
+    29.42
+   ],
+   [
+    29.52,
+    30.67
+   ]
+  ],
+  "chip": [
+   10.4,
+   "HOUR 2 OF THE DAY 3 STREAM"
+  ],
+  "drop": 29.47,
+  "meme": {
+   "fahh": [
+    25.99
+   ],
+   "boom": [
+    15.6
+   ],
+   "ooh": [
+    9.36
+   ],
+   "airhorn": [
+    29.57
+   ]
+  }
+ }
+}

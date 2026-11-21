@@ -1,0 +1,128 @@
+{
+ "name": "d3_roblox",
+ "top": "KreekCraft found a Roblox kid in GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   0.18,
+   13.68
+  ],
+  [
+   "s2",
+   13.91,
+   20.21
+  ],
+  [
+   "s3",
+   59.2,
+   60.75
+  ],
+  [
+   "s4",
+   24.9,
+   34.0
+  ]
+ ],
+ "hl": [
+  "ROBLOX",
+  "KID",
+  "VIDEO",
+  "GAMES",
+  "SNACK",
+  "GUY",
+  "YEARS"
+ ],
+ "vv": {
+  "music": [
+   "empire",
+   0
+  ],
+  "red": [
+   "KID"
+  ],
+  "green": [
+   "ROBLOX",
+   "GUY"
+  ],
+  "punch": [
+   "KID",
+   "ROBLOX",
+   "GAMES",
+   "GUY"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    3.96,
+    "a kid?? \ud83d\udc40"
+   ],
+   [
+    7.74,
+    "Roblox detected \ud83e\uddf1"
+   ],
+   [
+    11.0,
+    "that's literally us \ud83d\ude2d"
+   ],
+   [
+    18.52,
+    "snack denied \ud83d\udc80"
+   ],
+   [
+    22.79,
+    "KreekCraft in 2036 \ud83d\udc74"
+   ]
+  ],
+  "freeze": [
+   29.75,
+   "THE ROBLOX GUY \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    2.82,
+    7.74
+   ],
+   [
+    23.69,
+    30.4
+   ]
+  ],
+  "chip": [
+   13.9,
+   "HOUR 8 OF THE DAY 3 STREAM"
+  ],
+  "drop": 21.35,
+  "meme": {
+   "ooh": [
+    7.74
+   ],
+   "fahh": [
+    18.52
+   ],
+   "airhorn": [
+    29.75
+   ],
+   "boom": [
+    21.02
+   ]
+  }
+ }
+}
