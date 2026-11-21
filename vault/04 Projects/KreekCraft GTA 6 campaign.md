@@ -67,3 +67,12 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
 - **joking** (1:54:00): hook "Now, Mandy th— no, I'm joking!" (freeze "HE SAID MANDY") → chat: make Lucia look like your wife → "I could never make Lucia as attractive as my IRL wife… good answer, right chat?" → "I'm joking" spiral.
 - **mike** (1:34:20): hook "I look like a stripper" (shirtless blazer) → chat picks black jacket + pants → "what's that movie with Channing Tatum?" → freeze "MAGIC MIKE" → "our shoes even match".
 - Rejected from the re-scan: shoe-store / "booty cheeks" (5:27), porn-set cutscene (11:17), blur-or-McDonald's (10:11, ok but weaker), old man (6:17), containers (3:06, weaker).
+
+## 2026-11-21 — Day 3 batch (5 clips, 1080p60, Boeshi-style extras)
+- Source: Twitch VOD **v2934981732** "🔴LIVE! BEATING GTA 6 (ALL ENDINGS) | GIVEAWAYS | DAY 3" (grabbed at 10.5 h while still live). Same green-screen cam as Day 2 (`cam [20,110,380,360]`).
+- User: same Kreek format + phonk, pop-ups, zooms, meme sfx, fahh, transitions; 1080p only. Work dir `.work/kd3` (45 peaks, all transcribed small.en → `tx.log`).
+- **d3_bank** (1:35:40 Fleeca back office → "did I just accidentally break into a bank?" → "if it didn't save I'm deleting the game" → "it saved!" at 1:43).
+- **d3_never** (4:00:14 sub counter 657,000 → drops; "who wants a free car? Oh never mind… we didn't hit the sub goal"); cam widened `[10,110,400,465]` so the counter shows.
+- **d3_crash** (6:38 reads chat, runs a red light: "I gotta stop reading the chat" ×4). **d3_roblox** (8:00 Roblox kid NPC + 8:13 "this is gonna be me in 10 years… I'm the Roblox guy").
+- **d3_ending** (3:22 "did IShowSpeed get the bad ending? don't tell me" → 4:01 $2M family savings for the best ending → 6:13 "we're gonna get the good ending").
+- Rejected: wife/club bit (13:52, his IRL wife), "don't clip that" (4:56, unclear cause), Three Plate Club + showers (suggestive), "Can I play Roblox?" (not the NPC kid).
