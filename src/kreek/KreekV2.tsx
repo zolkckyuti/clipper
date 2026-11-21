@@ -44,7 +44,7 @@ import d3_tank from './v2/d3_tank.json';
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
 export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -106,14 +106,19 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const voiceAt = (t: number) => P.words.some((w) => t >= w.a - 0.08 && t <= w.b + 0.15);
   const off = (t: number) => (P.vv.music_off ?? []).some(([a, b]) => t >= a && t < b);
   const mv = P.vv.music_vol ?? 0.7;
-  const musicVol = (fr: number) => { const t = fr / FPS; if (off(t)) return 0; return (t < P.drop ? 0.4 : 1) * mv * (voiceAt(t) ? 0.42 : 1) * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
+  const musicVol = (fr: number) => { const t = fr / FPS; if (off(t)) return 0;
+    // music_gain (kreek/music_gain.py): constant level 15 dB under the speakers; otherwise the old ducked curve
+    if (P.music_gain !== undefined) return P.music_gain * Math.min(1, t / 0.15, (P.dur - t) / 0.3);
+    return (t < P.drop ? 0.4 : 1) * mv * (voiceAt(t) ? 0.42 : 1) * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
+  const S2 = !!P.sfx2;   // user's SFX pack (public/sfx2) instead of the generated ones
   const sfx: [string, number, number][] = [...cutTimes.map((t, i): [string, number, number] => trOn && i % 3 !== 2 ? ['whoosh', t - 0.12, 0.38] : ['s_camflash', t, 0.45]), ...reds.map((t): [string, number, number] => ['shock', t, 0.35]),
     ...greens.map((t): [string, number, number] => ['rizz', t, 0.32]), ...punches.map((t): [string, number, number] => ['pop', t, 0.16]),
     ...P.react.flatMap(([a, b]): [string, number, number][] => [['whoosh', a - 0.15, 0.3], ['whoosh', b - 0.1, 0.18]]), ['flash', fz, 0.45],
-    ...(P.pops ?? []).map(([t]): [string, number, number] => ['pop', t, 0.32]),
-    ...(P.meme?.fahh ?? []).map((t): [string, number, number] => ['byb/sfx_fahh.mp3', t, 0.5]), ...(P.meme?.airhorn ?? []).map((t): [string, number, number] => ['byb/sfx_airhorn.mp3', t, 0.3]),
-    ...(P.meme?.boom ?? []).map((t): [string, number, number] => ['byb/sfx_boom.mp3', t, 0.5]), ...(P.meme?.ooh ?? []).map((t): [string, number, number] => ['byb/sfx_ooh.mp3', t, 0.32]),
-    ...(P.meme ? [['byb/sfx_boom.mp3', fz, 0.45] as [string, number, number]] : [])];
+    ...(P.pops ?? []).map(([t]): [string, number, number] => [S2 ? 'sfx2/pop.mp3' : 'pop', t, 0.4]),
+    ...(P.meme?.fahh ?? []).map((t): [string, number, number] => [S2 ? 'sfx2/fah.mp3' : 'byb/sfx_fahh.mp3', t, 0.5]), ...(P.meme?.airhorn ?? []).map((t): [string, number, number] => ['byb/sfx_airhorn.mp3', t, 0.3]),
+    ...(P.meme?.boom ?? []).map((t): [string, number, number] => [S2 ? 'sfx2/meme_boom.mp3' : 'byb/sfx_boom.mp3', t, 0.5]), ...(P.meme?.ooh ?? []).map((t): [string, number, number] => ['byb/sfx_ooh.mp3', t, 0.32]),
+    ...(P.meme ? [[S2 ? 'sfx2/meme_boom.mp3' : 'byb/sfx_boom.mp3', fz, 0.45] as [string, number, number]] : []),
+    ...(P.sfx ?? []).map(([t, n, v]): [string, number, number] => [`sfx2/${n}.mp3`, t, v])];
   return <AbsoluteFill style={{background: 'linear-gradient(180deg,#0b0b12 0%,#141022 55%,#0b0b12 100%)', fontFamily: 'Montserrat'}}>
     <AbsoluteFill style={{transform: `translateX(${trX + trShake}px) scale(${trZoom})`, filter: trBlur > 0.5 ? `blur(${trBlur.toFixed(1)}px)` : undefined}}>
     {/* gameplay */}
@@ -157,7 +162,7 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
       </div>
     </div>
     {/* captions */}
-    {chunk && <div style={{position: 'absolute', top: 1350, left: 30, right: 30, textAlign: 'center', lineHeight: 1.08}}>
+    {chunk && <div style={{position: 'absolute', top: P.cap_y ?? 1350, left: 30, right: 30, textAlign: 'center', lineHeight: 1.08}}>
       {chunk.map((w, i) => { const on = s >= w.a - 0.04; const active = on && (i === chunk.length - 1 || s < chunk[i + 1].a - 0.04);
         const k = active ? spring({frame: f - Math.round(w.a * fps), fps, config: {damping: 10, stiffness: 260}, from: 1.25, to: 1.1}) : 1;
         return <span key={i} style={{display: 'inline-block', margin: '0 22px', fontSize: 84, fontWeight: 800, textTransform: 'uppercase', opacity: on ? 1 : 0.0,
@@ -173,7 +178,7 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
     <AbsoluteFill style={{background: `rgba(255,255,255,${white})`}} />
     {/* audio */}
     <OffthreadVideo src={src} style={{display: 'none'}} volume={1} />
-    <Audio src={staticFile(`kreek/music/${P.vv.music[0]}_n.wav`)} startFrom={Math.round(P.vv.music[1] * FPS)} volume={musicVol} loop />
+    <Audio src={staticFile(P.music_src ?? `kreek/music/${P.vv.music[0]}_n.wav`)} startFrom={Math.round(P.vv.music[1] * FPS)} volume={musicVol} loop />
     {sfx.filter(([, t]) => t >= 0).map(([n, t, v], i) => <Sequence key={i} from={Math.round(t * FPS)}><Audio src={staticFile(n.includes('/') ? n : `kreek/music/${n}.mp3`)} volume={v} /></Sequence>)}
   </AbsoluteFill>;
 };
