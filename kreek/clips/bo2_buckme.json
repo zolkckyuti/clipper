@@ -1,0 +1,134 @@
+{
+ "name": "bo2_buckme",
+ "top": "Boeshi had to say this GTA 6 app name VERY carefully \ud83d\udc80",
+ "seg": [
+  [
+   "s1",
+   7.1,
+   11.57
+  ],
+  [
+   "s2",
+   12.9,
+   31.59
+  ],
+  [
+   "s3",
+   38.71,
+   42.26
+  ]
+ ],
+ "hl": [
+  "CAREFULLY",
+  "FIRE",
+  "MARKETING",
+  "AD",
+  "THICK",
+  "MISPRONOUNCE"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "FIRE"
+  ],
+  "green": [
+   "CAREFULLY"
+  ],
+  "punch": [
+   "CAREFULLY",
+   "MISPRONOUNCE",
+   "FIRE",
+   "AD",
+   "THICK"
+  ]
+ },
+ "fix": {
+  "buck": "Buck"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/vampire.wav",
+  "pops": [
+   [
+    0.46,
+    "BuckMe \ud83d\udcf1"
+   ],
+   [
+    7.75,
+    "very carefully \ud83d\ude2d"
+   ],
+   [
+    12.77,
+    "fire them \ud83d\udd25"
+   ],
+   [
+    18.73,
+    "an AD \ud83d\udc80"
+   ],
+   [
+    23.92,
+    "chat?? \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   13.13,
+   "FIRE THE MARKETING TEAM \ud83d\udc80"
+  ],
+  "react": [
+   [
+    9.43,
+    7.17
+   ],
+   [
+    23.21,
+    26.66
+   ]
+  ],
+  "chip": [
+   0.5,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 12.11,
+  "meme": {
+   "fahh": [
+    9.43
+   ],
+   "boom": [
+    18.73
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "click",
+    0.4
+   ],
+   [
+    23.92,
+    "among_us",
+    0.4
+   ]
+  ]
+ }
+}

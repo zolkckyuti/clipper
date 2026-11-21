@@ -1,0 +1,139 @@
+{
+ "name": "bo2_gym",
+ "top": "Boeshi casually flexed his 410 RDLs mid-GTA 6 \ud83d\udcaa",
+ "seg": [
+  [
+   "s1",
+   23.3,
+   36.63
+  ],
+  [
+   "s2",
+   37.1,
+   41.33
+  ],
+  [
+   "s3",
+   51.06,
+   54.3
+  ],
+  [
+   "s4",
+   60.1,
+   66.48
+  ]
+ ],
+ "hl": [
+  "225",
+  "410",
+  "RDLS",
+  "CRAZY",
+  "STRONGER",
+  "FIVE"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "410"
+  ],
+  "green": [
+   "225"
+  ],
+  "punch": [
+   "225",
+   "410",
+   "CRAZY",
+   "STRONGER"
+  ]
+ },
+ "fix": {
+  "rdls": "RDLs"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/gigachad.wav",
+  "pops": [
+   [
+    1.7,
+    "one more rep \ud83d\ude24"
+   ],
+   [
+    12.16,
+    "225 x5 \ud83d\udcaa"
+   ],
+   [
+    19.2,
+    "410?! \ud83d\ude33"
+   ],
+   [
+    26.56,
+    "certified gym rat \ud83d\udc00"
+   ]
+  ],
+  "freeze": [
+   26.56,
+   "410 RDLs \ud83d\udcaa"
+  ],
+  "react": [
+   [
+    17.61,
+    20.75
+   ],
+   [
+    25.6,
+    27.13
+   ]
+  ],
+  "chip": [
+   0.5,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 12.16,
+  "meme": {
+   "boom": [
+    19.2
+   ],
+   "fahh": [
+    14.49
+   ]
+  },
+  "sfx": [
+   [
+    11.18,
+    "cha_ching",
+    0.4
+   ],
+   [
+    22.68,
+    "rizz",
+    0.4
+   ],
+   [
+    0.2,
+    "riser_2",
+    0.3
+   ]
+  ]
+ }
+}

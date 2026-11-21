@@ -1,0 +1,132 @@
+{
+ "name": "bo2_meditate",
+ "top": "When GTA 6 makes you meditate until you cry \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   9.3,
+   16.21
+  ],
+  [
+   "s2",
+   20.1,
+   22.29
+  ],
+  [
+   "s3",
+   28.5,
+   38.36
+  ],
+  [
+   "s4",
+   44.8,
+   55.7
+  ]
+ ],
+ "hl": [
+  "MEDITATE",
+  "MEDITATING",
+  "CRYIN'",
+  "TEARIN'",
+  "WATERING",
+  "PEACEFUL"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "UGH"
+  ],
+  "green": [
+   "PEACEFUL"
+  ],
+  "punch": [
+   "MEDITATE",
+   "MEDITATING",
+   "WATERING",
+   "TEARIN'"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/memoryreboot.wav",
+  "pops": [
+   [
+    8.11,
+    "5 minutes later\u2026 \u23f3"
+   ],
+   [
+    10.96,
+    "he's had enough \ud83d\ude24"
+   ],
+   [
+    23.26,
+    "meditate IRL \ud83e\uddd8"
+   ],
+   [
+    26.76,
+    "real tears \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   28.84,
+   "HE ACTUALLY CRIED \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    9.15,
+    12.62
+   ],
+   [
+    25.66,
+    29.81
+   ]
+  ],
+  "chip": [
+   0.5,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 9.1,
+  "meme": {
+   "fahh": [
+    17.18
+   ],
+   "boom": [
+    28.84
+   ]
+  },
+  "sfx": [
+   [
+    0.1,
+    "riser_1",
+    0.3
+   ],
+   [
+    26.76,
+    "piano_meme",
+    0.35
+   ]
+  ]
+ }
+}

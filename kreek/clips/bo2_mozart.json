@@ -1,0 +1,141 @@
+{
+ "name": "bo2_mozart",
+ "top": "Boeshi listens to Mozart in GTA 6\u2026 we are not the same \ud83d\uddff",
+ "seg": [
+  [
+   "s1",
+   9.7,
+   20.05
+  ],
+  [
+   "s2",
+   30.71,
+   43.71
+  ],
+  [
+   "s3",
+   46.86,
+   52.51
+  ],
+  [
+   "s4",
+   58.52,
+   62.66
+  ]
+ ],
+ "hl": [
+  "MOZART",
+  "SAME",
+  "CHORES",
+  "DRAKE",
+  "BANK",
+  "3AM"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "CHORES"
+  ],
+  "green": [
+   "SAME"
+  ],
+  "punch": [
+   "CHORES",
+   "MOZART",
+   "SAME",
+   "3AM"
+  ]
+ },
+ "fix": {
+  "bay": "Beethoven",
+  "durban": "",
+  "durban.": ""
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/sahara.wav",
+  "pops": [
+   [
+    1.66,
+    "chores simulator \ud83e\uddf9"
+   ],
+   [
+    8.24,
+    "he wants crime \ud83d\udc80"
+   ],
+   [
+    18.07,
+    "Drake? Travis? \ud83d\ude45"
+   ],
+   [
+    23.73,
+    "Mozart on GTA \ud83c\udfbb"
+   ]
+  ],
+  "freeze": [
+   26.55,
+   "WE ARE NOT THE SAME \ud83d\uddff"
+  ],
+  "react": [
+   [
+    25.45,
+    28.95
+   ],
+   [
+    29.05,
+    33.09
+   ]
+  ],
+  "chip": [
+   0.8,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 25.45,
+  "meme": {
+   "fahh": [
+    5.26
+   ],
+   "boom": [
+    27.93
+   ]
+  },
+  "sfx": [
+   [
+    10.97,
+    "magic_reveal",
+    0.45
+   ],
+   [
+    23.73,
+    "glitter",
+    0.4
+   ],
+   [
+    31.83,
+    "ding",
+    0.4
+   ]
+  ]
+ }
+}

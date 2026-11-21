@@ -1,0 +1,126 @@
+{
+ "name": "bo2_donnie",
+ "top": "Boeshi begging Donnie to open the door \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   7.9,
+   29.08
+  ],
+  [
+   "s2",
+   39.41,
+   43.73
+  ],
+  [
+   "s3",
+   47.9,
+   52.76
+  ]
+ ],
+ "hl": [
+  "DONNIE",
+  "DONNIE.",
+  "PLEASE",
+  "DOOR",
+  "COMING"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "COMING"
+  ],
+  "green": [
+   "DOOR"
+  ],
+  "punch": [
+   "DONNIE",
+   "PLEASE",
+   "RESPONDING",
+   "DOOR"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/insomnia.wav",
+  "pops": [
+   [
+    9.76,
+    "cops on him \ud83d\udea8"
+   ],
+   [
+    15.64,
+    "Donnie?? \ud83d\udcde"
+   ],
+   [
+    24.54,
+    "left on read \ud83d\udc80"
+   ],
+   [
+    29.44,
+    "OPEN UP \ud83d\udeaa"
+   ]
+  ],
+  "freeze": [
+   29.44,
+   "DONNIE PLEASE \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    16.62,
+    20.22
+   ],
+   [
+    25.55,
+    30.31
+   ]
+  ],
+  "chip": [
+   0.6,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 9.76,
+  "meme": {
+   "fahh": [
+    24.54
+   ],
+   "boom": [
+    9.76
+   ]
+  },
+  "sfx": [
+   [
+    15.64,
+    "discord_notification",
+    0.45
+   ],
+   [
+    27.06,
+    "bang",
+    0.4
+   ]
+  ]
+ }
+}
