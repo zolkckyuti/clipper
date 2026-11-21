@@ -1,0 +1,131 @@
+{
+ "name": "d3_tank",
+ "top": "KreekCraft tried to steal a car from a TANK in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "s1",
+   4.31,
+   7.86
+  ],
+  [
+   "s2",
+   13.6,
+   20.5
+  ],
+  [
+   "s3",
+   27.22,
+   33.0
+  ],
+  [
+   "s4",
+   40.5,
+   47.2
+  ],
+  [
+   "s5",
+   58.6,
+   60.6
+  ]
+ ],
+ "hl": [
+  "CAR",
+  "TANK",
+  "KNUCKLES",
+  "FACE",
+  "WRONG"
+ ],
+ "vv": {
+  "music": [
+   "aura",
+   0
+  ],
+  "red": [
+   "KNUCKLES",
+   "TANK"
+  ],
+  "green": [
+   "CAR"
+  ],
+  "punch": [
+   "WRONG",
+   "KNUCKLES",
+   "CAR",
+   "TANK"
+  ],
+  "music_vol": 0.55
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    1.14,
+    "$1,000,000 needed \ud83d\udcb0"
+   ],
+   [
+    2.39,
+    "wrong car \ud83d\ude33"
+   ],
+   [
+    4.93,
+    "he's NOT scared \ud83d\udc80"
+   ],
+   [
+    12.45,
+    "round 2 \ud83e\udd4a"
+   ],
+   [
+    19.45,
+    "fine. take it \ud83d\ude97"
+   ]
+  ],
+  "freeze": [
+   24.05,
+   "IT WAS A TANK \ud83d\udc80"
+  ],
+  "react": [
+   [
+    4.0,
+    3.5
+   ],
+   [
+    22.98,
+    24.91
+   ]
+  ],
+  "chip": [
+   3.95,
+   "HOUR 11 OF THE DAY 3 STREAM"
+  ],
+  "drop": 3.55,
+  "meme": {
+   "boom": [
+    5.61
+   ],
+   "ooh": [
+    12.45
+   ],
+   "fahh": [
+    20.87
+   ],
+   "airhorn": [
+    24.05
+   ]
+  }
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "name": "d3_rafa",
+ "top": "The GTA 6 Roblox kid got BANNED from KreekCraft's stream \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   8.8,
+   15.76
+  ],
+  [
+   "s2",
+   25.9,
+   28.0
+  ],
+  [
+   "s3",
+   64.4,
+   69.52
+  ],
+  [
+   "s4",
+   87.5,
+   102.77
+  ],
+  [
+   "s5",
+   110.4,
+   114.95
+  ]
+ ],
+ "hl": [
+  "ROBUX",
+  "BANNED",
+  "STREAM",
+  "VIDEO",
+  "ENGAGEMENTS",
+  "LIKE",
+  "ALPHA"
+ ],
+ "vv": {
+  "music": [
+   "brevis",
+   0
+  ],
+  "red": [
+   "BANNED",
+   "ENGAGEMENTS"
+  ],
+  "green": [
+   "ROBUX",
+   "LIKE"
+  ],
+  "punch": [
+   "ROBUX",
+   "BANNED",
+   "VIDEO",
+   "LIKE"
+  ],
+  "music_vol": 0.55
+ },
+ "fix": {
+  "robots.": "Robux.",
+  "robots": "Robux"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "pops": [
+   [
+    0.46,
+    "free Robux?? \ud83e\uddf1"
+   ],
+   [
+    5.48,
+    "scam alert \ud83d\udea8"
+   ],
+   [
+    8.24,
+    "lock in kid \ud83d\ude24"
+   ],
+   [
+    10.9,
+    "BANNED \ud83d\udd28"
+   ],
+   [
+    15.8,
+    "content creator dad \ud83d\udcf8"
+   ],
+   [
+    21.42,
+    "engagement down \ud83d\udcc9"
+   ]
+  ],
+  "freeze": [
+   28.58,
+   "HE'S JUST LIKE ME \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    9.11,
+    14.13
+   ],
+   [
+    27.46,
+    29.43
+   ],
+   [
+    29.5,
+    33.95
+   ]
+  ],
+  "chip": [
+   7.26,
+   "HOUR 10 OF THE DAY 3 STREAM"
+  ],
+  "drop": 9.06,
+  "meme": {
+   "ooh": [
+    0.46
+   ],
+   "fahh": [
+    5.48
+   ],
+   "boom": [
+    10.9
+   ],
+   "airhorn": [
+    28.58
+   ]
+  }
+ }
+}
