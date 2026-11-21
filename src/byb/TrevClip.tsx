@@ -20,7 +20,7 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   focus?: [number, number, number, number][];          // [t, source cx, source cy, zoom] — zoom 1 = full source height in the panel
   stickers?: [number, string, number, number, number][]; // [t, emoji code (public/emoji-ios), x, y, size]
   sfx?: [number, string, number][];                      // [t, file in public/sfx2 (no ext), volume]
-  music: string; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+  music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
 export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -73,10 +73,10 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
   const chunk = ci >= 0 && s <= chunks[ci][chunks[ci].length - 1].b + 0.7 ? chunks[ci] : null;
   const hl = new Set(P.hl);
   const chipK = interpolate(s, [P.chip[0], P.chip[0] + 0.25, P.chip[0] + 2.8, P.chip[0] + 3.1], [0, 1, 1, 0], clamp);
-  // ---- music: phonk ducked under speech, quieter before the drop
-  const voiceAt = (t: number) => P.words.some((w) => t >= w.a - 0.08 && t <= w.b + 0.15);
-  const mv = P.vv.music_vol ?? 0.5;
-  const musicVol = (fr: number) => { const t = fr / FPS; return (t < P.drop ? 0.5 : 1) * mv * (voiceAt(t) ? 0.3 : 1) * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
+  // ---- music: held at a constant 15 dB under the speakers (user rule). music_gain is measured per clip by
+  // kreek/music_gain.py: (speech LUFS - 15) - (track LUFS), as a linear factor. Short fades in/out only.
+  const mg = P.music_gain ?? 0.15;
+  const musicVol = (fr: number) => { const t = fr / FPS; return mg * Math.min(1, t / 0.15, (P.dur - t) / 0.3); };
   const sfx: [string, number, number][] = [
     ...cutTimes.map((t, i): [string, number, number] => i % 3 === 2 ? ['sfx2/camera_flash.mp3', t, 0.35] : ['kreek/music/whoosh.mp3', t - 0.12, 0.38]),
     ...reds.map((t): [string, number, number] => ['kreek/music/shock.mp3', t, 0.3]), ...greens.map((t): [string, number, number] => ['sfx2/rizz.mp3', t, 0.3]),

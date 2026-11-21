@@ -1,12 +1,12 @@
 {
  "name": "tl_goat",
- "dur": 16.87,
+ "dur": 17.13,
  "top": "Trevor Lawrence took 6 seconds to answer the NBA GOAT question \ud83d\udc80",
  "cuts": [
   {
    "id": "s1",
    "a": 0.0,
-   "b": 16.87,
+   "b": 17.13,
    "src": 1.55
   }
  ],
@@ -142,6 +142,12 @@
    "a": 16.52,
    "b": 16.84,
    "seg": "s1"
+  },
+  {
+   "t": "in",
+   "a": 16.84,
+   "b": 17.1,
+   "seg": "s1"
   }
  ],
  "hl": [
@@ -176,7 +182,7 @@
  "react": [
   [
    13.24,
-   16.85
+   17.11
   ]
  ],
  "chip": [
@@ -280,5 +286,6 @@
    "TENSION"
   ],
   "music_vol": 0.5
- }
+ },
+ "music_gain": 0.4732
 }
