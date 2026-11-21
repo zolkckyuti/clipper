@@ -18,3 +18,9 @@ Back to [[START HERE]] · style: [[KreekCraft GTA 6 campaign]] (KreekV2) + [[Vve
 - Batch 1 (10): block (blocks Mandy from chat "with her body"), paint (watching paint dry), birds (killed 4 birds), pool (on purpose), height (ankle monitor + "who are your height"),
   plane (can't get in the plane), doom (doomscrolling in GTA, fed the rat), voice ("my voice gives them the creeps… innocent little child"), shoot (fight the street, gun controls), cops (lost the cops → Lambo).
 - Skipped: apples (IRL facecam, not GTA), revive (sensitive "condition" line), RE4 segments, "straight/gay" chat banter.
+- **Batch 2 (2026-11-21, overnight)** from new VOD **v2935956182** "Streaming GTA 6 At 3AM (GONE WRONG)" (2.8 h; playlist uses `N.ts` segments → fetch with `kreek/fetch_hls.py`, not fetch_vid.sh).
+  Anti-viewjail changes vs batch 1: user's SFX pack (`sfx2: true` + named `sfx`), music from the user's library (`music_src: tl/music/*.wav`), music held **15 dB under speech**
+  (`music_gain` via kreek/music_gain.py), captions at `cap_y: 1150`, relatable-meme titles, ends snapped to real pauses (kreek/finish_cuts.py).
+  Clips: **mozart** (chores → "I listen to Beethoven and Mozart on GTA… we are not the same", phonk muted during the in-game symphony via vv.music_off, drops on "we"),
+  **donnie** (begging Donnie to open the trailer door), **meditate** (meditated until he teared up), **gym** (225 ×5 → "I'm doing 410 for RDLs… is that kind of crazy?"), **buckme** (BuckMe app name, "fire the marketing team", ad).
+  Skipped: voice-filter bit (no setup/payoff), haram cutscene (1:42), shootouts with no reaction.
