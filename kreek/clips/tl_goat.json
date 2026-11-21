@@ -1,0 +1,158 @@
+{
+ "name": "tl_goat",
+ "top": "Trevor Lawrence took 6 seconds to answer the NBA GOAT question \ud83d\udc80",
+ "seg": [
+  [
+   "s1",
+   1.55,
+   18.42
+  ]
+ ],
+ "hl": [
+  "GOAT",
+  "NBA",
+  "DELLAVEDOVA",
+  "TENSION"
+ ],
+ "vv": {
+  "red": [
+   "DELLAVEDOVA"
+  ],
+  "green": [],
+  "punch": [
+   "GOAT",
+   "DELLAVEDOVA",
+   "TENSION"
+  ],
+  "music_vol": 0.5
+ },
+ "fix": {
+  "delvedova": "Dellavedova.",
+  "nba": "NBA",
+  "goat": "GOAT",
+  "matthew": "Matthew",
+  "player": "player?",
+  "delevadova": "Dellavedova."
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "gigachad",
+  "pops": [
+   [
+    1.6,
+    "LeBron or MJ? \ud83e\udd14"
+   ],
+   [
+    6.2,
+    "he's thinking\u2026 \u23f3"
+   ],
+   [
+    16.52,
+    "the TENSION \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   12.52,
+   "MATTHEW DELLAVEDOVA \ud83d\udc10"
+  ],
+  "react": [
+   [
+    13.24,
+    16.85
+   ]
+  ],
+  "chip": [
+   0.5,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 12.18,
+  "focus": [
+   [
+    0.0,
+    960,
+    560,
+    1.0
+   ],
+   [
+    1.6,
+    975,
+    520,
+    1.12
+   ],
+   [
+    4.2,
+    985,
+    470,
+    1.45
+   ],
+   [
+    8.0,
+    990,
+    450,
+    1.75
+   ],
+   [
+    12.18,
+    985,
+    480,
+    1.5
+   ],
+   [
+    13.24,
+    960,
+    560,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    5.0,
+    "1f914",
+    860,
+    720,
+    230
+   ],
+   [
+    8.6,
+    "23f3",
+    220,
+    760,
+    200
+   ],
+   [
+    12.52,
+    "1f410",
+    860,
+    640,
+    280
+   ],
+   [
+    16.06,
+    "1f480",
+    210,
+    640,
+    210
+   ]
+  ],
+  "sfx": [
+   [
+    4.4,
+    "riser_2",
+    0.35
+   ],
+   [
+    9.0,
+    "keyboard_typing",
+    0.0
+   ],
+   [
+    16.06,
+    "fah",
+    0.5
+   ]
+  ]
+ }
+}

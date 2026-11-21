@@ -1,0 +1,164 @@
+{
+ "name": "tl_josh",
+ "top": "Trevor pulled a Josh Allen true gold\u2026 just not THAT Josh Allen \ud83d\udc80",
+ "seg": [
+  [
+   "s1",
+   1.59,
+   26.1
+  ]
+ ],
+ "hl": [
+  "GOLD",
+  "JOSH",
+  "ALLEN",
+  "HINES",
+  "NAME",
+  "REAL"
+ ],
+ "vv": {
+  "red": [
+   "HINES"
+  ],
+  "green": [
+   "GOLD"
+  ],
+  "punch": [
+   "GOLD",
+   "JOSH",
+   "REAL",
+   "NAME"
+  ],
+  "music_vol": 0.5
+ },
+ "fix": {
+  "heinz": "Hines",
+  "josh": "Josh",
+  "allen": "Allen",
+  "allen.": "Allen."
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "dreamspace",
+  "pops": [
+   [
+    0.36,
+    "TRUE GOLD \ud83d\udd25"
+   ],
+   [
+    10.76,
+    "JOSH ALLEN?! \ud83d\ude33"
+   ],
+   [
+    17.68,
+    "wait\u2026 \ud83e\udd14"
+   ],
+   [
+    21.04,
+    "Trevor's teammate \ud83d\udc06"
+   ]
+  ],
+  "freeze": [
+   20.34,
+   "THE REAL JOSH ALLEN \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    21.72,
+    24.49
+   ]
+  ],
+  "chip": [
+   0.4,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 10.76,
+  "focus": [
+   [
+    0.0,
+    1000,
+    600,
+    1.15
+   ],
+   [
+    10.76,
+    1040,
+    560,
+    1.4
+   ],
+   [
+    16.74,
+    960,
+    540,
+    1.0
+   ],
+   [
+    20.34,
+    640,
+    430,
+    1.25
+   ],
+   [
+    21.72,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    14.7,
+    "1f525",
+    860,
+    700,
+    220
+   ],
+   [
+    10.76,
+    "1f633",
+    220,
+    700,
+    220
+   ],
+   [
+    17.68,
+    "1f440",
+    860,
+    700,
+    200
+   ],
+   [
+    23.72,
+    "1f602",
+    220,
+    680,
+    220
+   ]
+  ],
+  "sfx": [
+   [
+    0.36,
+    "cha_ching",
+    0.4
+   ],
+   [
+    10.76,
+    "magic_reveal",
+    0.45
+   ],
+   [
+    17.68,
+    "among_us",
+    0.4
+   ],
+   [
+    23.72,
+    "fah",
+    0.45
+   ]
+  ]
+ }
+}

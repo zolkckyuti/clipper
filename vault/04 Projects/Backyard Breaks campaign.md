@@ -22,3 +22,15 @@ Back to [[START HERE]] · style: [[VverPaldo style]] + [[KreekCraft GTA 6 campai
 - Batch 1 (2026-11-21): **clark** ($234,000 gold vinyl auto 1/1 — host jumps in the trash can), **flagg** ($100,000+ Papa auto 1/1 — "we do that!"),
   **dart** ($200K–$250K Papa auto 1/1 — "I wasn't leaving without hitting it"; skipped his Superfractor line, different tracker row/value), **starwars** ($12,000+ triple auto super 1/1 — delayed realization).
   LeBron triple logoman ($2.4M) is a 15-min horizontal multi-cam recording; reveal ~9:00–9:50 needs frame-by-frame check before clipping.
+
+## 2026-11-21 — Trevor Lawrence batch (5 clips, 1080p60) — `src/byb/TrevClip.tsx`
+- User: 5 × 1080p Trevor Lawrence BYB clips (NBA GOAT + anything Trevor), follow the BYB Whop/Content Rewards rules, copy the *approach* of youtube.com/@backyardbreaks_clipzz
+  (YouTube download is bot-checked from the cloud box → studied titles + thumbnails only): formula "The #1 Football Player / Trevor Lawrence … 💀 @BackyardBreaks",
+  16:9 footage centred in a 9:16 frame, white title on top, word captions, meme cutaways. Their best: PSA 10 celly 24k, coaches/left 12k, autograph roast 7.9k, sPnX late auto 5.5k, GOAT 4.9k.
+- Footage = tracker tab 1029565171 (19 Drive clips of the 10.20.26 stream, Grant + Bugsy "Traveling Trevors" in wigs). Downloaded 8 → `.work/tl/src/`. ("trevors" Drive file is actually the roll-left story.)
+- New template **TrevClip** (comps `Trev-<name>`): blurred backdrop, 1080×1150 footage panel with `focus` keyframes [t, cx, cy, zoom] (eased 0.35 s reframes onto the speaker),
+  punch-ins, react zoom, rotating cut transitions, freeze stamp, pop-ups, emoji `stickers` (public/emoji-ios), named `sfx` from the user's pack (public/sfx2), phonk from the
+  user's library (public/tl/music/*.wav, loudnorm −20), captions at y≈1040 (user: middle-center, slightly below). beats.py now anchors focus/stickers/sfx. Render `kreek/render_trev.sh`.
+- Clips: **goat** (6-s silence → "gotta be Matthew Dellavedova"), **celly** (PSA 10 celly), **josh** (Josh Allen true gold → "the real Josh Hines-Allen before he changed his name"),
+  **ticket** (Grant gifts Trevor his own signed national-championship ticket — he never had one), **sig** (goated pen → Peyton Manning called him about signatures).
+- Skipped the Anthony Richardson autograph roast (respect) and anything already posted as-is by the reference channel's edit; no price badges (Trevor tab has no card values).

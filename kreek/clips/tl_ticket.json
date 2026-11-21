@@ -1,0 +1,178 @@
+{
+ "name": "tl_ticket",
+ "top": "Trevor Lawrence got gifted his OWN autograph \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   9.65,
+   17.3
+  ],
+  [
+   "s2",
+   21.15,
+   33.15
+  ],
+  [
+   "s3",
+   37.25,
+   43.45
+  ],
+  [
+   "s4",
+   43.75,
+   50.68
+  ]
+ ],
+ "hl": [
+  "GIFT",
+  "TICKET",
+  "CHAMPIONSHIP",
+  "AUTO",
+  "WEIRD",
+  "NEVER"
+ ],
+ "vv": {
+  "red": [
+   "WEIRD"
+  ],
+  "green": [
+   "TICKET"
+  ],
+  "punch": [
+   "GIFT",
+   "CHAMPIONSHIP",
+   "AUTO",
+   "NEVER"
+  ],
+  "music_vol": 0.45
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "closeeyes",
+  "pops": [
+   [
+    1.68,
+    "a gift \ud83c\udf81"
+   ],
+   [
+    10.93,
+    "his natty game \ud83c\udfc6"
+   ],
+   [
+    24.34,
+    "kinda weird \ud83d\udc80"
+   ],
+   [
+    30.29,
+    "never had one?! \ud83d\ude33"
+   ]
+  ],
+  "freeze": [
+   26.43,
+   "HE NEVER HAD ONE \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    19.11,
+    19.63
+   ],
+   [
+    31.05,
+    32.76
+   ]
+  ],
+  "chip": [
+   0.4,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 8.89,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ],
+   [
+    8.89,
+    960,
+    520,
+    1.25
+   ],
+   [
+    18.25,
+    990,
+    430,
+    1.4
+   ],
+   [
+    19.65,
+    960,
+    540,
+    1.0
+   ],
+   [
+    25.85,
+    990,
+    430,
+    1.4
+   ]
+  ],
+  "stickers": [
+   [
+    1.68,
+    "1f381",
+    860,
+    700,
+    220
+   ],
+   [
+    8.89,
+    "1f39f",
+    220,
+    700,
+    220
+   ],
+   [
+    10.93,
+    "1f3c6",
+    860,
+    700,
+    220
+   ],
+   [
+    26.43,
+    "1f62d",
+    220,
+    680,
+    230
+   ]
+  ],
+  "sfx": [
+   [
+    8.89,
+    "magic_reveal",
+    0.45
+   ],
+   [
+    12.09,
+    "ding",
+    0.4
+   ],
+   [
+    24.34,
+    "fah",
+    0.45
+   ],
+   [
+    30.29,
+    "piano_meme",
+    0.0
+   ]
+  ]
+ }
+}

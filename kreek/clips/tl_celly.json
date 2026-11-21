@@ -1,0 +1,177 @@
+{
+ "name": "tl_celly",
+ "top": "Trevor Lawrence's new TD celly is made for card collectors \ud83d\udd1f",
+ "seg": [
+  [
+   "s1",
+   1.95,
+   33.38
+  ]
+ ],
+ "hl": [
+  "CELLY",
+  "PSA",
+  "10",
+  "TOUCHDOWN",
+  "CHOREOGRAPHED",
+  "BEST"
+ ],
+ "vv": {
+  "red": [
+   "CHOREOGRAPHED"
+  ],
+  "green": [
+   "EASY"
+  ],
+  "punch": [
+   "CELLY",
+   "MAYBE",
+   "PSA",
+   "POINT"
+  ],
+  "music_vol": 0.5
+ },
+ "fix": {
+  "selly": "celly",
+  "-10": "10",
+  "-10.": "10.",
+  "tutty.": "TD.",
+  "bashaw,": ""
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "essence",
+  "pops": [
+   [
+    0.66,
+    "not a celly guy \ud83d\ude2d"
+   ],
+   [
+    11.64,
+    "no TikTok dances \ud83d\udc80"
+   ],
+   [
+    20.66,
+    "PSA 10 = perfect grade \ud83d\udc8e"
+   ],
+   [
+    24.34,
+    "the PSA 10 celly \ud83d\udd1f"
+   ]
+  ],
+  "freeze": [
+   29.04,
+   "TREVOR APPROVED \ud83d\udd1f"
+  ],
+  "react": [
+   [
+    28.46,
+    31.41
+   ]
+  ],
+  "chip": [
+   0.4,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 24.34,
+  "focus": [
+   [
+    0.0,
+    960,
+    560,
+    1.0
+   ],
+   [
+    6.4,
+    985,
+    520,
+    1.45
+   ],
+   [
+    11.64,
+    960,
+    560,
+    1.05
+   ],
+   [
+    20.66,
+    700,
+    540,
+    1.2
+   ],
+   [
+    24.34,
+    440,
+    480,
+    1.35
+   ],
+   [
+    28.18,
+    985,
+    520,
+    1.45
+   ],
+   [
+    28.46,
+    960,
+    560,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    4.78,
+    "1f3c8",
+    860,
+    700,
+    200
+   ],
+   [
+    22.52,
+    "1f4af",
+    860,
+    700,
+    220
+   ],
+   [
+    24.34,
+    "1f51f",
+    230,
+    700,
+    230
+   ],
+   [
+    29.04,
+    "1f525",
+    860,
+    700,
+    220
+   ]
+  ],
+  "sfx": [
+   [
+    6.4,
+    "fah",
+    0.45
+   ],
+   [
+    20.66,
+    "cha_ching",
+    0.4
+   ],
+   [
+    24.34,
+    "ding",
+    0.45
+   ],
+   [
+    9.02,
+    "glitter",
+    0.4
+   ]
+  ]
+ }
+}
