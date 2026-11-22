@@ -76,3 +76,14 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
 - **d3_crash** (6:38 reads chat, runs a red light: "I gotta stop reading the chat" ×4). **d3_roblox** (8:00 Roblox kid NPC + 8:13 "this is gonna be me in 10 years… I'm the Roblox guy").
 - **d3_ending** (3:22 "did IShowSpeed get the bad ending? don't tell me" → 4:01 $2M family savings for the best ending → 6:13 "we're gonna get the good ending").
 - Rejected: wife/club bit (13:52, his IRL wife), "don't clip that" (4:56, unclear cause), Three Plate Club + showers (suggestive), "Can I play Roblox?" (not the NPC kid).
+
+## 2026-11-22 — Day 4 / final stream (5 clips, 1080p60, RGB flashes)
+- Kreek was offline; clipped VOD **v2936183180** "🔴LIVE! BEATING GTA 6 *RIGHT NOW* (FINAL MISSION)" (9.8 h, `.work/kd4`). Same green-screen cam → `cam [20,80,400,430]`.
+- User reference **youtube.com/@clippingraw**: titles "KreekCraft Finds ___ In GTA 6😭. Watch KreekCraft on YouTube and Twitch! 🔴" (Hulk 34k, Easter eggs 32k/30k, crocodile 28k),
+  facecam-top split, one-word condensed captions, full-frame **blue/red/green colour flashes**. User: keep our black bars, add the flashes.
+  → KreekV2 `rgb: true` (blue→red→green burst, 2 frames each, on freeze / red / green / react starts / `flash` times; single-colour pulse on punch-ins; footage area only,
+  mix-blend `color` + `overlay`). beats.py anchors `flash`.
+- Also on: `sfx2`, `music_src` (library), `music_gain` (15 dB under speech), `cap_y 1150`, finish_cuts.
+- Clips: **niko** (6:52 — GTA IV's first line → "It's NIKO!"), **jimmy** (2:31 + 2:37 — Jimmy De Santa, "how's Trevor and Franklin?", crypto bro), **glitch** (9:05 swap/stow money dupe → "it worked", $108K/run),
+  **tiger** (0:18 — apples → beer; no cutaway over the tiger reveal at the end), **blind** (1:18 — "I'm legally blind" → NPC "you blind or something?" "I am, actually").
+- Skipped: naked bar / showers / "put it back in there" (NSFW), wife-free; game subtitles still show swears on some frames (baked into footage).
