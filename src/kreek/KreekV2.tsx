@@ -49,7 +49,7 @@ import bo2_buckme from './v2/bo2_buckme.json';
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
 export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
@@ -92,6 +92,16 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const white = trOn ? (ttype === 2 && s - cutTimes[ti] < 3 / FPS ? 0.9 : ttype === 0 && s - cutTimes[ti] < 1 / FPS ? 0.5 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.55 : (s >= fz && s < fz + 0.06) ? 0.8 : 0)
     : cutTimes.some((t) => s >= t && s < t + 2 / FPS) ? 0.9 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.55 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
   const flicker = f % 3 === 0 ? 0.05 : 0;
+  // ---- RGB flashes (opt-in rgb=true, clippingraw-style): a fast blue -> red -> green burst (2 frames per colour) on the
+  // payoff, the red/green hits, every reaction cutaway and any explicit `flash` time; single-colour pulse on punch-ins.
+  const RGB = ['#1E6BFF', '#FF1E3C', '#2BFF5A'];
+  let rgbCol: string | null = null, rgbA = 0;
+  if (P.rgb) {
+    const bursts = [fz, ...reds, ...greens, ...P.react.map(([a]) => a), ...(P.flash ?? [])];
+    const b = bursts.find((t) => s >= t && s < t + 0.3);
+    if (b !== undefined) { rgbCol = RGB[Math.floor((s - b) * FPS / 2) % 3]; rgbA = 0.85; }
+    else { const pi = punches.findIndex((t) => s >= t && s < t + 2 / FPS); if (pi >= 0) { rgbCol = RGB[pi % 3]; rgbA = 0.6; } }
+  }
   // ---- facecam PiP -> big reaction cutaway
   const bounce = [...reds, ...greens].reduce((m, t) => Math.max(m, interpolate(s, [t, t + 0.08, t + 0.3], [0, 1, 0], clamp)), 0);
   const camW = interpolate(react, [0, 1], [400, 900]), camH = camW * CH / CW;
@@ -144,6 +154,9 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
       </div>
     </div>
     </AbsoluteFill>
+    {/* RGB flash over the footage area only (black bars stay black) */}
+    {rgbCol && <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, background: rgbCol, mixBlendMode: 'color', opacity: rgbA}} />}
+    {rgbCol && <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, background: rgbCol, mixBlendMode: 'overlay', opacity: rgbA * 0.45}} />}
     {/* freeze stamp */}
     {inFreeze && <div style={{position: 'absolute', top: 860, left: 0, width: 1080, display: 'flex', justifyContent: 'center',
       transform: `rotate(-6deg) scale(${interpolate(fzK, [0, 1], [1.7, 1])})`}}>
