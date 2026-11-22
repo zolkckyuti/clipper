@@ -1,0 +1,143 @@
+{
+ "name": "d4_niko",
+ "top": "KreekCraft Finds Niko Bellic In GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   19.51,
+   24.8
+  ],
+  [
+   "s2",
+   29.0,
+   34.96
+  ],
+  [
+   "s3",
+   41.83,
+   45.47
+  ],
+  [
+   "s4",
+   48.99,
+   61.81
+  ],
+  [
+   "s5",
+   65.0,
+   72.0
+  ]
+ ],
+ "hl": [
+  "NIKO",
+  "NIKO!",
+  "GTA",
+  "IV",
+  "WAY",
+  "GOD"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "WAY"
+  ],
+  "green": [
+   "NIKO"
+  ],
+  "punch": [
+   "IV",
+   "WAY",
+   "NIKO",
+   "YOOOO"
+  ]
+ },
+ "fix": {
+  "nico!": "Niko!",
+  "nico": "Niko"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   80,
+   400,
+   430
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "rgb": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/metamorphosis.wav",
+  "pops": [
+   [
+    7.11,
+    "the GTA IV intro \ud83d\udc40"
+   ],
+   [
+    11.84,
+    "NO WAY \ud83d\ude33"
+   ],
+   [
+    15.46,
+    "is that\u2026"
+   ],
+   [
+    33.69,
+    "NIKO BELLIC \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   33.69,
+   "IT'S NIKO \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    11.3,
+    14.84
+   ],
+   [
+    20.16,
+    27.66
+   ]
+  ],
+  "chip": [
+   0.5,
+   "THE FINAL GTA 6 STREAM \u00b7 DAY 4"
+  ],
+  "drop": 20.16,
+  "meme": {
+   "boom": [
+    11.84
+   ],
+   "ooh": [
+    15.46
+   ]
+  },
+  "flash": [
+   20.16
+  ],
+  "sfx": [
+   [
+    9.93,
+    "magic_reveal",
+    0.4
+   ],
+   [
+    0.2,
+    "riser_1",
+    0.3
+   ]
+  ]
+ }
+}

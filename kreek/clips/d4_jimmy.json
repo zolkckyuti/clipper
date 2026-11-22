@@ -1,0 +1,132 @@
+{
+ "name": "d4_jimmy",
+ "top": "KreekCraft Finds Jimmy From GTA 5 In GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   9.7,
+   15.68
+  ],
+  [
+   "s2",
+   30.0,
+   35.76
+  ],
+  [
+   "s3",
+   37.3,
+   48.12
+  ],
+  [
+   "s4",
+   62.9,
+   70.74
+  ]
+ ],
+ "hl": [
+  "JIMMY",
+  "DESANTA",
+  "TREVOR",
+  "FRANKLIN",
+  "CRYPTO",
+  "DAD"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "CRYPTO"
+  ],
+  "green": [
+   "JIMMY"
+  ],
+  "punch": [
+   "JIMMY",
+   "DAD",
+   "FRANKLIN",
+   "CRYPTO"
+  ]
+ },
+ "fix": {
+  "desanta": "De Santa",
+  "desanta.": "De Santa.",
+  "does": "De",
+  "say": "Santa"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   80,
+   400,
+   430
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "rgb": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/dreamspace.wav",
+  "pops": [
+   [
+    3.36,
+    "JIMMY DE SANTA?! \ud83d\ude33"
+   ],
+   [
+    9.56,
+    "from GTA 5 \ud83d\udc40"
+   ],
+   [
+    18.12,
+    "say hi to Michael \ud83d\ude2d"
+   ],
+   [
+    24.4,
+    "crypto bro now \ud83d\udcc9"
+   ]
+  ],
+  "freeze": [
+   21.04,
+   "HOW'S TREVOR & FRANKLIN \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    8.96,
+    11.69
+   ],
+   [
+    22.61,
+    30.35
+   ]
+  ],
+  "chip": [
+   0.5,
+   "THE FINAL GTA 6 STREAM \u00b7 DAY 4"
+  ],
+  "drop": 17.58,
+  "meme": {
+   "boom": [
+    3.36
+   ]
+  },
+  "flash": [
+   3.36
+  ],
+  "sfx": [
+   [
+    25.96,
+    "piano_meme",
+    0.35
+   ]
+  ]
+ }
+}

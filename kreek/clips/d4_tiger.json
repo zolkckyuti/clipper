@@ -1,0 +1,139 @@
+{
+ "name": "d4_tiger",
+ "top": "KreekCraft Tried To Feed A Tiger Beer In GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   10.35,
+   15.79
+  ],
+  [
+   "s2",
+   25.0,
+   27.12
+  ],
+  [
+   "s3",
+   35.8,
+   39.24
+  ],
+  [
+   "s4",
+   43.2,
+   48.95
+  ],
+  [
+   "s5",
+   49.07,
+   59.16
+  ],
+  [
+   "s6",
+   81.8,
+   83.99
+  ]
+ ],
+ "hl": [
+  "TIGER",
+  "TIGERS",
+  "APPLE",
+  "APPLES",
+  "BEER",
+  "VEGAN",
+  "KNIVES"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "BEER"
+  ],
+  "green": [
+   "VEGAN"
+  ],
+  "punch": [
+   "TIGERS",
+   "APPLE",
+   "VEGAN",
+   "BEER"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   80,
+   400,
+   430
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "rgb": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/insomnia.wav",
+  "pops": [
+   [
+    3.38,
+    "MULTIPLE tigers?? \ud83d\udc2f"
+   ],
+   [
+    9.94,
+    "an apple?? \ud83c\udf4e"
+   ],
+   [
+    19.55,
+    "knives?! \ud83d\udc80"
+   ],
+   [
+    23.29,
+    "BEER \ud83c\udf7a"
+   ],
+   [
+    26.84,
+    "TIGER \ud83d\udc2f"
+   ]
+  ],
+  "freeze": [
+   25.85,
+   "TIGER WANTS BEER \ud83c\udf7a"
+  ],
+  "react": [
+   [
+    16.8,
+    25.85
+   ],
+   [
+    26.86,
+    28.98
+   ]
+  ],
+  "chip": [
+   0.5,
+   "THE FINAL GTA 6 STREAM \u00b7 DAY 4"
+  ],
+  "drop": 17.95,
+  "meme": {
+   "fahh": [
+    19.55
+   ],
+   "boom": [
+    26.84
+   ]
+  },
+  "flash": [
+   26.84
+  ],
+  "sfx": []
+ }
+}

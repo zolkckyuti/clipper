@@ -1,0 +1,142 @@
+{
+ "name": "d4_glitch",
+ "top": "KreekCraft Found A Money Glitch In GTA 6 \ud83d\ude33",
+ "seg": [
+  [
+   "s1",
+   9.8,
+   18.52
+  ],
+  [
+   "s2",
+   22.19,
+   27.51
+  ],
+  [
+   "s3",
+   37.28,
+   39.12
+  ],
+  [
+   "s4",
+   44.9,
+   48.34
+  ],
+  [
+   "s5",
+   54.3,
+   59.31
+  ],
+  [
+   "s6",
+   111.0,
+   121.28
+  ]
+ ],
+ "hl": [
+  "WORK",
+  "WORKED",
+  "WORKS",
+  "THOUSAND",
+  "MILLION",
+  "SWAPPED"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "PLEASE"
+  ],
+  "green": [
+   "WORKED"
+  ],
+  "punch": [
+   "SWAPPED",
+   "PLEASE",
+   "WORKED",
+   "MILLION"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   80,
+   400,
+   430
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "rgb": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/gigachad.wav",
+  "pops": [
+   [
+    2.64,
+    "step 1: the van \ud83d\ude90"
+   ],
+   [
+    12.78,
+    "step 2: swap \ud83d\udd01"
+   ],
+   [
+    15.88,
+    "\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f"
+   ],
+   [
+    19.92,
+    "IT WORKED \ud83d\ude31"
+   ],
+   [
+    25.61,
+    "$108K a run \ud83d\udcb0"
+   ]
+  ],
+  "freeze": [
+   19.92,
+   "MONEY GLITCH \ud83d\udcb0"
+  ],
+  "react": [
+   [
+    15.93,
+    24.28
+   ]
+  ],
+  "chip": [
+   0.5,
+   "THE FINAL GTA 6 STREAM \u00b7 DAY 4"
+  ],
+  "drop": 19.32,
+  "meme": {
+   "boom": [
+    19.92
+   ]
+  },
+  "flash": [
+   25.61
+  ],
+  "sfx": [
+   [
+    25.61,
+    "cha_ching",
+    0.45
+   ],
+   [
+    15.88,
+    "riser_2",
+    0.35
+   ]
+  ]
+ }
+}

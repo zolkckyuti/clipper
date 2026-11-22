@@ -1,0 +1,122 @@
+{
+ "name": "d4_blind",
+ "top": "KreekCraft Said He's Legally Blind\u2026 Then GTA 6 Called Him Out \ud83d\ude2d",
+ "seg": [
+  [
+   "s1",
+   3.19,
+   7.0
+  ],
+  [
+   "s2",
+   11.1,
+   16.76
+  ],
+  [
+   "s3",
+   28.3,
+   35.59
+  ],
+  [
+   "s4",
+   48.05,
+   57.0
+  ]
+ ],
+ "hl": [
+  "BLIND",
+  "LEGALLY",
+  "ABLEIST",
+  "ACTUALLY",
+  "VAN"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "ABLEIST"
+  ],
+  "green": [
+   "ACTUALLY"
+  ],
+  "punch": [
+   "BLIND",
+   "ABLEIST",
+   "ACTUALLY"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   80,
+   400,
+   430
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "rgb": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/suicideyear.wav",
+  "pops": [
+   [
+    0.3,
+    "they're shooting \ud83d\udd2b"
+   ],
+   [
+    12.51,
+    "legally blind \ud83d\udc53"
+   ],
+   [
+    14.49,
+    "no jokes allowed \ud83d\ude2d"
+   ],
+   [
+    21.36,
+    "the game heard him \ud83d\udc80"
+   ]
+  ],
+  "freeze": [
+   23.12,
+   "HE IS ACTUALLY \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    11.11,
+    16.71
+   ],
+   [
+    22.3,
+    25.66
+   ]
+  ],
+  "chip": [
+   0.5,
+   "THE FINAL GTA 6 STREAM \u00b7 DAY 4"
+  ],
+  "drop": 11.11,
+  "meme": {
+   "fahh": [
+    21.36
+   ],
+   "boom": [
+    23.12
+   ]
+  },
+  "flash": [
+   21.36
+  ],
+  "sfx": []
+ }
+}

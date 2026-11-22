@@ -32,6 +32,7 @@ if 'meme' in B: v2['meme'] = {k: [T(x) for x in v] for k, v in B['meme'].items()
 # TrevClip extras: reframe keyframes, emoji stickers, named sfx (public/sfx2)
 if 'focus' in B: v2['focus'] = [[T(a), cx, cy, z] for a, cx, cy, z in B['focus']]
 if 'stickers' in B: v2['stickers'] = [[T(a), *rest] for a, *rest in B['stickers']]
+if 'flash' in B: v2['flash'] = [T(a) for a in B['flash']]
 if 'sfx' in B: v2['sfx'] = [[T(a), n, v] for a, n, v in B['sfx']]
 json.dump(C, open(cfg_f, 'w'), indent=1)
 print(C['name'], 'dur', round(o, 2), json.dumps(v2, ensure_ascii=False)[:600])
