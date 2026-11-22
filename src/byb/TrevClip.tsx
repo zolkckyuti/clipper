@@ -69,7 +69,9 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
   const trZoom = ttype === 0 ? 1 + 0.38 * tk * tk : 1, trX = ttype === 1 ? (ti % 2 ? -1 : 1) * 760 * tk * tk : 0;
   const trBlur = ttype === 0 || ttype === 1 ? 16 * tk : 0;
   const shake = (ttype === 2 ? 14 * tk * Math.sin(f * 2.7) : 0) + (reds.some((t) => s >= t && s < t + 0.25) || (s >= fz && s < fz + 0.2) ? 9 * Math.sin(f * 2.3) : 0);
-  const tint = reds.some((t) => s >= t && s < t + 0.27) ? 'rgba(244,3,5,0.25)' : greens.some((t) => s >= t && s < t + 0.27) ? 'rgba(40,220,90,0.25)' : 'transparent';
+  // hit tints: with a flash_color the clip uses that ONE colour for every tint (user rule), otherwise red/green
+  const oneTint = P.flash_color ? {blue: 'rgba(30,107,255,0.25)', green: 'rgba(43,255,90,0.25)', red: 'rgba(255,30,60,0.25)'}[P.flash_color] : null;
+  const tint = reds.some((t) => s >= t && s < t + 0.27) ? (oneTint ?? 'rgba(244,3,5,0.25)') : greens.some((t) => s >= t && s < t + 0.27) ? (oneTint ?? 'rgba(40,220,90,0.25)') : 'transparent';
   const white = ttype === 2 && s - cutTimes[ti] < 3 / FPS ? 0.9 : ttype === 0 && s - cutTimes[ti] < 1 / FPS ? 0.5 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.5 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
   const flicker = f % 3 === 0 ? 0.05 : 0;
   // ---- single-colour flash (user: one colour only, not a blue/red/green cycle): 3 frames on the payoff, red/green hits,
