@@ -21,6 +21,8 @@ import wiz_cool from '../kreek/v2/wiz_cool.json';
 import tl_golf from '../kreek/v2/tl_golf.json';
 import tl_coen from '../kreek/v2/tl_coen.json';
 import tl_packs from '../kreek/v2/tl_packs.json';
+import tl_mills from '../kreek/v2/tl_mills.json';
+import tl_tiger from '../kreek/v2/tl_tiger.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number};
@@ -32,7 +34,7 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   flash_color?: 'blue' | 'green' | 'red'; flash?: number[];   // ONE colour per clip (user), flashed on the hits
   brand?: [string, string];   // bottom pill text [main, accent]; default @BackyardBreaks · Whatnot
   music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs} as unknown as Record<string, P>;
+export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*'$]/g, '').toUpperCase();

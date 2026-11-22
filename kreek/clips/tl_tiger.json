@@ -1,0 +1,175 @@
+{
+ "name": "tl_tiger",
+ "top": "Grant gave Trevor Lawrence the Tiger Woods card he kept for 4 YEARS \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   23.7,
+   27.4
+  ],
+  [
+   "s1",
+   2.2,
+   11.84
+  ],
+  [
+   "s2",
+   17.85,
+   23.56
+  ],
+  [
+   "s3",
+   25.95,
+   29.48
+  ]
+ ],
+ "hl": [
+  "TIGER",
+  "TIGER'S",
+  "YEARS",
+  "ME?",
+  "GAME",
+  "WORN"
+ ],
+ "vv": {
+  "red": [],
+  "green": [
+   "ME?"
+  ],
+  "punch": [
+   "YEARS",
+   "TIGER",
+   "WORN",
+   "ME?"
+  ]
+ },
+ "fix": {
+  "offer.": "golfer."
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "closeeyes",
+  "flash_color": "green",
+  "pops": [
+   [
+    0.1,
+    "a gift for Trevor \ud83c\udf81"
+   ],
+   [
+    3.75,
+    "\u23ea the card"
+   ],
+   [
+    5.46,
+    "kept it 4 YEARS \ud83d\ude33"
+   ],
+   [
+    7.14,
+    "Tiger Woods auto \ud83d\udc2f"
+   ],
+   [
+    16.31,
+    "game-worn \ud83c\udfcc\ufe0f"
+   ],
+   [
+    22.02,
+    "Trevor loves golf \u26f3"
+   ]
+  ],
+  "freeze": [
+   19.34,
+   "\"THAT'S FOR ME?\" \ud83d\ude33"
+  ],
+  "react": [
+   [
+    19.62,
+    22.56
+   ]
+  ],
+  "chip": [
+   4.1,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 7.14,
+  "focus": [
+   [
+    0.0,
+    1005,
+    420,
+    1.55
+   ],
+   [
+    3.7,
+    700,
+    520,
+    1.3
+   ],
+   [
+    6.0,
+    760,
+    620,
+    1.6
+   ],
+   [
+    13.34,
+    760,
+    620,
+    1.5
+   ],
+   [
+    19.05,
+    1005,
+    420,
+    1.6
+   ]
+  ],
+  "stickers": [
+   [
+    5.46,
+    "23f3",
+    860,
+    700,
+    210
+   ],
+   [
+    7.14,
+    "1f3c6",
+    220,
+    700,
+    220
+   ],
+   [
+    17.97,
+    "26f3",
+    860,
+    700,
+    220
+   ],
+   [
+    19.34,
+    "1f381",
+    220,
+    680,
+    230
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    7.14,
+    "magic_reveal",
+    0.45
+   ],
+   [
+    19.34,
+    "ding",
+    0.4
+   ]
+  ]
+ }
+}

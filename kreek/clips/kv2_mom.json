@@ -1,0 +1,164 @@
+{
+ "name": "kv2_mom",
+ "top": "A kid asked KreekCraft to sell GTA 6 to his mom \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   62.2,
+   66.4
+  ],
+  [
+   "s1",
+   3.4,
+   7.12
+  ],
+  [
+   "s2",
+   9.09,
+   12.07
+  ],
+  [
+   "s3",
+   13.2,
+   20.77
+  ],
+  [
+   "s4",
+   21.2,
+   27.87
+  ],
+  [
+   "s5",
+   32.7,
+   37.07
+  ],
+  [
+   "s6",
+   58.5,
+   61.51
+  ]
+ ],
+ "hl": [
+  "MOM",
+  "KIDS",
+  "GRANDMAS",
+  "CATS",
+  "DRIVE",
+  "LEARN"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "KIDS"
+  ],
+  "green": [
+   "CATS"
+  ],
+  "punch": [
+   "MOM",
+   "DRIVE",
+   "GRANDMAS",
+   "CATS",
+   "KIDS"
+  ]
+ },
+ "fix": {
+  "gta": "GTA",
+  "gta6": "GTA 6",
+  "npcs": "NPCs",
+  "six": "6,"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/vampire.wav",
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.1,
+    "his GTA 6 pitch \ud83d\udde3\ufe0f"
+   ],
+   [
+    4.25,
+    "\u23ea the question"
+   ],
+   [
+    17.64,
+    "driving school \ud83d\ude97"
+   ],
+   [
+    22.75,
+    "help grandmas \ud83d\udc75"
+   ],
+   [
+    27.36,
+    "rescue cats \ud83d\udc31"
+   ],
+   [
+    31.43,
+    "for kids \ud83d\udc80"
+   ]
+  ],
+  "freeze": [
+   31.43,
+   "100% ACCURATE \ud83e\udd25"
+  ],
+  "react": [
+   [
+    0.05,
+    4.15
+   ],
+   [
+    30.37,
+    32.47
+   ]
+  ],
+  "chip": [
+   4.7,
+   "HOUR 9 OF THE DAY 2 STREAM"
+  ],
+  "drop": 11.02,
+  "meme": {
+   "fahh": [
+    31.43
+   ],
+   "boom": [
+    27.36
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    9.79,
+    "discord_notification",
+    0.45
+   ],
+   [
+    27.36,
+    "glitter",
+    0.35
+   ]
+  ]
+ }
+}

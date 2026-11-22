@@ -1,0 +1,149 @@
+{
+ "name": "kv2_egg",
+ "top": "KreekCraft bet his whole stream on this GTA 6 Easter egg \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   240.2,
+   241.94
+  ],
+  [
+   "s1",
+   136.75,
+   141.73
+  ],
+  [
+   "s2",
+   204.3,
+   208.99
+  ],
+  [
+   "s3",
+   209.5,
+   215.3
+  ],
+  [
+   "s4",
+   228.9,
+   230.54
+  ],
+  [
+   "s5",
+   248.6,
+   252.09
+  ]
+ ],
+ "hl": [
+  "EASTER",
+  "EGG",
+  "ENDING",
+  "STREAM",
+  "TOP",
+  "SERIOUS"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "ENDING"
+  ],
+  "green": [
+   "SERIOUS"
+  ],
+  "punch": [
+   "EASTER",
+   "ENDING",
+   "TOP",
+   "SERIOUS"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   110,
+   380,
+   360
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/memoryreboot.wav",
+  "flash_color": "green",
+  "pops": [
+   [
+    0.1,
+    "Easter egg FOUND \ud83e\udd5a"
+   ],
+   [
+    1.79,
+    "\u23ea 2 minutes earlier"
+   ],
+   [
+    5.67,
+    "he's DEAD serious \ud83d\ude33"
+   ],
+   [
+    12.77,
+    "is it real?? \ud83d\udc40"
+   ],
+   [
+    21.43,
+    "real eggs \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   21.43,
+   "THEY'RE REAL EASTER EGGS \ud83e\udd5a"
+  ],
+  "react": [
+   [
+    0.05,
+    1.69
+   ],
+   [
+    19.09,
+    22.29
+   ]
+  ],
+  "chip": [
+   2.24,
+   "HOUR 9 OF THE DAY 2 STREAM"
+  ],
+  "drop": 19.09,
+  "meme": {
+   "boom": [
+    21.43
+   ],
+   "fahh": [
+    18.15
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    6.72,
+    "riser_2",
+    0.35
+   ],
+   [
+    19.09,
+    "magic_reveal",
+    0.45
+   ]
+  ]
+ }
+}

@@ -1,0 +1,155 @@
+{
+ "name": "kv2_glitch",
+ "top": "KreekCraft broke GTA 6's economy \ud83d\udcb0",
+ "seg": [
+  [
+   "hook",
+   54.0,
+   55.26
+  ],
+  [
+   "s1",
+   9.6,
+   13.09
+  ],
+  [
+   "s2",
+   24.8,
+   26.66
+  ],
+  [
+   "s3",
+   36.97,
+   38.43
+  ],
+  [
+   "s4",
+   44.9,
+   47.98
+  ],
+  [
+   "s5",
+   53.9,
+   58.57
+  ],
+  [
+   "s6",
+   110.3,
+   115.21
+  ]
+ ],
+ "hl": [
+  "WORKED",
+  "WORK",
+  "SWAP",
+  "000",
+  "EVERY",
+  "VAN"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "PLEASE"
+  ],
+  "green": [
+   "WORKED"
+  ],
+  "punch": [
+   "VAN",
+   "SWAP",
+   "PLEASE",
+   "WORKED"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   20,
+   80,
+   400,
+   430
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/gigachad.wav",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "IT WORKED \ud83d\ude31"
+   ],
+   [
+    1.31,
+    "\u23ea the method"
+   ],
+   [
+    4.08,
+    "1. the van \ud83d\ude90"
+   ],
+   [
+    6.17,
+    "2. swap \ud83d\udd01"
+   ],
+   [
+    8.15,
+    "\ud83d\ude4f\ud83d\ude4f\ud83d\ude4f"
+   ],
+   [
+    17.76,
+    "$108K a run \ud83d\udcb0"
+   ]
+  ],
+  "freeze": [
+   12.11,
+   "MONEY GLITCH \ud83d\udcb0"
+  ],
+  "react": [
+   [
+    0.05,
+    1.21
+   ],
+   [
+    8.12,
+    15.77
+   ]
+  ],
+  "chip": [
+   1.76,
+   "THE FINAL GTA 6 STREAM \u00b7 DAY 4"
+  ],
+  "drop": 11.23,
+  "meme": {
+   "boom": [
+    12.11
+   ]
+  },
+  "flash": [
+   17.76
+  ],
+  "sfx": [
+   [
+    17.76,
+    "cha_ching",
+    0.45
+   ],
+   [
+    8.15,
+    "riser_2",
+    0.35
+   ]
+  ]
+ }
+}
