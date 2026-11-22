@@ -1,0 +1,196 @@
+{
+ "name": "tl_golf",
+ "top": "Trevor Lawrence's dream golf foursome includes JESUS \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   32.3,
+   35.5
+  ],
+  [
+   "s1",
+   10.47,
+   28.57
+  ],
+  [
+   "s3",
+   32.3,
+   37.16
+  ],
+  [
+   "s4",
+   45.37,
+   53.64
+  ]
+ ],
+ "hl": [
+  "JESUS",
+  "TIGER",
+  "GOAT",
+  "FOURSOME",
+  "WEEK",
+  "UNBELIEVABLE"
+ ],
+ "vv": {
+  "red": [
+   "UNBELIEVABLE"
+  ],
+  "green": [
+   "JESUS"
+  ],
+  "punch": [
+   "JESUS",
+   "TIGER",
+   "GOAT",
+   "WEEK"
+  ]
+ },
+ "fix": {
+  "jesus": "Jesus",
+  "tiger": "Tiger",
+  "goat": "GOAT"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "closeeyes",
+  "flash_color": "green",
+  "pops": [
+   [
+    0.1,
+    "his dream foursome \ud83d\udc40"
+   ],
+   [
+    3.25,
+    "\u23ea the question"
+   ],
+   [
+    11.01,
+    "ANYONE ever \u26f3"
+   ],
+   [
+    20.05,
+    "he needs a week \ud83d\ude2d"
+   ],
+   [
+    22.36,
+    "JESUS?! \ud83d\ude4f"
+   ],
+   [
+    28.75,
+    "+ Tiger \ud83d\udc2f"
+   ]
+  ],
+  "freeze": [
+   22.36,
+   "JESUS IS IN THE FOURSOME \ud83d\ude4f"
+  ],
+  "react": [
+   [
+    24.62,
+    26.14
+   ]
+  ],
+  "chip": [
+   3.7,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 21.3,
+  "focus": [
+   [
+    0.0,
+    1000,
+    440,
+    1.65
+   ],
+   [
+    3.2,
+    960,
+    560,
+    1.0
+   ],
+   [
+    17.01,
+    1000,
+    450,
+    1.45
+   ],
+   [
+    21.3,
+    1000,
+    440,
+    1.6
+   ],
+   [
+    25.5,
+    960,
+    560,
+    1.0
+   ],
+   [
+    26.16,
+    1000,
+    450,
+    1.45
+   ],
+   [
+    31.37,
+    1000,
+    440,
+    1.75
+   ]
+  ],
+  "stickers": [
+   [
+    5.41,
+    "26f3",
+    860,
+    700,
+    220
+   ],
+   [
+    22.36,
+    "1f64f",
+    220,
+    700,
+    230
+   ],
+   [
+    28.75,
+    "1f3c6",
+    860,
+    700,
+    220
+   ],
+   [
+    31.37,
+    "1f410",
+    220,
+    680,
+    240
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    22.36,
+    "magic_reveal",
+    0.45
+   ],
+   [
+    20.05,
+    "fah",
+    0.4
+   ],
+   [
+    31.37,
+    "ding",
+    0.4
+   ]
+  ]
+ }
+}

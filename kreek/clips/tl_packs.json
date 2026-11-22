@@ -1,0 +1,164 @@
+{
+ "name": "tl_packs",
+ "top": "BYB made packs where EVERY card is Trevor Lawrence \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   18.92,
+   23.18
+  ],
+  [
+   "s1",
+   0.45,
+   29.22
+  ]
+ ],
+ "hl": [
+  "T-LAW",
+  "TREVOR",
+  "LAWRENCE",
+  "WEIRD",
+  "EVERY",
+  "PACKS"
+ ],
+ "vv": {
+  "red": [
+   "WEIRD"
+  ],
+  "green": [
+   "T-LAW"
+  ],
+  "punch": [
+   "T-LAW",
+   "EVERY",
+   "WEIRD"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "essence",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "EVERY pack?! \ud83d\ude33"
+   ],
+   [
+    4.31,
+    "\u23ea the setup"
+   ],
+   [
+    22.59,
+    "backyardpacks.com \ud83d\udce6"
+   ],
+   [
+    19.87,
+    "T-Law packs \ud83d\udd12"
+   ],
+   [
+    26.69,
+    "Trevor: 'kinda weird' \ud83d\ude2d"
+   ],
+   [
+    27.25,
+    "EVERY card \ud83c\udccf"
+   ]
+  ],
+  "freeze": [
+   26.69,
+   "EVERY CARD IS TREVOR \ud83d\ude2d"
+  ],
+  "react": [
+   [
+    24.01,
+    26.69
+   ]
+  ],
+  "chip": [
+   4.76,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 19.87,
+  "focus": [
+   [
+    0.0,
+    960,
+    450,
+    1.55
+   ],
+   [
+    4.26,
+    420,
+    440,
+    1.4
+   ],
+   [
+    19.87,
+    960,
+    450,
+    1.5
+   ],
+   [
+    26.69,
+    960,
+    450,
+    1.75
+   ],
+   [
+    31.13,
+    960,
+    560,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    7.21,
+    "1f4f1",
+    860,
+    700,
+    210
+   ],
+   [
+    24.49,
+    "1f0cf",
+    220,
+    700,
+    220
+   ],
+   [
+    26.69,
+    "1f62d",
+    860,
+    700,
+    230
+   ],
+   [
+    31.13,
+    "1f914",
+    220,
+    680,
+    220
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    19.87,
+    "magic_reveal",
+    0.4
+   ],
+   [
+    26.69,
+    "fah",
+    0.45
+   ]
+  ]
+ }
+}

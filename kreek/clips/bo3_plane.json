@@ -1,0 +1,139 @@
+{
+ "name": "bo3_plane",
+ "top": "Boeshi tried to do a flip in a plane in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   75.3,
+   78.0
+  ],
+  [
+   "s1",
+   39.35,
+   43.95
+  ],
+  [
+   "s2",
+   52.25,
+   61.3
+  ],
+  [
+   "s3",
+   62.35,
+   77.95
+  ]
+ ],
+ "hl": [
+  "FLIP",
+  "PLANE",
+  "DIE",
+  "GLITCHED",
+  "BAD"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "DIE"
+  ],
+  "green": [
+   "FLIP"
+  ],
+  "punch": [
+   "PLANE",
+   "FLIP",
+   "DIE",
+   "GLITCHED"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/gigachad.wav",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "the flip \ud83d\udc80"
+   ],
+   [
+    2.75,
+    "\u23ea 30 seconds earlier"
+   ],
+   [
+    11.47,
+    "plane > Boeshi \ud83d\ude2d"
+   ],
+   [
+    17.12,
+    "he's going for it \u2708\ufe0f"
+   ],
+   [
+    26.86,
+    "\"the game glitched\" \ud83e\udd28"
+   ]
+  ],
+  "freeze": [
+   22.06,
+   "HE'S GONNA DIE \ud83d\udc80"
+  ],
+  "react": [
+   [
+    0.05,
+    2.65
+   ],
+   [
+    24.46,
+    31.9
+   ]
+  ],
+  "chip": [
+   3.3,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 17.12,
+  "meme": {
+   "fahh": [
+    26.86
+   ],
+   "boom": [
+    22.06
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    17.12,
+    "riser_2",
+    0.35
+   ],
+   [
+    31.56,
+    "piano_meme",
+    0.3
+   ]
+  ]
+ }
+}

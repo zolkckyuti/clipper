@@ -1,0 +1,133 @@
+{
+ "name": "bo3_looks",
+ "top": "Chat called Boeshi a looksmaxxer mid-GTA 6 \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   59.95,
+   63.62
+  ],
+  [
+   "s1",
+   50.85,
+   66.6
+  ],
+  [
+   "s2",
+   73.68,
+   82.3
+  ]
+ ],
+ "hl": [
+  "LOOKSMAXXER",
+  "LOOKSMAXXING",
+  "SELF-IMPROVEMENT",
+  "IDENTIFY",
+  "UNDERSTOOD"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "IDENTIFY"
+  ],
+  "green": [
+   "UNDERSTOOD"
+  ],
+  "punch": [
+   "LOOKSMAXXER",
+   "IDENTIFY",
+   "UNDERSTOOD"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/essence.wav",
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.1,
+    "chat said WHAT \ud83d\ude33"
+   ],
+   [
+    3.72,
+    "\u23ea rewind"
+   ],
+   [
+    5.04,
+    "self-improvement \ud83d\udcaa"
+   ],
+   [
+    13.18,
+    "he's denying it \ud83d\ude2d"
+   ],
+   [
+    26.8,
+    "chat lost him \ud83d\udc80"
+   ]
+  ],
+  "freeze": [
+   15.5,
+   "NOT A LOOKSMAXXER \ud83d\uddff"
+  ],
+  "react": [
+   [
+    0.05,
+    3.62
+   ],
+   [
+    26.08,
+    27.99
+   ]
+  ],
+  "chip": [
+   4.27,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 13.18,
+  "meme": {
+   "fahh": [
+    26.8
+   ],
+   "boom": [
+    15.5
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    3.7,
+    "magic_reveal",
+    0.35
+   ],
+   [
+    17.58,
+    "among_us",
+    0.35
+   ]
+  ]
+ }
+}

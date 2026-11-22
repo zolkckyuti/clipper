@@ -50,12 +50,14 @@ import d4_jimmy from './v2/d4_jimmy.json';
 import d4_glitch from './v2/d4_glitch.json';
 import d4_tiger from './v2/d4_tiger.json';
 import d4_blind from './v2/d4_blind.json';
+import bo3_looks from './v2/bo3_looks.json';
+import bo3_plane from './v2/bo3_plane.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind} as unknown as Record<string, P>;
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
@@ -87,7 +89,8 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const fzK = inFreeze ? spring({frame: f - Math.round(fz * fps), fps, config: {damping: 14, stiffness: 160}}) : 0;
   const gScale = G.scale * push * (1 + 0.13 * punch) * (1 + 0.32 * fzK);
   const shake = reds.some((t) => s >= t && s < t + 0.25) || (s >= fz && s < fz + 0.2) ? 10 * Math.sin(f * 2.3) : 0;
-  const tint = reds.some((t) => s >= t && s < t + 0.27) ? 'rgba(244,3,5,0.28)' : greens.some((t) => s >= t && s < t + 0.27) ? 'rgba(167,234,4,0.28)' : 'transparent';
+  const oneTint = P.flash_color ? {blue: 'rgba(30,107,255,0.28)', green: 'rgba(43,255,90,0.28)', red: 'rgba(255,30,60,0.28)'}[P.flash_color] : null;
+  const tint = reds.some((t) => s >= t && s < t + 0.27) ? (oneTint ?? 'rgba(244,3,5,0.28)') : greens.some((t) => s >= t && s < t + 0.27) ? (oneTint ?? 'rgba(167,234,4,0.28)') : 'transparent';
   // ---- rotating transitions at every cut (opt-in: transitions=true): 0 zoom-blur punch, 1 whip pan, 2 flash + shake
   const TRD = 0.24, trOn = !!P.transitions;
   const ti = trOn ? cutTimes.findIndex((t) => s >= t && s < t + TRD) : -1;
@@ -101,11 +104,12 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   // payoff, the red/green hits, every reaction cutaway and any explicit `flash` time; single-colour pulse on punch-ins.
   const RGB = ['#1E6BFF', '#FF1E3C', '#2BFF5A'];
   let rgbCol: string | null = null, rgbA = 0;
-  if (P.rgb) {
+  const ONE = P.flash_color ? {blue: '#1E6BFF', green: '#2BFF5A', red: '#FF1E3C'}[P.flash_color] : null;   // single colour (user rule)
+  if (P.rgb || ONE) {
     const bursts = [fz, ...reds, ...greens, ...P.react.map(([a]) => a), ...(P.flash ?? [])];
     const b = bursts.find((t) => s >= t && s < t + 0.3);
-    if (b !== undefined) { rgbCol = RGB[Math.floor((s - b) * FPS / 2) % 3]; rgbA = 0.85; }
-    else { const pi = punches.findIndex((t) => s >= t && s < t + 2 / FPS); if (pi >= 0) { rgbCol = RGB[pi % 3]; rgbA = 0.6; } }
+    if (b !== undefined && (!ONE || s < b + 3 / FPS)) { rgbCol = ONE ?? RGB[Math.floor((s - b) * FPS / 2) % 3]; rgbA = 0.85; }
+    else { const pi = punches.findIndex((t) => s >= t && s < t + 2 / FPS); if (pi >= 0) { rgbCol = ONE ?? RGB[pi % 3]; rgbA = 0.6; } }
   }
   // ---- facecam PiP -> big reaction cutaway
   const bounce = [...reds, ...greens].reduce((m, t) => Math.max(m, interpolate(s, [t, t + 0.08, t + 0.3], [0, 1, 0], clamp)), 0);
