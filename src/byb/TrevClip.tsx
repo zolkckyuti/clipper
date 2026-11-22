@@ -20,6 +20,7 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   focus?: [number, number, number, number][];          // [t, source cx, source cy, zoom] — zoom 1 = full source height in the panel
   stickers?: [number, string, number, number, number][]; // [t, emoji code (public/emoji-ios), x, y, size]
   sfx?: [number, string, number][];                      // [t, file in public/sfx2 (no ext), volume]
+  flash_color?: 'blue' | 'green' | 'red'; flash?: number[];   // ONE colour per clip (user), flashed on the hits
   music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
 export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig} as unknown as Record<string, P>;
 const FPS = 60;
@@ -66,6 +67,12 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
   const tint = reds.some((t) => s >= t && s < t + 0.27) ? 'rgba(244,3,5,0.25)' : greens.some((t) => s >= t && s < t + 0.27) ? 'rgba(40,220,90,0.25)' : 'transparent';
   const white = ttype === 2 && s - cutTimes[ti] < 3 / FPS ? 0.9 : ttype === 0 && s - cutTimes[ti] < 1 / FPS ? 0.5 : [...reds, ...greens].some((t) => s >= t && s < t + 0.05) ? 0.5 : (s >= fz && s < fz + 0.06) ? 0.8 : 0;
   const flicker = f % 3 === 0 ? 0.05 : 0;
+  // ---- single-colour flash (user: one colour only, not a blue/red/green cycle): 3 frames on the payoff, red/green hits,
+  // reaction zooms, punch-ins and explicit `flash` times, over the footage panel only
+  const FC = {blue: '#1E6BFF', green: '#2BFF5A', red: '#FF1E3C'}[P.flash_color ?? 'blue'];
+  const flashTimes = P.flash_color ? [fz, ...reds, ...greens, ...P.react.map(([a]) => a), ...punches, ...(P.flash ?? [])] : [];
+  const fl = flashTimes.find((t) => s >= t && s < t + 3 / FPS);
+  const flashA = fl === undefined ? 0 : fl === fz || (P.flash ?? []).includes(fl) ? 0.85 : 0.6;
   // ---- captions: 1–3 word chunks, active word yellow (red on key words), cleared 0.7 s after the last word
   const chunks: W[][] = []; let cur: W[] = [];
   P.words.forEach((w, i) => { cur.push(w); const nx = P.words[i + 1]; if (/[.,!?]$/.test(w.t) || cur.length >= 3 || !nx || nx.a - w.b > 0.5) { chunks.push(cur); cur = []; } });
@@ -98,6 +105,8 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
       </div>
       <AbsoluteFill style={{background: tint}} />
     </div>
+    {flashA > 0 && <div style={{position: 'absolute', left: 0, top: PANEL.top, width: PANEL.w, height: PANEL.h, background: FC, mixBlendMode: 'color', opacity: flashA}} />}
+    {flashA > 0 && <div style={{position: 'absolute', left: 0, top: PANEL.top, width: PANEL.w, height: PANEL.h, background: FC, mixBlendMode: 'overlay', opacity: flashA * 0.45}} />}
     {/* title (from frame 0) */}
     <div style={{position: 'absolute', top: 70, left: 40, right: 40, height: 240, display: 'flex', alignItems: 'center', justifyContent: 'center', textAlign: 'center',
       transform: `scale(${spring({frame: f, fps, from: 0.88, to: 1, config: {damping: 12, stiffness: 200}})})`}}>
