@@ -34,3 +34,13 @@ Back to [[START HERE]] · style: [[VverPaldo style]] + [[KreekCraft GTA 6 campai
 - Clips: **goat** (6-s silence → "gotta be Matthew Dellavedova"), **celly** (PSA 10 celly), **josh** (Josh Allen true gold → "the real Josh Hines-Allen before he changed his name"),
   **ticket** (Grant gifts Trevor his own signed national-championship ticket — he never had one), **sig** (goated pen → Peyton Manning called him about signatures).
 - Skipped the Anthony Richardson autograph roast (respect) and anything already posted as-is by the reference channel's edit; no price badges (Trevor tab has no card values).
+
+## 2026-11-22 — Trevor batch 2 (5 clips, 1080p60) — "keep milking Trevor, make them different, high effort"
+- User: same format, add flashes but **ONE colour only per clip** (not the blue/red/green cycle of the Kreek Day 4 edit). TrevClip `flash_color` (blue|green|red) +
+  `flash` times; hit tints (vv.red/green) also switch to that colour when flash_color is set.
+- **Cold-open hooks** (punchline first → "⏪ rewind" pop → setup → payoff). When the hook's source window overlaps a story segment, snap_segs transcribes those words twice →
+  dedupe the snap words (same word within 0.15 s) before prep, or captions show "65 65".
+- Clips: **tl2_goat** (green; hook "gotta be Matthew Dellavedova"), **left** (red; throws better moving left — youth coaches only rolled right; superfan "best QB I've ever seen"),
+  **presnap** (blue; "50–65% of the time"), **peyton** (green; texts Peyton, called him when his rookie year wasn't going well, Peyton led the league in INTs),
+  **redeem** (red; late autograph $20K → $500, "your most expensive sale ever").
+- Skipped: playbook segment (only first 60 s has speech, dry), golf dream 4 (not downloaded).
