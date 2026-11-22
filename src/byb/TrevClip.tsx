@@ -17,6 +17,7 @@ import tl_left from '../kreek/v2/tl_left.json';
 import tl_presnap from '../kreek/v2/tl_presnap.json';
 import tl_peyton from '../kreek/v2/tl_peyton.json';
 import tl_redeem from '../kreek/v2/tl_redeem.json';
+import wiz_cool from '../kreek/v2/wiz_cool.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number};
@@ -26,8 +27,9 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   stickers?: [number, string, number, number, number][]; // [t, emoji code (public/emoji-ios), x, y, size]
   sfx?: [number, string, number][];                      // [t, file in public/sfx2 (no ext), volume]
   flash_color?: 'blue' | 'green' | 'red'; flash?: number[];   // ONE colour per clip (user), flashed on the hits
+  brand?: [string, string];   // bottom pill text [main, accent]; default @BackyardBreaks · Whatnot
   music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem} as unknown as Record<string, P>;
+export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*'$]/g, '').toUpperCase();
@@ -146,7 +148,7 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
     {/* brand pill */}
     <div style={{position: 'absolute', top: PANEL.top + PANEL.h + 60, left: 0, width: 1080, display: 'flex', justifyContent: 'center'}}>
       <div style={{background: '#111', color: '#fff', fontSize: 40, fontWeight: 800, padding: '14px 34px', borderRadius: 50, border: '4px solid #fff', letterSpacing: 1}}>
-        <span style={{color: '#2BE36B'}}>@</span>BackyardBreaks <span style={{color: '#FFE135'}}>· Whatnot</span></div></div>
+        {P.brand ? <>{P.brand[0]} <span style={{color: '#FFE135'}}>{P.brand[1]}</span></> : <><span style={{color: '#2BE36B'}}>@</span>BackyardBreaks <span style={{color: '#FFE135'}}>· Whatnot</span></>}</div></div>
     <AbsoluteFill style={{background: `rgba(0,0,0,${flicker})`}} />
     <AbsoluteFill style={{background: `rgba(255,255,255,${white})`}} />
     {/* audio: real audio, phonk ducked under it, sfx */}
