@@ -216,8 +216,14 @@
    "seg": "s1"
   },
   {
-   "t": "backyardpacks.com.",
+   "t": "BackyardPacks",
    "a": 8.23,
+   "b": 8.81,
+   "seg": "s1"
+  },
+  {
+   "t": ".com",
+   "a": 8.81,
    "b": 9.39,
    "seg": "s1"
   },
