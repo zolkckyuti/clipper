@@ -44,3 +44,12 @@ Back to [[START HERE]] · style: [[VverPaldo style]] + [[KreekCraft GTA 6 campai
   **presnap** (blue; "50–65% of the time"), **peyton** (green; texts Peyton, called him when his rookie year wasn't going well, Peyton led the league in INTs),
   **redeem** (red; late autograph $20K → $500, "your most expensive sale ever").
 - Skipped: playbook segment (only first 60 s has speech, dry), golf dream 4 (not downloaded).
+
+## 2026-11-22 — Trevor batch 3 (3 clips) + Boeshi batch 3 (2 clips)
+- Trevor: **golf** (green; dream foursome → "throw Jesus in there", Tiger the GOAT), **coen** (blue; Liam Coen taught him more in one year — "yeah, definitely" → defensive recognition),
+  **packs** (red; "we made T-Law packs, every pack you open would be a Trevor Lawrence… kind of weird"). Used single-pass txw words (no snap_segs) → no duplicate words with cold-open hooks.
+  Long single-word captions (backyardpacks.com) overflow → split the token.
+- Boeshi (KreekV2 now has `flash_color` too): **bo3_looks** (blue; "I don't identify as a freaking looksmaxxer"), **bo3_plane** (red; "let's do a flip… God I'm gonna die… we did not do a flip").
+  No new Boeshi VOD since v2935956182. Use single-pass transcription of the whole window when a hook overlaps a story segment.
+- Skipped: Rogers Realm ("we should box him"), enters-room (13 s, chant only), Davis Mills roast.
+- Disk: deleted old delivered 4K renders; restored tracked renders (renders/kreek_*_v2/vv) from git rather than committing their deletion.
