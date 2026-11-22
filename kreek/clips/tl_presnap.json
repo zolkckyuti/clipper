@@ -1,0 +1,169 @@
+{
+ "name": "tl_presnap",
+ "top": "How often Trevor Lawrence's pre-snap read is actually right \ud83e\udde0",
+ "seg": [
+  [
+   "hook",
+   16.22,
+   18.04
+  ],
+  [
+   "s1",
+   0.0,
+   5.95
+  ],
+  [
+   "s2",
+   9.4,
+   23.08
+  ],
+  [
+   "s3",
+   23.08,
+   35.04
+  ]
+ ],
+ "hl": [
+  "50",
+  "65",
+  "%",
+  "15",
+  "COVERAGE",
+  "OPEN"
+ ],
+ "vv": {
+  "red": [
+   "COVERAGE"
+  ],
+  "green": [
+   "OPEN"
+  ],
+  "punch": [
+   "50",
+   "65",
+   "15",
+   "COVERAGE"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "memoryreboot",
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.05,
+    "his pre-snap read \ud83e\udde0"
+   ],
+   [
+    1.87,
+    "\u23ea the question"
+   ],
+   [
+    15.34,
+    "50\u201365% \u2705"
+   ],
+   [
+    27.65,
+    "15%: coverage flips \ud83d\udd04"
+   ],
+   [
+    31.81,
+    "next read \ud83d\udc40"
+   ]
+  ],
+  "freeze": [
+   15.34,
+   "50\u201365% OF THE TIME \ud83e\udde0"
+  ],
+  "react": [
+   [
+    31.81,
+    33.39
+   ]
+  ],
+  "chip": [
+   2.22,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 12.07,
+  "focus": [
+   [
+    0.0,
+    990,
+    450,
+    1.7
+   ],
+   [
+    1.82,
+    960,
+    560,
+    1.0
+   ],
+   [
+    12.07,
+    990,
+    460,
+    1.5
+   ],
+   [
+    27.65,
+    990,
+    450,
+    1.75
+   ],
+   [
+    31.81,
+    960,
+    560,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    12.07,
+    "1f9e0",
+    860,
+    700,
+    220
+   ],
+   [
+    20.25,
+    "1f4cd",
+    220,
+    700,
+    210
+   ],
+   [
+    25.19,
+    "1f440",
+    860,
+    700,
+    210
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    15.34,
+    "ding",
+    0.4
+   ],
+   [
+    27.65,
+    "ding",
+    0.4
+   ],
+   [
+    1.82,
+    "riser_2",
+    0.3
+   ]
+  ]
+ }
+}

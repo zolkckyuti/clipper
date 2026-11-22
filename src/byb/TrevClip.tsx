@@ -12,6 +12,11 @@ import tl_celly from '../kreek/v2/tl_celly.json';
 import tl_josh from '../kreek/v2/tl_josh.json';
 import tl_ticket from '../kreek/v2/tl_ticket.json';
 import tl_sig from '../kreek/v2/tl_sig.json';
+import tl2_goat from '../kreek/v2/tl2_goat.json';
+import tl_left from '../kreek/v2/tl_left.json';
+import tl_presnap from '../kreek/v2/tl_presnap.json';
+import tl_peyton from '../kreek/v2/tl_peyton.json';
+import tl_redeem from '../kreek/v2/tl_redeem.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number};
@@ -22,7 +27,7 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   sfx?: [number, string, number][];                      // [t, file in public/sfx2 (no ext), volume]
   flash_color?: 'blue' | 'green' | 'red'; flash?: number[];   // ONE colour per clip (user), flashed on the hits
   music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig} as unknown as Record<string, P>;
+export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*'$]/g, '').toUpperCase();

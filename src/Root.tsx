@@ -42,7 +42,7 @@ export const RemotionRoot = () => (
   <Composition id="KitschStoryNoMusic" component={KitschStory} defaultProps={{music: false}} durationInFrames={Math.round(KITSCH_STORY_S * 30)} fps={30} width={1080} height={1920} />
   {Object.keys(BYB).flatMap((k) => [true, false].map((m) => <Composition key={'b' + k + m} id={`Byb-${k.replace('byb_', '')}${m ? '' : '-nomusic'}`} component={BybClip} defaultProps={{clip: k, music: m}}
     durationInFrames={Math.round(BYB[k].dur * 60)} fps={60} width={1080} height={1920} />))}
-  {Object.keys(TREV).map((k) => <Composition key={'t' + k} id={`Trev-${k.replace('tl_', '')}`} component={TrevClip} defaultProps={{clip: k}}
+  {Object.keys(TREV).map((k) => <Composition key={'t' + k} id={`Trev-${k.replace('tl_', '').replace(/_/g, '-')}`} component={TrevClip} defaultProps={{clip: k}}
     durationInFrames={Math.round(TREV[k].dur * 60)} fps={60} width={1080} height={1920} />)}
   {Object.keys(MEME).flatMap((k) => [true, false].map((m) => <Composition key={'m' + k + m} id={`KitschMeme-${k}${m ? '' : '-nomusic'}`} component={KitschMeme} defaultProps={{clip: k, music: m}}
     durationInFrames={Math.round(memeDur(MEME[k]) * 30)} fps={30} width={1080} height={1920} />))}

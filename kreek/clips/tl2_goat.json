@@ -1,0 +1,186 @@
+{
+ "name": "tl2_goat",
+ "top": "Trevor Lawrence's NBA GOAT is NOT LeBron or MJ \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   12.9,
+   14.89
+  ],
+  [
+   "s1",
+   1.55,
+   7.67
+  ],
+  [
+   "s2",
+   10.4,
+   18.79
+  ]
+ ],
+ "hl": [
+  "GOAT",
+  "NBA",
+  "DELLAVEDOVA",
+  "TENSION",
+  "MATTHEW"
+ ],
+ "vv": {
+  "red": [
+   "DELLAVEDOVA"
+  ],
+  "green": [],
+  "punch": [
+   "GOAT",
+   "DELLAVEDOVA",
+   "TENSION"
+  ]
+ },
+ "fix": {
+  "delvedova": "Dellavedova.",
+  "delevadova": "Dellavedova.",
+  "nba": "NBA",
+  "goat": "GOAT",
+  "matthew": "Matthew",
+  "delvedova.": "Dellavedova."
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "suicideyear",
+  "flash_color": "green",
+  "pops": [
+   [
+    0.1,
+    "his NBA GOAT \ud83d\udc40"
+   ],
+   [
+    2.04,
+    "\u23ea rewind"
+   ],
+   [
+    4.93,
+    "not LeBron\u2026 not MJ\u2026"
+   ],
+   [
+    9.11,
+    "still thinking \ud83d\udcad"
+   ],
+   [
+    15.77,
+    "the TENSION \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   11.77,
+   "MATTHEW DELLAVEDOVA \ud83d\udc10"
+  ],
+  "react": [
+   [
+    12.49,
+    16.48
+   ]
+  ],
+  "chip": [
+   2.39,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 11.45,
+  "focus": [
+   [
+    0.0,
+    990,
+    450,
+    1.7
+   ],
+   [
+    1.99,
+    960,
+    560,
+    1.0
+   ],
+   [
+    3.53,
+    975,
+    500,
+    1.15
+   ],
+   [
+    5.79,
+    990,
+    460,
+    1.6
+   ],
+   [
+    8.11,
+    990,
+    450,
+    1.85
+   ],
+   [
+    11.45,
+    985,
+    470,
+    1.5
+   ],
+   [
+    12.49,
+    960,
+    560,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    0.84,
+    "1f410",
+    850,
+    640,
+    260
+   ],
+   [
+    6.77,
+    "1f3c0",
+    220,
+    700,
+    220
+   ],
+   [
+    8.91,
+    "1f914",
+    860,
+    700,
+    220
+   ],
+   [
+    15.33,
+    "1f62d",
+    220,
+    640,
+    230
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    1.99,
+    "riser_2",
+    0.35
+   ],
+   [
+    11.45,
+    "ding",
+    0.4
+   ],
+   [
+    15.33,
+    "fah",
+    0.45
+   ]
+  ]
+ }
+}

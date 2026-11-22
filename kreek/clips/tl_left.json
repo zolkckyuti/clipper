@@ -1,0 +1,186 @@
+{
+ "name": "tl_left",
+ "top": "Trevor Lawrence throws BETTER to his left\u2026 here's why \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   47.63,
+   50.72
+  ],
+  [
+   "s1",
+   4.0,
+   10.95
+  ],
+  [
+   "s2",
+   22.21,
+   39.39
+  ],
+  [
+   "s3",
+   50.72,
+   53.33
+  ]
+ ],
+ "hl": [
+  "LEFT",
+  "RIGHT",
+  "HATED",
+  "KID",
+  "COACHES",
+  "BEST"
+ ],
+ "vv": {
+  "red": [
+   "HATED"
+  ],
+  "green": [
+   "BEST"
+  ],
+  "punch": [
+   "LEFT",
+   "RIGHT",
+   "HATED",
+   "BEST"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "sahara",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "better to his LEFT?! \ud83d\ude33"
+   ],
+   [
+    3.14,
+    "\u23ea how?"
+   ],
+   [
+    14.57,
+    "youth coaches \ud83e\udde2"
+   ],
+   [
+    20.67,
+    "he HATED it \ud83d\ude24"
+   ],
+   [
+    23.79,
+    "so he went LEFT \u2b05\ufe0f"
+   ],
+   [
+    27.5,
+    "superfan alert \ud83d\udea8"
+   ]
+  ],
+  "freeze": [
+   26.71,
+   "NOT A ONE-SIDED QB \ud83c\udfc8"
+  ],
+  "react": [
+   [
+    27.2,
+    29.81
+   ]
+  ],
+  "chip": [
+   3.49,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 20.67,
+  "focus": [
+   [
+    0.0,
+    990,
+    440,
+    1.6
+   ],
+   [
+    3.09,
+    960,
+    560,
+    1.0
+   ],
+   [
+    10.04,
+    990,
+    450,
+    1.45
+   ],
+   [
+    20.67,
+    990,
+    440,
+    1.75
+   ],
+   [
+    23.79,
+    990,
+    450,
+    1.5
+   ],
+   [
+    27.22,
+    960,
+    560,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    4.33,
+    "1f64f",
+    860,
+    700,
+    210
+   ],
+   [
+    16.63,
+    "1f3c8",
+    220,
+    700,
+    220
+   ],
+   [
+    23.79,
+    "1f9e0",
+    860,
+    700,
+    220
+   ],
+   [
+    27.5,
+    "1f451",
+    220,
+    640,
+    240
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    3.09,
+    "riser_1",
+    0.3
+   ],
+   [
+    20.67,
+    "fah",
+    0.45
+   ],
+   [
+    27.5,
+    "magic_reveal",
+    0.4
+   ]
+  ]
+ }
+}

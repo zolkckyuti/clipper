@@ -1,0 +1,176 @@
+{
+ "name": "tl_peyton",
+ "top": "Trevor Lawrence called Peyton Manning when it wasn't going well \ud83d\udcf1",
+ "seg": [
+  [
+   "hook",
+   37.85,
+   41.6
+  ],
+  [
+   "s1",
+   10.71,
+   20.2
+  ],
+  [
+   "s2",
+   20.3,
+   26.45
+  ],
+  [
+   "s3",
+   39.0,
+   51.72
+  ]
+ ],
+ "hl": [
+  "PEYTON",
+  "ROOKIE",
+  "INTERCEPTIONS",
+  "TEXT",
+  "ROUGH",
+  "WELL"
+ ],
+ "vv": {
+  "red": [
+   "INTERCEPTIONS"
+  ],
+  "green": [
+   "GREAT"
+  ],
+  "punch": [
+   "TEXT",
+   "ROOKIE",
+   "INTERCEPTIONS",
+   "ROUGH"
+  ]
+ },
+ "fix": {
+  "indy": "Indy",
+  "nfl": "NFL"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "vampire",
+  "flash_color": "green",
+  "pops": [
+   [
+    0.05,
+    "Peyton Manning \ud83d\udcf1"
+   ],
+   [
+    10.14,
+    "they TEXT \ud83d\ude33"
+   ],
+   [
+    23.27,
+    "advice from a legend \ud83d\udc10"
+   ],
+   [
+    28.99,
+    "Peyton led the league in INTs?! \ud83d\ude33"
+   ]
+  ],
+  "freeze": [
+   28.99,
+   "PEYTON HAD ROUGH YEARS TOO \ud83d\udc10"
+  ],
+  "react": [
+   [
+    24.33,
+    32.09
+   ]
+  ],
+  "chip": [
+   4.15,
+   "BACKYARD BREAKS \u00d7 TREVOR LAWRENCE"
+  ],
+  "drop": 19.39,
+  "focus": [
+   [
+    0.0,
+    985,
+    450,
+    1.6
+   ],
+   [
+    3.75,
+    960,
+    560,
+    1.0
+   ],
+   [
+    10.14,
+    990,
+    460,
+    1.4
+   ],
+   [
+    13.24,
+    960,
+    560,
+    1.0
+   ],
+   [
+    19.39,
+    990,
+    455,
+    1.5
+   ],
+   [
+    28.99,
+    990,
+    445,
+    1.8
+   ]
+  ],
+  "stickers": [
+   [
+    10.14,
+    "1f4f1",
+    860,
+    700,
+    220
+   ],
+   [
+    26.69,
+    "1f3c8",
+    220,
+    700,
+    210
+   ],
+   [
+    28.99,
+    "1f62e",
+    860,
+    700,
+    220
+   ],
+   [
+    31.47,
+    "1f64f",
+    220,
+    680,
+    210
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    10.14,
+    "discord_notification",
+    0.45
+   ],
+   [
+    28.99,
+    "fah",
+    0.45
+   ]
+  ]
+ }
+}
