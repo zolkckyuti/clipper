@@ -53,3 +53,6 @@ Back to [[START HERE]] · style: [[VverPaldo style]] + [[KreekCraft GTA 6 campai
   No new Boeshi VOD since v2935956182. Use single-pass transcription of the whole window when a hook overlaps a story segment.
 - Skipped: Rogers Realm ("we should box him"), enters-room (13 s, chant only), Davis Mills roast.
 - Disk: deleted old delivered 4K renders; restored tracked renders (renders/kreek_*_v2/vv) from git rather than committing their deletion.
+- 2026-11-23: user — **no BYB clip has reached 1.5k views (payout threshold)**; best was the 17 s GOAT (1.4k). Going shorter (15–20 s, BYB minimum 15 s) with the strongest first second.
+  **tl_mills** (17 s, blue; Davis Mills pull → "longer neck than Mike Glennon"), **tl_tiger** (23 s, green; Grant gives Trevor the Tiger Woods game-worn auto he kept 4 years → "That's for me?").
+  Advice given: Shorts are judged per video (viewed-vs-swiped ≥70 %, avg % viewed ≥90 %), keep one niche per channel (a KreekCraft clip on the BYB channel got 7 views), cross-post.

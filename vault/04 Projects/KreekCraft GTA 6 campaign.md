@@ -87,3 +87,10 @@ Back to [[START HERE]] · style: [[VverPaldo style]] (hook + hard cut)
 - Clips: **niko** (6:52 — GTA IV's first line → "It's NIKO!"), **jimmy** (2:31 + 2:37 — Jimmy De Santa, "how's Trevor and Franklin?", crypto bro), **glitch** (9:05 swap/stow money dupe → "it worked", $108K/run),
   **tiger** (0:18 — apples → beer; no cutaway over the tiger reveal at the end), **blind** (1:18 — "I'm legally blind" → NPC "you blind or something?" "I am, actually").
 - Skipped: naked bar / showers / "put it back in there" (NSFW), wife-free; game subtitles still show swears on some frames (baked into footage).
+
+## 2026-11-22/23 — re-edits (v2) of the best performers, shorter + cold opens
+- **kv2_egg** (Day 2 tower window VOD 34190–34460, `.work/rv`): hook "Shut the front door, bro" at the nest → bet "if there's not an Easter egg up here I'm ending the stream" → top → "Bro… are you serious?". 22 s, green.
+  Lesson: **no reaction cutaway over the payoff/visual reveal** (the nest) — put the cutaway on the setup line instead.
+- **kv2_mom** (same window, the kids/"my mom wants to know what GTA this is" moment): hook "I played the fourth one as a kid and I learned a lot" → question → driving/grandmas/cats pitch → "really good game for kids". 33 s, blue. Trimmed trailing "and/so" at segment ends.
+- **kv2_glitch** (Day 4 windows 32662–32762 + 35040–35090): hook "Oh my God, it worked" → van → swap → please work → it worked ×3 → "$108K every time". 21 s, red.
+- Single-pass `txw.py` on the whole window = no duplicate words when the hook overlaps a later segment.
