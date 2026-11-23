@@ -24,3 +24,10 @@ Back to [[START HERE]] · style: [[KreekCraft GTA 6 campaign]] (KreekV2) + [[Vve
   Clips: **mozart** (chores → "I listen to Beethoven and Mozart on GTA… we are not the same", phonk muted during the in-game symphony via vv.music_off, drops on "we"),
   **donnie** (begging Donnie to open the trailer door), **meditate** (meditated until he teared up), **gym** (225 ×5 → "I'm doing 410 for RDLs… is that kind of crazy?"), **buckme** (BuckMe app name, "fire the marketing team", ad).
   Skipped: voice-filter bit (no setup/payoff), haram cutscene (1:42), shootouts with no reaction.
+- **Batch 4 (2026-11-23)** — user: "good hooks, shorter clips, just 3… higher quality videos that go viral rather than none reaching the minimum".
+  New VOD **v2938193982** "Streaming GTA 6 (gone right)" (he was live; first 42 min used). 17–22 s each, cold-open hooks, one flash colour, music 15 dB under.
+  **bo4_cool** (red; "am I cool so far?" → "I'm gonna fail this mission" → "yeah I failed the mission bro" → "I just spat on my screen"; no cutaway on the fail-screen hook),
+  **bo4_secret** (green; "I actually have a secret, only people in the live will know… I'm making a Roblox game"; Roblox sfx from the pack),
+  **bo4_glasses** (blue; "why do you have glasses?" → "I'm LARPing being blind" → "why do you have a microphone? what is this trend…").
+  large-v3 missed "Am I entertaining? Am I cool so far?" → used the small.en full-VOD words for that window.
+  Other candidates in this VOD: pre-workout anxiety (24:04), "I feel like I'm third wheeling" (7:44), "not a good Samaritan" car wreck (14:48), "she looked like me in my videos" (31:48).
