@@ -1,0 +1,137 @@
+{
+ "name": "bo4_glasses",
+ "top": "Chat asked Boeshi why he wears glasses \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   21.41,
+   24.45
+  ],
+  [
+   "s1",
+   7.5,
+   12.51
+  ],
+  [
+   "s2",
+   20.1,
+   24.45
+  ],
+  [
+   "s3",
+   76.5,
+   82.75
+  ]
+ ],
+ "hl": [
+  "GLASSES",
+  "LARPING",
+  "BLIND",
+  "MICROPHONE",
+  "TREND",
+  "BREATHING"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "BLIND"
+  ],
+  "green": [
+   "LARPING"
+  ],
+  "punch": [
+   "GLASSES",
+   "LARPING",
+   "BLIND",
+   "MICROPHONE"
+  ]
+ },
+ "fix": {
+  "larping": "LARPing"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/essence.wav",
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.1,
+    "LARPing \ud83d\ude2d"
+   ],
+   [
+    3.09,
+    "\u23ea chat asked"
+   ],
+   [
+    5.36,
+    "\"why am I breathing?\" \ud83d\udc80"
+   ],
+   [
+    12.09,
+    "fake glasses \ud83d\udc53"
+   ],
+   [
+    14.84,
+    "chat is relentless \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   12.09,
+   "LARPING BEING BLIND \ud83d\udc53"
+  ],
+  "react": [
+   [
+    0.05,
+    2.99
+   ],
+   [
+    15.14,
+    18.6
+   ]
+  ],
+  "chip": [
+   3.44,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 8.05,
+  "meme": {
+   "fahh": [
+    5.36
+   ],
+   "boom": [
+    12.09
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    14.84,
+    "among_us",
+    0.35
+   ]
+  ]
+ }
+}

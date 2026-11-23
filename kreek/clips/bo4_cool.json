@@ -1,0 +1,150 @@
+{
+ "name": "bo4_cool",
+ "top": "Boeshi asked chat \"am I cool so far?\"\u2026 then this happened \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   67.85,
+   69.3
+  ],
+  [
+   "s1",
+   12.15,
+   16.29
+  ],
+  [
+   "s2",
+   16.29,
+   22.2
+  ],
+  [
+   "s3",
+   48.2,
+   49.4
+  ],
+  [
+   "s4",
+   64.9,
+   69.3
+  ],
+  [
+   "s5",
+   75.8,
+   80.2
+  ]
+ ],
+ "hl": [
+  "COOL",
+  "FAILED",
+  "FAIL",
+  "MISSION",
+  "SPAT",
+  "YACHT"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "FAILED"
+  ],
+  "green": [
+   "COOL"
+  ],
+  "punch": [
+   "COOL",
+   "FAIL",
+   "FAILED",
+   "SPAT"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/gigachad.wav",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "he failed \ud83d\udc80"
+   ],
+   [
+    1.5,
+    "\u23ea 1 minute earlier"
+   ],
+   [
+    4.0,
+    "\"am I cool?\" \ud83d\ude0e"
+   ],
+   [
+    10.36,
+    "close call \ud83d\ude2e\u200d\ud83d\udca8"
+   ],
+   [
+    12.11,
+    "he called it \ud83d\ude2d"
+   ],
+   [
+    20.97,
+    "spat on the screen \ud83d\udc80"
+   ]
+  ],
+  "freeze": [
+   16.17,
+   "MISSION FAILED \ud83d\udc80"
+  ],
+  "react": [
+   [
+    20.61,
+    21.45
+   ]
+  ],
+  "chip": [
+   1.95,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 12.9,
+  "meme": {
+   "fahh": [
+    16.17
+   ],
+   "boom": [
+    12.9
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    6.64,
+    "riser_1",
+    0.3
+   ],
+   [
+    20.97,
+    "spongebob",
+    0.35
+   ]
+  ]
+ }
+}

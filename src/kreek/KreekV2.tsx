@@ -55,12 +55,15 @@ import bo3_plane from './v2/bo3_plane.json';
 import kv2_egg from './v2/kv2_egg.json';
 import kv2_mom from './v2/kv2_mom.json';
 import kv2_glitch from './v2/kv2_glitch.json';
+import bo4_cool from './v2/bo4_cool.json';
+import bo4_secret from './v2/bo4_secret.json';
+import bo4_glasses from './v2/bo4_glasses.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
   chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch} as unknown as Record<string, P>;
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
