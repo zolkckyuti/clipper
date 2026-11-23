@@ -1,0 +1,146 @@
+{
+ "name": "wow_uk",
+ "top": "WoW: Forever's new race can literally WALK ON AIR \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   19.15,
+   22.33
+  ],
+  [
+   "s1",
+   3.05,
+   8.95
+  ],
+  [
+   "s2",
+   17.45,
+   27.95
+  ]
+ ],
+ "hl": [
+  "SKYBORN",
+  "SKYBORN'S",
+  "AIR",
+  "GLIDE",
+  "CLIFF",
+  "EMBARRASSING",
+  "RACE",
+  "FOREVER'S"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "AIR",
+   "GLIDE",
+   "CLIFF",
+   "EMBARRASSING",
+   "RACE"
+  ]
+ },
+ "fix": {
+  "skyborn,": "Skyborne,",
+  "skyborn's": "Skyborne's",
+  "skyborn": "Skyborne"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "dreamspace",
+  "flash_color": "blue",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 out now"
+  ],
+  "pops": [
+   [
+    0.09,
+    "\ud83e\udebd Walk on Air"
+   ],
+   [
+    3.23,
+    "\u23ea the new race"
+   ],
+   [
+    8.41,
+    "new playable race \ud83d\udc40"
+   ],
+   [
+    13.17,
+    "fall \u279c glide \ud83e\ude82"
+   ]
+  ],
+  "freeze": [
+   18.73,
+   "LESS EMBARRASSING \ud83d\ude2d"
+  ],
+  "react": [],
+  "chip": [
+   3.58,
+   "WORLD OF WARCRAFT: FOREVER \u00b7 NEW RACE"
+  ],
+  "drop": 9.08,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ],
+   [
+    3.18,
+    960,
+    540,
+    1.0
+   ],
+   [
+    10.87,
+    960,
+    520,
+    1.12
+   ],
+   [
+    14.75,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    8.81,
+    "1f440",
+    860,
+    700,
+    210
+   ],
+   [
+    17.79,
+    "1f62d",
+    220,
+    700,
+    230
+   ]
+  ],
+  "flash": [
+   0.02,
+   13.53,
+   18.73
+  ],
+  "sfx": [
+   [
+    0.55,
+    "magic_reveal",
+    0.35
+   ],
+   [
+    18.73,
+    "ding",
+    0.35
+   ]
+  ]
+ }
+}

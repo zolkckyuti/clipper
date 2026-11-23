@@ -1,0 +1,127 @@
+{
+ "name": "wow_de",
+ "top": "WoW: Forever Dungeon-Tipp: Heiler NICHT ins hohe Gras \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   23.05,
+   26.62
+  ],
+  [
+   "s1",
+   10.15,
+   20.13
+  ],
+  [
+   "s2",
+   20.25,
+   26.62
+  ]
+ ],
+ "hl": [],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": []
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "dreamspace",
+  "flash_color": "blue",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 jetzt spielbar"
+  ],
+  "pops": [
+   [
+    0.05,
+    "\ud83e\udd96 Raptoren im Gras"
+   ],
+   [
+    3.62,
+    "\u23ea von vorne"
+   ],
+   [
+    9.18,
+    "getarnt \ud83d\udc40"
+   ],
+   [
+    17.16,
+    "Heiler sch\u00fctzen \ud83e\ude79"
+   ]
+  ],
+  "freeze": [
+   18.62,
+   "FALLS IHR IHN M\u00d6GT \ud83d\udc80"
+  ],
+  "react": [],
+  "chip": [
+   3.97,
+   "WOW: FOREVER \u00b7 NEUER DUNGEON"
+  ],
+  "drop": 5.84,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ],
+   [
+    3.57,
+    960,
+    540,
+    1.0
+   ],
+   [
+    12.28,
+    960,
+    560,
+    1.12
+   ],
+   [
+    13.55,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "stickers": [
+   [
+    6.4,
+    "1f440",
+    860,
+    700,
+    210
+   ],
+   [
+    18.62,
+    "1f480",
+    220,
+    700,
+    230
+   ]
+  ],
+  "flash": [
+   0.02,
+   12.28,
+   18.62
+  ],
+  "sfx": [
+   [
+    12.28,
+    "bang",
+    0.3
+   ],
+   [
+    18.62,
+    "ding",
+    0.35
+   ]
+  ]
+ }
+}
