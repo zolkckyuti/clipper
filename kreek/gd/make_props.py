@@ -21,9 +21,15 @@ CLIPS = {
     'gd_money': dict(top='How he traveled the world with no money', music='dragonfly',
                      hl=['MONEY', 'VALUABLE', 'CONNECTION', 'TRUST', 'COMMUNICATION'], punch=['VALUABLE', 'MONEY'],
                      pops=[('s1', 0.05, '⏪ the challenge'), ('s2', 0.1, 'be valuable to people')]),
+    'gd_olymp': dict(top='He trained for the Olympics and had no plan B', music='echosax',
+                     hl=['OLYMPICS', 'PLAN', 'B', 'PSYCHOLOGIST', 'FUNDING', 'DREAM'], punch=['OLYMPICS', 'FUNDING', 'PSYCHOLOGIST'],
+                     pops=[('s1', 0.05, '⏪ his story'), ('s2', 0.1, 'the turning point')]),
 }
 norm = lambda t: re.sub(r"[^A-Za-z0-9*'$]", '', t).upper()
+import sys
+ONLY = sys.argv[1:]
 for name, c in CLIPS.items():
+    if ONLY and name not in ONLY: continue
     W = json.load(open(f'.work/gd/{name}.words.json'))
     dur = W['dur']; seg_at = {sid: (o, b - a) for sid, a, b, o in W['segs']}
     cuts = [{'id': sid, 'a': o, 'b': round(o + b - a, 3), 'src': a} for sid, a, b, o in W['segs']]

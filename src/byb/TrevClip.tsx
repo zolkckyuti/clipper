@@ -30,6 +30,7 @@ import gd_hier from '../kreek/v2/gd_hier.json';
 import gd_money from '../kreek/v2/gd_money.json';
 import dp_scooter from '../kreek/v2/dp_scooter.json';
 import dp_orca from '../kreek/v2/dp_orca.json';
+import gd_olymp from '../kreek/v2/gd_olymp.json';
 import wow_uk from '../kreek/v2/wow_uk.json';
 import wow_de from '../kreek/v2/wow_de.json';
 
@@ -43,7 +44,7 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   flash_color?: 'blue' | 'green' | 'red'; flash?: number[];   // ONE colour per clip (user), flashed on the hits
   brand?: [string, string];   // bottom pill text [main, accent]; default @BackyardBreaks · Whatnot
   music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger, wow_uk, wow_de, gd_anx, gd_rel, gd_trust, gd_hier, gd_money, dp_scooter, dp_orca} as unknown as Record<string, P>;
+export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger, wow_uk, wow_de, gd_anx, gd_rel, gd_trust, gd_hier, gd_money, dp_scooter, dp_orca, gd_olymp} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*'$]/g, '').toUpperCase();
