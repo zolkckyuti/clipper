@@ -3,6 +3,14 @@
 The style used for the "Guess the fake millionaire" and Trevor stream edits (Nov 2026). Reference build: **Redemption v2**
 (`viral-short` → comp `Guess-tvredeem2`, plan in `viral-short/plan7.py`, template `viral-short/src/Guess.tsx`).
 
+## ALWAYS: the 3-second rule (user rule, 2026-11-24, every edit)
+Goal is to go viral, not to post random clips. Within the first 3 s the viewer must be hooked by ALL THREE:
+1. **Visual:** open on something interesting actually happening (the most striking shot of the clip, not a talking head idling).
+2. **Audio:** the most interesting line / sound is heard in those 3 s.
+3. **Text:** a title that makes the viewer stay (curiosity / stakes, still true to the clip).
+- Flash colour is **not** mandatory: only use a flash (and pick its colour) when it fits the clip.
+- Add SFX and reaction emojis where the moment calls for it, so the edit is never plain.
+
 ## Structure (retention)
 - **Hook in the first 1–3 s:** open on the wildest / most specific line (numbers, a shocking answer). Speech on frame 1, a person on screen.
 - **Story, in order, with a payoff or a cliffhanger.** 15–22 s total. Cut dead air and repeated lines (when one person talks and nothing moves, cut it).
