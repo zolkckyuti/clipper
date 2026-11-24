@@ -1,0 +1,77 @@
+{
+ "name": "wow_crow",
+ "top": "WoW: Forever has a quest from a crow… and she's just a crow 😭",
+ "seg": [
+  [
+   "hook",
+   19.19,
+   23.9
+  ],
+  [
+   "s1",
+   5.4,
+   23.9
+  ]
+ ],
+ "hl": [
+  "CROW",
+  "CROW.",
+  "CROW,",
+  "WARLOCKS",
+  "HELP"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "CROW.",
+   "WARLOCKS"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "luminary",
+  "brand": [
+   "⚔️ World of Warcraft: Forever",
+   " · out now"
+  ],
+  "pops": [
+   [
+    0.1,
+    "🐦‍⬛ quest giver"
+   ],
+   [
+    4.76,
+    "⏪ the quest"
+   ],
+   [
+    11.29,
+    "sinister warlocks 👀"
+   ]
+  ],
+  "freeze": [
+   64.71,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   5.11,
+   "WORLD OF WARCRAFT: FOREVER"
+  ],
+  "drop": 4.71,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [],
+  "sfx": []
+ }
+}

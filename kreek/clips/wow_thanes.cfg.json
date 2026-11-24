@@ -1,0 +1,81 @@
+{
+ "name": "wow_thanes",
+ "top": "Robbing a dwarf king's tomb in WoW: Forever has consequences \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   8.2,
+   10.3
+  ],
+  [
+   "s1",
+   2.7,
+   18.12
+  ]
+ ],
+ "hl": [
+  "DEAD",
+  "TOMBS",
+  "KINGS.",
+  "SPIRITS",
+  "THIEVES"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "DEAD",
+   "TOMBS",
+   "SPIRITS"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "br2049",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 out now"
+  ],
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.1,
+    "Hall of Thanes \ud83e\udea6"
+   ],
+   [
+    2.15,
+    "\u23ea what happened"
+   ],
+   [
+    9.94,
+    "restless spirits \ud83d\udc7b"
+   ]
+  ],
+  "freeze": [
+   62.1,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   2.5,
+   "WORLD OF WARCRAFT: FOREVER"
+  ],
+  "drop": 2.1,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": []
+ }
+}

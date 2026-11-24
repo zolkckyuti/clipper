@@ -1,0 +1,73 @@
+{
+ "name": "wow_lord",
+ "top": "So sehen die Ruinen von Lordaeron in WoW: Forever aus \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   14.4,
+   19.07
+  ],
+  [
+   "s1",
+   2.0,
+   14.43
+  ],
+  [
+   "s2",
+   19.2,
+   29.4
+  ]
+ ],
+ "hl": [],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": []
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "landing",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 jetzt spielbar"
+  ],
+  "pops": [
+   [
+    0.1,
+    "neues Licht-System \u2728"
+   ],
+   [
+    4.72,
+    "\u23ea der Dungeon"
+   ],
+   [
+    17.2,
+    "Licht \u00b7 Schatten \u00b7 Nebel"
+   ]
+  ],
+  "freeze": [
+   77.1,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   5.07,
+   "WORLD OF WARCRAFT: FOREVER"
+  ],
+  "drop": 4.67,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [],
+  "sfx": []
+ }
+}
