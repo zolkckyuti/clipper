@@ -10,6 +10,7 @@ import {KitschStory3, K3S} from './kitsch/KitschStory3';
 import {KitschMeme, MEME, memeDur} from './kitsch/KitschMeme';
 import {BybClip, BYB} from './byb/BybClip';
 import {TrevClip, TREV} from './byb/TrevClip';
+import {BoFit, BOFIT} from './kreek/BoFit';
 import {WowClip, WOW, wowDur} from './wow/WowClip';
 import {CARD_OUT_MS, CardPull} from './CardPull';
 import {SRC as POD_SRC} from './activePod';
@@ -44,6 +45,7 @@ export const RemotionRoot = () => (
   {Object.keys(BYB).flatMap((k) => [true, false].map((m) => <Composition key={'b' + k + m} id={`Byb-${k.replace('byb_', '')}${m ? '' : '-nomusic'}`} component={BybClip} defaultProps={{clip: k, music: m}}
     durationInFrames={Math.round(BYB[k].dur * 60)} fps={60} width={1080} height={1920} />))}
   {Object.keys(WOW).map((k) => <Composition key={'wow' + k} id={`Wow-${k}`} component={WowClip} defaultProps={{clip: k}} durationInFrames={Math.round(wowDur(k) * 60)} fps={60} width={1080} height={1920} />)}
+  {Object.keys(BOFIT).map((k) => <Composition key={'bf' + k} id={`BoFit-${k.replace(/_/g, '-')}`} component={BoFit} defaultProps={{clip: k}} durationInFrames={Math.round(BOFIT[k].dur * 60)} fps={60} width={1080} height={1920} />)}
   {Object.keys(TREV).map((k) => <Composition key={'t' + k} id={`Trev-${k.replace('tl_', '').replace(/_/g, '-')}`} component={TrevClip} defaultProps={{clip: k}}
     durationInFrames={Math.round(TREV[k].dur * 60)} fps={60} width={1080} height={1920} />)}
   {Object.keys(MEME).flatMap((k) => [true, false].map((m) => <Composition key={'m' + k + m} id={`KitschMeme-${k}${m ? '' : '-nomusic'}`} component={KitschMeme} defaultProps={{clip: k, music: m}}

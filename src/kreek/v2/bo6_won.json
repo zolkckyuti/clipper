@@ -1,0 +1,179 @@
+{
+ "name": "bo6_won",
+ "dur": 5.5,
+ "top": "Can't believe these two are the same person \ud83d\udc80",
+ "cuts": [
+  {
+   "id": "s1",
+   "a": 0.0,
+   "b": 3.5,
+   "src": 7.7
+  },
+  {
+   "id": "s2",
+   "a": 3.5,
+   "b": 5.5,
+   "src": 13.1
+  }
+ ],
+ "words": [
+  {
+   "t": "I",
+   "a": 0.22,
+   "b": 0.64,
+   "seg": "s1"
+  },
+  {
+   "t": "did",
+   "a": 0.64,
+   "b": 0.74,
+   "seg": "s1"
+  },
+  {
+   "t": "it,",
+   "a": 0.74,
+   "b": 0.86,
+   "seg": "s1"
+  },
+  {
+   "t": "I'm",
+   "a": 0.86,
+   "b": 0.98,
+   "seg": "s1"
+  },
+  {
+   "t": "gonna",
+   "a": 0.98,
+   "b": 1.06,
+   "seg": "s1"
+  },
+  {
+   "t": "do",
+   "a": 1.06,
+   "b": 1.26,
+   "seg": "s1"
+  },
+  {
+   "t": "it!",
+   "a": 1.26,
+   "b": 1.32,
+   "seg": "s1"
+  },
+  {
+   "t": "I",
+   "a": 1.42,
+   "b": 1.5,
+   "seg": "s1"
+  },
+  {
+   "t": "won!",
+   "a": 1.5,
+   "b": 1.8,
+   "seg": "s1"
+  },
+  {
+   "t": "I'm",
+   "a": 2.14,
+   "b": 2.56,
+   "seg": "s1"
+  },
+  {
+   "t": "winning!",
+   "a": 2.56,
+   "b": 2.78,
+   "seg": "s1"
+  },
+  {
+   "t": "I",
+   "a": 3.82,
+   "b": 4.24,
+   "seg": "s2"
+  },
+  {
+   "t": "won,",
+   "a": 4.24,
+   "b": 4.66,
+   "seg": "s2"
+  },
+  {
+   "t": "I",
+   "a": 4.74,
+   "b": 4.82,
+   "seg": "s2"
+  },
+  {
+   "t": "won!",
+   "a": 4.82,
+   "b": 5.02,
+   "seg": "s2"
+  }
+ ],
+ "hl": [
+  "WON!",
+  "WON,",
+  "WINNING!"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "cam": [
+  12,
+  148,
+  406,
+  274
+ ],
+ "game": [
+  960,
+  0,
+  1080
+ ],
+ "overlay": "boeshi/overlay.png",
+ "transitions": true,
+ "sfx2": true,
+ "cap_y": 1150,
+ "music_src": "tl/music/gigachad.wav",
+ "pops": [
+  [
+   1.5,
+   "he won \ud83c\udfc6"
+  ]
+ ],
+ "freeze": [
+  33.5,
+  ""
+ ],
+ "react": [
+  [
+   0.0,
+   5.45
+  ]
+ ],
+ "chip": [
+  0.6,
+  "LIVE ON TWITCH \u00b7 darealboeshi"
+ ],
+ "drop": 0.0,
+ "flash": [],
+ "sfx": [],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "music_off": [
+   [
+    0,
+    99
+   ]
+  ],
+  "red": [],
+  "green": [
+   "WON!"
+  ],
+  "punch": [
+   "WON!",
+   "WINNING!"
+  ]
+ }
+}
