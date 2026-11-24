@@ -27,7 +27,8 @@ for name, c in CLIPS.items():
     W = json.load(open(f'.work/gd/{name}.words.json'))
     dur = W['dur']; seg_at = {sid: (o, b - a) for sid, a, b, o in W['segs']}
     cuts = [{'id': sid, 'a': o, 'b': round(o + b - a, 3), 'src': a} for sid, a, b, o in W['segs']]
-    words = [{'t': w[2], 'a': w[0], 'b': w[1], 'seg': w[3]} for w in W['words']]
+    FIX = {'naturalize': 'neutralize', 'disapplies': 'this applies', 'naturalize.': 'neutralize.'}
+    words = [{'t': FIX.get(w[2].lower(), w[2]), 'a': w[0], 'b': w[1], 'seg': w[3]} for w in W['words']]
     def T(sid, off):
         o, d = seg_at[sid]; return round(o + (off if off >= 0 else d + off), 3)
     props = {'name': name, 'dur': dur, 'top': c['top'], 'cuts': cuts, 'words': words, 'hl': c['hl'],
