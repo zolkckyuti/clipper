@@ -1,0 +1,128 @@
+{
+ "name": "bo5_sam",
+ "top": "Boeshi is NOT a good Samaritan in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   23.0,
+   36.08
+  ],
+  [
+   "s1",
+   38.0,
+   47.6
+  ],
+  [
+   "s2",
+   56.8,
+   60.45
+  ]
+ ],
+ "hl": [
+  "EVIL",
+  "SAMARITAN",
+  "GLITCHED",
+  "WON",
+  "CHASING"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "EVIL"
+  ],
+  "green": [],
+  "punch": [
+   "EVIL",
+   "SAMARITAN",
+   "GLITCHED",
+   "WON"
+  ]
+ },
+ "fix": {
+  "freak": "Frick",
+  "samaritan": "Samaritan"
+ },
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/memoryreboot.wav",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "cars too slow \ud83d\ude24"
+   ],
+   [
+    11.36,
+    "EVIL samaritan \ud83d\ude08"
+   ],
+   [
+    13.13,
+    "\u23ea then this happened"
+   ],
+   [
+    22.06,
+    "car glitched \ud83d\udc80"
+   ]
+  ],
+  "freeze": [
+   23.52,
+   "HE LOWKEY WON \ud83d\udc80"
+  ],
+  "react": [
+   [
+    24.16,
+    26.28
+   ]
+  ],
+  "chip": [
+   13.58,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 5.74,
+  "meme": {
+   "fahh": [
+    23.52
+   ],
+   "boom": [
+    11.36
+   ]
+  },
+  "flash": [
+   0.02,
+   11.36
+  ],
+  "sfx": [
+   [
+    14.02,
+    "riser_1",
+    0.3
+   ],
+   [
+    22.06,
+    "bone_crack",
+    0.35
+   ]
+  ]
+ }
+}

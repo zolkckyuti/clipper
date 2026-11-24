@@ -1,0 +1,118 @@
+{
+ "name": "dp_orca",
+ "top": "GTA 6 has KILLER WHALES and Dylan Page lost it \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   19.0,
+   22.95
+  ],
+  [
+   "s1",
+   0.0,
+   11.8
+  ],
+  [
+   "s2",
+   14.0,
+   22.95
+  ]
+ ],
+ "hl": [
+  "GOD",
+  "WHAT"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "GOD"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1080,
+   1150
+  ],
+  "focus": [
+   [
+    0.0,
+    540,
+    575,
+    1.0
+   ]
+  ],
+  "brand": [
+   "\ud83c\udfae #DylanPage",
+   " \u00b7 120h GTA 6 marathon"
+  ],
+  "music": "insomnia",
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.1,
+    "KILLER WHALE \ud83d\ude33"
+   ],
+   [
+    4.0,
+    "\u23ea how it started"
+   ],
+   [
+    6.95,
+    "\"is she going with us?\""
+   ],
+   [
+    15.85,
+    "they all saw it \ud83d\ude31"
+   ]
+  ],
+  "freeze": [
+   21.5,
+   "GTA 6 IS INSANE \ud83d\udc0b"
+  ],
+  "react": [
+   [
+    15.75,
+    17.35
+   ]
+  ],
+  "chip": [
+   4.35,
+   "DYLAN PAGE \u00b7 120H GTA 6 MARATHON"
+  ],
+  "drop": 15.75,
+  "stickers": [
+   [
+    0.8,
+    "1f633",
+    860,
+    760,
+    220
+   ],
+   [
+    22.1,
+    "1f525",
+    220,
+    760,
+    220
+   ]
+  ],
+  "flash": [
+   0.02,
+   21.5
+  ],
+  "sfx": [
+   [
+    0.0,
+    "meme_boom",
+    0.4
+   ],
+   [
+    21.1,
+    "riser_1",
+    0.3
+   ]
+  ]
+ }
+}

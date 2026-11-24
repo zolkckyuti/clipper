@@ -56,14 +56,16 @@ import kv2_egg from './v2/kv2_egg.json';
 import kv2_mom from './v2/kv2_mom.json';
 import kv2_glitch from './v2/kv2_glitch.json';
 import bo4_cool from './v2/bo4_cool.json';
+import bo5_sam from './v2/bo5_sam.json';
+import bo5_third from './v2/bo5_third.json';
 import bo4_secret from './v2/bo4_secret.json';
 import bo4_glasses from './v2/bo4_glasses.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses} as unknown as Record<string, P>;
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; game_x?: [number, number][]; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses, bo5_sam, bo5_third} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
@@ -81,6 +83,12 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const [GCX, GY0, GY1] = P.game ?? [960, 0, SRC_H];            // gameplay: centre x, visible source y range
   const G = {top: 300, h: 1320, scale: 1320 / (GY1 - GY0)};
   const f = useCurrentFrame(), {fps} = useVideoConfig(), s = f / fps;
+  // optional moving gameplay crop: game_x keyframes [t, source centre x], 0.3 s eased pans (keeps the action in frame)
+  let gcx = GCX;
+  if (P.game_x && P.game_x.length) {
+    gcx = P.game_x[0][1];
+    for (const [t, x] of P.game_x) { if (s < t) break; const k = Math.min(1, (s - t) / 0.3); const e = k * k * (3 - 2 * k); gcx = gcx + (x - gcx) * e; }
+  }
   const src = staticFile(`${P.srcdir ?? 'kreek/v2'}/${P.name}_src.mp4`);
   const reds = firstHits(P, P.vv.red), greens = firstHits(P, P.vv.green), punches = firstHits(P, P.vv.punch, 2, 0.5);
   const cutTimes = P.cuts.slice(1).map((c) => c.a);
@@ -153,10 +161,13 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
     <AbsoluteFill style={{transform: `translateX(${trX + trShake}px) scale(${trZoom})`, filter: trBlur > 0.5 ? `blur(${trBlur.toFixed(1)}px)` : undefined}}>
     {/* gameplay */}
     <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, overflow: 'hidden', transform: `translateX(${shake}px)`}}>
-      <div style={{position: 'absolute', left: 540 - GCX * gScale, top: G.h / 2 - ((GY0 + GY1) / 2) * gScale, width: SRC_W * gScale, height: SRC_H * gScale,
+      <div style={{position: 'absolute', left: 540 - gcx * gScale, top: G.h / 2 - ((GY0 + GY1) / 2) * gScale, width: SRC_W * gScale, height: SRC_H * gScale,
         transform: `translateX(${-(960 - 960) * gScale}px)`}}>
         <OffthreadVideo src={src} muted startFrom={0} style={{width: '100%', height: '100%', filter: `contrast(1.1) saturate(1.25)${inFreeze ? ' brightness(1.08)' : ''}`,
           transform: `translateX(${-(960 - 960) * gScale}px)`}} {...({} as object)} />
+        {/* with a moving crop the stream's own facecam can slide into view: blur it so his face isn't shown twice */}
+        {P.game_x && <div style={{position: 'absolute', left: (CX - 6) * gScale, top: (CY - 6) * gScale, width: (CW + 12) * gScale, height: (CH + 12) * gScale,
+          backdropFilter: 'blur(28px) brightness(0.8)', WebkitBackdropFilter: 'blur(28px) brightness(0.8)'}} />}
       </div>
       <AbsoluteFill style={{background: tint}} />
       <AbsoluteFill style={{background: `rgba(0,0,0,${0.55 * react})`}} />

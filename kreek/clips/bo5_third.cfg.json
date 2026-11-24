@@ -1,0 +1,134 @@
+{
+ "name": "bo5_third",
+ "top": "POV: you're third wheeling in GTA 6 💀",
+ "seg": [
+  [
+   "hook",
+   17.05,
+   20.78
+  ],
+  [
+   "s1",
+   12.3,
+   29.58
+  ],
+  [
+   "s2",
+   33.9,
+   37.15
+  ]
+ ],
+ "hl": [
+  "COZY",
+  "THIRD",
+  "WHEELING",
+  "SQUARE",
+  "TWIN"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [],
+  "green": [],
+  "punch": [
+   "COZY",
+   "THIRD",
+   "WHEELING"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/sahara.wav",
+  "pops": [
+   [
+    0.1,
+    "getting cozy 👀"
+   ],
+   [
+    3.78,
+    "⏪ from the start"
+   ],
+   [
+    14.63,
+    "square up 🥊"
+   ],
+   [
+    22.65,
+    "third wheeling 💀"
+   ]
+  ],
+  "freeze": [
+   22.81,
+   "THIRD WHEELING 😭"
+  ],
+  "react": [
+   [
+    11.07,
+    12.21
+   ]
+  ],
+  "chip": [
+   4.23,
+   "LIVE ON TWITCH · darealboeshi"
+  ],
+  "drop": 13.41,
+  "meme": {
+   "ooh": [
+    2.59
+   ],
+   "boom": [
+    22.81
+   ]
+  },
+  "sfx": [
+   [
+    7.33,
+    "rizz",
+    0.3
+   ]
+  ],
+  "game_x": [
+   [
+    0,
+    442
+   ],
+   [
+    3.73,
+    650
+   ],
+   [
+    5.93,
+    442
+   ],
+   [
+    13.73,
+    1000
+   ],
+   [
+    16.43,
+    960
+   ]
+  ]
+ }
+}
