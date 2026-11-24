@@ -1,0 +1,72 @@
+{
+ "name": "gd_hier",
+ "audio": "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/ep.mp3",
+ "segs": [
+  [
+   "hook",
+   1262.7,
+   1267.6
+  ],
+  [
+   "s1",
+   1248.8,
+   1267.6
+  ]
+ ],
+ "shots": [
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   68.65,
+   69.88,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   59.65,
+   63.22,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   11.78,
+   12.88,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708741270537047297.mp4",
+   7.0,
+   10.8,
+   "F"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   69.98,
+   71.05,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   15.52,
+   19.25,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   63.32,
+   66.05,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   71.15,
+   74.6,
+   "P"
+  ],
+  [
+   "/tmp/claude-0/-home-user-clipper/771b44a9-fbf1-58bb-8e32-93179ab041c2/scratchpad/gd/b_7708752283852459265.mp4",
+   55.98,
+   59.55,
+   "P"
+  ]
+ ]
+}
