@@ -1,0 +1,88 @@
+{
+ "name": "wow_mount",
+ "top": "WoW: Forever's undead Paladin mount gets a MASSIVE upgrade at level 60 \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   17.0,
+   20.25
+  ],
+  [
+   "s1",
+   4.3,
+   15.4
+  ],
+  [
+   "s2",
+   20.25,
+   27.0
+  ]
+ ],
+ "hl": [
+  "MASSIVE",
+  "UPGRADE.",
+  "CHARGER.",
+  "40.",
+  "60,"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "MASSIVE",
+   "CHARGER."
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "br2049",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 out now"
+  ],
+  "flash_color": "blue",
+  "cap_word": true,
+  "endcta": "Like + follow for more WoW: Forever \ud83d\udd14",
+  "pops": [
+   [
+    0.15,
+    "level 60 \u2694\ufe0f"
+   ],
+   [
+    3.3,
+    "\u23ea at level 40"
+   ],
+   [
+    20.74,
+    "Forsaken Charger \ud83d\udc34"
+   ]
+  ],
+  "freeze": [
+   74.35,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   3.65,
+   "WORLD OF WARCRAFT: FOREVER \u00b7 NEW CLASS COMBO"
+  ],
+  "drop": 3.25,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [
+   0.02,
+   20.74
+  ],
+  "sfx": []
+ }
+}

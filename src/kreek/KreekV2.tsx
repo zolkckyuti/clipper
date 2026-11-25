@@ -6,6 +6,7 @@
 import {loadFont} from '@remotion/fonts';
 import React from 'react';
 import {AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {FX, ViralFX, fxFlash, fxSfx} from './ViralFX';
 import croc from './v2/croc.json';
 import dance from './v2/dance.json';
 import gas from './v2/gas.json';
@@ -60,14 +61,15 @@ import bo5_sam from './v2/bo5_sam.json';
 import bo5_third from './v2/bo5_third.json';
 import bo6_coffee from './v2/bo6_coffee.json';
 import bo6_won from './v2/bo6_won.json';
+import bo7_pre from './v2/bo7_pre.json';
 import bo4_secret from './v2/bo4_secret.json';
 import bo4_glasses from './v2/bo4_glasses.json';
 
 loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weight: '800'});
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
-  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; game_x?: [number, number][]; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses, bo5_sam, bo5_third, bo6_coffee, bo6_won} as unknown as Record<string, P>;
+  chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; game_x?: [number, number][]; cap_word?: boolean; cta?: FX['cta']; imgpops?: FX['imgpops']; money?: FX['money']; callout?: FX['callout']; endcta?: string; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses, bo5_sam, bo5_third, bo6_coffee, bo6_won, bo7_pre} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();
@@ -134,9 +136,9 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
   const camTilt = interpolate(react, [0, 1], [-2.5, 0]);
   // ---- captions: 3-word chunks, active word highlighted
   const chunks: W[][] = []; let cur: W[] = [];
-  P.words.forEach((w, i) => { cur.push(w); if (/[.,!?]$/.test(w.t) || cur.length >= 3 || i === P.words.length - 1) { chunks.push(cur); cur = []; } });
+  P.words.forEach((w, i) => { cur.push(w); if (/[.,!?]$/.test(w.t) || cur.length >= (P.cap_word ? 1 : 3) || i === P.words.length - 1) { chunks.push(cur); cur = []; } });
   const ci = chunks.findIndex((c, i) => s >= c[0].a - 0.05 && (i === chunks.length - 1 || s < chunks[i + 1][0].a - 0.05));
-  const chunk = ci >= 0 && s <= chunks[ci][chunks[ci].length - 1].b + 0.7 ? chunks[ci] : null;
+  const chunk = ci >= 0 && s <= chunks[ci][chunks[ci].length - 1].b + (P.cap_word ? (ci + 1 < chunks.length && chunks[ci + 1][0].a - chunks[ci][chunks[ci].length - 1].b < 0.45 ? 0.45 : 0.15) : 0.7) ? chunks[ci] : null;
   const hl = new Set(P.hl);
   // ---- top title: visible from frame 0
   const topWords = P.top.split(' ');
@@ -158,7 +160,8 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
     ...(P.meme?.fahh ?? []).map((t): [string, number, number] => [S2 ? 'sfx2/fah.mp3' : 'byb/sfx_fahh.mp3', t, 0.5]), ...(P.meme?.airhorn ?? []).map((t): [string, number, number] => ['byb/sfx_airhorn.mp3', t, 0.3]),
     ...(P.meme?.boom ?? []).map((t): [string, number, number] => [S2 ? 'sfx2/meme_boom.mp3' : 'byb/sfx_boom.mp3', t, 0.5]), ...(P.meme?.ooh ?? []).map((t): [string, number, number] => ['byb/sfx_ooh.mp3', t, 0.32]),
     ...(P.meme ? [[S2 ? 'sfx2/meme_boom.mp3' : 'byb/sfx_boom.mp3', fz, 0.45] as [string, number, number]] : []),
-    ...(P.sfx ?? []).map(([t, n, v]): [string, number, number] => [`sfx2/${n}.mp3`, t, v])];
+    ...(P.sfx ?? []).map(([t, n, v]): [string, number, number] => [`sfx2/${n}.mp3`, t, v]), ...fxSfx(P)];
+  const [fxA, fxC] = fxFlash(P, s);
   return <AbsoluteFill style={{background: 'linear-gradient(180deg,#0b0b12 0%,#141022 55%,#0b0b12 100%)', fontFamily: 'Montserrat'}}>
     <AbsoluteFill style={{transform: `translateX(${trX + trShake}px) scale(${trZoom})`, filter: trBlur > 0.5 ? `blur(${trBlur.toFixed(1)}px)` : undefined}}>
     {/* gameplay */}
@@ -215,6 +218,8 @@ export const KreekV2: React.FC<{clip: string}> = ({clip}) => {
           color: active ? (hl.has(norm(w.t)) ? '#FF3B3B' : '#FFD400') : '#fff', WebkitTextStroke: '11px #000', paintOrder: 'stroke fill', transform: `scale(${k})`,
           textShadow: '0 6px 0 rgba(0,0,0,.5)'}}>{w.t.replace(/[.,!?]$/, '')}</span>; })}
     </div>}
+    {fxA > 0 && <div style={{position: 'absolute', left: 0, top: G.top, width: 1080, height: G.h, background: fxC, mixBlendMode: 'color', opacity: fxA}} />}
+    <ViralFX P={P} s={s} f={f} panelTop={G.top} panelH={G.h} />
     {/* official logo overlay: always visible */}
     {P.badge ? <div style={{position: 'absolute', top: 1690, left: 0, width: 1080, display: 'flex', justifyContent: 'center'}}>
       <div style={{display: 'flex', alignItems: 'center', gap: 16, background: 'rgba(12,10,22,.88)', border: `3px solid ${P.badge_color ?? '#9146FF'}`, borderRadius: 60, padding: '14px 34px', color: '#fff', fontSize: 46, fontWeight: 800}}>

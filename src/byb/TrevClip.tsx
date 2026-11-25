@@ -7,6 +7,7 @@
 import {loadFont} from '@remotion/fonts';
 import React from 'react';
 import {AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {FX, ViralFX, fxFlash, fxSfx} from '../kreek/ViralFX';
 import tl_goat from '../kreek/v2/tl_goat.json';
 import tl_celly from '../kreek/v2/tl_celly.json';
 import tl_josh from '../kreek/v2/tl_josh.json';
@@ -35,6 +36,8 @@ import wow_crow from '../kreek/v2/wow_crow.json';
 import wow_thanes from '../kreek/v2/wow_thanes.json';
 import wow_pal from '../kreek/v2/wow_pal.json';
 import wow_lord from '../kreek/v2/wow_lord.json';
+import wow_mount from '../kreek/v2/wow_mount.json';
+import gd_special from '../kreek/v2/gd_special.json';
 import wow_uk from '../kreek/v2/wow_uk.json';
 import wow_de from '../kreek/v2/wow_de.json';
 
@@ -47,8 +50,10 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   sfx?: [number, string, number][];                      // [t, file in public/sfx2 (no ext), volume]
   flash_color?: 'blue' | 'green' | 'red'; flash?: number[];   // ONE colour per clip (user), flashed on the hits
   brand?: [string, string];   // bottom pill text [main, accent]; default @BackyardBreaks · Whatnot
-  music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger, wow_uk, wow_de, gd_anx, gd_rel, gd_trust, gd_hier, gd_money, dp_scooter, dp_orca, gd_olymp, wow_crow, wow_thanes, wow_pal, wow_lord} as unknown as Record<string, P>;
+  music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number};
+  cap_word?: boolean;   // viral style: one word at a time, cleared as soon as the speaker stops
+} & Omit<FX, 'dur'>;
+export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger, wow_uk, wow_de, gd_anx, gd_rel, gd_trust, gd_hier, gd_money, dp_scooter, dp_orca, gd_olymp, wow_crow, wow_thanes, wow_pal, wow_lord, wow_mount, gd_special} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*'$]/g, '').toUpperCase();
@@ -103,9 +108,10 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
   const flashA = fl === undefined ? 0 : fl === fz || (P.flash ?? []).includes(fl) ? 0.85 : 0.6;
   // ---- captions: 1–3 word chunks, active word yellow (red on key words), cleared 0.7 s after the last word
   const chunks: W[][] = []; let cur: W[] = [];
-  P.words.forEach((w, i) => { cur.push(w); const nx = P.words[i + 1]; if (/[.,!?]$/.test(w.t) || cur.length >= 3 || !nx || nx.a - w.b > 0.5) { chunks.push(cur); cur = []; } });
+  const CW = P.cap_word ? 1 : 3;
+  P.words.forEach((w, i) => { cur.push(w); const nx = P.words[i + 1]; if (/[.,!?]$/.test(w.t) || cur.length >= CW || !nx || nx.a - w.b > 0.5) { chunks.push(cur); cur = []; } });
   const ci = chunks.findIndex((c, i) => s >= c[0].a - 0.05 && (i === chunks.length - 1 || s < chunks[i + 1][0].a - 0.05));
-  const chunk = ci >= 0 && s <= chunks[ci][chunks[ci].length - 1].b + 0.7 ? chunks[ci] : null;
+  const chunk = ci >= 0 && s <= chunks[ci][chunks[ci].length - 1].b + (P.cap_word ? (ci + 1 < chunks.length && chunks[ci + 1][0].a - chunks[ci][chunks[ci].length - 1].b < 0.45 ? 0.45 : 0.15) : 0.7) ? chunks[ci] : null;
   const hl = new Set(P.hl);
   const chipK = interpolate(s, [P.chip[0], P.chip[0] + 0.25, P.chip[0] + 2.8, P.chip[0] + 3.1], [0, 1, 1, 0], clamp);
   // ---- music: held at a constant 15 dB under the speakers (user rule). music_gain is measured per clip by
@@ -118,7 +124,8 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
     ...punches.map((t): [string, number, number] => ['sfx2/click.mp3', t, 0.25]), ['sfx2/meme_boom.mp3', fz, 0.5],
     ...(P.pops ?? []).map(([t]): [string, number, number] => ['sfx2/pop.mp3', t, 0.45]),
     ...(P.stickers ?? []).map(([t]): [string, number, number] => ['sfx2/pop.mp3', t, 0.3]),
-    ...(P.sfx ?? []).map(([t, n, v]): [string, number, number] => [`sfx2/${n}.mp3`, t, v])];
+    ...(P.sfx ?? []).map(([t, n, v]): [string, number, number] => [`sfx2/${n}.mp3`, t, v]), ...fxSfx({...P, dur: P.dur})];
+  const [fxA, fxC] = fxFlash({...P, dur: P.dur}, s);
   const src = staticFile(`kreek/v2/${P.name}_src.mp4`);
   return <AbsoluteFill style={{background: '#000', fontFamily: 'Montserrat', overflow: 'hidden'}}>
     {/* blurred backdrop so the frame never looks like a plain letterbox repost */}
@@ -153,6 +160,8 @@ export const TrevClip: React.FC<{clip: string}> = ({clip}) => {
       transform: `rotate(${i % 2 ? -3 : 3}deg) scale(${spring({frame: Math.round((s - t) * FPS), fps: FPS, from: 0.3, to: 1, config: {damping: 10, stiffness: 240}})})`,
       opacity: interpolate(s, [t + 1.4, t + 1.6], [1, 0], clamp)}}>
       <div style={{background: '#fff', color: '#111', fontSize: 48, fontWeight: 800, padding: '12px 28px', borderRadius: 24, border: '5px solid #111', boxShadow: '0 12px 30px rgba(0,0,0,.55)', lineHeight: 1.1, textAlign: 'center'}}>{txt}</div></div>)}
+    {fxA > 0 && <div style={{position: 'absolute', left: 0, top: PANEL.top, width: PANEL.w, height: PANEL.h, background: fxC, mixBlendMode: 'color', opacity: fxA}} />}
+    <ViralFX P={{...P, dur: P.dur}} s={s} f={f} panelTop={PANEL.top} panelH={PANEL.h} />
     {/* freeze stamp */}
     {inFreeze && <div style={{position: 'absolute', top: 700, left: 0, width: 1080, display: 'flex', justifyContent: 'center', transform: `rotate(-6deg) scale(${interpolate(fzK, [0, 1], [1.7, 1])})`}}>
       <div style={{background: '#F40305', color: '#fff', fontSize: 84, fontWeight: 800, padding: '10px 34px', borderRadius: 14, border: '7px solid #fff', boxShadow: '0 12px 40px rgba(0,0,0,.6)', textAlign: 'center', lineHeight: 1.05, maxWidth: 960}}>{stamp}</div></div>}

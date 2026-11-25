@@ -24,6 +24,9 @@ CLIPS = {
     'gd_olymp': dict(top='He trained for the Olympics and had no plan B', music='echosax',
                      hl=['OLYMPICS', 'PLAN', 'B', 'PSYCHOLOGIST', 'FUNDING', 'DREAM'], punch=['OLYMPICS', 'FUNDING', 'PSYCHOLOGIST'],
                      pops=[('s1', 0.05, '⏪ his story'), ('s2', 0.1, 'the turning point')]),
+    'gd_special': dict(top='A tribe would tell you: you are NOT special', music='thelema',
+                     hl=['SPECIAL', 'SPECIAL.', 'UNIQUE,', 'PROOF', 'PROOF?', 'SELF-ESTEEM.', 'DONE?'], punch=['SPECIAL.', 'PROOF?', 'DONE?'],
+                     pops=[('s1', 0.05, '⏪ the tribe\'s rule'), ('s2', 0.1, 'proof > self-esteem')]),
 }
 norm = lambda t: re.sub(r"[^A-Za-z0-9*'$]", '', t).upper()
 import sys

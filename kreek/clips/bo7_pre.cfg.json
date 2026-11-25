@@ -1,0 +1,99 @@
+{
+ "name": "bo7_pre",
+ "top": "POV: too much pre-workout before GTA 6 💀",
+ "seg": [
+  [
+   "hook",
+   24.9,
+   27.73
+  ],
+  [
+   "s1",
+   11.5,
+   27.73
+  ]
+ ],
+ "hl": [
+  "PRE-WORKOUT",
+  "ANXIETY",
+  "RECEPTORS",
+  "SWEATING",
+  "PORES"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "SWEATING"
+  ],
+  "green": [],
+  "punch": [
+   "PRE-WORKOUT",
+   "RECEPTORS",
+   "PORES"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/gigachad.wav",
+  "flash_color": "red",
+  "cap_word": true,
+  "endcta": "Like + follow for more Boeshi 🔔",
+  "pops": [
+   [
+    0.1,
+    "he's cooked 💀"
+   ],
+   [
+    2.88,
+    "⏪ 15 seconds earlier"
+   ]
+  ],
+  "freeze": [
+   17.71,
+   "SWEATING THROUGH HIS PORES 💀"
+  ],
+  "react": [
+   [
+    17.15,
+    19.01
+   ]
+  ],
+  "chip": [
+   3.33,
+   "LIVE ON TWITCH · darealboeshi"
+  ],
+  "drop": 5.23,
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    6.37,
+    "riser_1",
+    0.25
+   ]
+  ]
+ }
+}

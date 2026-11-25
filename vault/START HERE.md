@@ -9,6 +9,7 @@ This repo is a **Remotion + Whisper Shorts editing setup**, and this `vault/` fo
 Edit podcast/streamer clips into viral vertical Shorts in a **meme / brainrot clipping style**, copying the references they gave and the patterns from researching 50 top Shorts. They give feedback on each version, so check the feedback log in the project note before editing again.
 
 ## User preferences
+- **VIRAL SHORTS PLAYBOOK FIRST (2026-11-25, all campaigns):** every clip = HOOK → make them watch to the END → ENGAGE (like/comment/subscribe). Read [[Viral Shorts playbook]] before editing anything. Captions: one word at a time; a word stays until the next one inside a sentence, and clears when the speaker pauses (replaces the 2026-11-01 "never blank" rule).
 - **Frame the person who is ACTUALLY talking (2026-11-01).** Before picking shots, check who speaks each line: run `scripts/voice_diarize.py` (voice clusters) + `scripts/speaker_check.py` (mouth motion per seat), then confirm with a frame strip. Laughing fools the mouth check. If unsure, use the wide shot.
 - **Plain words only on screen (2026-11-01).** Captions and 3D text use words an average viewer knows. Swap hobby slang (auto → autograph, redeem → "why the wait", prism, numbered, etc.) for everyday words, or cut the line.
 - **Every title + description must be brand new (2026-11-01).** Never reuse or lightly reword one sent before, even for a re-send. Check `vault/04 Projects/Titles used.md` first and add each new one there.

@@ -1,0 +1,378 @@
+{
+ "name": "bo7_pre",
+ "dur": 19.06,
+ "top": "POV: too much pre-workout before GTA 6 💀",
+ "cuts": [
+  {
+   "id": "hook",
+   "a": 0.0,
+   "b": 2.83,
+   "src": 24.9
+  },
+  {
+   "id": "s1",
+   "a": 2.83,
+   "b": 19.06,
+   "src": 11.5
+  }
+ ],
+ "words": [
+  {
+   "t": "i'm",
+   "a": 0.24,
+   "b": 0.46,
+   "seg": "hook"
+  },
+  {
+   "t": "like",
+   "a": 0.46,
+   "b": 0.62,
+   "seg": "hook"
+  },
+  {
+   "t": "low-key",
+   "a": 0.62,
+   "b": 0.92,
+   "seg": "hook"
+  },
+  {
+   "t": "sweating",
+   "a": 0.92,
+   "b": 1.26,
+   "seg": "hook"
+  },
+  {
+   "t": "through",
+   "a": 1.26,
+   "b": 1.38,
+   "seg": "hook"
+  },
+  {
+   "t": "my",
+   "a": 1.38,
+   "b": 1.48,
+   "seg": "hook"
+  },
+  {
+   "t": "pores",
+   "a": 1.48,
+   "b": 1.76,
+   "seg": "hook"
+  },
+  {
+   "t": "dude",
+   "a": 2.93,
+   "b": 3.53,
+   "seg": "s1"
+  },
+  {
+   "t": "guys",
+   "a": 3.53,
+   "b": 4.13,
+   "seg": "s1"
+  },
+  {
+   "t": "i",
+   "a": 4.13,
+   "b": 4.31,
+   "seg": "s1"
+  },
+  {
+   "t": "took",
+   "a": 4.31,
+   "b": 4.47,
+   "seg": "s1"
+  },
+  {
+   "t": "i",
+   "a": 4.47,
+   "b": 4.77,
+   "seg": "s1"
+  },
+  {
+   "t": "took",
+   "a": 4.77,
+   "b": 4.89,
+   "seg": "s1"
+  },
+  {
+   "t": "too",
+   "a": 4.89,
+   "b": 5.03,
+   "seg": "s1"
+  },
+  {
+   "t": "much",
+   "a": 5.03,
+   "b": 5.23,
+   "seg": "s1"
+  },
+  {
+   "t": "pre-workout",
+   "a": 5.23,
+   "b": 5.79,
+   "seg": "s1"
+  },
+  {
+   "t": "and",
+   "a": 5.79,
+   "b": 5.99,
+   "seg": "s1"
+  },
+  {
+   "t": "now",
+   "a": 5.99,
+   "b": 6.17,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 6.17,
+   "b": 6.37,
+   "seg": "s1"
+  },
+  {
+   "t": "caffeine's",
+   "a": 6.37,
+   "b": 6.83,
+   "seg": "s1"
+  },
+  {
+   "t": "like",
+   "a": 6.83,
+   "b": 6.89,
+   "seg": "s1"
+  },
+  {
+   "t": "a",
+   "a": 6.89,
+   "b": 6.99,
+   "seg": "s1"
+  },
+  {
+   "t": "low-key",
+   "a": 6.99,
+   "b": 7.33,
+   "seg": "s1"
+  },
+  {
+   "t": "affecting",
+   "a": 7.33,
+   "b": 7.77,
+   "seg": "s1"
+  },
+  {
+   "t": "my",
+   "a": 8.97,
+   "b": 9.57,
+   "seg": "s1"
+  },
+  {
+   "t": "like",
+   "a": 9.57,
+   "b": 9.99,
+   "seg": "s1"
+  },
+  {
+   "t": "my",
+   "a": 9.99,
+   "b": 11.17,
+   "seg": "s1"
+  },
+  {
+   "t": "like",
+   "a": 11.17,
+   "b": 11.37,
+   "seg": "s1"
+  },
+  {
+   "t": "anxiety",
+   "a": 11.37,
+   "b": 11.93,
+   "seg": "s1"
+  },
+  {
+   "t": "like",
+   "a": 11.93,
+   "b": 12.75,
+   "seg": "s1"
+  },
+  {
+   "t": "um",
+   "a": 12.75,
+   "b": 13.17,
+   "seg": "s1"
+  },
+  {
+   "t": "like",
+   "a": 13.17,
+   "b": 14.69,
+   "seg": "s1"
+  },
+  {
+   "t": "receptors",
+   "a": 14.69,
+   "b": 15.11,
+   "seg": "s1"
+  },
+  {
+   "t": "or",
+   "a": 15.11,
+   "b": 15.45,
+   "seg": "s1"
+  },
+  {
+   "t": "something",
+   "a": 15.45,
+   "b": 15.69,
+   "seg": "s1"
+  },
+  {
+   "t": "and",
+   "a": 15.69,
+   "b": 16.47,
+   "seg": "s1"
+  },
+  {
+   "t": "i'm",
+   "a": 16.47,
+   "b": 16.69,
+   "seg": "s1"
+  },
+  {
+   "t": "like",
+   "a": 16.69,
+   "b": 16.85,
+   "seg": "s1"
+  },
+  {
+   "t": "low-key",
+   "a": 16.85,
+   "b": 17.15,
+   "seg": "s1"
+  },
+  {
+   "t": "sweating",
+   "a": 17.15,
+   "b": 17.49,
+   "seg": "s1"
+  },
+  {
+   "t": "through",
+   "a": 17.49,
+   "b": 17.61,
+   "seg": "s1"
+  },
+  {
+   "t": "my",
+   "a": 17.61,
+   "b": 17.71,
+   "seg": "s1"
+  },
+  {
+   "t": "pores",
+   "a": 17.71,
+   "b": 17.99,
+   "seg": "s1"
+  }
+ ],
+ "hl": [
+  "PRE-WORKOUT",
+  "ANXIETY",
+  "RECEPTORS",
+  "SWEATING",
+  "PORES"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "cam": [
+  12,
+  148,
+  406,
+  274
+ ],
+ "game": [
+  960,
+  0,
+  1080
+ ],
+ "overlay": "boeshi/overlay.png",
+ "transitions": true,
+ "sfx2": true,
+ "cap_y": 1150,
+ "music_src": "tl/music/gigachad.wav",
+ "flash_color": "red",
+ "cap_word": true,
+ "endcta": "Like + follow for more Boeshi 🔔",
+ "pops": [
+  [
+   0.1,
+   "he's cooked 💀"
+  ],
+  [
+   2.88,
+   "⏪ 15 seconds earlier"
+  ]
+ ],
+ "freeze": [
+  17.71,
+  "SWEATING THROUGH HIS PORES 💀"
+ ],
+ "react": [
+  [
+   17.15,
+   19.01
+  ]
+ ],
+ "chip": [
+  3.33,
+  "LIVE ON TWITCH · darealboeshi"
+ ],
+ "drop": 5.23,
+ "flash": [
+  0.02
+ ],
+ "sfx": [
+  [
+   6.37,
+   "riser_1",
+   0.25
+  ]
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "SWEATING"
+  ],
+  "green": [],
+  "punch": [
+   "PRE-WORKOUT",
+   "RECEPTORS",
+   "PORES"
+  ]
+ },
+ "imgpops": [
+  [
+   11.37,
+   "res/sob.png",
+   "meme",
+   480
+  ],
+  [
+   14.69,
+   "res/think.png",
+   "good",
+   480
+  ]
+ ],
+ "cta": [
+  7.23,
+  "*how many scoops do you take? 👇*"
+ ],
+ "music_gain": 0.2692
+}
