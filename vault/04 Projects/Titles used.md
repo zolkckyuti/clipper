@@ -246,3 +246,9 @@
 - Someone said Boeshi's voice gives them the creeps 😭 (bo-voice)
 - Boeshi tried to fight the whole street in GTA 6 💀 (bo-shoot)
 - Boeshi lost the cops and immediately wanted a Lamborghini 😭 (bo-cops)
+
+## 2026-11-25 (viral playbook batch)
+- WoW: Forever's undead Paladin mount gets a MASSIVE upgrade at level 60 😳 (WoW UK mount)
+- A tribe would tell you: you are NOT special (Dulude special)
+- POV: too much pre-workout before GTA 6 💀 (Boeshi pre)
+- Bro could've bought 20 PS5 Pros with this card 💀 (BYB redemption, PS5/GTA 6 text)
