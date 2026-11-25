@@ -68,7 +68,7 @@ export const ViralFX: React.FC<{P: FX; s: number; f: number; panelTop: number; p
       fontSize: 46, fontWeight: 800, fontStyle: 'italic', color: '#fff', WebkitTextStroke: '7px #000', paintOrder: 'stroke fill',
       opacity: interpolate(s, [P.cta[0], P.cta[0] + 0.15, P.cta[0] + 2.55, P.cta[0] + 2.8], [0, 1, 1, 0], clamp),
       transform: `translateY(${interpolate(s, [P.cta[0], P.cta[0] + 0.2], [20, 0], clamp)}px)`}}>{P.cta[1]}</div>}
-    {P.endcta && s >= P.dur - 1.6 && <div style={{position: 'absolute', left: 0, width: 1080, top: panelTop + 40, display: 'flex', justifyContent: 'center',
+    {P.endcta && s >= P.dur - 1.6 && <div style={{position: 'absolute', left: 0, width: 1080, top: panelTop + panelH - 110, display: 'flex', justifyContent: 'center',
       opacity: interpolate(s, [P.dur - 1.6, P.dur - 1.4], [0, 1], clamp),
       transform: `scale(${spring({frame: f - Math.round((P.dur - 1.6) * FPS), fps: FPS, config: {damping: 10, stiffness: 220}, from: 0.6, to: 1})})`}}>
       <div style={{background: '#FF0033', color: '#fff', fontSize: 40, fontWeight: 800, padding: '12px 30px', borderRadius: 40, border: '4px solid #fff', boxShadow: '0 10px 28px rgba(0,0,0,.5)'}}>{P.endcta}</div>

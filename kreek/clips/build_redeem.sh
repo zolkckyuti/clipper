@@ -2,7 +2,7 @@
 # build + render the BYB redemption viral clip once .work/byb2/redemption.mp4 exists
 set -e; cd /home/user/clipper
 W=.work/tl/src/redemption.words.json; S=.work/byb2/redemption.mp4; C=.work/byb2/tl_redeem2.cfg.json
-python3 kreek/finish_cuts.py $S $C
+#python3 kreek/finish_cuts.py $S $C
 python3 kreek/beats.py $C $W .work/byb2/tl_redeem2.beats.json > /dev/null
 python3 kreek/prep_v2.py $S $W $C
 python3 - <<'PY'
@@ -14,7 +14,6 @@ P['words']=[w for w in P['words'] if w['t'].strip()]; P['hl']=P['hl']+['$20000']
 def wt(s):
     return [w for w in P['words'] if s in w['t'].lower()][0]['a']
 P['money']=[[round(wt('20,000'),2),2.0],[round(cut['s4']['a']+3.2,2),2.2]]
-P['imgpops']=[[round(wt('bucks'),2)-0.05,'res/skull.png','meme',460]]
 P['cta']=[round(cut['s2']['a']+0.8,2),"*comment what you'd buy with $20K 👇*"]
 P['callout']=[[round(cut['s4']['a']+0.2,2),'*TREVOR LAWRENCE*',990,700]]
 json.dump(P,open(f,'w'),indent=1,ensure_ascii=False)
