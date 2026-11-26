@@ -1,0 +1,382 @@
+{
+ "name": "wow_zahlen",
+ "dur": 16.85,
+ "top": "So viel Neues steckt in WoW: Forever \ud83e\udd2f",
+ "cuts": [
+  {
+   "id": "s1",
+   "a": 0.0,
+   "b": 4.45,
+   "src": 0.0
+  },
+  {
+   "id": "s2",
+   "a": 4.45,
+   "b": 12.6,
+   "src": 11.7
+  },
+  {
+   "id": "s3",
+   "a": 12.6,
+   "b": 16.85,
+   "src": 19.85
+  }
+ ],
+ "words": [
+  {
+   "t": "World",
+   "a": 0.0,
+   "b": 0.305,
+   "seg": "de"
+  },
+  {
+   "t": "of",
+   "a": 0.305,
+   "b": 0.48,
+   "seg": "de"
+  },
+  {
+   "t": "Warcraft:",
+   "a": 0.48,
+   "b": 0.96,
+   "seg": "de"
+  },
+  {
+   "t": "Forever",
+   "a": 0.96,
+   "b": 1.352,
+   "seg": "de"
+  },
+  {
+   "t": "ist",
+   "a": 1.352,
+   "b": 1.571,
+   "seg": "de"
+  },
+  {
+   "t": "endlich",
+   "a": 1.571,
+   "b": 1.963,
+   "seg": "de"
+  },
+  {
+   "t": "da",
+   "a": 1.963,
+   "b": 2.138,
+   "seg": "de"
+  },
+  {
+   "t": "und",
+   "a": 2.138,
+   "b": 2.356,
+   "seg": "de"
+  },
+  {
+   "t": "bringt",
+   "a": 2.356,
+   "b": 2.705,
+   "seg": "de"
+  },
+  {
+   "t": "riesige",
+   "a": 2.705,
+   "b": 3.098,
+   "seg": "de"
+  },
+  {
+   "t": "Ver\u00e4nderungen",
+   "a": 3.098,
+   "b": 3.752,
+   "seg": "de"
+  },
+  {
+   "t": "nach",
+   "a": 3.752,
+   "b": 4.014,
+   "seg": "de"
+  },
+  {
+   "t": "Azeroth.",
+   "a": 4.014,
+   "b": 4.45,
+   "seg": "de"
+  },
+  {
+   "t": "Wir",
+   "a": 4.55,
+   "b": 4.833,
+   "seg": "de"
+  },
+  {
+   "t": "reden",
+   "a": 4.833,
+   "b": 5.228,
+   "seg": "de"
+  },
+  {
+   "t": "von",
+   "a": 5.228,
+   "b": 5.511,
+   "seg": "de"
+  },
+  {
+   "t": "\u00fcber",
+   "a": 5.511,
+   "b": 5.85,
+   "seg": "de"
+  },
+  {
+   "t": "1.000",
+   "a": 5.85,
+   "b": 6.246,
+   "seg": "de"
+  },
+  {
+   "t": "neuen",
+   "a": 6.246,
+   "b": 6.641,
+   "seg": "de"
+  },
+  {
+   "t": "Quests,",
+   "a": 6.641,
+   "b": 7.15,
+   "seg": "de"
+  },
+  {
+   "t": "einem",
+   "a": 7.43,
+   "b": 7.663,
+   "seg": "de"
+  },
+  {
+   "t": "neuen",
+   "a": 7.663,
+   "b": 7.897,
+   "seg": "de"
+  },
+  {
+   "t": "spielbaren",
+   "a": 7.897,
+   "b": 8.297,
+   "seg": "de"
+  },
+  {
+   "t": "Volk,",
+   "a": 8.297,
+   "b": 8.53,
+   "seg": "de"
+  },
+  {
+   "t": "vier",
+   "a": 8.75,
+   "b": 9.03,
+   "seg": "de"
+  },
+  {
+   "t": "neuen",
+   "a": 9.03,
+   "b": 9.357,
+   "seg": "de"
+  },
+  {
+   "t": "Zonen,",
+   "a": 9.357,
+   "b": 9.73,
+   "seg": "de"
+  },
+  {
+   "t": "neun",
+   "a": 10.01,
+   "b": 10.28,
+   "seg": "de"
+  },
+  {
+   "t": "neuen",
+   "a": 10.28,
+   "b": 10.595,
+   "seg": "de"
+  },
+  {
+   "t": "Dungeons,",
+   "a": 10.595,
+   "b": 11.09,
+   "seg": "de"
+  },
+  {
+   "t": "und",
+   "a": 11.25,
+   "b": 11.426,
+   "seg": "de"
+  },
+  {
+   "t": "zwei",
+   "a": 11.426,
+   "b": 11.638,
+   "seg": "de"
+  },
+  {
+   "t": "neuen",
+   "a": 11.638,
+   "b": 11.885,
+   "seg": "de"
+  },
+  {
+   "t": "Schlachtz\u00fcgen,",
+   "a": 11.885,
+   "b": 12.45,
+   "seg": "de"
+  },
+  {
+   "t": "damit",
+   "a": 12.63,
+   "b": 12.946,
+   "seg": "de"
+  },
+  {
+   "t": "du",
+   "a": 12.946,
+   "b": 13.126,
+   "seg": "de"
+  },
+  {
+   "t": "mit",
+   "a": 13.126,
+   "b": 13.352,
+   "seg": "de"
+  },
+  {
+   "t": "deinen",
+   "a": 13.352,
+   "b": 13.713,
+   "seg": "de"
+  },
+  {
+   "t": "Freunden",
+   "a": 13.713,
+   "b": 14.164,
+   "seg": "de"
+  },
+  {
+   "t": "eine",
+   "a": 14.164,
+   "b": 14.434,
+   "seg": "de"
+  },
+  {
+   "t": "komplett",
+   "a": 14.434,
+   "b": 14.886,
+   "seg": "de"
+  },
+  {
+   "t": "neu",
+   "a": 14.886,
+   "b": 15.111,
+   "seg": "de"
+  },
+  {
+   "t": "gedachte",
+   "a": 15.111,
+   "b": 15.562,
+   "seg": "de"
+  },
+  {
+   "t": "Welt",
+   "a": 15.562,
+   "b": 15.833,
+   "seg": "de"
+  },
+  {
+   "t": "erkunden",
+   "a": 15.833,
+   "b": 16.284,
+   "seg": "de"
+  },
+  {
+   "t": "kannst.",
+   "a": 16.284,
+   "b": 16.69,
+   "seg": "de"
+  }
+ ],
+ "hl": [
+  "1000",
+  "QUESTS,",
+  "VOLK,",
+  "ZONEN,",
+  "DUNGEONS,",
+  "SCHLACHTZGEN,",
+  "AZEROTH.",
+  "FOREVER"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "music": "thelema",
+ "brand": [
+  "\u2694\ufe0f World of Warcraft: Forever",
+  " \u00b7 jetzt spielbar"
+ ],
+ "flash_color": "blue",
+ "cap_word": true,
+ "endcta": "Folge f\u00fcr mehr WoW: Forever \ud83d\udd14",
+ "pops": [
+  [
+   6.83,
+   "1.000+ Quests \ud83d\udcdc"
+  ],
+  [
+   8.15,
+   "neues Volk \u2728"
+  ],
+  [
+   9.37,
+   "4 Zonen \ud83d\uddfa\ufe0f"
+  ],
+  [
+   10.67,
+   "9 Dungeons \u2694\ufe0f"
+  ],
+  [
+   12.07,
+   "2 Raids \ud83d\udc09"
+  ]
+ ],
+ "freeze": [
+  72.6,
+  ""
+ ],
+ "react": [],
+ "chip": [
+  0.4,
+  "WORLD OF WARCRAFT: FOREVER"
+ ],
+ "drop": 4.45,
+ "focus": [
+  [
+   0.0,
+   960,
+   540,
+   1.0
+  ]
+ ],
+ "flash": [
+  4.45
+ ],
+ "sfx": [],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "1000",
+   "DUNGEONS,"
+  ]
+ },
+ "cta": [
+  13.0,
+  "*Welchen Dungeon zuerst? \ud83d\udc47*"
+ ],
+ "music_gain": 0.2399
+}

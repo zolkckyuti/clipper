@@ -1,0 +1,86 @@
+{
+ "name": "wow_zahlen",
+ "top": "So viel Neues steckt in WoW: Forever \ud83e\udd2f",
+ "seg": [
+  [
+   "s1",
+   0.0,
+   4.45
+  ],
+  [
+   "s2",
+   11.7,
+   19.85
+  ],
+  [
+   "s3",
+   19.85,
+   24.1
+  ]
+ ],
+ "hl": [],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": []
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "thelema",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 jetzt spielbar"
+  ],
+  "flash_color": "blue",
+  "cap_word": true,
+  "endcta": "Folge f\u00fcr mehr WoW: Forever \ud83d\udd14",
+  "pops": [
+   [
+    6.83,
+    "1.000+ Quests \ud83d\udcdc"
+   ],
+   [
+    8.15,
+    "neues Volk \u2728"
+   ],
+   [
+    9.37,
+    "4 Zonen \ud83d\uddfa\ufe0f"
+   ],
+   [
+    10.67,
+    "9 Dungeons \u2694\ufe0f"
+   ],
+   [
+    12.07,
+    "2 Raids \ud83d\udc09"
+   ]
+  ],
+  "freeze": [
+   72.6,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   0.4,
+   "WORLD OF WARCRAFT: FOREVER"
+  ],
+  "drop": 4.45,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [
+   4.45
+  ],
+  "sfx": []
+ }
+}

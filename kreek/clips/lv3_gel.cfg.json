@@ -1,0 +1,101 @@
+{
+ "name": "lv3_gel",
+ "top": "Why this barber stopped using regular shave gel \ud83d\udc40",
+ "seg": [
+  [
+   "hook",
+   12.25,
+   16.05
+  ],
+  [
+   "s1",
+   1.25,
+   12.2
+  ],
+  [
+   "s2",
+   16.65,
+   18.95
+  ]
+ ],
+ "hl": [
+  "L3VEL3.",
+  "TRANSPARENT",
+  "SHARPEST",
+  "LV3.COM",
+  "BLINDFOLDED"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "BLINDFOLDED",
+   "TRANSPARENT",
+   "SHARPEST"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1080,
+   1920
+  ],
+  "music": "thelema",
+  "music_gain": 0.0,
+  "brand": [
+   "\ud83d\udc88 Shop LV3.com",
+   " \u00b7 Ad"
+  ],
+  "flash_color": "blue",
+  "cap_word": true,
+  "endcta": "Follow @lv3pro for more \ud83d\udc88",
+  "pops": [
+   [
+    0.1,
+    "crisp line-up \u2702\ufe0f"
+   ],
+   [
+    3.85,
+    "\u23ea the secret"
+   ],
+   [
+    10.83,
+    "see-through gel \ud83d\udc40"
+   ]
+  ],
+  "freeze": [
+   74.75,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   4.1,
+   "L3VEL3 \u00b7 SHAVE GEL"
+  ],
+  "drop": 3.8,
+  "focus": [
+   [
+    0.0,
+    540,
+    860,
+    1.67
+   ],
+   [
+    3.8,
+    540,
+    820,
+    1.67
+   ],
+   [
+    10.37,
+    540,
+    860,
+    1.67
+   ]
+  ],
+  "flash": [
+   0.02
+  ],
+  "sfx": []
+ }
+}

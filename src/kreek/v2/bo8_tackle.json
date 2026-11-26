@@ -1,0 +1,418 @@
+{
+ "name": "bo8_tackle",
+ "dur": 18.8,
+ "top": "Lucia really one-shot him with a TACKLE \ud83d\udc80",
+ "cuts": [
+  {
+   "id": "hook",
+   "a": 0.0,
+   "b": 3.2,
+   "src": 0.0
+  },
+  {
+   "id": "s1",
+   "a": 3.2,
+   "b": 9.25,
+   "src": 21.15
+  },
+  {
+   "id": "s2",
+   "a": 9.25,
+   "b": 15.75,
+   "src": 43.7
+  },
+  {
+   "id": "s3",
+   "a": 15.75,
+   "b": 18.8,
+   "src": 60.75
+  }
+ ],
+ "words": [
+  {
+   "t": "d**n",
+   "a": 0.08,
+   "b": 1.14,
+   "seg": "hook"
+  },
+  {
+   "t": "he",
+   "a": 1.14,
+   "b": 1.24,
+   "seg": "hook"
+  },
+  {
+   "t": "just",
+   "a": 1.24,
+   "b": 1.4,
+   "seg": "hook"
+  },
+  {
+   "t": "died",
+   "a": 1.4,
+   "b": 1.68,
+   "seg": "hook"
+  },
+  {
+   "t": "from",
+   "a": 1.68,
+   "b": 1.9,
+   "seg": "hook"
+  },
+  {
+   "t": "a",
+   "a": 1.9,
+   "b": 2.06,
+   "seg": "hook"
+  },
+  {
+   "t": "frickin",
+   "a": 2.06,
+   "b": 2.36,
+   "seg": "hook"
+  },
+  {
+   "t": "tackle",
+   "a": 2.36,
+   "b": 2.66,
+   "seg": "hook"
+  },
+  {
+   "t": "what",
+   "a": 2.66,
+   "b": 2.8,
+   "seg": "hook"
+  },
+  {
+   "t": "the",
+   "a": 2.8,
+   "b": 2.92,
+   "seg": "hook"
+  },
+  {
+   "t": "h**l",
+   "a": 2.92,
+   "b": 3.15,
+   "seg": "hook"
+  },
+  {
+   "t": "beat",
+   "a": 3.35,
+   "b": 4.03,
+   "seg": "s1"
+  },
+  {
+   "t": "him",
+   "a": 4.03,
+   "b": 4.17,
+   "seg": "s1"
+  },
+  {
+   "t": "up",
+   "a": 4.17,
+   "b": 4.33,
+   "seg": "s1"
+  },
+  {
+   "t": "Lucia",
+   "a": 4.33,
+   "b": 4.65,
+   "seg": "s1"
+  },
+  {
+   "t": "go",
+   "a": 4.65,
+   "b": 6.13,
+   "seg": "s1"
+  },
+  {
+   "t": "d**n",
+   "a": 6.13,
+   "b": 7.19,
+   "seg": "s1"
+  },
+  {
+   "t": "he",
+   "a": 7.19,
+   "b": 7.29,
+   "seg": "s1"
+  },
+  {
+   "t": "just",
+   "a": 7.29,
+   "b": 7.45,
+   "seg": "s1"
+  },
+  {
+   "t": "died",
+   "a": 7.45,
+   "b": 7.73,
+   "seg": "s1"
+  },
+  {
+   "t": "from",
+   "a": 7.73,
+   "b": 7.95,
+   "seg": "s1"
+  },
+  {
+   "t": "a",
+   "a": 7.95,
+   "b": 8.11,
+   "seg": "s1"
+  },
+  {
+   "t": "frickin",
+   "a": 8.11,
+   "b": 8.41,
+   "seg": "s1"
+  },
+  {
+   "t": "tackle",
+   "a": 8.41,
+   "b": 8.71,
+   "seg": "s1"
+  },
+  {
+   "t": "what",
+   "a": 8.71,
+   "b": 8.85,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 8.85,
+   "b": 8.97,
+   "seg": "s1"
+  },
+  {
+   "t": "h**l",
+   "a": 8.97,
+   "b": 9.2,
+   "seg": "s1"
+  },
+  {
+   "t": "oh",
+   "a": 9.35,
+   "b": 9.83,
+   "seg": "s2"
+  },
+  {
+   "t": "shoot",
+   "a": 9.83,
+   "b": 10.19,
+   "seg": "s2"
+  },
+  {
+   "t": "AHHHH\u2014",
+   "a": 10.19,
+   "b": 12.75,
+   "seg": "s2"
+  },
+  {
+   "t": "MACHINE",
+   "a": 12.75,
+   "b": 13.39,
+   "seg": "s2"
+  },
+  {
+   "t": "GUN!",
+   "a": 13.39,
+   "b": 14.09,
+   "seg": "s2"
+  },
+  {
+   "t": "some",
+   "a": 14.09,
+   "b": 14.85,
+   "seg": "s2"
+  },
+  {
+   "t": "MACHINE",
+   "a": 14.85,
+   "b": 15.25,
+   "seg": "s2"
+  },
+  {
+   "t": "GUN!",
+   "a": 15.25,
+   "b": 15.67,
+   "seg": "s2"
+  },
+  {
+   "t": "go,",
+   "a": 15.84,
+   "b": 15.84,
+   "seg": "s3"
+  },
+  {
+   "t": "come",
+   "a": 15.84,
+   "b": 15.88,
+   "seg": "s3"
+  },
+  {
+   "t": "on,",
+   "a": 15.88,
+   "b": 16.02,
+   "seg": "s3"
+  },
+  {
+   "t": "come",
+   "a": 16.12,
+   "b": 16.12,
+   "seg": "s3"
+  },
+  {
+   "t": "on.",
+   "a": 16.12,
+   "b": 16.54,
+   "seg": "s3"
+  },
+  {
+   "t": "I",
+   "a": 17.16,
+   "b": 17.24,
+   "seg": "s3"
+  },
+  {
+   "t": "just",
+   "a": 17.24,
+   "b": 17.38,
+   "seg": "s3"
+  },
+  {
+   "t": "sprayed",
+   "a": 17.38,
+   "b": 17.62,
+   "seg": "s3"
+  },
+  {
+   "t": "the",
+   "a": 17.62,
+   "b": 17.88,
+   "seg": "s3"
+  },
+  {
+   "t": "entire",
+   "a": 17.88,
+   "b": 18.06,
+   "seg": "s3"
+  },
+  {
+   "t": "freaking",
+   "a": 18.06,
+   "b": 18.32,
+   "seg": "s3"
+  },
+  {
+   "t": "thing.",
+   "a": 18.32,
+   "b": 18.62,
+   "seg": "s3"
+  }
+ ],
+ "hl": [
+  "TACKLE",
+  "DIED",
+  "MACHINE",
+  "GUN!",
+  "SPRAYED",
+  "AHHHH\u2014"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "cam": [
+  12,
+  148,
+  406,
+  274
+ ],
+ "game": [
+  960,
+  0,
+  1080
+ ],
+ "overlay": "boeshi/overlay.png",
+ "transitions": true,
+ "sfx2": true,
+ "cap_y": 1150,
+ "music_src": "tl/music/memoryreboot.wav",
+ "flash_color": "red",
+ "cap_word": true,
+ "endcta": "Like + follow for more Boeshi \ud83d\udd14",
+ "pops": [
+  [
+   0.1,
+   "one tackle \ud83d\udc80"
+  ],
+  [
+   3.25,
+   "\u23ea 6 seconds earlier"
+  ],
+  [
+   9.83,
+   "then THIS happened \ud83d\ude2d"
+  ]
+ ],
+ "freeze": [
+  8.41,
+  "ONE-SHOT BY A TACKLE \ud83d\udc80"
+ ],
+ "react": [
+  [
+   10.19,
+   14.09
+  ]
+ ],
+ "chip": [
+  3.5,
+  "LIVE ON TWITCH \u00b7 darealboeshi"
+ ],
+ "drop": 10.19,
+ "meme": {
+  "fahh": [
+   8.41
+  ]
+ },
+ "flash": [
+  0.02
+ ],
+ "sfx": [
+  [
+   9.35,
+   "riser_1",
+   0.3
+  ]
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "TACKLE"
+  ],
+  "green": [],
+  "punch": [
+   "DIED",
+   "GUN!",
+   "SPRAYED"
+  ]
+ },
+ "imgpops": [
+  [
+   13.39,
+   "res/laugh.png",
+   "meme",
+   460
+  ]
+ ],
+ "cta": [
+  12.25,
+  "*would you survive Lucia's tackle? \ud83d\udc47*"
+ ],
+ "music_gain": 0.3715
+}

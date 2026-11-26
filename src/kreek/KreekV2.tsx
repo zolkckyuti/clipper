@@ -62,6 +62,7 @@ import bo5_third from './v2/bo5_third.json';
 import bo6_coffee from './v2/bo6_coffee.json';
 import bo6_won from './v2/bo6_won.json';
 import bo7_pre from './v2/bo7_pre.json';
+import bo8_tackle from './v2/bo8_tackle.json';
 import bo4_secret from './v2/bo4_secret.json';
 import bo4_glasses from './v2/bo4_glasses.json';
 
@@ -69,7 +70,7 @@ loadFont({family: 'Montserrat', url: staticFile('Montserrat-Black.woff2'), weigh
 type W = {t: string; a: number; b: number; seg: string};
 type P = {name: string; dur: number; top: string; cuts: {id: string; a: number; b: number}[]; words: W[]; hl: string[]; react: number[][]; freeze: [number, string];
   chip: [number, string]; drop: number; src_wh?: [number, number]; cam?: [number, number, number, number]; game?: [number, number, number]; overlay?: string; meme?: {fahh?: number[]; airhorn?: number[]; boom?: number[]; ooh?: number[]}; transitions?: boolean; music_gain?: number; music_src?: string; cap_y?: number; game_x?: [number, number][]; cap_word?: boolean; cta?: FX['cta']; imgpops?: FX['imgpops']; money?: FX['money']; callout?: FX['callout']; endcta?: string; sfx2?: boolean; sfx?: [number, string, number][]; rgb?: boolean; flash?: number[]; flash_color?: 'blue' | 'green' | 'red'; badge?: string; badge_color?: string; badge_tag?: string; srcdir?: string; pops?: [number, string][]; vv: {music: [string, number]; music_off?: number[][]; red?: string[]; green?: string[]; punch?: string[]; music_vol?: number}};
-export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses, bo5_sam, bo5_third, bo6_coffee, bo6_won, bo7_pre} as unknown as Record<string, P>;
+export const KREEK_V2: Record<string, P> = {croc, gas, swim, plane, scooter, dance, tgwhale, kidsgame, easteregg, fixher, joking, mike, n3onclip, kaigame, jetski, sixstars, heli, bo_block, bo_paint, bo_birds, bo_pool, bo_height, bo_plane, bo_doom, bo_voice, bo_shoot, bo_cops, d3_bank, d3_never, d3_crash, d3_roblox, d3_ending, d3_rafa, d3_tank, bo2_mozart, bo2_donnie, bo2_meditate, bo2_gym, bo2_buckme, d4_niko, d4_jimmy, d4_glitch, d4_tiger, d4_blind, bo3_looks, bo3_plane, kv2_egg, kv2_mom, kv2_glitch, bo4_cool, bo4_secret, bo4_glasses, bo5_sam, bo5_third, bo6_coffee, bo6_won, bo7_pre, bo8_tackle} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*']/g, '').toUpperCase();

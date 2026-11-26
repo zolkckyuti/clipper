@@ -39,6 +39,9 @@ import wow_lord from '../kreek/v2/wow_lord.json';
 import wow_mount from '../kreek/v2/wow_mount.json';
 import gd_special from '../kreek/v2/gd_special.json';
 import tl_redeem2 from '../kreek/v2/tl_redeem2.json';
+import wow_zahlen from '../kreek/v2/wow_zahlen.json';
+import gd_respect from '../kreek/v2/gd_respect.json';
+import lv3_gel from '../kreek/v2/lv3_gel.json';
 import wow_uk from '../kreek/v2/wow_uk.json';
 import wow_de from '../kreek/v2/wow_de.json';
 
@@ -54,7 +57,7 @@ type P = {name: string; dur: number; top: string; cuts: {a: number; b: number}[]
   music: string; music_gain?: number; vv: {red?: string[]; green?: string[]; punch?: string[]; music_vol?: number};
   cap_word?: boolean;   // viral style: one word at a time, cleared as soon as the speaker stops
 } & Omit<FX, 'dur'>;
-export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger, wow_uk, wow_de, gd_anx, gd_rel, gd_trust, gd_hier, gd_money, dp_scooter, dp_orca, gd_olymp, wow_crow, wow_thanes, wow_pal, wow_lord, wow_mount, gd_special, tl_redeem2} as unknown as Record<string, P>;
+export const TREV: Record<string, P> = {tl_goat, tl_celly, tl_josh, tl_ticket, tl_sig, tl2_goat, tl_left, tl_presnap, tl_peyton, tl_redeem, wiz_cool, tl_golf, tl_coen, tl_packs, tl_mills, tl_tiger, wow_uk, wow_de, gd_anx, gd_rel, gd_trust, gd_hier, gd_money, dp_scooter, dp_orca, gd_olymp, wow_crow, wow_thanes, wow_pal, wow_lord, wow_mount, gd_special, tl_redeem2, wow_zahlen, gd_respect, lv3_gel} as unknown as Record<string, P>;
 const FPS = 60;
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9*'$]/g, '').toUpperCase();

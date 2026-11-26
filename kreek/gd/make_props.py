@@ -27,6 +27,9 @@ CLIPS = {
     'gd_special': dict(top='A tribe would tell you: you are NOT special', music='thelema',
                      hl=['SPECIAL', 'SPECIAL.', 'UNIQUE,', 'PROOF', 'PROOF?', 'SELF-ESTEEM.', 'DONE?'], punch=['SPECIAL.', 'PROOF?', 'DONE?'],
                      pops=[('s1', 0.05, '⏪ the tribe\'s rule'), ('s2', 0.1, 'proof > self-esteem')]),
+    'gd_respect': dict(top='Respect is not a value. It is a science.', music='luminary',
+                     hl=['RESPECT', 'SCIENCE.', 'SPORT.', 'READ', 'SOMEONE.', 'OBSERVING'], punch=['SCIENCE.', 'SPORT.', 'OBSERVING'],
+                     pops=[('s1', 0.05, '⏪ what he means')]),
 }
 norm = lambda t: re.sub(r"[^A-Za-z0-9*'$]", '', t).upper()
 import sys

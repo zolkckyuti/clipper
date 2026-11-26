@@ -1,0 +1,119 @@
+{
+ "name": "bo8_tackle",
+ "top": "Lucia really one-shot him with a TACKLE \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   0.0,
+   3.2
+  ],
+  [
+   "s1",
+   21.15,
+   27.2
+  ],
+  [
+   "s2",
+   43.7,
+   50.2
+  ],
+  [
+   "s3",
+   60.75,
+   63.8
+  ]
+ ],
+ "hl": [
+  "TACKLE",
+  "DIED",
+  "MACHINE",
+  "GUN!",
+  "SPRAYED",
+  "AHHHH\u2014"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "TACKLE"
+  ],
+  "green": [],
+  "punch": [
+   "DIED",
+   "GUN!",
+   "SPRAYED"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "music_src": "tl/music/memoryreboot.wav",
+  "flash_color": "red",
+  "cap_word": true,
+  "endcta": "Like + follow for more Boeshi \ud83d\udd14",
+  "pops": [
+   [
+    0.1,
+    "one tackle \ud83d\udc80"
+   ],
+   [
+    3.25,
+    "\u23ea 6 seconds earlier"
+   ],
+   [
+    9.83,
+    "then THIS happened \ud83d\ude2d"
+   ]
+  ],
+  "freeze": [
+   8.41,
+   "ONE-SHOT BY A TACKLE \ud83d\udc80"
+  ],
+  "react": [
+   [
+    10.19,
+    14.09
+   ]
+  ],
+  "chip": [
+   3.5,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 10.19,
+  "meme": {
+   "fahh": [
+    8.41
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    9.35,
+    "riser_1",
+    0.3
+   ]
+  ]
+ }
+}
