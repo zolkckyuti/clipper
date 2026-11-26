@@ -39,3 +39,20 @@ Every clip is built in three jobs, in this order:
 - Assets in `public/res/` (gitignored): skull/sob/laugh/think/rizz PNGs, circle_arrow.png, money_fall.webm (keyed from the green-screen mp4),
   money/ding/correct/awkward/fahhh/shock/swoosh/suspense/huh/mogged sfx.
 - Brand campaigns with "no memes" briefs (Dr Dulude) keep the hook/retention/engagement structure but skip meme pop-ups and meme sfx.
+
+## 2026-11-26 update: push for reach (retention + engagement first)
+User: "prioritize audience engagement and audience retention so it gets pushed to bigger audiences".
+- **Retention mechanics, in priority order:**
+  1. Frame 0 = the most visual moment of the whole clip. If the best line plays over a dull or dark shot, J-cut: show the event while the
+     reaction line plays (Boeshi tackle: the tackle on screen, "he just died from a frickin tackle" on audio), then "⏪" into the real order.
+  2. Open a loop in the title ("Why this barber stopped using regular shave gel 👀") that only closes at the end.
+  3. Something changes every ≤3 s: one-word captions, cuts, pop-ups, meme images, flashes, cam cutaways.
+  4. Counting/list payoffs keep people to the end (WoW DE "1.000+ Quests / 4 Zonen / 9 Dungeons / 2 Raids" pops on each word).
+  5. End on the payoff or loop back into the hook; never on dead air or a logo sting (cut brand stings).
+- **Engagement mechanics:** a debate/comment question mid-video (italic cta), the SAME question again in the caption, a follow ask at the end.
+  Questions must be easy to answer in one word ("What's your main?", "Would you switch?", "How many scoops?").
+- **Anti-duplicate:** slight warm grade on every source (`kreek/warm.sh public/kreek/v2/<name>_src.mp4`, footage only) before rendering.
+- **L3VEL3 (barber campaign):** captions must have @lv3pro, #L3VEL3 and "Shop LV3.com" (or the Black Friday line word for word; the README says
+  "up to 50%" while the brief says 60%, so use "Shop LV3.com"); "Shop LV3.com" on screen; "Ad" on screen for ambassador clips; L3VEL3 spelled
+  that way in subtitles even when they say "Level 3"; copyright-free music only (our library is not, so no music); no "best/number one" claims;
+  tag only ambassadors listed in the Box README.
