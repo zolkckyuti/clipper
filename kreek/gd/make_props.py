@@ -30,6 +30,9 @@ CLIPS = {
     'gd_respect': dict(top='Respect is not a value. It is a science.', music='luminary',
                      hl=['RESPECT', 'SCIENCE.', 'SPORT.', 'READ', 'SOMEONE.', 'OBSERVING'], punch=['SCIENCE.', 'SPORT.', 'OBSERVING'],
                      pops=[('s1', 0.05, '⏪ what he means')]),
+    'gd_food': dict(top='Why he never refuses food a tribe offers him', music='landing',
+                     hl=['VULNERABLE.', 'VULNERABLE,', 'REJECTED,', 'OFFER,', 'MOUTH.', 'TIC', 'TACS.', 'SACRIFICING'], punch=['VULNERABLE.', 'REJECTED,', 'MOUTH.'],
+                     pops=[('s1', 0.05, '⏪ the wrong answer'), ('s2', 0.1, 'food = trust 🤝')]),
 }
 norm = lambda t: re.sub(r"[^A-Za-z0-9*'$]", '', t).upper()
 import sys

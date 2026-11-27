@@ -258,3 +258,9 @@
 - So viel Neues steckt in WoW: Forever 🤯 (WoW DE numbers)
 - Respect is not a value. It is a science. (Dulude respect)
 - Lucia really one-shot him with a TACKLE 💀 (Boeshi tackle)
+
+## 2026-11-27 (Summer Breaks x Fanatics Live launch, warm grade)
+- Emma Roberts' FREE giveaway pack just hit a Paul Skenes auto 😳 (Summer Breaks skenes, "$1,200 = 15 copies of GTA 6 💀")
+- Someone paid $19 in Emma Roberts' break and pulled a KAIJU 😳 (Summer Breaks kaiju, "$19 = not even ¼ of GTA 6 💀")
+- Why he never refuses food a tribe offers him (Dulude food)
+- Bro had to remind chat he's a REAL streamer 💀 (Boeshi mean)
