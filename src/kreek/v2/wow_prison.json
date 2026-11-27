@@ -1,7 +1,7 @@
 {
  "name": "wow_prison",
  "dur": 29.37,
- "top": "WoW: Forever lets you raid the prison of Azeroth's most infamous BETRAYER \ud83d\ude33",
+ "top": "WoW: Forever lets you raid the prison of Azeroth's most infamous BETRAYER 😳",
  "cuts": [
   {
    "id": "hook",
@@ -400,24 +400,24 @@
  ],
  "music": "thelema",
  "brand": [
-  "\u2694\ufe0f World of Warcraft: Forever",
-  " \u00b7 out now"
+  "⚔️ World of Warcraft: Forever",
+  " · out now"
  ],
  "flash_color": "blue",
  "cap_word": true,
- "endcta": "Like + follow for more WoW: Forever \ud83d\udd14",
+ "endcta": "Like + follow for more WoW: Forever 🔔",
  "pops": [
   [
    0.15,
-   "the betrayer's prison \u26d3\ufe0f"
+   "his prison ⛓️"
   ],
   [
    8.59,
-   "\u23ea how we got here"
+   "⏪ how we got here"
   ],
   [
    26.31,
-   "NEW 10-player raid \u2694\ufe0f"
+   "NEW raid ⚔️"
   ]
  ],
  "freeze": [
@@ -427,7 +427,7 @@
  "react": [],
  "chip": [
   8.94,
-  "WORLD OF WARCRAFT: FOREVER \u00b7 MOUNT HYJAL"
+  "WORLD OF WARCRAFT: FOREVER · MOUNT HYJAL"
  ],
  "drop": 8.54,
  "focus": [
@@ -455,7 +455,7 @@
  },
  "cta": [
   14.14,
-  "*who was the betrayer? \ud83d\udc47*"
+  "*who was the betrayer? 👇*"
  ],
  "music_gain": 0.2291
 }
