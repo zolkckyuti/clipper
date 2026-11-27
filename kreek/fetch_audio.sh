@@ -1,7 +1,7 @@
 #!/bin/bash
 # fetch_audio.sh <twitch vod id> <out dir>: whole VOD audio fast via parallel segment curl
 set -e; V=$1; D=$2; mkdir -p $D/aseg
-U=$(yt-dlp -f Audio_Only -g "https://www.twitch.tv/videos/$V" | head -1); B=${U%/*}
+U=$(yt-dlp -f Audio_Only -g "https://www.twitch.tv/videos/${V#v}" | head -1); B=${U%/*}
 curl -s "$U" > $D/a.m3u8
 grep -v '^#' $D/a.m3u8 | awk -v b="$B" -v d="$D/aseg" '{printf "url = \"%s/%s\"\noutput = \"%s/%06d.ts\"\n", b, $0, d, NR}' > $D/curl.cfg
 split -n l/16 -d $D/curl.cfg $D/cc_ 2>/dev/null || true
