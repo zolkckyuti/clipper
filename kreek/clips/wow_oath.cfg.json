@@ -1,0 +1,90 @@
+{
+ "name": "wow_oath",
+ "top": "These knights broke their oath to Stormwind\u2026 and they're in WoW: Forever \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   59.9,
+   64.6
+  ],
+  [
+   "s1",
+   9.4,
+   16.69
+  ],
+  [
+   "s2",
+   38.5,
+   59.16
+  ]
+ ],
+ "hl": [
+  "FOREVER.",
+  "OATH-BREAKING.",
+  "HONOR",
+  "DISOBEY",
+  "ELITE",
+  "BROTHERHOOD"
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "FOREVER.",
+   "DISOBEY",
+   "OATH-BREAKING."
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "echosax",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 out now"
+  ],
+  "flash_color": "blue",
+  "cap_word": true,
+  "endcta": "Like + follow for more WoW: Forever \ud83d\udd14",
+  "pops": [
+   [
+    0.15,
+    "oath-breakers? \ud83e\udd14"
+   ],
+   [
+    4.75,
+    "\u23ea who they are"
+   ],
+   [
+    15.69,
+    "they disobeyed orders \ud83d\ude33"
+   ]
+  ],
+  "freeze": [
+   71.99,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   5.1,
+   "WORLD OF WARCRAFT: FOREVER \u00b7 RIVERGLADES"
+  ],
+  "drop": 4.7,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [
+   0.02,
+   15.69
+  ],
+  "sfx": []
+ }
+}

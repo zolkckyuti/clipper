@@ -1,0 +1,77 @@
+{
+ "pops": [
+  [
+   [
+    "s",
+    "hook",
+    0.15
+   ],
+   "oath-breakers? 🤔"
+  ],
+  [
+   [
+    "s",
+    "s1",
+    0.05
+   ],
+   "⏪ who they are"
+  ],
+  [
+   [
+    "w",
+    "s2",
+    "disobey",
+    0
+   ],
+   "they disobeyed orders 😳"
+  ]
+ ],
+ "freeze": [
+  [
+   "s",
+   "s2",
+   60
+  ],
+  ""
+ ],
+ "react": [],
+ "chip": [
+  [
+   "s",
+   "s1",
+   0.4
+  ],
+  "WORLD OF WARCRAFT: FOREVER · RIVERGLADES"
+ ],
+ "drop": [
+  "s",
+  "s1",
+  0
+ ],
+ "focus": [
+  [
+   [
+    "s",
+    "hook",
+    0
+   ],
+   960,
+   540,
+   1.0
+  ]
+ ],
+ "flash": [
+  [
+   "s",
+   "hook",
+   0.02
+  ],
+  [
+   "w",
+   "s2",
+   "disobey",
+   0
+  ]
+ ],
+ "sfx": []
+}

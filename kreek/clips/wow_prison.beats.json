@@ -1,0 +1,83 @@
+{
+ "pops": [
+  [
+   [
+    "s",
+    "hook",
+    0.15
+   ],
+   "the betrayer's prison ⛓️"
+  ],
+  [
+   [
+    "s",
+    "s1",
+    0.05
+   ],
+   "⏪ how we got here"
+  ],
+  [
+   [
+    "w",
+    "s2",
+    "raid,",
+    0
+   ],
+   "NEW 10-player raid ⚔️"
+  ]
+ ],
+ "freeze": [
+  [
+   "s",
+   "s2",
+   60
+  ],
+  ""
+ ],
+ "react": [],
+ "chip": [
+  [
+   "s",
+   "s1",
+   0.4
+  ],
+  "WORLD OF WARCRAFT: FOREVER · MOUNT HYJAL"
+ ],
+ "drop": [
+  "s",
+  "s1",
+  0
+ ],
+ "focus": [
+  [
+   [
+    "s",
+    "hook",
+    0
+   ],
+   960,
+   540,
+   1.0
+  ]
+ ],
+ "flash": [
+  [
+   "s",
+   "hook",
+   0.02
+  ],
+  [
+   "w",
+   "s1",
+   "opened.",
+   0
+  ],
+  [
+   "w",
+   "s2",
+   "Deeps,",
+   0
+  ]
+ ],
+ "sfx": []
+}

@@ -1,0 +1,461 @@
+{
+ "name": "wow_prison",
+ "dur": 29.37,
+ "top": "WoW: Forever lets you raid the prison of Azeroth's most infamous BETRAYER \ud83d\ude33",
+ "cuts": [
+  {
+   "id": "hook",
+   "a": 0.0,
+   "b": 8.54,
+   "src": 75.6
+  },
+  {
+   "id": "s1",
+   "a": 8.54,
+   "b": 21.65,
+   "src": 2.5
+  },
+  {
+   "id": "s2",
+   "a": 21.65,
+   "b": 29.37,
+   "src": 67.2
+  }
+ ],
+ "words": [
+  {
+   "t": "Here,",
+   "a": 0.18,
+   "b": 0.78,
+   "seg": "hook"
+  },
+  {
+   "t": "a",
+   "a": 0.96,
+   "b": 1.56,
+   "seg": "hook"
+  },
+  {
+   "t": "prison",
+   "a": 1.56,
+   "b": 1.94,
+   "seg": "hook"
+  },
+  {
+   "t": "that",
+   "a": 1.94,
+   "b": 2.12,
+   "seg": "hook"
+  },
+  {
+   "t": "once",
+   "a": 2.12,
+   "b": 2.32,
+   "seg": "hook"
+  },
+  {
+   "t": "held",
+   "a": 2.32,
+   "b": 2.74,
+   "seg": "hook"
+  },
+  {
+   "t": "Azeroth's",
+   "a": 2.74,
+   "b": 3.48,
+   "seg": "hook"
+  },
+  {
+   "t": "most",
+   "a": 3.48,
+   "b": 3.66,
+   "seg": "hook"
+  },
+  {
+   "t": "infamous",
+   "a": 3.66,
+   "b": 4.2,
+   "seg": "hook"
+  },
+  {
+   "t": "betrayer,",
+   "a": 4.2,
+   "b": 4.92,
+   "seg": "hook"
+  },
+  {
+   "t": "beckons",
+   "a": 4.96,
+   "b": 5.9,
+   "seg": "hook"
+  },
+  {
+   "t": "heroes",
+   "a": 5.9,
+   "b": 6.16,
+   "seg": "hook"
+  },
+  {
+   "t": "to",
+   "a": 6.16,
+   "b": 6.86,
+   "seg": "hook"
+  },
+  {
+   "t": "explore",
+   "a": 6.86,
+   "b": 7.36,
+   "seg": "hook"
+  },
+  {
+   "t": "its",
+   "a": 7.36,
+   "b": 7.82,
+   "seg": "hook"
+  },
+  {
+   "t": "depths.",
+   "a": 7.82,
+   "b": 8.18,
+   "seg": "hook"
+  },
+  {
+   "t": "For",
+   "a": 8.6,
+   "b": 9.28,
+   "seg": "s1"
+  },
+  {
+   "t": "five",
+   "a": 9.28,
+   "b": 9.5,
+   "seg": "s1"
+  },
+  {
+   "t": "years,",
+   "a": 9.5,
+   "b": 9.9,
+   "seg": "s1"
+  },
+  {
+   "t": "Malfurion",
+   "a": 10.18,
+   "b": 10.98,
+   "seg": "s1"
+  },
+  {
+   "t": "Stormrage",
+   "a": 10.98,
+   "b": 11.54,
+   "seg": "s1"
+  },
+  {
+   "t": "and",
+   "a": 11.54,
+   "b": 11.94,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 11.94,
+   "b": 12.06,
+   "seg": "s1"
+  },
+  {
+   "t": "Druids",
+   "a": 12.06,
+   "b": 12.54,
+   "seg": "s1"
+  },
+  {
+   "t": "have",
+   "a": 12.54,
+   "b": 12.96,
+   "seg": "s1"
+  },
+  {
+   "t": "kept",
+   "a": 12.96,
+   "b": 13.3,
+   "seg": "s1"
+  },
+  {
+   "t": "Hyjal",
+   "a": 13.3,
+   "b": 13.76,
+   "seg": "s1"
+  },
+  {
+   "t": "sealed.",
+   "a": 13.76,
+   "b": 14.34,
+   "seg": "s1"
+  },
+  {
+   "t": "Now,",
+   "a": 15.38,
+   "b": 16.06,
+   "seg": "s1"
+  },
+  {
+   "t": "for",
+   "a": 16.14,
+   "b": 16.34,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 16.34,
+   "b": 16.44,
+   "seg": "s1"
+  },
+  {
+   "t": "first",
+   "a": 16.44,
+   "b": 16.72,
+   "seg": "s1"
+  },
+  {
+   "t": "time",
+   "a": 16.72,
+   "b": 17.08,
+   "seg": "s1"
+  },
+  {
+   "t": "since",
+   "a": 17.08,
+   "b": 17.46,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 17.46,
+   "b": 17.66,
+   "seg": "s1"
+  },
+  {
+   "t": "Third",
+   "a": 17.66,
+   "b": 17.86,
+   "seg": "s1"
+  },
+  {
+   "t": "War,",
+   "a": 17.86,
+   "b": 18.12,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 18.42,
+   "b": 18.98,
+   "seg": "s1"
+  },
+  {
+   "t": "road",
+   "a": 18.98,
+   "b": 19.28,
+   "seg": "s1"
+  },
+  {
+   "t": "into",
+   "a": 19.28,
+   "b": 19.72,
+   "seg": "s1"
+  },
+  {
+   "t": "Hyjal",
+   "a": 19.72,
+   "b": 20.18,
+   "seg": "s1"
+  },
+  {
+   "t": "has",
+   "a": 20.18,
+   "b": 20.68,
+   "seg": "s1"
+  },
+  {
+   "t": "opened.",
+   "a": 20.68,
+   "b": 21.34,
+   "seg": "s1"
+  },
+  {
+   "t": "Looming",
+   "a": 21.79,
+   "b": 22.39,
+   "seg": "s2"
+  },
+  {
+   "t": "deep",
+   "a": 22.39,
+   "b": 22.65,
+   "seg": "s2"
+  },
+  {
+   "t": "within",
+   "a": 22.65,
+   "b": 22.95,
+   "seg": "s2"
+  },
+  {
+   "t": "Mount",
+   "a": 22.95,
+   "b": 23.19,
+   "seg": "s2"
+  },
+  {
+   "t": "Hyjal,",
+   "a": 23.19,
+   "b": 23.57,
+   "seg": "s2"
+  },
+  {
+   "t": "World",
+   "a": 23.83,
+   "b": 24.57,
+   "seg": "s2"
+  },
+  {
+   "t": "of",
+   "a": 24.57,
+   "b": 24.75,
+   "seg": "s2"
+  },
+  {
+   "t": "Warcraft",
+   "a": 24.75,
+   "b": 25.05,
+   "seg": "s2"
+  },
+  {
+   "t": "Forever's",
+   "a": 25.05,
+   "b": 25.53,
+   "seg": "s2"
+  },
+  {
+   "t": "new",
+   "a": 25.53,
+   "b": 25.77,
+   "seg": "s2"
+  },
+  {
+   "t": "10-player",
+   "a": 25.77,
+   "b": 26.31,
+   "seg": "s2"
+  },
+  {
+   "t": "raid,",
+   "a": 26.31,
+   "b": 26.69,
+   "seg": "s2"
+  },
+  {
+   "t": "Barrow",
+   "a": 26.97,
+   "b": 27.45,
+   "seg": "s2"
+  },
+  {
+   "t": "Deeps,",
+   "a": 27.45,
+   "b": 27.91,
+   "seg": "s2"
+  },
+  {
+   "t": "lies",
+   "a": 27.91,
+   "b": 28.43,
+   "seg": "s2"
+  },
+  {
+   "t": "in",
+   "a": 28.43,
+   "b": 28.81,
+   "seg": "s2"
+  },
+  {
+   "t": "wait.",
+   "a": 28.81,
+   "b": 29.05,
+   "seg": "s2"
+  }
+ ],
+ "hl": [
+  "BETRAYER,",
+  "PRISON",
+  "SEALED.",
+  "OPENED.",
+  "RAID,",
+  "DEEPS,",
+  "THIRD",
+  "WAR,"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "music": "thelema",
+ "brand": [
+  "\u2694\ufe0f World of Warcraft: Forever",
+  " \u00b7 out now"
+ ],
+ "flash_color": "blue",
+ "cap_word": true,
+ "endcta": "Like + follow for more WoW: Forever \ud83d\udd14",
+ "pops": [
+  [
+   0.15,
+   "the betrayer's prison \u26d3\ufe0f"
+  ],
+  [
+   8.59,
+   "\u23ea how we got here"
+  ],
+  [
+   26.31,
+   "NEW 10-player raid \u2694\ufe0f"
+  ]
+ ],
+ "freeze": [
+  81.65,
+  ""
+ ],
+ "react": [],
+ "chip": [
+  8.94,
+  "WORLD OF WARCRAFT: FOREVER \u00b7 MOUNT HYJAL"
+ ],
+ "drop": 8.54,
+ "focus": [
+  [
+   0.0,
+   960,
+   540,
+   1.0
+  ]
+ ],
+ "flash": [
+  0.02,
+  20.68,
+  27.45
+ ],
+ "sfx": [],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "BETRAYER,",
+   "OPENED.",
+   "DEEPS,"
+  ]
+ },
+ "cta": [
+  14.14,
+  "*who was the betrayer? \ud83d\udc47*"
+ ],
+ "music_gain": 0.2291
+}
