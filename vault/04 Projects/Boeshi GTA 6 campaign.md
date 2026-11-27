@@ -31,3 +31,6 @@ Back to [[START HERE]] · style: [[KreekCraft GTA 6 campaign]] (KreekV2) + [[Vve
   **bo4_glasses** (blue; "why do you have glasses?" → "I'm LARPing being blind" → "why do you have a microphone? what is this trend…").
   large-v3 missed "Am I entertaining? Am I cool so far?" → used the small.en full-VOD words for that window.
   Other candidates in this VOD: pre-workout anxiety (24:04), "I feel like I'm third wheeling" (7:44), "not a good Samaritan" car wreck (14:48), "she looked like me in my videos" (31:48).
+- **2026-11-27 book clips** — user sent a viral Short (LiveClipsHQ "Reveal at the end 💀", hook "We waited 25 years for this 😭"). Found via Boeshi's Twitch
+  clip list (GQL `user.clips`, title "you can read books in gta6") → v2933399801 at ~3427–3475 s ("Ashes of Glory… only three pages"). Audio keyword search
+  over 3 newer VODs found nothing (kreek/vod_grep.py); Twitch clip titles are the fastest way to locate a moment. Two variants (bo10_book, bo10_pages).

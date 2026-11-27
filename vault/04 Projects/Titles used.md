@@ -264,3 +264,9 @@
 - Someone paid $19 in Emma Roberts' break and pulled a KAIJU 😳 (Summer Breaks kaiju, "$19 = not even ¼ of GTA 6 💀")
 - Why he never refuses food a tribe offers him (Dulude food)
 - Bro had to remind chat he's a REAL streamer 💀 (Boeshi mean)
+
+## 2026-11-27 (WoW UK x2 + Boeshi book x2, warm grade)
+- These knights broke their oath to Stormwind… and they're in WoW: Forever 😳 (WoW UK oath, "oath-breakers or heroes?")
+- WoW: Forever lets you raid the prison of Azeroth's most infamous BETRAYER 😳 (WoW UK prison)
+- We waited 13 years for this 😭 (Boeshi book, reveal-at-the-end format of a viral Short; source v2933399801 ~58:20)
+- 13 years of waiting… for 3 pages 😭 (Boeshi book, cold-open payoff version)

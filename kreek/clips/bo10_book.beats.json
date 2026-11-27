@@ -1,0 +1,73 @@
+{
+ "pops": [
+  [
+   [
+    "s",
+    "hook",
+    0.1
+   ],
+   "wait for the end 💀"
+  ],
+  [
+   [
+    "w",
+    "s2",
+    "open.",
+    0
+   ],
+   "he opened it 📖"
+  ]
+ ],
+ "freeze": [
+  [
+   "w",
+   "s4",
+   "three",
+   0
+  ],
+  "ONLY 3 PAGES 💀"
+ ],
+ "react": [],
+ "chip": [
+  [
+   "s",
+   "hook",
+   1.2
+  ],
+  "LIVE ON TWITCH · darealboeshi"
+ ],
+ "drop": [
+  "w",
+  "s2",
+  "open.",
+  0
+ ],
+ "flash": [
+  [
+   "s",
+   "hook",
+   0.02
+  ]
+ ],
+ "meme": {
+  "fahh": [
+   [
+    "w",
+    "s4",
+    "three",
+    0
+   ]
+  ]
+ },
+ "sfx": [
+  [
+   [
+    "s",
+    "s3",
+    0
+   ],
+   "riser_1",
+   0.3
+  ]
+ ]
+}

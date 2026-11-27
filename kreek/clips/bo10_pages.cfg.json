@@ -1,0 +1,123 @@
+{
+ "name": "bo10_pages",
+ "top": "13 years of waiting\u2026 for 3 pages \ud83d\ude2d",
+ "seg": [
+  [
+   "hook",
+   63.15,
+   64.92
+  ],
+  [
+   "s1",
+   27.0,
+   37.86
+  ],
+  [
+   "s2",
+   45.0,
+   49.4
+  ],
+  [
+   "s3",
+   51.2,
+   53.91
+  ],
+  [
+   "s4",
+   65.0,
+   75.88
+  ]
+ ],
+ "hl": [
+  "THREE",
+  "PAGES",
+  "WHOLE",
+  "ENTIRE",
+  "INSANE.",
+  "CONTENT",
+  "GLORY."
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "THREE",
+   "PAGES"
+  ],
+  "green": [
+   "WHOLE"
+  ],
+  "punch": [
+   "THREE",
+   "INSANE.",
+   "CONTENT"
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "cap_word": true,
+  "endcta": "Like + follow for more Boeshi \ud83d\udd14",
+  "music_src": "tl/music/gigachad.wav",
+  "flash_color": "blue",
+  "pops": [
+   [
+    0.1,
+    "3 pages \ud83d\udc80"
+   ],
+   [
+    1.82,
+    "\u23ea 40 seconds earlier"
+   ],
+   [
+    4.83,
+    "Ashes of Glory \ud83d\udcd6"
+   ]
+  ],
+  "freeze": [
+   27.38,
+   "HALF THE GAME'S CONTENT \ud83d\udc80"
+  ],
+  "react": [],
+  "chip": [
+   2.17,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 12.87,
+  "meme": {
+   "fahh": [
+    0.05
+   ]
+  },
+  "flash": [
+   0.02
+  ],
+  "sfx": [
+   [
+    17.03,
+    "riser_1",
+    0.3
+   ]
+  ]
+ }
+}
