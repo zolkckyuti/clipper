@@ -1,7 +1,7 @@
 {
  "name": "bo9_mean",
  "dur": 17.93,
- "top": "Bro had to remind chat he's a REAL streamer \ud83d\udc80",
+ "top": "Bro had to remind chat he's a REAL streamer 💀",
  "cuts": [
   {
    "id": "hook",
@@ -366,29 +366,29 @@
  "music_src": "tl/music/gigachad.wav",
  "flash_color": "red",
  "cap_word": true,
- "endcta": "Like + follow for more Boeshi \ud83d\udd14",
+ "endcta": "Like + follow for more Boeshi 🔔",
  "pops": [
   [
    0.1,
-   "real streamer btw \ud83d\udc80"
+   "real streamer btw 💀"
   ],
   [
    2.89,
-   "\u23ea 16 seconds earlier"
+   "⏪ 16 seconds earlier"
   ],
   [
    9.07,
-   "CHAPTER 2 UNLOCKED \ud83d\udd13"
+   "CHAPTER 2 UNLOCKED 🔓"
   ]
  ],
  "freeze": [
   14.54,
-  "NOT A FAKE STREAMER \ud83d\udc80"
+  "NOT A FAKE STREAMER 💀"
  ],
  "react": [],
  "chip": [
   3.14,
-  "LIVE ON TWITCH \u00b7 darealboeshi"
+  "LIVE ON TWITCH · darealboeshi"
  ],
  "drop": 9.07,
  "meme": {
@@ -425,7 +425,7 @@
  },
  "imgpops": [
   [
-   3.11,
+   4.45,
    "res/sob.png",
    "meme",
    480
@@ -439,7 +439,7 @@
  ],
  "cta": [
   10.3,
-  "*is he a real streamer? \ud83d\udc47*"
+  "*is he a real streamer? 👇*"
  ],
  "music_gain": 0.3467
 }
