@@ -270,3 +270,9 @@
 - WoW: Forever lets you raid the prison of Azeroth's most infamous BETRAYER 😳 (WoW UK prison)
 - We waited 13 years for this 😭 (Boeshi book, reveal-at-the-end format of a viral Short; source v2933399801 ~58:20)
 - 13 years of waiting… for 3 pages 😭 (Boeshi book, cold-open payoff version)
+
+## 2026-11-28 (engagement batch, ≤30 s)
+- Aliens abducted him mid-workout in GTA 6 💀 (Boeshi UFO, v2941120302 ~2:43:10, "Workout incomplete. Gains lost.")
+- Bro says he was BORN with this physique 💀 (Boeshi muscle → fit_c physique reveal, v2941120302 ~22:20)
+- WoW: Forever hat jetzt einen OGER-FIGHT-CLUB 😳 (WoW DE, English VO + German subtitles, Riverglades ogres / Blood Master's Ring)
+- Why he never gives a tribe anything valuable (Dulude vending machine / dopamine vs relationship)
