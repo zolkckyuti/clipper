@@ -1,0 +1,117 @@
+{
+ "name": "bo11_ufo",
+ "top": "Aliens abducted him mid-workout in GTA 6 \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   26.05,
+   29.55
+  ],
+  [
+   "s1",
+   19.1,
+   25.2
+  ],
+  [
+   "s2",
+   31.7,
+   36.18
+  ],
+  [
+   "s3",
+   42.6,
+   44.96
+  ],
+  [
+   "s4",
+   60.8,
+   62.76
+  ]
+ ],
+ "hl": [
+  "ABDUCTED",
+  "ALIENS.",
+  "ALIENS?",
+  "GAINS",
+  "LOST.",
+  "TRUTH"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "GAINS",
+   "LOST."
+  ],
+  "green": [],
+  "punch": [
+   "ABDUCTED",
+   "ALIENS?",
+   "LOST."
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "cap_word": true,
+  "music_src": "tl/music/suicideyear.wav",
+  "flash_color": "green",
+  "endcta": "Like + follow for more Boeshi \ud83d\udd14",
+  "pops": [
+   [
+    0.1,
+    "GTA 6 has ALIENS \ud83d\udc7d"
+   ],
+   [
+    3.55,
+    "\u23ea 7 seconds earlier"
+   ]
+  ],
+  "freeze": [
+   15.16,
+   "GAINS LOST \ud83d\udc80"
+  ],
+  "react": [],
+  "chip": [
+   3.9,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 9.6,
+  "meme": {
+   "fahh": [
+    15.16
+   ]
+  },
+  "flash": [
+   0.02,
+   9.62
+  ],
+  "sfx": [
+   [
+    5.4,
+    "riser_1",
+    0.3
+   ]
+  ]
+ }
+}

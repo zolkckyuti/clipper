@@ -1,0 +1,84 @@
+{
+ "name": "bo11_muscle",
+ "top": "Bro says he was BORN with this physique \ud83d\udc80",
+ "seg": [
+  [
+   "hook",
+   21.6,
+   33.87
+  ]
+ ],
+ "hl": [
+  "BIG.",
+  "WOMB,",
+  "155",
+  "PURE",
+  "MUSCLE.",
+  "VOICE"
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [],
+  "green": [
+   "MUSCLE."
+  ],
+  "punch": [
+   "BIG.",
+   "WOMB,",
+   "MUSCLE."
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "cam": [
+   12,
+   148,
+   406,
+   274
+  ],
+  "game": [
+   960,
+   0,
+   1080
+  ],
+  "overlay": "boeshi/overlay.png",
+  "transitions": true,
+  "sfx2": true,
+  "cap_y": 1150,
+  "cap_word": true,
+  "music_src": "tl/music/memoryreboot.wav",
+  "flash_color": "red",
+  "pops": [
+   [
+    0.1,
+    "\"you work out?\" \ud83c\udfcb\ufe0f"
+   ]
+  ],
+  "freeze": [
+   60.0,
+   ""
+  ],
+  "react": [
+   [
+    0.0,
+    6.9
+   ]
+  ],
+  "chip": [
+   1.0,
+   "LIVE ON TWITCH \u00b7 darealboeshi"
+  ],
+  "drop": 5.36,
+  "flash": [
+   0.02
+  ],
+  "sfx": []
+ }
+}

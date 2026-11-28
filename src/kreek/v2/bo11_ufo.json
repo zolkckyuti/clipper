@@ -1,0 +1,417 @@
+{
+ "name": "bo11_ufo",
+ "dur": 18.4,
+ "top": "Aliens abducted him mid-workout in GTA 6 \ud83d\udc80",
+ "cuts": [
+  {
+   "id": "hook",
+   "a": 0.0,
+   "b": 3.5,
+   "src": 26.05
+  },
+  {
+   "id": "s1",
+   "a": 3.5,
+   "b": 9.6,
+   "src": 19.1
+  },
+  {
+   "id": "s2",
+   "a": 9.6,
+   "b": 14.08,
+   "src": 31.7
+  },
+  {
+   "id": "s3",
+   "a": 14.08,
+   "b": 16.44,
+   "src": 42.6
+  },
+  {
+   "id": "s4",
+   "a": 16.44,
+   "b": 18.4,
+   "src": 60.8
+  }
+ ],
+ "words": [
+  {
+   "t": "What?",
+   "a": 0.11,
+   "b": 0.51,
+   "seg": "hook"
+  },
+  {
+   "t": "We're",
+   "a": 0.99,
+   "b": 1.39,
+   "seg": "hook"
+  },
+  {
+   "t": "getting",
+   "a": 1.39,
+   "b": 1.55,
+   "seg": "hook"
+  },
+  {
+   "t": "abducted",
+   "a": 1.55,
+   "b": 2.71,
+   "seg": "hook"
+  },
+  {
+   "t": "by",
+   "a": 2.71,
+   "b": 2.85,
+   "seg": "hook"
+  },
+  {
+   "t": "aliens.",
+   "a": 2.85,
+   "b": 3.27,
+   "seg": "hook"
+  },
+  {
+   "t": "Hey,",
+   "a": 3.6,
+   "b": 4.0,
+   "seg": "s1"
+  },
+  {
+   "t": "what",
+   "a": 4.0,
+   "b": 4.4,
+   "seg": "s1"
+  },
+  {
+   "t": "is",
+   "a": 4.4,
+   "b": 4.78,
+   "seg": "s1"
+  },
+  {
+   "t": "that?",
+   "a": 4.78,
+   "b": 5.0,
+   "seg": "s1"
+  },
+  {
+   "t": "What",
+   "a": 5.08,
+   "b": 5.28,
+   "seg": "s1"
+  },
+  {
+   "t": "the",
+   "a": 5.28,
+   "b": 5.4,
+   "seg": "s1"
+  },
+  {
+   "t": "heck",
+   "a": 5.4,
+   "b": 5.6,
+   "seg": "s1"
+  },
+  {
+   "t": "is",
+   "a": 5.6,
+   "b": 5.76,
+   "seg": "s1"
+  },
+  {
+   "t": "happening,",
+   "a": 5.76,
+   "b": 6.08,
+   "seg": "s1"
+  },
+  {
+   "t": "bro?",
+   "a": 6.18,
+   "b": 6.32,
+   "seg": "s1"
+  },
+  {
+   "t": "The",
+   "a": 6.62,
+   "b": 7.02,
+   "seg": "s1"
+  },
+  {
+   "t": "truth",
+   "a": 7.02,
+   "b": 7.24,
+   "seg": "s1"
+  },
+  {
+   "t": "is",
+   "a": 7.24,
+   "b": 7.44,
+   "seg": "s1"
+  },
+  {
+   "t": "out",
+   "a": 7.44,
+   "b": 7.62,
+   "seg": "s1"
+  },
+  {
+   "t": "there.",
+   "a": 7.62,
+   "b": 7.8,
+   "seg": "s1"
+  },
+  {
+   "t": "Trophy",
+   "a": 7.84,
+   "b": 8.12,
+   "seg": "s1"
+  },
+  {
+   "t": "earned.",
+   "a": 8.12,
+   "b": 8.4,
+   "seg": "s1"
+  },
+  {
+   "t": "Oh,",
+   "a": 9.0,
+   "b": 9.4,
+   "seg": "s1"
+  },
+  {
+   "t": "s**t",
+   "a": 9.4,
+   "b": 9.6,
+   "seg": "s1"
+  },
+  {
+   "t": "We're",
+   "a": 10.0,
+   "b": 10.42,
+   "seg": "s2"
+  },
+  {
+   "t": "getting",
+   "a": 10.42,
+   "b": 10.58,
+   "seg": "s2"
+  },
+  {
+   "t": "abducted",
+   "a": 10.58,
+   "b": 11.1,
+   "seg": "s2"
+  },
+  {
+   "t": "by",
+   "a": 11.1,
+   "b": 11.24,
+   "seg": "s2"
+  },
+  {
+   "t": "aliens.",
+   "a": 11.24,
+   "b": 11.6,
+   "seg": "s2"
+  },
+  {
+   "t": "Did",
+   "a": 11.8,
+   "b": 11.96,
+   "seg": "s2"
+  },
+  {
+   "t": "we",
+   "a": 11.96,
+   "b": 12.08,
+   "seg": "s2"
+  },
+  {
+   "t": "just",
+   "a": 12.08,
+   "b": 12.24,
+   "seg": "s2"
+  },
+  {
+   "t": "get",
+   "a": 12.24,
+   "b": 12.86,
+   "seg": "s2"
+  },
+  {
+   "t": "abducted",
+   "a": 12.86,
+   "b": 13.34,
+   "seg": "s2"
+  },
+  {
+   "t": "by",
+   "a": 13.34,
+   "b": 13.44,
+   "seg": "s2"
+  },
+  {
+   "t": "aliens?",
+   "a": 13.44,
+   "b": 13.66,
+   "seg": "s2"
+  },
+  {
+   "t": "Workout",
+   "a": 14.24,
+   "b": 14.66,
+   "seg": "s3"
+  },
+  {
+   "t": "incomplete.",
+   "a": 14.66,
+   "b": 14.92,
+   "seg": "s3"
+  },
+  {
+   "t": "Gains",
+   "a": 15.16,
+   "b": 15.52,
+   "seg": "s3"
+  },
+  {
+   "t": "lost.",
+   "a": 15.52,
+   "b": 15.72,
+   "seg": "s3"
+  },
+  {
+   "t": "What",
+   "a": 16.56,
+   "b": 17.12,
+   "seg": "s4"
+  },
+  {
+   "t": "the",
+   "a": 17.12,
+   "b": 17.26,
+   "seg": "s4"
+  },
+  {
+   "t": "frick",
+   "a": 17.26,
+   "b": 17.46,
+   "seg": "s4"
+  },
+  {
+   "t": "just",
+   "a": 17.46,
+   "b": 17.64,
+   "seg": "s4"
+  },
+  {
+   "t": "happened?",
+   "a": 17.64,
+   "b": 18.04,
+   "seg": "s4"
+  }
+ ],
+ "hl": [
+  "ABDUCTED",
+  "ALIENS.",
+  "ALIENS?",
+  "GAINS",
+  "LOST.",
+  "TRUTH"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "cam": [
+  12,
+  148,
+  406,
+  274
+ ],
+ "game": [
+  960,
+  0,
+  1080
+ ],
+ "overlay": "boeshi/overlay.png",
+ "transitions": true,
+ "sfx2": true,
+ "cap_y": 1150,
+ "cap_word": true,
+ "music_src": "tl/music/suicideyear.wav",
+ "flash_color": "green",
+ "endcta": "Like + follow for more Boeshi \ud83d\udd14",
+ "pops": [
+  [
+   0.1,
+   "GTA 6 has ALIENS \ud83d\udc7d"
+  ],
+  [
+   3.55,
+   "\u23ea 7 seconds earlier"
+  ]
+ ],
+ "freeze": [
+  15.16,
+  "GAINS LOST \ud83d\udc80"
+ ],
+ "react": [],
+ "chip": [
+  3.9,
+  "LIVE ON TWITCH \u00b7 darealboeshi"
+ ],
+ "drop": 9.6,
+ "meme": {
+  "fahh": [
+   15.16
+  ]
+ },
+ "flash": [
+  0.02,
+  9.62
+ ],
+ "sfx": [
+  [
+   5.4,
+   "riser_1",
+   0.3
+  ]
+ ],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [
+   "GAINS",
+   "LOST."
+  ],
+  "green": [],
+  "punch": [
+   "ABDUCTED",
+   "ALIENS?",
+   "LOST."
+  ]
+ },
+ "imgpops": [
+  [
+   4.78,
+   "res/think.png",
+   "good",
+   460
+  ],
+  [
+   11.24,
+   "res/laugh.png",
+   "good",
+   440
+  ]
+ ],
+ "cta": [
+  9.65,
+  "*would you go back there? \ud83d\udc47*"
+ ],
+ "music_gain": 0.5754
+}

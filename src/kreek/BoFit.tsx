@@ -13,6 +13,8 @@ export const BOFIT: Record<string, F> = {
     text: 'SAME GUY btw 💀', music_from: 29.9},
   bo6_won: {src: 'boeshi/fit_b.mp4', from: 0.4, dur: 6.5, top: "Can't believe these two are the same person 💀", hl: ['SAME'],
     text: 'SAME GUY btw 💀', music_from: 29.9},
+  bo11_muscle: {src: 'boeshi/fit_c.mp4', from: 0.3, dur: 6.5, top: 'Bro says he was BORN with this physique 💀', hl: ['BORN'],
+    text: "he wasn't lying 💀", music_from: 29.9},
 };
 const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
 const norm = (t: string) => t.replace(/[^A-Za-z0-9']/g, '').toUpperCase();

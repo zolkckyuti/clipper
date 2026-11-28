@@ -1,0 +1,95 @@
+{
+ "name": "wow_oger",
+ "top": "WoW: Forever hat jetzt einen OGER-FIGHT-CLUB \ud83d\ude33",
+ "seg": [
+  [
+   "hook",
+   100.35,
+   109.57
+  ],
+  [
+   "s1",
+   2.75,
+   8.12
+  ],
+  [
+   "s2",
+   40.75,
+   47.32
+  ],
+  [
+   "s3",
+   90.95,
+   98.32
+  ]
+ ],
+ "hl": [
+  "Kampfring,",
+  "Oger",
+  "stark,",
+  "furchteinfl\u00f6\u00dfend.",
+  "Jom",
+  "Jom."
+ ],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "Kampfring,",
+   "furchteinfl\u00f6\u00dfend.",
+   "Jom."
+  ]
+ },
+ "fix": {},
+ "v2": {
+  "src_wh": [
+   1920,
+   1080
+  ],
+  "music": "dragonfly",
+  "brand": [
+   "\u2694\ufe0f World of Warcraft: Forever",
+   " \u00b7 jetzt erh\u00e4ltlich"
+  ],
+  "flash_color": "red",
+  "cap_word": true,
+  "endcta": "Like + Folgen f\u00fcr mehr WoW: Forever \ud83d\udd14",
+  "pops": [
+   [
+    0.15,
+    "Oger-Fight-Club \ud83e\udd4a"
+   ],
+   [
+    9.27,
+    "\u23ea wer sind diese Oger?"
+   ],
+   [
+    27.51,
+    "\u2026und Jom Jom \ud83d\ude02"
+   ]
+  ],
+  "freeze": [
+   81.16,
+   ""
+  ],
+  "react": [],
+  "chip": [
+   9.62,
+   "WORLD OF WARCRAFT: FOREVER \u00b7 RIVERGLADES"
+  ],
+  "drop": 9.22,
+  "focus": [
+   [
+    0.0,
+    960,
+    540,
+    1.0
+   ]
+  ],
+  "flash": [
+   0.02,
+   19.82
+  ],
+  "sfx": []
+ }
+}

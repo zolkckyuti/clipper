@@ -1,0 +1,278 @@
+{
+ "name": "bo11_muscle",
+ "dur": 12.27,
+ "top": "Bro says he was BORN with this physique \ud83d\udc80",
+ "cuts": [
+  {
+   "id": "hook",
+   "a": 0.0,
+   "b": 12.27,
+   "src": 21.6
+  }
+ ],
+ "words": [
+  {
+   "t": "You",
+   "a": 0.12,
+   "b": 0.58,
+   "seg": "hook"
+  },
+  {
+   "t": "work",
+   "a": 0.58,
+   "b": 0.76,
+   "seg": "hook"
+  },
+  {
+   "t": "out?",
+   "a": 0.76,
+   "b": 1.02,
+   "seg": "hook"
+  },
+  {
+   "t": "Nah,",
+   "a": 1.18,
+   "b": 1.64,
+   "seg": "hook"
+  },
+  {
+   "t": "I'm",
+   "a": 1.72,
+   "b": 1.84,
+   "seg": "hook"
+  },
+  {
+   "t": "just",
+   "a": 1.84,
+   "b": 2.0,
+   "seg": "hook"
+  },
+  {
+   "t": "big.",
+   "a": 2.0,
+   "b": 2.6,
+   "seg": "hook"
+  },
+  {
+   "t": "I",
+   "a": 2.88,
+   "b": 3.28,
+   "seg": "hook"
+  },
+  {
+   "t": "came",
+   "a": 3.28,
+   "b": 3.5,
+   "seg": "hook"
+  },
+  {
+   "t": "out",
+   "a": 3.5,
+   "b": 3.7,
+   "seg": "hook"
+  },
+  {
+   "t": "the",
+   "a": 3.7,
+   "b": 3.8,
+   "seg": "hook"
+  },
+  {
+   "t": "womb,",
+   "a": 3.8,
+   "b": 4.04,
+   "seg": "hook"
+  },
+  {
+   "t": "5'7\",",
+   "a": 4.26,
+   "b": 5.36,
+   "seg": "hook"
+  },
+  {
+   "t": "155",
+   "a": 5.36,
+   "b": 6.26,
+   "seg": "hook"
+  },
+  {
+   "t": "pounds",
+   "a": 6.26,
+   "b": 6.74,
+   "seg": "hook"
+  },
+  {
+   "t": "of",
+   "a": 6.74,
+   "b": 6.9,
+   "seg": "hook"
+  },
+  {
+   "t": "pure",
+   "a": 6.9,
+   "b": 7.06,
+   "seg": "hook"
+  },
+  {
+   "t": "muscle.",
+   "a": 7.06,
+   "b": 7.38,
+   "seg": "hook"
+  },
+  {
+   "t": "your",
+   "a": 7.56,
+   "b": 8.16,
+   "seg": "hook"
+  },
+  {
+   "t": "voice",
+   "a": 8.16,
+   "b": 8.38,
+   "seg": "hook"
+  },
+  {
+   "t": "makes",
+   "a": 8.38,
+   "b": 8.58,
+   "seg": "hook"
+  },
+  {
+   "t": "you",
+   "a": 8.58,
+   "b": 8.78,
+   "seg": "hook"
+  },
+  {
+   "t": "funnier.",
+   "a": 8.78,
+   "b": 9.06,
+   "seg": "hook"
+  },
+  {
+   "t": "Thanks,",
+   "a": 9.92,
+   "b": 10.32,
+   "seg": "hook"
+  },
+  {
+   "t": "Vitamin",
+   "a": 10.4,
+   "b": 10.6,
+   "seg": "hook"
+  },
+  {
+   "t": "D,",
+   "a": 10.6,
+   "b": 10.88,
+   "seg": "hook"
+  },
+  {
+   "t": "I",
+   "a": 11.0,
+   "b": 11.24,
+   "seg": "hook"
+  },
+  {
+   "t": "appreciate",
+   "a": 11.24,
+   "b": 11.58,
+   "seg": "hook"
+  },
+  {
+   "t": "it,",
+   "a": 11.58,
+   "b": 11.82,
+   "seg": "hook"
+  },
+  {
+   "t": "twin.",
+   "a": 11.86,
+   "b": 11.92,
+   "seg": "hook"
+  }
+ ],
+ "hl": [
+  "BIG.",
+  "WOMB,",
+  "155",
+  "PURE",
+  "MUSCLE.",
+  "VOICE"
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "cam": [
+  12,
+  148,
+  406,
+  274
+ ],
+ "game": [
+  960,
+  0,
+  1080
+ ],
+ "overlay": "boeshi/overlay.png",
+ "transitions": true,
+ "sfx2": true,
+ "cap_y": 1150,
+ "cap_word": true,
+ "music_src": "tl/music/memoryreboot.wav",
+ "flash_color": "red",
+ "pops": [
+  [
+   0.1,
+   "\"you work out?\" \ud83c\udfcb\ufe0f"
+  ]
+ ],
+ "freeze": [
+  60.0,
+  ""
+ ],
+ "react": [
+  [
+   0.0,
+   6.9
+  ]
+ ],
+ "chip": [
+  1.0,
+  "LIVE ON TWITCH \u00b7 darealboeshi"
+ ],
+ "drop": 5.36,
+ "flash": [
+  0.02
+ ],
+ "sfx": [],
+ "vv": {
+  "music": [
+   "x",
+   0
+  ],
+  "red": [],
+  "green": [
+   "MUSCLE."
+  ],
+  "punch": [
+   "BIG.",
+   "WOMB,",
+   "MUSCLE."
+  ]
+ },
+ "imgpops": [
+  [
+   7.06,
+   "res/rizz.png",
+   "good",
+   460
+  ]
+ ],
+ "cta": [
+  8.2,
+  "*does he work out? \ud83d\udc47*"
+ ],
+ "music_gain": 0.2317
+}

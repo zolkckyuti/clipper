@@ -1,0 +1,77 @@
+{
+ "pops": [
+  [
+   [
+    "s",
+    "hook",
+    0.15
+   ],
+   "Oger-Fight-Club 🥊"
+  ],
+  [
+   [
+    "s",
+    "s1",
+    0.05
+   ],
+   "⏪ wer sind diese Oger?"
+  ],
+  [
+   [
+    "w",
+    "s3",
+    "Jom",
+    0
+   ],
+   "…und Jom Jom 😂"
+  ]
+ ],
+ "freeze": [
+  [
+   "s",
+   "s3",
+   60
+  ],
+  ""
+ ],
+ "react": [],
+ "chip": [
+  [
+   "s",
+   "s1",
+   0.4
+  ],
+  "WORLD OF WARCRAFT: FOREVER · RIVERGLADES"
+ ],
+ "drop": [
+  "s",
+  "s1",
+  0
+ ],
+ "focus": [
+  [
+   [
+    "s",
+    "hook",
+    0
+   ],
+   960,
+   540,
+   1.0
+  ]
+ ],
+ "flash": [
+  [
+   "s",
+   "hook",
+   0.02
+  ],
+  [
+   "w",
+   "s2",
+   "formidable",
+   0
+  ]
+ ],
+ "sfx": []
+}

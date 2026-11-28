@@ -1,0 +1,57 @@
+{
+ "pops": [
+  [
+   [
+    "s",
+    "hook",
+    0.1
+   ],
+   "\"you work out?\" 🏋️"
+  ]
+ ],
+ "freeze": [
+  [
+   "s",
+   "hook",
+   60
+  ],
+  ""
+ ],
+ "react": [
+  [
+   [
+    "s",
+    "hook",
+    0
+   ],
+   [
+    "w",
+    "hook",
+    "pure",
+    0
+   ]
+  ]
+ ],
+ "chip": [
+  [
+   "s",
+   "hook",
+   1.0
+  ],
+  "LIVE ON TWITCH · darealboeshi"
+ ],
+ "drop": [
+  "w",
+  "hook",
+  "155",
+  0
+ ],
+ "flash": [
+  [
+   "s",
+   "hook",
+   0.02
+  ]
+ ],
+ "sfx": []
+}

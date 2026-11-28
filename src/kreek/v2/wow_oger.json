@@ -1,0 +1,405 @@
+{
+ "name": "wow_oger",
+ "dur": 28.53,
+ "top": "WoW: Forever hat jetzt einen OGER-FIGHT-CLUB 😳",
+ "cuts": [
+  {
+   "id": "hook",
+   "a": 0.0,
+   "b": 9.22,
+   "src": 100.35
+  },
+  {
+   "id": "s1",
+   "a": 9.22,
+   "b": 14.59,
+   "src": 2.75
+  },
+  {
+   "id": "s2",
+   "a": 14.59,
+   "b": 21.16,
+   "src": 40.75
+  },
+  {
+   "id": "s3",
+   "a": 21.16,
+   "b": 28.53,
+   "src": 90.95
+  }
+ ],
+ "words": [
+  {
+   "t": "Tiefer",
+   "a": 0.09,
+   "b": 0.458,
+   "seg": "hook"
+  },
+  {
+   "t": "im",
+   "a": 0.458,
+   "b": 0.616,
+   "seg": "hook"
+  },
+  {
+   "t": "Ogergebiet",
+   "a": 0.616,
+   "b": 1.194,
+   "seg": "hook"
+  },
+  {
+   "t": "liegt",
+   "a": 1.194,
+   "b": 1.51,
+   "seg": "hook"
+  },
+  {
+   "t": "der",
+   "a": 1.51,
+   "b": 1.72,
+   "seg": "hook"
+  },
+  {
+   "t": "Ring",
+   "a": 1.72,
+   "b": 1.983,
+   "seg": "hook"
+  },
+  {
+   "t": "des",
+   "a": 1.983,
+   "b": 2.194,
+   "seg": "hook"
+  },
+  {
+   "t": "Blutmeisters,",
+   "a": 2.194,
+   "b": 2.93,
+   "seg": "hook"
+  },
+  {
+   "t": "ein",
+   "a": 3.13,
+   "b": 3.374,
+   "seg": "hook"
+  },
+  {
+   "t": "Kampfring,",
+   "a": 3.374,
+   "b": 4.044,
+   "seg": "hook"
+  },
+  {
+   "t": "in",
+   "a": 4.044,
+   "b": 4.227,
+   "seg": "hook"
+  },
+  {
+   "t": "dem",
+   "a": 4.227,
+   "b": 4.47,
+   "seg": "hook"
+  },
+  {
+   "t": "Spieler",
+   "a": 4.47,
+   "b": 4.958,
+   "seg": "hook"
+  },
+  {
+   "t": "ihre",
+   "a": 4.958,
+   "b": 5.262,
+   "seg": "hook"
+  },
+  {
+   "t": "Stärke",
+   "a": 5.262,
+   "b": 5.689,
+   "seg": "hook"
+  },
+  {
+   "t": "gegen",
+   "a": 5.689,
+   "b": 6.054,
+   "seg": "hook"
+  },
+  {
+   "t": "die",
+   "a": 6.054,
+   "b": 6.298,
+   "seg": "hook"
+  },
+  {
+   "t": "besten",
+   "a": 6.298,
+   "b": 6.724,
+   "seg": "hook"
+  },
+  {
+   "t": "Schläger",
+   "a": 6.724,
+   "b": 7.273,
+   "seg": "hook"
+  },
+  {
+   "t": "der",
+   "a": 7.273,
+   "b": 7.516,
+   "seg": "hook"
+  },
+  {
+   "t": "Oger",
+   "a": 7.516,
+   "b": 7.821,
+   "seg": "hook"
+  },
+  {
+   "t": "beweisen.",
+   "a": 7.821,
+   "b": 8.43,
+   "seg": "hook"
+  },
+  {
+   "t": "Dieser",
+   "a": 9.27,
+   "b": 9.965,
+   "seg": "s1"
+  },
+  {
+   "t": "Ogerclan",
+   "a": 9.965,
+   "b": 10.857,
+   "seg": "s1"
+  },
+  {
+   "t": "gehörte",
+   "a": 10.857,
+   "b": 11.651,
+   "seg": "s1"
+  },
+  {
+   "t": "früher",
+   "a": 11.651,
+   "b": 12.346,
+   "seg": "s1"
+  },
+  {
+   "t": "zum",
+   "a": 12.346,
+   "b": 12.743,
+   "seg": "s1"
+  },
+  {
+   "t": "Schattenhammer.",
+   "a": 12.743,
+   "b": 14.33,
+   "seg": "s1"
+  },
+  {
+   "t": "Diese",
+   "a": 14.64,
+   "b": 15.08,
+   "seg": "s2"
+  },
+  {
+   "t": "Widrigkeiten",
+   "a": 15.08,
+   "b": 16.035,
+   "seg": "s2"
+  },
+  {
+   "t": "haben",
+   "a": 16.035,
+   "b": 16.475,
+   "seg": "s2"
+  },
+  {
+   "t": "die",
+   "a": 16.475,
+   "b": 16.769,
+   "seg": "s2"
+  },
+  {
+   "t": "Oger",
+   "a": 16.769,
+   "b": 17.136,
+   "seg": "s2"
+  },
+  {
+   "t": "stark,",
+   "a": 17.136,
+   "b": 17.65,
+   "seg": "s2"
+  },
+  {
+   "t": "unabhängig",
+   "a": 17.65,
+   "b": 18.457,
+   "seg": "s2"
+  },
+  {
+   "t": "und",
+   "a": 18.457,
+   "b": 18.751,
+   "seg": "s2"
+  },
+  {
+   "t": "wahrhaft",
+   "a": 18.751,
+   "b": 19.412,
+   "seg": "s2"
+  },
+  {
+   "t": "gefürchtet",
+   "a": 19.412,
+   "b": 20.219,
+   "seg": "s2"
+  },
+  {
+   "t": "gemacht.",
+   "a": 20.219,
+   "b": 20.88,
+   "seg": "s2"
+  },
+  {
+   "t": "Zum",
+   "a": 21.21,
+   "b": 21.534,
+   "seg": "s3"
+  },
+  {
+   "t": "Beispiel",
+   "a": 21.534,
+   "b": 22.262,
+   "seg": "s3"
+  },
+  {
+   "t": "eine",
+   "a": 22.262,
+   "b": 22.666,
+   "seg": "s3"
+  },
+  {
+   "t": "Piratenbande",
+   "a": 22.666,
+   "b": 23.718,
+   "seg": "s3"
+  },
+  {
+   "t": "zerschlagen,",
+   "a": 23.718,
+   "b": 24.769,
+   "seg": "s3"
+  },
+  {
+   "t": "ein",
+   "a": 24.769,
+   "b": 25.093,
+   "seg": "s3"
+  },
+  {
+   "t": "Pferd",
+   "a": 25.093,
+   "b": 25.578,
+   "seg": "s3"
+  },
+  {
+   "t": "retten",
+   "a": 25.578,
+   "b": 26.145,
+   "seg": "s3"
+  },
+  {
+   "t": "und…",
+   "a": 26.145,
+   "b": 26.63,
+   "seg": "s3"
+  },
+  {
+   "t": "Jom",
+   "a": 27.51,
+   "b": 27.857,
+   "seg": "s3"
+  },
+  {
+   "t": "Jom.",
+   "a": 27.857,
+   "b": 28.29,
+   "seg": "s3"
+  }
+ ],
+ "hl": [
+  "Kampfring,",
+  "Oger",
+  "Schläger",
+  "stark,",
+  "gefürchtet",
+  "Jom",
+  "Jom."
+ ],
+ "src_wh": [
+  1920,
+  1080
+ ],
+ "music": "dragonfly",
+ "brand": [
+  "⚔️ WoW: Forever",
+  " · jetzt erhältlich"
+ ],
+ "flash_color": "red",
+ "cap_word": true,
+ "endcta": "Like + Folgen für mehr WoW: Forever 🔔",
+ "pops": [
+  [
+   0.15,
+   "Oger-Fight-Club 🥊"
+  ],
+  [
+   9.27,
+   "⏪ wer sind diese Oger?"
+  ],
+  [
+   27.51,
+   "…und Jom Jom 😂"
+  ]
+ ],
+ "freeze": [
+  81.16,
+  ""
+ ],
+ "react": [],
+ "chip": [
+  9.62,
+  "WORLD OF WARCRAFT: FOREVER · RIVERGLADES"
+ ],
+ "drop": 9.22,
+ "focus": [
+  [
+   0.0,
+   960,
+   540,
+   1.0
+  ]
+ ],
+ "flash": [
+  0.02,
+  19.82
+ ],
+ "sfx": [],
+ "vv": {
+  "red": [],
+  "green": [],
+  "punch": [
+   "Kampfring,",
+   "gefürchtet",
+   "Jom."
+  ]
+ },
+ "cta": [
+  14.89,
+  "*Würdest du gegen die Oger kämpfen? 👇*"
+ ],
+ "music_gain": 0.2042
+}

@@ -33,6 +33,9 @@ CLIPS = {
     'gd_food': dict(top='Why he never refuses food a tribe offers him', music='landing',
                      hl=['VULNERABLE.', 'VULNERABLE,', 'REJECTED,', 'OFFER,', 'MOUTH.', 'TIC', 'TACS.', 'SACRIFICING'], punch=['VULNERABLE.', 'REJECTED,', 'MOUTH.'],
                      pops=[('s1', 0.05, '⏪ the wrong answer'), ('s2', 0.1, 'food = trust 🤝')]),
+    'gd_vending': dict(top='Why he never gives a tribe anything valuable', music='luminary',
+                     hl=['VENDING', 'MACHINE', 'DOPAMINE', 'NEVER', 'VALUABLE.', 'COMPETITION', 'RELATIONSHIP'], punch=['VENDING', 'NEVER', 'VALUABLE.'],
+                     pops=[('s1', 0.05, '⏪ the psychology'), ('s2', 0.1, 'gifts < relationship 🤝')]),
 }
 norm = lambda t: re.sub(r"[^A-Za-z0-9*'$]", '', t).upper()
 import sys
